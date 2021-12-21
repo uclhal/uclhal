@@ -82,3 +82,7 @@ to deploy
 cd ./uclhal/uclhal
 nikola github_deploy
 ```
+
+2021-12-21t11:02:53
+Woo hoo!
+Site up, running and deployed!

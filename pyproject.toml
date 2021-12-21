@@ -8,6 +8,8 @@ authors = ["Steve Harris <doc@steveharris.me>"]
 python = "^3.9"
 Nikola = "^8.1.3"
 ghp-import = "^2.0.2"
+Jinja2 = "^3.0.3"
+pyphen = "^0.11.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
