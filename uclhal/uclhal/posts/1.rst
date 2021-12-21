@@ -24,3 +24,7 @@ Next steps:
 * :doc:`See a demo of a longer text <dr-nikolas-vendetta>`
 
 Send feedback to info@getnikola.com!
+
+If you can see *this message*, then you have successfully edited and published your first post!
+
+**Well done!**

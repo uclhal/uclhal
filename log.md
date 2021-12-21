@@ -70,3 +70,15 @@ https://github.com/c-w/ghp-import
 
 > Inside your repository just run ghp-import $DOCS_DIR where $DOCS_DIR is the path to the built documentation. This will write a commit to your gh-pages branch with the current documents in it.
 
+
+to build
+```sh
+cd ./uclhal/uclhal
+nikola build
+```
+
+to deploy
+```sh
+cd ./uclhal/uclhal
+nikola github_deploy
+```
