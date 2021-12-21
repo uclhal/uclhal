@@ -137,6 +137,20 @@ plugins = ["setuptools"]
 toml = ["toml (>=0.10.1)"]
 
 [[package]]
+name = "ghp-import"
+version = "2.0.2"
+description = "Copy your docs directly to the gh-pages branch."
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+python-dateutil = ">=2.8.1"
+
+[package.extras]
+dev = ["twine", "markdown", "flake8", "wheel"]
+
+[[package]]
 name = "idna"
 version = "3.3"
 description = "Internationalized Domain Names in Applications (IDNA)"
@@ -683,7 +697,7 @@ testing = ["pytest (>=4.6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytes
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "76e109c797ef13f2c3b31f668af75ee7c48a6576b1523cf4348924c157969f03"
+content-hash = "d6cc4e16c9f2c0bc8939ed07790e0d109849f001dd13111a8663594ef49897cf"
 
 [metadata.files]
 atomicwrites = [
@@ -732,6 +746,10 @@ docutils = [
 doit = [
     {file = "doit-0.34.0-py3-none-any.whl", hash = "sha256:7b913896a9ade2ac8e8c4f34373866be425c12ae443accf04ed0be630cb8aa13"},
     {file = "doit-0.34.0.tar.gz", hash = "sha256:8ef1de105cbca939c73e836dff86c812c9228e11ed8702f6955b7a086caac02d"},
+]
+ghp-import = [
+    {file = "ghp-import-2.0.2.tar.gz", hash = "sha256:947b3771f11be850c852c64b561c600fdddf794bab363060854c1ee7ad05e071"},
+    {file = "ghp_import-2.0.2-py3-none-any.whl", hash = "sha256:5f8962b30b20652cdffa9c5a9812f7de6bcb56ec475acac579807719bf242c46"},
 ]
 idna = [
     {file = "idna-3.3-py3-none-any.whl", hash = "sha256:84d9dd047ffa80596e0f246e2eab0b391788b0503584e8945f2368256d2735ff"},
