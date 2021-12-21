@@ -132,4 +132,10 @@ dmypy.json
 *.sublime-*
 *.sublime-*
 todo.todo
-todo.todo
+
+# as per Nikola recommendations for github deployment
+cache
+.doit.db
+__pycache__
+output
+output

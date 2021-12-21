@@ -27,7 +27,46 @@ site at ./uclhal/uclhal
 
 
 
-## 2021-MM-DD
-start here the next time and correct the date above
+## 2021-12-21
+set up pylsp in sublime
 
+updated pyproject.toml
+```toml
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+python-lsp-server = "^1.3.1"
+python-lsp-black = "^1.0.0"
+mypy-ls = "^0.5.1"
+pyls-isort = "^0.2.2"
+```
+then
+```sh
+poetry update
+```
+
+then
+copied settings from dashRep into uclhal.sublime-project
+used `which pylsp` to find the path to pylsp
+```json
+	"settings": {
+        "LSP": {
+            "pylsp": {
+                "enabled": true,
+                "command": [
+                    "/Users/steve/Library/Caches/pypoetry/virtualenvs/uclhal-XMZ_bNmG-py3.9/bin/pylsp",
+                ],
+                "settings": {
+                    "pylsp.plugins.flake8.executable": "/Users/steve/Library/Caches/pypoetry/virtualenvs/uclhal-XMZ_bNmG-py3.9/bin/flake8",
+                },
+            },
+        },
+    },
+```
+
+
+deploy to github
+uses the following tool
+https://github.com/c-w/ghp-import
+
+> Inside your repository just run ghp-import $DOCS_DIR where $DOCS_DIR is the path to the built documentation. This will write a commit to your gh-pages branch with the current documents in it.
 
