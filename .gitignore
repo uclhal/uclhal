@@ -1,3 +1,16 @@
+# My ignores
+# ==========
+# sublime and my local todo
+*.sublime-*
+todo.todo
+
+# as per Nikola recommendations for github deployment
+cache
+.doit.db
+output
+
+# As per github python ignore
+# ===========================
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -127,15 +140,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-.env
-*.sublime-*
-*.sublime-*
-*.sublime-*
-todo.todo
 
-# as per Nikola recommendations for github deployment
-cache
-.doit.db
-__pycache__
-output
-output
