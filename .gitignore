@@ -130,3 +130,6 @@ dmypy.json
 .env
 *.sublime-*
 *.sublime-*
+*.sublime-*
+todo.todo
+todo.todo
