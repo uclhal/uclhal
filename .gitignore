@@ -3,6 +3,8 @@
 # sublime and my local todo
 *.sublime-*
 todo.todo
+*.bak
+.doit.db.db
 
 # as per Nikola recommendations for github deployment
 cache
@@ -141,4 +143,3 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-uclhal/uclhal/.doit.db.db
