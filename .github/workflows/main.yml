@@ -1,0 +1,13 @@
+on: [push]
+
+jobs:
+  nikola_build:
+    runs-on: ubuntu-latest
+    name: 'Deploy Nikola to GitHub Pages'
+    steps:
+    - name: Check out
+      uses: actions/checkout@v3
+    - name: Build and Deploy Nikola
+      uses: docsteveharris/nikola-action@v3.1.0-alpha
+      with:
+        dry_run: false
