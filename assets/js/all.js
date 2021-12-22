@@ -1,2 +1,23 @@
-function fancydates(t,e){if(0!==t)for(var a=document.querySelectorAll(".dt-published, .dt-updated, .listdate"),o=a.length,l=0;l<o;l++){var r,i=luxon.DateTime.fromISO(a[l].attributes.datetime.value);r=1===t&&e.preset?i.toLocal().toLocaleString(luxon.DateTime[e.format]):1===t?i.toLocal().toFormat(e.format):i.toRelative(),a[l].innerHTML=r}}
+function fancydates(fanciness, luxonDateFormat) {
+    if (fanciness === 0) {
+        return;
+    }
+
+    var dates = document.querySelectorAll('.dt-published, .dt-updated, .listdate');
+
+    var l = dates.length;
+
+    for (var i = 0; i < l; i++) {
+        var d = luxon.DateTime.fromISO(dates[i].attributes.datetime.value);
+        var o;
+        if (fanciness === 1 && luxonDateFormat.preset) {
+            o = d.toLocal().toLocaleString(luxon.DateTime[luxonDateFormat.format]);
+        } else if (fanciness === 1) {
+            o = d.toLocal().toFormat(luxonDateFormat.format);
+        } else {
+            o = d.toRelative();
+        }
+        dates[i].innerHTML = o;
+    }
+}
 
