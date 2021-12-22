@@ -63,14 +63,15 @@ if __name__ ==">
     </div>
 </header><nav class="navbar navbar-expand-md navbar-light bg-white static-top"><div class="collapse navbar-collapse bs-nav-collapsible" id="bs-navbar">
             <ul class="navbar-nav nav-fill d-flex w-100">
-<li class="nav-item">
-<a href="../archive.html" class="nav-link">Archive</a>
+<li class="nav-item dropdown">
+<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
+            <div class="dropdown-menu">
+                    <a href="../archive.html" class="dropdown-item">Archive</a>
+                    <a href="../categories/" class="dropdown-item">Tags</a>
+            </div>
                 </li>
 <li class="nav-item">
-<a href="../categories/" class="nav-link">Tags</a>
-                </li>
-<li class="nav-item">
-<a href="../rss.xml" class="nav-link">RSS feed</a>
+<a href="../contact-us/" class="nav-link">Contact</a>
 
                 
             </li>
@@ -94,18 +95,18 @@ if __name__ ==">
     <div>
 <p>Nikola intends to let you show code easily via listings:</p>
 <p><a class="reference external" href="../listings/hello.py.html">hello.py</a>  <a class="reference external" href="../listings/hello.py">(Source)</a></p>
-<pre class="code python"><a id="rest_code_bd4f450de5464b1f9ddeb7caee695f5a-1" name="rest_code_bd4f450de5464b1f9ddeb7caee695f5a-1"></a><span class="ch">#!/usr/bin/python</span>
-<a id="rest_code_bd4f450de5464b1f9ddeb7caee695f5a-2" name="rest_code_bd4f450de5464b1f9ddeb7caee695f5a-2"></a>
-<a id="rest_code_bd4f450de5464b1f9ddeb7caee695f5a-3" name="rest_code_bd4f450de5464b1f9ddeb7caee695f5a-3"></a><span class="kn">import</span> <span class="nn">sys</span>
-<a id="rest_code_bd4f450de5464b1f9ddeb7caee695f5a-4" name="rest_code_bd4f450de5464b1f9ddeb7caee695f5a-4"></a>
-<a id="rest_code_bd4f450de5464b1f9ddeb7caee695f5a-5" name="rest_code_bd4f450de5464b1f9ddeb7caee695f5a-5"></a>
-<a id="rest_code_bd4f450de5464b1f9ddeb7caee695f5a-6" name="rest_code_bd4f450de5464b1f9ddeb7caee695f5a-6"></a><span class="k">def</span> <span class="nf">hello</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">'world'</span><span class="p">):</span>
-<a id="rest_code_bd4f450de5464b1f9ddeb7caee695f5a-7" name="rest_code_bd4f450de5464b1f9ddeb7caee695f5a-7"></a>    <span class="n">greeting</span> <span class="o">=</span> <span class="s2">"hello "</span> <span class="o">+</span> <span class="n">name</span>
-<a id="rest_code_bd4f450de5464b1f9ddeb7caee695f5a-8" name="rest_code_bd4f450de5464b1f9ddeb7caee695f5a-8"></a>    <span class="nb">print</span><span class="p">(</span><span class="n">greeting</span><span class="p">)</span>
-<a id="rest_code_bd4f450de5464b1f9ddeb7caee695f5a-9" name="rest_code_bd4f450de5464b1f9ddeb7caee695f5a-9"></a>
-<a id="rest_code_bd4f450de5464b1f9ddeb7caee695f5a-10" name="rest_code_bd4f450de5464b1f9ddeb7caee695f5a-10"></a>
-<a id="rest_code_bd4f450de5464b1f9ddeb7caee695f5a-11" name="rest_code_bd4f450de5464b1f9ddeb7caee695f5a-11"></a><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">"__main__"</span><span class="p">:</span>
-<a id="rest_code_bd4f450de5464b1f9ddeb7caee695f5a-12" name="rest_code_bd4f450de5464b1f9ddeb7caee695f5a-12"></a>    <span class="n">hello</span><span class="p">(</span><span class="o">*</span><span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">:])</span>
+<pre class="code python"><a id="rest_code_2c835dd35d754fdfb6dfca4633f7d4d4-1" name="rest_code_2c835dd35d754fdfb6dfca4633f7d4d4-1"></a><span class="ch">#!/usr/bin/python</span>
+<a id="rest_code_2c835dd35d754fdfb6dfca4633f7d4d4-2" name="rest_code_2c835dd35d754fdfb6dfca4633f7d4d4-2"></a>
+<a id="rest_code_2c835dd35d754fdfb6dfca4633f7d4d4-3" name="rest_code_2c835dd35d754fdfb6dfca4633f7d4d4-3"></a><span class="kn">import</span> <span class="nn">sys</span>
+<a id="rest_code_2c835dd35d754fdfb6dfca4633f7d4d4-4" name="rest_code_2c835dd35d754fdfb6dfca4633f7d4d4-4"></a>
+<a id="rest_code_2c835dd35d754fdfb6dfca4633f7d4d4-5" name="rest_code_2c835dd35d754fdfb6dfca4633f7d4d4-5"></a>
+<a id="rest_code_2c835dd35d754fdfb6dfca4633f7d4d4-6" name="rest_code_2c835dd35d754fdfb6dfca4633f7d4d4-6"></a><span class="k">def</span> <span class="nf">hello</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">'world'</span><span class="p">):</span>
+<a id="rest_code_2c835dd35d754fdfb6dfca4633f7d4d4-7" name="rest_code_2c835dd35d754fdfb6dfca4633f7d4d4-7"></a>    <span class="n">greeting</span> <span class="o">=</span> <span class="s2">"hello "</span> <span class="o">+</span> <span class="n">name</span>
+<a id="rest_code_2c835dd35d754fdfb6dfca4633f7d4d4-8" name="rest_code_2c835dd35d754fdfb6dfca4633f7d4d4-8"></a>    <span class="nb">print</span><span class="p">(</span><span class="n">greeting</span><span class="p">)</span>
+<a id="rest_code_2c835dd35d754fdfb6dfca4633f7d4d4-9" name="rest_code_2c835dd35d754fdfb6dfca4633f7d4d4-9"></a>
+<a id="rest_code_2c835dd35d754fdfb6dfca4633f7d4d4-10" name="rest_code_2c835dd35d754fdfb6dfca4633f7d4d4-10"></a>
+<a id="rest_code_2c835dd35d754fdfb6dfca4633f7d4d4-11" name="rest_code_2c835dd35d754fdfb6dfca4633f7d4d4-11"></a><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">"__main__"</span><span class="p">:</span>
+<a id="rest_code_2c835dd35d754fdfb6dfca4633f7d4d4-12" name="rest_code_2c835dd35d754fdfb6dfca4633f7d4d4-12"></a>    <span class="n">hello</span><span class="p">(</span><span class="o">*</span><span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">:])</span>
 </pre>
 </div>
     </div>
