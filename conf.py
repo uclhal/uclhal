@@ -140,6 +140,7 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
+        ("/", "Home"),
         ((
             ("/archive.html", "Archive"),
             ("/categories/", "Tags")),
@@ -158,7 +159,14 @@ NAVIGATION_ALT_LINKS = {
 }
 
 # Name of the theme to use.
-THEME = "bootblog4"
+THEME = "canterville"
+LOGO_URL = 'https://getnikola.com/assets/img/logo.svg'
+GLOBAL_CONTEXT = {
+        'TWITTER_URL': 'https://twitter.com/getnikola',
+        'GITHUB_URL': 'https://github.com/getnikola',
+        'LINKEDIN_URL': None,
+        'BANNER_URL': '/assets/img/silk-road.jpg'
+}
 
 # A theme color. In default themes, it might be displayed by some browsers as
 # the browser UI color (eg. Chrome on Android). Other themes might also use it
@@ -171,6 +179,7 @@ THEME_COLOR = '#5670d4'
 #                     featured_large_image_on_mobile featured_strip_html sidebar
 # bootstrap4 supports: navbar_light (defaults to False)
 #                      navbar_custom_bg (defaults to '')
+
 
 # Config for bootblog4:
 THEME_CONFIG = {
