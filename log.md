@@ -94,4 +94,13 @@ hence made a symlink
 then edited the github actions file at
 https://github.com/docsteveharris/nikola-action/releases/tag/v3.1.0-alpha
 
+... I think in the end this might have worked
+But was confused b/c failed b/c could not find path `src` but maybe b/c I was working from a feature branch
+So abandoned (?prematurely)
+And moved all blog files to top level
+and reset to the default github actions yml file rather than my fork
+this worked *only* when I pushed from the `src` branch
+
+but staying with this approach 'cos seems cleaner anyway
+
 
