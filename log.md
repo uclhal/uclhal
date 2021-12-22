@@ -89,3 +89,9 @@ Site up, running and deployed!
 
 ## 2021-12-22
 Look into github actions for automatic deploy
+I don't think it will work b/c the blog lives in a subdir
+hence made a symlink
+then edited the github actions file at
+https://github.com/docsteveharris/nikola-action/releases/tag/v3.1.0-alpha
+
+
