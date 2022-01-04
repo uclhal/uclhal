@@ -5,6 +5,7 @@
 todo.todo
 *.bak
 .doit.db.db
+.DS_Store
 
 # as per Nikola recommendations for github deployment
 cache

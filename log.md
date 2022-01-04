@@ -104,3 +104,43 @@ this worked *only* when I pushed from the `src` branch
 but staying with this approach 'cos seems cleaner anyway
 
 
+## 2021-12-29
+just getting my bearings back
+serving from port 8000
+from command line
+
+```sh
+nikola build && nikola serve
+```
+
+useful pages
+themes
+https://themes.getnikola.com/v8/zen/
+restructured text
+https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html#indirect-hyperlink-targets
+nikola
+https://getnikola.com/handbook.html#indexes
+
+others work
+https://paulomarconi.github.io/blog/Nikola-guide/
+http://louistiao.me/posts/how-i-customized-my-nikola-powered-site/
+https://www.brainsorting.dev/posts/create-a-blog-with-nikola/
+http://hannahbarton.org.uk/pages/handbook/
+
+old websites
+https://github.com/docsteveharris/harris-data-lab/blob/main/content/authors/finn-catling/_index.md
+
+canterville
+images served from files/images using url images/name_of_image
+e.g. placed the blog log there
+
+
+lots of fiddling with the logo
+now only displays correctly on the landing page
+tried to set up separate pages for each lab member
+prob easier? just to introduce each person via blog post with an appropriate category?
+then use the category to index individuals
+
+
+
+

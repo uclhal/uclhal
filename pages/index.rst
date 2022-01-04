@@ -1,7 +1,7 @@
-.. title: About us
+.. title: Healthcare Algorithm Laboratory
 .. slug: index
 .. date: 1970-01-01 00:00:00 UTC
-.. tags:
+.. tags: page
 .. link:
 .. description:
 

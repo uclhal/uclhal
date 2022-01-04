@@ -138,9 +138,25 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 #          with a ``/``, otherwise end them with ``/index.html`` — or
 #          else they won’t be highlighted when active.
 
+# for the sidebar
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/", "Home"),
+        ("/lab-group", "Lab Group"),
+        ((
+            ("/steve-harris", "Steve Harris"),
+            ("/aasiyah-rashan", "Aasiyah Rashan"),
+            ("/ahmed-al-hindawi", "Ahmed Al-Hindawi"),
+            ("/cheryl-achary", "Cheryl Achary"),
+            ("/chris-tomlinson", "Chris Tomlinson"),
+            ("/claire-black", "Claire Black"),
+            ("/ed-palmer", "Ed Palmer"),
+            ("/finn-catling", "Finn Catling"),
+            ("/jen-hunter", "Jen Hunter"),
+            ("/matt-wilson", "Matt Wilson"),
+            ),
+            "People"
+        ),
         ((
             ("/archive.html", "Archive"),
             ("/categories/", "Tags")),
@@ -160,10 +176,11 @@ NAVIGATION_ALT_LINKS = {
 
 # Name of the theme to use.
 THEME = "canterville"
-LOGO_URL = 'https://getnikola.com/assets/img/logo.svg'
+LOGO_URL = 'images/logo-uclhalv5.png'
+# https://themes.getnikola.com/v8/canterville/
 GLOBAL_CONTEXT = {
-        'TWITTER_URL': 'https://twitter.com/getnikola',
-        'GITHUB_URL': 'https://github.com/getnikola',
+        'TWITTER_URL': 'https://twitter.com/datascibc',
+        'GITHUB_URL': 'https://github.com/datascibc/',
         'LINKEDIN_URL': None,
         'BANNER_URL': '/assets/img/silk-road.jpg'
 }
@@ -182,23 +199,23 @@ THEME_COLOR = '#5670d4'
 
 
 # Config for bootblog4:
-THEME_CONFIG = {
-    DEFAULT_LANG: {
-        # Show the latest featured post in a large box, with the previewimage as its background.
-        'featured_large': False,
-        # Show the first (remaining) two featured posts in small boxes.
-        'featured_small': False,
-        # Show featured posts on mobile.
-        'featured_on_mobile': True,
-        # Show image in `featured_large` on mobile.
-        # `featured_small` displays them only on desktop.
-        'featured_large_image_on_mobile': True,
-        # Strip HTML from featured post text.
-        'featured_strip_html': False,
-        # Contents of the sidebar, If empty, the sidebar is not displayed.
-        'sidebar': ''
-    }
-}
+# THEME_CONFIG = {
+#     DEFAULT_LANG: {
+#         # Show the latest featured post in a large box, with the previewimage as its background.
+#         'featured_large': False,
+#         # Show the first (remaining) two featured posts in small boxes.
+#         'featured_small': False,
+#         # Show featured posts on mobile.
+#         'featured_on_mobile': True,
+#         # Show image in `featured_large` on mobile.
+#         # `featured_small` displays them only on desktop.
+#         'featured_large_image_on_mobile': True,
+#         # Strip HTML from featured post text.
+#         'featured_strip_html': False,
+#         # Contents of the sidebar, If empty, the sidebar is not displayed.
+#         'sidebar': ''
+#     }
+# }
 # Config for bootstrap4:
 # THEME_CONFIG = {
 #     DEFAULT_LANG: {
@@ -487,25 +504,27 @@ CATEGORY_OUTPUT_FLAT_HIERARCHY = False
 
 # If CATEGORY_PAGES_ARE_INDEXES is set to True, each category's page will contain
 # the posts themselves. If set to False, it will be just a list of links.
-# CATEGORY_PAGES_ARE_INDEXES = False
+CATEGORY_PAGES_ARE_INDEXES = False
 
 # Set descriptions for category pages to make them more interesting. The
 # default is no description. The value is used in the meta description
 # and displayed underneath the category list or index page’s title.
-# CATEGORY_DESCRIPTIONS = {
-#    DEFAULT_LANG: {
-#        "blogging": "Meta-blog posts about blogging.",
-#        "open source": "My contributions to my many, varied, ever-changing, and eternal libre software projects."
-#    },
-# }
+CATEGORY_DESCRIPTIONS = {
+   DEFAULT_LANG: {
+       "people": "Biographies, publications and activity",
+       # "blogging": "Meta-blog posts about blogging.",
+       # "open source": "My contributions to my many, varied, ever-changing, and eternal libre software projects."
+   },
+}
 
 # Set special titles for category pages. The default is "Posts about CATEGORY".
-# CATEGORY_TITLES = {
-#    DEFAULT_LANG: {
-#        "blogging": "Meta-posts about blogging",
-#        "open source": "Posts about open source software"
-#    },
-# }
+CATEGORY_TITLES = {
+   DEFAULT_LANG: {
+       "people": "Current lab members",
+       # "blogging": "Meta-posts about blogging",
+       # "open source": "Posts about open source software"
+   },
+}
 
 # If you do not want to display a category publicly, you can mark it as hidden.
 # The category will not be displayed on the category list page.
@@ -555,28 +574,29 @@ HIDDEN_CATEGORIES = []
 
 # If ENABLE_AUTHOR_PAGES is set to True and there is more than one
 # author, author pages are generated.
-# ENABLE_AUTHOR_PAGES = True
+ENABLE_AUTHOR_PAGES = True
 
 # Path to author pages. Final locations are:
 # output / TRANSLATION[lang] / AUTHOR_PATH / index.html (list of authors)
 # output / TRANSLATION[lang] / AUTHOR_PATH / author.html (list of posts by an author)
 # output / TRANSLATION[lang] / AUTHOR_PATH / author RSS_EXTENSION (RSS feed for an author)
 # (translatable)
-# AUTHOR_PATH = "authors"
+AUTHOR_PATH = "authors"
 
 # If AUTHOR_PAGES_ARE_INDEXES is set to True, each author's page will contain
 # the posts themselves. If set to False, it will be just a list of links.
-# AUTHOR_PAGES_ARE_INDEXES = False
+AUTHOR_PAGES_ARE_INDEXES = False
 
 # Set descriptions for author pages to make them more interesting. The
 # default is no description. The value is used in the meta description
 # and displayed underneath the author list or index page’s title.
-# AUTHOR_PAGES_DESCRIPTIONS = {
-#    DEFAULT_LANG: {
-#        "Juanjo Conti": "Python coder and writer.",
-#        "Roberto Alsina": "Nikola father."
-#    },
-# }
+AUTHOR_PAGES_DESCRIPTIONS = {
+   DEFAULT_LANG: {
+       "Juanjo Conti": "Python coder and writer.",
+       "Steve Harris": "Lab group lead",
+       "Roberto Alsina": "Nikola father."
+   },
+}
 
 
 # If you do not want to display an author publicly, you can mark it as hidden.
