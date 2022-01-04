@@ -7,282 +7,206 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://docsteveharris.github.io/uclhal/</loc>
-  <lastmod>2022-01-04T19:03:00Z</lastmod>
+  <lastmod>2022-01-04T19:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://docsteveharris.github.io/uclhal/2012/</loc>
-  <lastmod>2021-12-22T13:09:00Z</lastmod>
+  <lastmod>2022-01-04T19:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://docsteveharris.github.io/uclhal/2021/</loc>
-  <lastmod>2021-12-22T14:48:00Z</lastmod>
+  <lastmod>2022-01-04T19:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://docsteveharris.github.io/uclhal/aasiyah-rashan/</loc>
-  <lastmod>2022-01-04T18:50:00Z</lastmod>
+  <lastmod>2022-01-04T19:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://docsteveharris.github.io/uclhal/about-nikola/</loc>
-  <lastmod>2021-12-22T14:48:00Z</lastmod>
+  <lastmod>2022-01-04T19:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://docsteveharris.github.io/uclhal/ahmed-al-hindawi/</loc>
-  <lastmod>2022-01-04T18:27:00Z</lastmod>
+  <lastmod>2022-01-04T19:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://docsteveharris.github.io/uclhal/archive.html</loc>
-  <lastmod>2022-01-04T19:03:00Z</lastmod>
+  <lastmod>2022-01-04T19:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://docsteveharris.github.io/uclhal/authors/</loc>
-  <lastmod>2021-12-22T14:48:00Z</lastmod>
+  <lastmod>2022-01-04T19:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://docsteveharris.github.io/uclhal/authors/roberto-alsina/</loc>
-  <lastmod>2021-12-22T14:48:00Z</lastmod>
+  <lastmod>2022-01-04T19:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://docsteveharris.github.io/uclhal/authors/steve-harris/</loc>
-  <lastmod>2021-12-22T14:48:00Z</lastmod>
+  <lastmod>2022-01-04T19:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://docsteveharris.github.io/uclhal/blog/</loc>
-  <lastmod>2021-12-29T12:50:00Z</lastmod>
- </url>
- <url>
-  <loc>https://docsteveharris.github.io/uclhal/blog/finn-catling/</loc>
-  <lastmod>2021-12-29T12:50:00Z</lastmod>
+  <lastmod>2022-01-04T19:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://docsteveharris.github.io/uclhal/blog/hdr-uk-team-of-the-year-finalist/</loc>
-  <lastmod>2021-12-22T14:48:00Z</lastmod>
+  <lastmod>2022-01-04T19:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://docsteveharris.github.io/uclhal/blog/welcome-to-nikola/</loc>
-  <lastmod>2021-12-22T14:48:00Z</lastmod>
+  <lastmod>2022-01-04T19:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://docsteveharris.github.io/uclhal/bootstrap-demo/</loc>
-  <lastmod>2021-12-22T14:48:00Z</lastmod>
+  <lastmod>2022-01-04T19:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://docsteveharris.github.io/uclhal/categories/</loc>
-  <lastmod>2021-12-29T12:50:00Z</lastmod>
+  <lastmod>2022-01-04T19:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://docsteveharris.github.io/uclhal/categories/awards/</loc>
-  <lastmod>2021-12-22T14:48:00Z</lastmod>
- </url>
- <url>
-  <loc>https://docsteveharris.github.io/uclhal/categories/biography/</loc>
-  <lastmod>2021-12-29T12:50:00Z</lastmod>
+  <lastmod>2022-01-04T19:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://docsteveharris.github.io/uclhal/categories/blog/</loc>
-  <lastmod>2021-12-22T13:09:00Z</lastmod>
+  <lastmod>2022-01-04T19:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://docsteveharris.github.io/uclhal/categories/cat_news/</loc>
-  <lastmod>2021-12-29T11:41:00Z</lastmod>
+  <lastmod>2022-01-04T19:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://docsteveharris.github.io/uclhal/categories/cat_nikola/</loc>
-  <lastmod>2021-12-22T13:09:00Z</lastmod>
- </url>
- <url>
-  <loc>https://docsteveharris.github.io/uclhal/categories/cat_people/</loc>
-  <lastmod>2021-12-29T12:50:00Z</lastmod>
+  <lastmod>2022-01-04T19:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://docsteveharris.github.io/uclhal/categories/demo/</loc>
-  <lastmod>2021-12-22T13:09:00Z</lastmod>
+  <lastmod>2022-01-04T19:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://docsteveharris.github.io/uclhal/categories/emap/</loc>
-  <lastmod>2021-12-22T14:48:00Z</lastmod>
+  <lastmod>2022-01-04T19:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://docsteveharris.github.io/uclhal/categories/hdr-uk/</loc>
-  <lastmod>2021-12-22T14:48:00Z</lastmod>
+  <lastmod>2022-01-04T19:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://docsteveharris.github.io/uclhal/categories/news/</loc>
-  <lastmod>2021-12-22T14:48:00Z</lastmod>
+  <lastmod>2022-01-04T19:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://docsteveharris.github.io/uclhal/categories/nikola/</loc>
-  <lastmod>2021-12-22T13:09:00Z</lastmod>
+  <lastmod>2022-01-04T19:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://docsteveharris.github.io/uclhal/categories/python/</loc>
-  <lastmod>2021-12-22T13:09:00Z</lastmod>
+  <lastmod>2022-01-04T19:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://docsteveharris.github.io/uclhal/charts/</loc>
-  <lastmod>2021-12-22T14:48:00Z</lastmod>
+  <lastmod>2022-01-04T19:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://docsteveharris.github.io/uclhal/cheryl-achary/</loc>
-  <lastmod>2022-01-04T18:50:00Z</lastmod>
+  <lastmod>2022-01-04T19:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://docsteveharris.github.io/uclhal/chris-tomlinson/</loc>
-  <lastmod>2022-01-04T18:40:00Z</lastmod>
+  <lastmod>2022-01-04T19:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://docsteveharris.github.io/uclhal/claire-black/</loc>
-  <lastmod>2022-01-04T19:03:00Z</lastmod>
+  <lastmod>2022-01-04T19:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://docsteveharris.github.io/uclhal/contact-us/</loc>
-  <lastmod>2021-12-22T14:48:00Z</lastmod>
+  <lastmod>2022-01-04T19:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://docsteveharris.github.io/uclhal/creating-a-theme/</loc>
-  <lastmod>2021-12-22T14:48:00Z</lastmod>
+  <lastmod>2022-01-04T19:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://docsteveharris.github.io/uclhal/dr-nikolas-vendetta/</loc>
-  <lastmod>2021-12-22T14:48:00Z</lastmod>
+  <lastmod>2022-01-04T19:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://docsteveharris.github.io/uclhal/ed-palmer/</loc>
-  <lastmod>2022-01-04T18:56:00Z</lastmod>
+  <lastmod>2022-01-04T19:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://docsteveharris.github.io/uclhal/extending/</loc>
-  <lastmod>2021-12-22T14:48:00Z</lastmod>
+  <lastmod>2022-01-04T19:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://docsteveharris.github.io/uclhal/finn-catling/</loc>
-  <lastmod>2022-01-04T18:13:00Z</lastmod>
+  <lastmod>2022-01-04T19:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://docsteveharris.github.io/uclhal/galleries/</loc>
-  <lastmod>2021-12-22T13:09:00Z</lastmod>
+  <lastmod>2022-01-04T19:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://docsteveharris.github.io/uclhal/galleries/demo/</loc>
-  <lastmod>2021-12-22T13:09:00Z</lastmod>
+  <lastmod>2022-01-04T19:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://docsteveharris.github.io/uclhal/handbook/</loc>
-  <lastmod>2021-12-22T14:48:00Z</lastmod>
+  <lastmod>2022-01-04T19:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://docsteveharris.github.io/uclhal/internals/</loc>
-  <lastmod>2021-12-22T14:48:00Z</lastmod>
+  <lastmod>2022-01-04T19:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://docsteveharris.github.io/uclhal/jen-hunter/</loc>
-  <lastmod>2022-01-04T18:50:00Z</lastmod>
+  <lastmod>2022-01-04T19:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://docsteveharris.github.io/uclhal/lab-group/</loc>
-  <lastmod>2022-01-04T18:56:00Z</lastmod>
+  <lastmod>2022-01-04T19:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://docsteveharris.github.io/uclhal/listings-demo/</loc>
-  <lastmod>2021-12-22T14:48:00Z</lastmod>
+  <lastmod>2022-01-04T19:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://docsteveharris.github.io/uclhal/listings/</loc>
-  <lastmod>2021-12-22T13:09:00Z</lastmod>
- </url>
- <url>
-  <loc>https://docsteveharris.github.io/uclhal/listings/__pycache__/</loc>
-  <lastmod>2021-12-22T13:09:00Z</lastmod>
+  <lastmod>2022-01-04T19:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://docsteveharris.github.io/uclhal/listings/hello.py.html</loc>
-  <lastmod>2022-01-04T19:03:00Z</lastmod>
+  <lastmod>2022-01-04T19:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://docsteveharris.github.io/uclhal/matt-wilson/</loc>
-  <lastmod>2022-01-04T18:31:00Z</lastmod>
- </url>
- <url>
-  <loc>https://docsteveharris.github.io/uclhal/pages/about-nikola/</loc>
-  <lastmod>2021-12-22T13:09:00Z</lastmod>
- </url>
- <url>
-  <loc>https://docsteveharris.github.io/uclhal/pages/bootstrap-demo/</loc>
-  <lastmod>2021-12-22T13:09:00Z</lastmod>
- </url>
- <url>
-  <loc>https://docsteveharris.github.io/uclhal/pages/charts/</loc>
-  <lastmod>2021-12-22T13:09:00Z</lastmod>
- </url>
- <url>
-  <loc>https://docsteveharris.github.io/uclhal/pages/creating-a-theme/</loc>
-  <lastmod>2021-12-22T13:09:00Z</lastmod>
- </url>
- <url>
-  <loc>https://docsteveharris.github.io/uclhal/pages/dr-nikolas-vendetta/</loc>
-  <lastmod>2021-12-22T13:09:00Z</lastmod>
- </url>
- <url>
-  <loc>https://docsteveharris.github.io/uclhal/pages/extending/</loc>
-  <lastmod>2021-12-22T13:09:00Z</lastmod>
- </url>
- <url>
-  <loc>https://docsteveharris.github.io/uclhal/pages/handbook/</loc>
-  <lastmod>2021-12-22T13:09:00Z</lastmod>
- </url>
- <url>
-  <loc>https://docsteveharris.github.io/uclhal/pages/internals/</loc>
-  <lastmod>2021-12-22T13:09:00Z</lastmod>
- </url>
- <url>
-  <loc>https://docsteveharris.github.io/uclhal/pages/listings-demo/</loc>
-  <lastmod>2021-12-22T13:09:00Z</lastmod>
- </url>
- <url>
-  <loc>https://docsteveharris.github.io/uclhal/pages/path-handlers/</loc>
-  <lastmod>2021-12-22T13:09:00Z</lastmod>
- </url>
- <url>
-  <loc>https://docsteveharris.github.io/uclhal/pages/quickref/</loc>
-  <lastmod>2021-12-22T13:09:00Z</lastmod>
- </url>
- <url>
-  <loc>https://docsteveharris.github.io/uclhal/pages/quickstart/</loc>
-  <lastmod>2021-12-22T13:09:00Z</lastmod>
- </url>
- <url>
-  <loc>https://docsteveharris.github.io/uclhal/pages/social_buttons/</loc>
-  <lastmod>2021-12-22T13:09:00Z</lastmod>
- </url>
- <url>
-  <loc>https://docsteveharris.github.io/uclhal/pages/theming/</loc>
-  <lastmod>2021-12-22T13:09:00Z</lastmod>
+  <lastmod>2022-01-04T19:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://docsteveharris.github.io/uclhal/path-handlers/</loc>
-  <lastmod>2021-12-22T14:48:00Z</lastmod>
- </url>
- <url>
-  <loc>https://docsteveharris.github.io/uclhal/posts/welcome-to-nikola/</loc>
-  <lastmod>2021-12-22T13:09:00Z</lastmod>
+  <lastmod>2022-01-04T19:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://docsteveharris.github.io/uclhal/quickref/</loc>
-  <lastmod>2021-12-22T14:48:00Z</lastmod>
+  <lastmod>2022-01-04T19:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://docsteveharris.github.io/uclhal/quickstart/</loc>
-  <lastmod>2021-12-22T14:48:00Z</lastmod>
+  <lastmod>2022-01-04T19:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://docsteveharris.github.io/uclhal/social_buttons/</loc>
-  <lastmod>2021-12-22T14:48:00Z</lastmod>
+  <lastmod>2022-01-04T19:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://docsteveharris.github.io/uclhal/steve-harris/</loc>
-  <lastmod>2021-12-29T12:36:00Z</lastmod>
+  <lastmod>2022-01-04T19:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://docsteveharris.github.io/uclhal/theming/</loc>
-  <lastmod>2021-12-22T14:48:00Z</lastmod>
+  <lastmod>2022-01-04T19:07:00Z</lastmod>
  </url>
 </urlset>
