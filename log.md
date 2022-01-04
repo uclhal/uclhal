@@ -142,5 +142,8 @@ prob easier? just to introduce each person via blog post with an appropriate cat
 then use the category to index individuals
 
 
+## 2022-01-04
+just added a bunch of pages for each lab member
+still do the HYLODE team
 
 
