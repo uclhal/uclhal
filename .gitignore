@@ -1,11 +1,15 @@
 # My ignores
 # ==========
-# sublime and my local todo
+# Steve: sublime and my local todo
 *.sublime-*
 todo.todo
 *.bak
 .doit.db.db
 .DS_Store
+
+# Ahmed: for conda and VScode
+.vscode/
+.doit.*
 
 # as per Nikola recommendations for github deployment
 cache
