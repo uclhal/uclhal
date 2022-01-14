@@ -176,7 +176,7 @@ NAVIGATION_ALT_LINKS = {
 
 # Name of the theme to use.
 THEME = "canterville"
-LOGO_URL = 'images/logo-uclhalv5.png'
+LOGO_URL = SITE_URL + 'images/logo-uclhalv5.png'
 # https://themes.getnikola.com/v8/canterville/
 GLOBAL_CONTEXT = {
         'TWITTER_URL': 'https://twitter.com/datascibc',
