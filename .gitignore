@@ -6,6 +6,7 @@ todo.todo
 *.bak
 .doit.db.db
 .DS_Store
+log.md
 
 # Ahmed: for conda and VScode
 .vscode/
