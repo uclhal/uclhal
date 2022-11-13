@@ -1,0 +1,32 @@
+---
+title: "Lung protective mechanical ventilation for acute respiratory failure is not being implemented in UK clinical practice"
+type: "proceeding"
+author: "Samanta R, Dixit A, Harris S, et al"
+year: "2017"
+publication: "Core outcomes for mechanical ventilation"
+# preprint: ""
+doi: "https://doi.org/10.1136/thoraxjnl-2017-210983.142"
+materials: ""
+toc: false
+categories:
+  - NIHR Health Informatics Collaborative - Critical Care
+  - mechanical ventilation
+  - audit
+  - proceeding
+---
+
+## Citation 
+
+> Samanta R, Dixit A, Harris S, et al. Lung protective mechanical ventilation for acute respiratory failure is not being implemented in UK clinical practice. Presented at *British Thoracic Society Winter Meeting 2017*: A81.2-A83.
+
+
+## Abstract
+
+*Introduction* The benefits of lung protective ventilation have been replicated in multiple trials.1,2 However, we suspected that adherence to this standard of care remained poor. Using the NIHR critical care Health Informatics Collaborative (ccHIC) database, we analysed data from 11 teaching hospital intensive care units (22-524 patient episodes) to investigate real-world clinical practice.
+
+*Methods* 1248 patient episodes, where ventilation was continued for ≥48-hours, with 232,600 hours of concurrent mechanical ventilation and blood gas data were identified as suitable for analysis. Short gaps in ventilation (<6 hours) were imputed based on the median of nearest known values, and only the single longest period of ventilation from each patient episode was analysed.
+
+*Results* The median tidal volume received by patients was 7.3 ml/kg-1 PBW (IQR:5.7–8.8). Female patients, especially those with higher BMI (≥30 kgm-2) consistently received higher tidal volumes than males. Patients with severe respiratory failure (PaO2:FiO2 <13kPa) received a median tidal volume of 7.1 ml/kg-1 PBW, and had 71% ICU mortality (Table 1). Patients with respiratory failure sufficient to qualify for recruitment into recent clinical trials (PaO2:FiO2 <20 kPa with PEEP ≥5 cm/H20), who were exposed to tidal volumes≥12 ml/kg-1 PBW for longer than two hours had significantly increased risk of ICU mortality (odds ratio=2.89 [1.25–7.2]; p=0.007); This was not observed for patients with PaO2:FiO2 ≥40 kPa (odds ratio=0.95 [0.58–1.56], p=0.91).
+
+*Conclusions* More than 15 years after the ARMA study1 demonstrated a mortality benefit from lung protective ventilation, we are still not implementing 6 ml/kg-1 PBW ventilation into clinical practice, and are exposing even patients with a severe respiratory failure (PaO2:FiO2 <13 kPa) to higher than recommended tidal volumes, with females and higher BMI patients at particular risk. We have also demonstrated that failure to institute lung protective ventilation in patients with a PaO2:FiO2 <20 kPa leads to increased ICU mortality, which is not present in patients with PaO2:FiO2 ≥40 kPa.
+

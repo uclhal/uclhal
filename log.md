@@ -1,3 +1,7 @@
+## 2022-11-13
+
+converting to Quarto
+
 ## 2021-12-20
 Running log of steps used 
 Each time you do some work enter the date on a new line

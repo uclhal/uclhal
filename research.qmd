@@ -1,0 +1,50 @@
+---
+pagetitle: "Research | UCL Health Algorithm Laboratory"
+toc: true
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Research</li>
+  </ol>
+</nav>
+```
+
+## Research Topics
+
+
+### Clinical Topics
+
+
+- **Timely delivery of critical care** – We are interested in methodologically rigorous methods of evaluating the impact of delay to treatment.
+
+### Methodological Topics
+
+- **Causal Inference** – We are interested in ... (see BJA series and ICM paper)
+
+- **Data science teaching** 
+
+
+
+## Research Funding
+
+### Current Funding
+
+- *"Collaborative Healthcare Innovation through Mathematics, EngineeRing and AI"*
+    - EPSRC
+    - **Harris** (Co-Investigator)
+    - 2020-
+
+
+### Completed Funding
+
+- *"Collaborative Healthcare Innovation through Mathematics, EngineeRing and AI"*
+    - University College London Hospital Charity
+    - Brealey D, *Harris S*, MacCallum N (Co-Principal Investigators): 
+    - 2017-2020
+    
+<!-- ### Pending Funding -->
+
+ -->
