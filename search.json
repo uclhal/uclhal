@@ -42,15 +42,15 @@
     "text": "2022-01-04\njust added a bunch of pages for each lab member still do the HYLODE team"
   },
   {
-    "objectID": "publications/proceedings/girard2011.html",
-    "href": "publications/proceedings/girard2011.html",
+    "objectID": "publications/proceedings/samanta2017.html",
+    "href": "publications/proceedings/samanta2017.html",
     "title": "Lung protective mechanical ventilation for acute respiratory failure is not being implemented in UK clinical practice",
     "section": "",
     "text": "Samanta R, Dixit A, Harris S, et al. Lung protective mechanical ventilation for acute respiratory failure is not being implemented in UK clinical practice. Presented at British Thoracic Society Winter Meeting 2017: A81.2-A83."
   },
   {
-    "objectID": "publications/proceedings/girard2011.html#abstract",
-    "href": "publications/proceedings/girard2011.html#abstract",
+    "objectID": "publications/proceedings/samanta2017.html#abstract",
+    "href": "publications/proceedings/samanta2017.html#abstract",
     "title": "Lung protective mechanical ventilation for acute respiratory failure is not being implemented in UK clinical practice",
     "section": "Abstract",
     "text": "Abstract\nIntroduction The benefits of lung protective ventilation have been replicated in multiple trials.1,2 However, we suspected that adherence to this standard of care remained poor. Using the NIHR critical care Health Informatics Collaborative (ccHIC) database, we analysed data from 11 teaching hospital intensive care units (22-524 patient episodes) to investigate real-world clinical practice.\nMethods 1248 patient episodes, where ventilation was continued for ≥48-hours, with 232,600 hours of concurrent mechanical ventilation and blood gas data were identified as suitable for analysis. Short gaps in ventilation (<6 hours) were imputed based on the median of nearest known values, and only the single longest period of ventilation from each patient episode was analysed.\nResults The median tidal volume received by patients was 7.3 ml/kg-1 PBW (IQR:5.7–8.8). Female patients, especially those with higher BMI (≥30 kgm-2) consistently received higher tidal volumes than males. Patients with severe respiratory failure (PaO2:FiO2 <13kPa) received a median tidal volume of 7.1 ml/kg-1 PBW, and had 71% ICU mortality (Table 1). Patients with respiratory failure sufficient to qualify for recruitment into recent clinical trials (PaO2:FiO2 <20 kPa with PEEP ≥5 cm/H20), who were exposed to tidal volumes≥12 ml/kg-1 PBW for longer than two hours had significantly increased risk of ICU mortality (odds ratio=2.89 [1.25–7.2]; p=0.007); This was not observed for patients with PaO2:FiO2 ≥40 kPa (odds ratio=0.95 [0.58–1.56], p=0.91).\nConclusions More than 15 years after the ARMA study1 demonstrated a mortality benefit from lung protective ventilation, we are still not implementing 6 ml/kg-1 PBW ventilation into clinical practice, and are exposing even patients with a severe respiratory failure (PaO2:FiO2 <13 kPa) to higher than recommended tidal volumes, with females and higher BMI patients at particular risk. We have also demonstrated that failure to institute lung protective ventilation in patients with a PaO2:FiO2 <20 kPa leads to increased ICU mortality, which is not present in patients with PaO2:FiO2 ≥40 kPa."
@@ -84,15 +84,15 @@
     "text": "Outstanding achievements\nWhen COVID cases surged the EMAP team, co-led by UCLH critical care consultant Dr Steve Harris, responded with a bed management tool that reported in near real time. This allowed staff to be allocated where they were most needed and kept transfer beds available at all times. The tool supported the treatment of 434 critically ill patients (including retrieving 162 patients to the UCHL surge centre) from overstretched units across north London."
   },
   {
-    "objectID": "people/staff/steve_harris.html",
-    "href": "people/staff/steve_harris.html",
+    "objectID": "people/staff/harris_steve.html",
+    "href": "people/staff/harris_steve.html",
     "title": "Steve Harris",
     "section": "",
     "text": "Home\n    People\n    Research Staff\n    Steve Harris"
   },
   {
-    "objectID": "people/staff/steve_harris.html#biography",
-    "href": "people/staff/steve_harris.html#biography",
+    "objectID": "people/staff/harris_steve.html#biography",
+    "href": "people/staff/harris_steve.html#biography",
     "title": "Steve Harris",
     "section": "Biography",
     "text": "Biography\nSteve Harris is an NHS Critical Care Consultant, and Honorary Associate Professor at UCL Institute of Health Informatics. He has held fellowships from Wellcome, and the Health Foundation, and won more than £5m in grant funding (UCLH Charity, EPSRC, NIHR/NHS-X) in the last 5 years. He is a co-investigator in CHIMERA, the Wellcome Innovation Flagship Critical Care Asia, and co-leads the NIHR Health Informatics Collaborative for Critical Care. At UCLH, he led the implementation of the Experimental Medicine Application Platform (EMAP) that is bringing machine learning back to the bedside leading to commendations from HDR-UK for its role in the pandemic response. He co-directs the data science training programme for UCLH."
@@ -116,7 +116,7 @@
     "href": "news.html",
     "title": "UCLHAL",
     "section": "",
-    "text": "HDR-UK Team of the Year Finalist\n\n\n\n\n\n\n\nnews\n\n\nawards\n\n\nemap\n\n\nhdr-uk\n\n\n\n\nContext-Adaptive Multimodal Informatics for Psychiatric Discharge Planning\n\n\n\n\n\n\nDec 21, 2021\n\n\nSteve Harris\n\n\n\n\n\n\nNo matching items"
+    "text": "HDR-UK Team of the Year Finalist\n\n\n\n\n\n\n\nnews\n\n\nawards\n\n\nemap\n\n\nhdr-uk\n\n\n\n\nData science platform supports COVID bed management across North London Critical Care units\n\n\n\n\n\n\nDec 21, 2021\n\n\nSteve Harris\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "people.html",
