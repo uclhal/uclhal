@@ -4,6 +4,9 @@ project:
     - CNAME
   output-dir: docs
 
+execute:
+  freeze: auto
+
 website:
   title: "UCLHAL"
   navbar:
