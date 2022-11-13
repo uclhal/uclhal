@@ -14,12 +14,11 @@ toc: true
 
 ## Datasets
 
-- **GFT: Group Formation Task Spontaneous Facial Expression Database** (2017)<br />
-  A 2D video database of spontaneous behavior during unscripted social interactions<br />
-  Complete with frame-level FACS annotations of facial behavior (n = 96)<br />
+- **CCHIC** (20xx)<br />
   *Primary Article/Citation:* <https://jmgirard.com/pubs/girard2017d/><br />
   *Website/Request Access:* <http://osf.io/7wcyz>
   
+<!-- 
 - **MMSE/BP4D+: Multimodal Spontaneous Emotion Database** (2016)<br />
   An extension of BP4D that includes thermal and physiological data<br />
   Complete with frame-level FACS annotations of facial behavior (n = 140)<br />
@@ -31,10 +30,12 @@ toc: true
   Complete with frame-level FACS annotations of facial behavior (n = 41)<br />
   *Primary Article/Citation:* <https://jmgirard.com/pubs/zhang2014/><br />
   *Website/Request Access:* <http://bit.ly/2yg39Cn>
+ -->
 
 ## Software
 
-### Maturing
+<!-- ### Maturing
+
 - **lordicon** (2022)<br />
   Extension for adding lordicon.com icons to Quarto HTML documents<br />
   *Source Code:* <https://github.com/jmgirard/lordicon>
@@ -79,9 +80,10 @@ toc: true
 - **agreement** (2018–2022)<br />
   R functions for inter-rater reliability<br />
   *Source Code:* <https://github.com/jmgirard/agreement>
+ -->
 
 ## Trainings
-
+<!-- 
 - **Applied Machine Learning in R** (2021, 2022)<br />
   Five-day workshop offered as part of the [Pittsburgh Summer Methodology Series](https://www.pittmethods.com)<br />
   <https://pittmethods.github.io/appliedml>
@@ -90,4 +92,5 @@ toc: true
   Three-day workshop offered as part of the [Pittsburgh Summer Methodology Series](https://www.pittmethods.com)<br />
   <https://pittmethods.github.io/r4ss>
 
-<!-- ## Videos -->
+ -->
+ <!-- ## Videos -->

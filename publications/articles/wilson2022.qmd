@@ -1,0 +1,26 @@
+---
+title: "Clinician preference instrumental variable analysis of the effectiveness of magnesium supplementation for atrial fibrillation prophylaxis in critical care"
+type: "article"
+author: "Wilson MG, Rashan A, Klapaukh R, Asselbergs FW, Harris SK"
+year: "2022"
+publication: "Scientific Reports"
+# preprint: "https://psyarxiv.com/futv2/"
+doi: "https://dx.doi.org/10.1038/s41598-022-21286-1"
+# materials: "https://osf.io/gewrp/"
+toc: false
+categories:
+  - clinical trials
+  - critical care
+  - causal inference
+  - journal article
+---
+
+## Citation (APA 7)
+
+> Wilson MG, Rashan A, Klapaukh R, Asselbergs FW, Harris SK. Clinician preference instrumental variable analysis of the effectiveness of magnesium supplementation for atrial fibrillation prophylaxis in critical care. *Sci Rep* 2022; 12: 17433.
+ 
+## Abstract
+
+Atrial fibrillation is a frequently encountered condition in critical illness and causes adverse effects including haemodynamic decompensation, stroke and prolonged hospital stay. It is a common practice in critical care to supplement serum magnesium for the purpose of preventing episodes of atrial fibrillation. However, no randomised studies support this practice in the non-cardiac surgery critical care population, and the effectiveness of magnesium supplementation is unclear. We sought to investigate the effectiveness of magnesium supplementation in preventing the onset of atrial fibrillation in a mixed critical care population. We conducted a single centre retrospective observational study of adult critical care patients. We utilised a natural experiment design, using the supplementation preference of the bedside critical care nurse as an instrumental variable. Using routinely collected electronic patient data, magnesium supplementation opportunities were defined and linked to the bedside nurse. Nurse preference for administering magnesium was obtained using multilevel modelling. The results were used to define "liberal" and "restrictive" supplementation groups, which were inputted into an instrumental variable regression to obtain an estimate of the effect of magnesium supplementation. 9114 magnesium supplementation opportunities were analysed, representing 2137 critical care admissions for 1914 patients. There was significant variation in magnesium supplementation practices attributable to the individual nurse, after accounting for covariates. The instrumental variable analysis showed magnesium supplementation was associated with a 3% decreased relative risk of experiencing an atrial fibrillation event (95% CI −0.06 to −0.004, p=0.03). This study supports the strategy of routine supplementation, but further work is required to identify optimal serum magnesium targets for atrial fibrillation prophylaxis.
+
+

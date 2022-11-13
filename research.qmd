@@ -1,5 +1,5 @@
 ---
-pagetitle: "Research | AffCom Lab"
+pagetitle: "Research | UCL Health Algorithm Laboratory"
 toc: true
 ---
 
@@ -13,6 +13,8 @@ toc: true
 ```
 
 ## Research Topics
+
+<!-- 
 
 ### Clinical Topics
 
@@ -99,3 +101,5 @@ The substantive focus of our work is on how humans communicate important affecti
 Supporting the four pillars of substantive research described above is a methodological foundation of computer and data science. The three main aspects of this methodological work are statistics, computing, and design. The **statistical** aspects largely focus on developing and applying Bayesian, multilevel, and latent variable models to test hypotheses about interpretable parameters or validate the other aspects. The **computational** aspects largely focus on building tools to collect large amounts of data and then using machine learning to process that data and make predictions. Finally, the **design** aspects largely focus on developing software to collect, process, and analyze research data as well as websites to educate researchers on methodological and substantive topics.
 
 ![](./img/framework2.png)
+
+ -->
