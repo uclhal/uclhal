@@ -5,7 +5,7 @@ project:
   output-dir: docs
 
 website:
-  title: "AffCom Lab"
+  title: "UCLHAL"
   navbar:
     right:
       - href: news.qmd
@@ -22,10 +22,10 @@ website:
         text: Opportunities
       - href: contact.qmd
         text: Contact
-  page-footer: "Copyright 2022 &copy; Jeffrey Girard"
-  google-analytics: "G-K5TXS64QLN"
-  site-url: https://affcom.ku.edu
-  repo-url: https://github.com/jmgirard/affcomlab
+  page-footer: "Copyright 2022 &copy; Steve Harris"
+  # google-analytics: "G-K5TXS64QLN"
+  site-url: https://uclhal.org
+  repo-url: https://github.com/uclhal/uclhal
 
 format:
   html:
