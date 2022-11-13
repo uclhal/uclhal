@@ -1,0 +1,22 @@
+[
+  {
+    "listing": "/news.html",
+    "items": [
+      "/posts/hdruk-award-2021/index.html"
+    ]
+  },
+  {
+    "listing": "/people.html",
+    "items": [
+      "/people/staff/steve_harris.html",
+      "/people/alumni/wong_danny.html"
+    ]
+  },
+  {
+    "listing": "/publications.html",
+    "items": [
+      "/publications/articles/wilson2022.html",
+      "/publications/proceedings/girard2011.html"
+    ]
+  }
+]

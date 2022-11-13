@@ -1,4 +1,1 @@
-Sitemap: https://docsteveharris.github.io/uclhal/sitemapindex.xml
-
-User-Agent: *
-Host: docsteveharris.github.io
+Sitemap: https://uclhal.org/sitemap.xml
