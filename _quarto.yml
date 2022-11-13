@@ -8,7 +8,7 @@ execute:
   freeze: auto
 
 website:
-  title: "UCLHAL"
+  title: "UCL Health Algorithms Laboratory"
   navbar:
     right:
       - href: news.qmd
@@ -32,6 +32,6 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: simplex
     css: styles.css
     toc: true
