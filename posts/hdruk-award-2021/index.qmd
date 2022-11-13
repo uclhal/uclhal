@@ -1,6 +1,6 @@
 ---
 title: "HDR-UK Team of the Year Finalist"
-description: "Context-Adaptive Multimodal Informatics for Psychiatric Discharge Planning"
+description: "Data science platform supports COVID bed management across North London Critical Care units"
 author: "Steve Harris"
 date: "2021-12-21"
 # image: hospital.webp
