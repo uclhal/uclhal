@@ -29,10 +29,7 @@ about:
       text: LinkedIn
       href: https://www.linkedin.com/in/tomlincr
     # - text: "{{< fa building-columns >}} UCL"
-    #   href: https://iris.ucl.ac.uk/iris/browse/profile?upi=CTOML04
-    
-    
-    
+    #   href: https://iris.ucl.ac.uk/iris/browse/profile?upi=CTOML04 
 ---
 
 ```{=html}
