@@ -13,6 +13,8 @@ about:
   links:
     # Note fas & ai packs use -text: instead of - icon:
     # See: https://github.com/quarto-ext/fontawesome/issues/6#issuecomment-1188620081
+    - text: "{{< fa globe >}}"
+      href: https://www.ctomlinson.net/
     - icon: twitter
       text: Twitter
       href: https://www.twitter.com/tomlincr
@@ -28,7 +30,7 @@ about:
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/tomlincr
-    - text: "{{< fa building-columns >}} UCL"
+    - text: "{{< fa university >}} UCL"
       href: https://iris.ucl.ac.uk/iris/browse/profile?upi=CTOML04 
 ---
 
