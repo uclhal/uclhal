@@ -1,0 +1,36 @@
+---
+title: "Chris Tomlinson"
+sortby: "Tomlinson, Chris"
+subtitle: "PhD Student"
+image: girard_jeffrey.jpg
+started: "September 2020"
+toc: false
+# resources: 
+#   - "your_cv.pdf"
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: github
+      text: github
+      href: https://github.com/tomlincr
+    - icon: twitter
+      text: twitter
+      href: https://www.twitter.com/tomlincr
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../people.html">People</a></li>
+    <li class="breadcrumb-item active">Research Staff</li>
+    <li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li>
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+## Biography
