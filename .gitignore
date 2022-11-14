@@ -1,3 +1,9 @@
+# Quarto
+# ignore if using github actions to build
+/.quarto/
+docs/
+_site/
+
 # My ignores
 # ==========
 # Steve: sublime and my local todo
@@ -150,4 +156,3 @@ dmypy.json
 .pyre/
 
 
-/.quarto/

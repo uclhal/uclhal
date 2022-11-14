@@ -32,6 +32,6 @@ website:
 
 format:
   html:
-    theme: simplex
+    theme: superhero
     css: styles.css
     toc: true
