@@ -1,7 +1,7 @@
 ---
 title: "Association of COVID-19 With Major Arterial and Venous Thrombotic Diseases: A Population-Wide Cohort Study of 48 Million Adults in England and Wales"
 type: "article"
-author: "Rochelle Knight, Venexia Walker, Samantha Ip, Jennifer A Cooper, Thomas Bolton, Spencer Keene, Rachel Denholm, Ashley Akbari, Hoda Abbasizanjani, Fatemeh Torabi, Efosa Omigie, Sam Hollings, Teri-Louise North, Renin Toms, Xiyun Jiang, Emanuele Di Angelantonio, Spiros Denaxas, Johan H Thygesen, admin, Ben Bray, Craig J Smith, Mark Barber, Kamlesh Khunti, George Davey Smith, Nishi Chaturvedi, Cathie Sudlow, William N Whiteley, Angela M Wood, Jonathan A C Sterne, CVD-COVID-UK/COVID-IMPACT consortium, Longitudinal Health and Wellbeing COVID-19 National Core Study"
+author: "Rochelle Knight, Venexia Walker, Samantha Ip, Jennifer A Cooper, Thomas Bolton, Spencer Keene, Rachel Denholm, Ashley Akbari, Hoda Abbasizanjani, Fatemeh Torabi, Efosa Omigie, Sam Hollings, Teri-Louise North, Renin Toms, Xiyun Jiang, Emanuele Di Angelantonio, Spiros Denaxas, Johan H Thygesen, Chris Tomlinson, Ben Bray, Craig J Smith, Mark Barber, Kamlesh Khunti, George Davey Smith, Nishi Chaturvedi, Cathie Sudlow, William N Whiteley, Angela M Wood, Jonathan A C Sterne, CVD-COVID-UK/COVID-IMPACT consortium, Longitudinal Health and Wellbeing COVID-19 National Core Study"
 year: "2022"
 publication: "Circulation"
 # preprint: "https://psyarxiv.com/futv2/"

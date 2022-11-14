@@ -1,7 +1,7 @@
 ---
 title: "Vaccinating adolescents against SARS-CoV-2 in England: a risk–benefit analysis"
 type: "article"
-author: "Gurdasani D, Bhatt S, Costello A, Denaxas S, Flaxman S, Greenhalgh T, Griffin S, Hyde Z, Katzourakis A, McKee M, Michie S, Ratmann O, Reicher S, Scally G, admin, Yates C, Ziauddeen H & Pagel C"
+author: "Gurdasani D, Bhatt S, Costello A, Denaxas S, Flaxman S, Greenhalgh T, Griffin S, Hyde Z, Katzourakis A, McKee M, Michie S, Ratmann O, Reicher S, Scally G, Tomlinson C, Yates C, Ziauddeen H & Pagel C"
 year: "2021"
 publication: "Journal of the Royal Society of Medicine"
 # preprint: "https://psyarxiv.com/futv2/"
