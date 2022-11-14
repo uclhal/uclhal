@@ -31,7 +31,7 @@ about:
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/tomlincr
-    - text: "{{< fa university >}}"
+    - text: "{{< ai archive >}} UCL"
       href: https://iris.ucl.ac.uk/iris/browse/profile?upi=CTOML04 
 ---
 
