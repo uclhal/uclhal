@@ -20,7 +20,7 @@ about:
     # Note uses -text: instead of - icon:
     # See: https://github.com/quarto-ext/fontawesome/issues/6#issuecomment-1188620081
     - text: "{{< ai researchgate >}}"
-        href: https://www.researchgate.net/profile/Christopher-Tomlinson
+      href: https://www.researchgate.net/profile/Christopher-Tomlinson
 ---
 
 ```{=html}
