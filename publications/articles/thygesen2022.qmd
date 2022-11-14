@@ -10,7 +10,9 @@ doi: "10.1016/S2589-7500(22)00091-7"
 toc: false
 categories:
   - COVID-19
+  - EHR
   - phenomics
+  - epidemiology
   - linkage
   - HDR UK
   - BHF Data Science Centre

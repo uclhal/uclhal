@@ -12,6 +12,7 @@ categories:
   - COVID-19
   - EHR
   - linkage
+  - epidemiology
   - causal inference
   - HDR UK
   - BHF Data Science Centre
