@@ -19,11 +19,9 @@ about:
     - icon: twitter
       text: Twitter
       href: https://www.twitter.com/tomlincr
-    - text: "{{< ai researchgate >}}"
+    - text: "{{< ai researchgate >}} ResearchGate"
       href: https://www.researchgate.net/profile/Christopher-Tomlinson
-    - text: "{{< ai orcid >}} ORCiD"
-      href: https://orcid.org/0000-0002-0903-5395
-    - text: "{{< ai google-scholar >}}"
+    - text: "{{< ai google-scholar >}} Google Scholar"
       href: https://scholar.google.co.uk/citations?hl=en&authuser=3&user=NcKe1aEAAAAJ
     - icon: github
       text: GitHub
@@ -50,3 +48,9 @@ about:
 :::
 
 ## Biography
+
+Chris Tomlinson is an Anaesthetics & Intensive Care registrar undertaking a PhD at the [UKRI UCL Centre for Doctoral Training in AI-enabled Healthcare Systems](https://www.ucl.ac.uk/aihealth-cdt/).
+
+Combining technical expertise in epidemiology, data science and machine/deep learning with an extensive background in clinical medicine and physiological research he uses real world evidence to uncover new insights of critical relevance to patients, clinicians and policymakers. Most recently this has involved [creating novel COVID-19 phenotypes from linked-EHR data of 57 million individuals in England (now published in Lancet Digital Health)](https://doi.org/10.1016/S2589-7500(22)00091-7).
+
+He is interested in the application of AI methodologies to disentangle the complex interactions between organ systems, diseases, individuals and healthcare services to advance our scientific understanding and translate knowledge into tangible benefits to patient care.
