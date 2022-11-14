@@ -16,12 +16,12 @@ about:
     - icon: twitter
       text: Twitter
       href: https://www.twitter.com/tomlincr
-    - text: "{{< ai researchgate >}}"
-      href: https://www.researchgate.net/profile/Christopher-Tomlinson
+    # - text: "{{< ai researchgate >}}"
+    #   href: https://www.researchgate.net/profile/Christopher-Tomlinson
     # - text: "{{< ai orcid >}} ORCiD"
     #   href: https://orcid.org/0000-0002-0903-5395
-    - text: "{{< ai google-scholar >}}"
-      href: https://scholar.google.co.uk/citations?hl=en&authuser=3&user=NcKe1aEAAAAJ
+    # - text: "{{< ai google-scholar >}}"
+    #   href: https://scholar.google.co.uk/citations?hl=en&authuser=3&user=NcKe1aEAAAAJ
     - icon: github
       text: GitHub
       href: https://github.com/tomlincr
