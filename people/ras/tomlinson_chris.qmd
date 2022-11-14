@@ -11,16 +11,28 @@ about:
   id: person-profile
   template: jolla
   links:
-    - icon: github
-      text: github
-      href: https://github.com/tomlincr
-    - icon: twitter
-      text: twitter
-      href: https://www.twitter.com/tomlincr
-    # Note uses -text: instead of - icon:
+    # Note fas & ai packs use -text: instead of - icon:
     # See: https://github.com/quarto-ext/fontawesome/issues/6#issuecomment-1188620081
-    - text: "{{< ai researchgate >}}"
+    - icon: twitter
+      text: Twitter
+      href: https://www.twitter.com/tomlincr
+    - text: "{{< ai researchgate >}} researchgate"
       href: https://www.researchgate.net/profile/Christopher-Tomlinson
+    - text: "{{< ai orcid >}} ORCiD"
+      href: https://orcid.org/0000-0002-0903-5395
+    - text: "{{< ai google-scholar >}} Google Scholar"
+      href: https://scholar.google.co.uk/citations?hl=en&authuser=3&user=NcKe1aEAAAAJ
+    - icon: github
+      text: GitHub
+      href: https://github.com/tomlincr
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/tomlincr
+    - text: "{{< fa building-columns >}} UCL"
+      href: https://iris.ucl.ac.uk/iris/browse/profile?upi=CTOML04
+    
+    
+    
 ---
 
 ```{=html}
