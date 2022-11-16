@@ -2,7 +2,7 @@
 title: "Thomas Frost"
 sortby: "Frost, Thomas"
 subtitle: "PhD Student"
-image: placeholder.jpg
+image: thomasfrost.jpg
 started: "September 2022"
 toc: false
 # resources: 
