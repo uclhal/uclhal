@@ -224,6 +224,20 @@
     "text": "Biography\nChris Tomlinson is an Anaesthetics & Intensive Care registrar undertaking a PhD at the UKRI UCL Centre for Doctoral Training in AI-enabled Healthcare Systems.\nCombining technical expertise in epidemiology, data science and machine/deep learning with an extensive background in clinical medicine and physiological research he uses real world evidence to uncover new insights of critical relevance to patients, clinicians and policymakers. Most recently this has involved creating novel COVID-19 phenotypes from linked-EHR data of 57 million individuals in England (now published in Lancet Digital Health).\nHe is interested in the application of AI methodologies to disentangle the complex interactions between organ systems, diseases, individuals and healthcare services to advance our scientific understanding and translate knowledge into tangible benefits to patient care."
   },
   {
+    "objectID": "people/ras/hrishee.html",
+    "href": "people/ras/hrishee.html",
+    "title": "Hrisheekesh Vaidya",
+    "section": "",
+    "text": "Home\n    People\n    Research Staff\n    Hrisheekesh Vaidya"
+  },
+  {
+    "objectID": "people/ras/hrishee.html#biography",
+    "href": "people/ras/hrishee.html#biography",
+    "title": "Hrisheekesh Vaidya",
+    "section": "Biography",
+    "text": "Biography\nI am a data science fellow in critical care and an out-of-programme IMT3. I am currently working on pre-operative prediction of ICU admission after elective surgery, using machine learning methods applied to electronic healthcare records. I am also working with Ruaraidh, Sarah, and Tim to develop the Data Clinic, a novel service to provide timely data to clinicans for the use in audit and quality improvement.\nLong-term, I hope to persue a career in academic and clinical medicine with a focus on applying machine learning techniques to challenges in critical care."
+  },
+  {
     "objectID": "people/ras/rashan_aasiyah.html",
     "href": "people/ras/rashan_aasiyah.html",
     "title": "Aasiyah Rashan",
@@ -291,7 +305,7 @@
     "href": "people.html#research-assistants",
     "title": "UCL Health Algorithms Laboratory",
     "section": "Research Assistants",
-    "text": "Research Assistants\n\n\n\n\n\n\n\n\n\n\nAhmed Al-Hindawi\n\n\nPost-Doctoral Researcher\n\n\n\n\n\nStarted\n\n\n2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFinn Catling\n\n\nClinical PhD Fellow\n\n\n\n\n\nStarted\n\n\nOctober 2020\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\nAasiyah Rashan\n\n\nPhD Student\n\n\n\n\n\nStarted\n\n\nSeptember 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChris Tomlinson\n\n\nPhD Student\n\n\n\n\n\nStarted\n\n\nSeptember 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSarah Vaughan\n\n\nClinical Research Fellow\n\n\n\n\n\nStarted\n\n\nAugust 2022\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Research Assistants\n\n\n\n\n\n\n\n\n\n\nAhmed Al-Hindawi\n\n\nPost-Doctoral Researcher\n\n\n\n\n\nStarted\n\n\n2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFinn Catling\n\n\nClinical PhD Fellow\n\n\n\n\n\nStarted\n\n\nOctober 2020\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\nAasiyah Rashan\n\n\nPhD Student\n\n\n\n\n\nStarted\n\n\nSeptember 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChris Tomlinson\n\n\nPhD Student\n\n\n\n\n\nStarted\n\n\nSeptember 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHrisheekesh Vaidya\n\n\nData Science Fellow\n\n\n\n\n\nStarted\n\n\nAugust 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSarah Vaughan\n\n\nClinical Research Fellow\n\n\n\n\n\nStarted\n\n\nAugust 2022\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "people.html#alumni",
