@@ -238,6 +238,20 @@
     "text": "Biography\nI am an academic Anaesthetic and Critical Care doctor, and a Wellcome Trust 4i Clinical PhD Fellow at Imperial College London.\nMy research aims at early diagnosis and improved treatment of critical illness, using methods from Bayesian statistics and machine learning. I am particularly interested in merging these methods with physiological models to provide bedside decision support, in disease heterogeneity, and in the role of uncertainty in clinical decision-making.\nMy recent work includes uncertainty-aware mortality risk prediction for patients undergoing emergency laparotomy, representing ICU patients’ status using time-series data to predict clinical events, using structured knowledge for automated clinical coding and phenotyping ventilator-associated pneumonia in electronic health records."
   },
   {
+    "objectID": "people/ras/thomasfrostpage.html",
+    "href": "people/ras/thomasfrostpage.html",
+    "title": "Thomas Frost",
+    "section": "",
+    "text": "Home\n    People\n    Research Staff\n    Thomas Frost"
+  },
+  {
+    "objectID": "people/ras/thomasfrostpage.html#biography",
+    "href": "people/ras/thomasfrostpage.html#biography",
+    "title": "Thomas Frost",
+    "section": "Biography",
+    "text": "Biography\nDr. Thomas Frost is a clinical doctor currently studying for his PhD with the UKRI UCL Centre for Doctoral Training in AI-enabled Healthcare Systems.\nHis interests in AI and machine learning were first piqued by the wave of deep reinforcement learning work that came out in the mid-2010s. It wasn’t long before he found himself searching for opportunities to apply AI to healthcare, and the CDT provided the perfect opportunity to learn the skills to achieve this.\nHis current work is looking at applying RL algorithms to optimise IV infusions in Critical Care at UCLH. Prior to this, he completed his Master of Research thesis in 2022, which focused on identifying temporal ventilatory phenotypes in patients with COVID-19-related ARDS using Hidden Markov Models."
+  },
+  {
     "objectID": "people/ras/vaughan_sarah.html",
     "href": "people/ras/vaughan_sarah.html",
     "title": "Sarah Vaughan",
@@ -389,7 +403,7 @@
     "href": "people.html#research-assistants",
     "title": "UCL Health Algorithms Laboratory",
     "section": "Research Assistants",
-    "text": "Research Assistants\n\n\n\n\n\n\n\n\n\n\nAhmed Al-Hindawi\n\n\nPost-Doctoral Researcher\n\n\n\n\n\nStarted\n\n\n2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRuaraidh Campbell\n\n\nClinical Fellow in Data Science & Critical Care\n\n\n\n\n\nStarted\n\n\nAugust 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFinn Catling\n\n\nClinical PhD Fellow\n\n\n\n\n\nStarted\n\n\nOctober 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKatharina Kohler\n\n\nPost-doctoral Researcher\n\n\n\n\n\nStarted\n\n\nSeptember 2022\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\nAasiyah Rashan\n\n\nPhD Student\n\n\n\n\n\nStarted\n\n\nSeptember 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChris Tomlinson\n\n\nPhD Student\n\n\n\n\n\nStarted\n\n\nSeptember 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHrisheekesh Vaidya\n\n\nData Science Fellow\n\n\n\n\n\nStarted\n\n\nAugust 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSarah Vaughan\n\n\nClinical Research Fellow\n\n\n\n\n\nStarted\n\n\nAugust 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMatt Wilson\n\n\nPhD Student\n\n\n\n\n\nStarted\n\n\nSeptember 2018\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Research Assistants\n\n\n\n\n\n\n\n\n\n\nAhmed Al-Hindawi\n\n\nPost-Doctoral Researcher\n\n\n\n\n\nStarted\n\n\n2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRuaraidh Campbell\n\n\nClinical Fellow in Data Science & Critical Care\n\n\n\n\n\nStarted\n\n\nAugust 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFinn Catling\n\n\nClinical PhD Fellow\n\n\n\n\n\nStarted\n\n\nOctober 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThomas Frost\n\n\nPhD Student\n\n\n\n\n\nStarted\n\n\nSeptember 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKatharina Kohler\n\n\nPost-doctoral Researcher\n\n\n\n\n\nStarted\n\n\nSeptember 2022\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\nAasiyah Rashan\n\n\nPhD Student\n\n\n\n\n\nStarted\n\n\nSeptember 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChris Tomlinson\n\n\nPhD Student\n\n\n\n\n\nStarted\n\n\nSeptember 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHrisheekesh Vaidya\n\n\nData Science Fellow\n\n\n\n\n\nStarted\n\n\nAugust 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSarah Vaughan\n\n\nClinical Research Fellow\n\n\n\n\n\nStarted\n\n\nAugust 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMatt Wilson\n\n\nPhD Student\n\n\n\n\n\nStarted\n\n\nSeptember 2018\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "people.html#alumni",
