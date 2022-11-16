@@ -10,13 +10,13 @@
    links:
      # Note fas & ai packs use -text: instead of - icon:
      # See: https://github.com/quarto-ext/fontawesome/issues/6#issuecomment-1188620081
-     - text: "{{< ai google-scholar >}} Google Scholar"
-       href: https://scholar.google.com/citations?user=3PCgFqIAAAAJ&hl=en
      - icon: github
        text: GitHub
        href: https://github.com/aasiyahrashan
-     - text: "{{< ai archive >}} UCL"
-       href: https://iris.ucl.ac.uk/iris/browse/profile?upi=ARASH82
+     - text: "{{< ai orcid >}} ORCID"
+       href: https://orcid.org/0000-0002-7456-4322
+     - text: "{{< ai google-scholar >}} Google Scholar"
+       href: https://scholar.google.com/citations?user=3PCgFqIAAAAJ&hl=en
 ---
 
 
