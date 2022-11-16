@@ -1,0 +1,34 @@
+---
+title: "A nationwide deep learning pipeline to predict stroke and COVID-19 death in atrial fibrillation"
+type: "preprint"
+author: "Alex Handy, Angela Wood, Cathie Sudlow, Chris Tomlinson, Frank Kee, Johan H Thygesen, Mohammad Mamouei, Reecha Sofat, Richard Dobson, Samantha Ip, Spiros Denaxas, on behalf of the CVD-COVID-UK Consortium"
+year: "2021"
+publication: "medRxiv"
+# preprint: "https://psyarxiv.com/futv2/"
+doi: "10.1101/2021.12.20.21268113"
+# materials: "https://osf.io/gewrp/"
+toc: false
+categories:
+  - COVID-19
+  - EHR
+  - linkage
+  - deep learning
+  - machine learning
+  - transformers
+  - risk prediction
+  - HDR UK
+  - BHF Data Science Centre
+---
+
+## Citation
+
+> A nationwide deep learning pipeline to predict stroke and COVID-19 death in atrial fibrillation
+Alex Handy, Angela Wood, Cathie Sudlow, Christopher Tomlinson, Frank Kee, Johan H Thygesen, Mohammad Mamouei, Reecha Sofat, Richard Dobson, Samantha Ip, Spiros Denaxas.
+medRxiv 2021.12.20.21268113; doi: https://doi.org/10.1101/2021.12.20.21268113
+
+ 
+## Abstract
+
+Deep learning (DL) and machine learning (ML) models trained on long-term patient trajectories held as medical codes in electronic health records (EHR) have the potential to improve disease prediction. Anticoagulant prescribing decisions in atrial fibrillation (AF) offer a use case where the benchmark stroke risk prediction tool (CHA2DS2-VASc) could be meaningfully improved by including more information from a patient’s medical history. In this study, we design and build the first DL and ML pipeline that uses the routinely updated, linked EHR data for 56 million people in England accessed via NHS Digital to predict first ischaemic stroke in people with AF, and as a secondary outcome, COVID-19 death. Our pipeline improves first stroke prediction in AF by 17% compared to CHA2DS2-VASc (0.61 (0.57-0.65) vs 0.52 (0.52-0.52) area under the receiver operating characteristics curves, 95% confidence interval) and provides a generalisable, opensource framework that other researchers and developers can build on.
+
+

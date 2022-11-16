@@ -1,0 +1,35 @@
+---
+title: "Automating perfusion assessment of sublingual microcirculation in critical illness"
+type: "report"
+author: "Chris Tomlinson, Jan Grols, Ramit Debnath, Sarah Johnson, Max Barton, Tianyu Han, Seyedeh Nazanin Khatami, Giacomo Baldo, Aniketh Ramesh, Diego Cammarano, Kashif Rajpoot"
+year: "2022"
+publication: "The Alan Turing Institute"
+# preprint: "https://psyarxiv.com/futv2/"
+doi: "10.5281/zenodo.6799096"
+# materials: "https://osf.io/gewrp/"
+toc: false
+categories:
+  - computer vision
+  - deep learning
+  - machine learning
+  - CNN
+  - RNN
+  - classification
+  - critical care
+  - microcirculation
+  - The Alan Turing Institute
+---
+
+## Citation
+
+> Tomlinson, C., Grols, J., Debnath, R., Johnson, S., Barton, M., Han, T., Khatami, S., Baldo, G., Ramesh, A., Cammarano, D., & Rajpoot, K. (2022). Automating perfusion assessment of sublingual microcirculation in critical illness. https://doi.org/10.5281/zenodo.6799096
+
+
+ 
+## Abstract
+
+Achieving and maintaining normal sub-lingual blood flow in small ( 20um) vessels, termed as microcirculation, is essential for critically ill intensive care patients since this is where the delivery of blood and oxygen to tissues occurs. However, historically, most clinical trials & treatments have focused on blood flow in the larger blood vessels (macrocirculation), largely due to the greater ease with which this can be practically measured. Technological advances have enabled video recordings of the sub-lingual microcirculation (i.e. from under the tongue) to be obtained using darkfield microscopy (DFM). However, the difficulties in analysing these videos has hindered the uptake and utilisation of this imaging modality. Currently, these short video sequences are analysed mostly by hand, to quantify the vessel density and flow within vessels within the field of view. The manual analysis and vessel segmentation is an extremely labour intensive procedure, which can take up to one hour to score a single video [12]. 
+
+This challenge aimed to establish whether a single validated measure of microcirculatory perfusion (microcirculatory flow index) can be predicted directly from a DFM video sequence, without intermediate manual analysis steps. Automatic analysis that can be carried out in (near) real-time would facilitate the incorporation of microcirulatory targets into clinical trials by enabling the impact of interventions to be quantified and enacted upon with the aim of optimising the microcirculation and improving patient outcomes.
+
+

@@ -1,0 +1,40 @@
+---
+title: "Association of COVID-19 With Major Arterial and Venous Thrombotic Diseases: A Population-Wide Cohort Study of 48 Million Adults in England and Wales"
+type: "article"
+author: "Rochelle Knight, Venexia Walker, Samantha Ip, Jennifer A Cooper, Thomas Bolton, Spencer Keene, Rachel Denholm, Ashley Akbari, Hoda Abbasizanjani, Fatemeh Torabi, Efosa Omigie, Sam Hollings, Teri-Louise North, Renin Toms, Xiyun Jiang, Emanuele Di Angelantonio, Spiros Denaxas, Johan H Thygesen, Chris Tomlinson, Ben Bray, Craig J Smith, Mark Barber, Kamlesh Khunti, George Davey Smith, Nishi Chaturvedi, Cathie Sudlow, William N Whiteley, Angela M Wood, Jonathan A C Sterne, CVD-COVID-UK/COVID-IMPACT consortium, Longitudinal Health and Wellbeing COVID-19 National Core Study"
+year: "2022"
+publication: "Circulation"
+# preprint: "https://psyarxiv.com/futv2/"
+doi: "10.1161/CIRCULATIONAHA.122.060785"
+# materials: "https://osf.io/gewrp/"
+toc: false
+categories:
+  - COVID-19
+  - EHR
+  - linkage
+  - epidemiology
+  - causal inference
+  - HDR UK
+  - BHF Data Science Centre
+---
+
+## Citation (APA 7)
+
+> Knight, R., Walker, V., Ip, S., Cooper, J. A., Bolton, T., Keene, S., Denholm, R., Akbari, A., Abbasizanjani, H., Torabi, F., Omigie, E., Hollings, S., North, T.-L., Toms, R., Jiang, X., Angelantonio, E. D., Denaxas, S., Thygesen, J. H., Tomlinson, C., … null,  null. (2022). Association of COVID-19 With Major Arterial and Venous Thrombotic Diseases: A Population-Wide Cohort Study of 48 Million Adults in England and Wales. Circulation, 146(12), 892–906. https://doi.org/10.1161/CIRCULATIONAHA.122.060785
+
+
+
+ 
+## Abstract
+
+Background:  
+Infection with severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) induces a prothrombotic state, but long-term effects of COVID-19 on incidence of vascular diseases are unclear.  
+
+Methods:  
+We studied vascular diseases after COVID-19 diagnosis in population-wide anonymized linked English and Welsh electronic health records from January 1 to December 7, 2020. We estimated adjusted hazard ratios comparing the incidence of arterial thromboses and venous thromboembolic events (VTEs) after diagnosis of COVID-19 with the incidence in people without a COVID-19 diagnosis. We conducted subgroup analyses by COVID-19 severity, demographic characteristics, and previous history.  
+
+Results:  
+Among 48 million adults, 125 985 were hospitalized and 1 319 789 were not hospitalized within 28 days of COVID-19 diagnosis. In England, there were 260 279 first arterial thromboses and 59 421 first VTEs during 41.6 million person-years of follow-up. Adjusted hazard ratios for first arterial thrombosis after COVID-19 diagnosis compared with no COVID-19 diagnosis declined from 21.7 (95% CI, 21.0–22.4) in week 1 after COVID-19 diagnosis to 1.34 (95% CI, 1.21–1.48) during weeks 27 to 49. Adjusted hazard ratios for first VTE after COVID-19 diagnosis declined from 33.2 (95% CI, 31.3–35.2) in week 1 to 1.80 (95% CI, 1.50–2.17) during weeks 27 to 49. Adjusted hazard ratios were higher, for longer after diagnosis, after hospitalized versus nonhospitalized COVID-19, among Black or Asian versus White people, and among people without versus with a previous event. The estimated whole-population increases in risk of arterial thromboses and VTEs 49 weeks after COVID-19 diagnosis were 0.5% and 0.25%, respectively, corresponding to 7200 and 3500 additional events, respectively, after 1.4 million COVID-19 diagnoses.  
+
+Conclusions:  
+High relative incidence of vascular events soon after COVID-19 diagnosis declines more rapidly for arterial thromboses than VTEs. However, incidence remains elevated up to 49 weeks after COVID-19 diagnosis. These results support policies to prevent severe COVID-19 by means of COVID-19 vaccines, early review after discharge, risk factor control, and use of secondary preventive agents in high-risk patients.  
