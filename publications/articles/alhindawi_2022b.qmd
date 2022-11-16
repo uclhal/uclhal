@@ -12,7 +12,7 @@ categories:
   - eye tracking
   - gaze-scene intersection
   - point of regard estimation
-  - rea-time inference
+  - real-time inference
 ---
 
 ## Citation (APA 7)
