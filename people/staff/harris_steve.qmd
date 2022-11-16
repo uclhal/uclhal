@@ -2,7 +2,7 @@
 title: "Steve Harris"
 sortby: "1"
 subtitle: "Lab Director"
-image: girard_jeffrey.jpg
+image: steve_harris_avatar.jpg
 started: "Fall 2020"
 toc: false
 # resources: 
