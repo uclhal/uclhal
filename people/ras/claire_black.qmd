@@ -1,9 +1,9 @@
 ---
 title: "Claire Black"
 sortby: "Black, Claire"
-subtitle: "Physiotherapist"
+subtitle: "Post Doctoral Researcher"
+started: "September 2020"
 image: CB_photo.jpg
-started: "Ages ago"
 toc: false
 # resources: 
 #   - "your_cv.pdf"
@@ -19,7 +19,7 @@ about:
    #  - text: "{{< ai researchgate >}} ResearchGate"
    #   href: https://www.researchgate.net/profile/Christopher-Tomlinson
    #  - text: "{{< ai google-scholar >}} Google Scholar"
-    #   href: https://scholar.google.co.uk/citations?hl=en&authuser=3&user=NcKe1aEAAAAJ
+    #   href: https://scholar.google.com/citations?user=Edq5B5UAAAAJ&hl=en&oi=ao
     - icon: github
       text: GitHub
       href: https://github.com/clairejblack
