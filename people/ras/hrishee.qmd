@@ -38,7 +38,7 @@ about:
 
 ## Biography
 
-I am a data science fellow at UCLH and an out-of-programme IMT3. I am currently working on pre-operative prediction of ICU admission after elective surgery, using machine learning methods applied to electronic healthcare records. I am also working with [Ruaraidh](ruaraidh_campbell), [Sarah](sarah_vaughan), and [Tim](https://twitter.com/timbonnici) to develop the Data Clinic, a novel service to provide timely data to clinicans for the use in audit and quality improvement. 
+I am a data science fellow in critical care and an out-of-programme IMT3. I am currently working on pre-operative prediction of ICU admission after elective surgery, using machine learning methods applied to electronic healthcare records. I am also working with [Ruaraidh](ruaraidh_campbell), [Sarah](sarah_vaughan), and [Tim](https://twitter.com/timbonnici) to develop the Data Clinic, a novel service to provide timely data to clinicans for the use in audit and quality improvement. 
 
 Long-term, I hope to persue a career in academic and clinical medicine with a focus on applying machine learning techniques to challenges in critical care. 
 
