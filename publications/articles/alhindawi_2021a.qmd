@@ -10,9 +10,7 @@ doi: "https://doi.org/10.1109/EMBC46164.2021.9630999"
 toc: false
 categories:
   - eye tracking
-  - gaze-scene intersection
-  - point of regard estimation
-  - rea-time inference
+  - real-time inference
 ---
 
 ## Citation (APA 7)
