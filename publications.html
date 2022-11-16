@@ -71,7 +71,8 @@ ul.task-list li input[type="checkbox"] {
 
     const options = {
       valueNames: ['listing-title','listing-type','listing-author','listing-year','listing-publication','listing-doi','listing-toc','listing-categories','listing-path','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-materials',{ data: ['index'] },{ data: ['categories'] }],
-      
+      page: 10,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-title","listing-author","listing-publication","listing-year"],
     };
 
@@ -150,7 +151,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(8)</span></div><div class="category" data-category="BHF Data Science Centre">BHF Data Science Centre <span class="quarto-category-count">(5)</span></div><div class="category" data-category="CNN">CNN <span class="quarto-category-count">(1)</span></div><div class="category" data-category="COVID-19">COVID-19 <span class="quarto-category-count">(5)</span></div><div class="category" data-category="EHR">EHR <span class="quarto-category-count">(5)</span></div><div class="category" data-category="HDR UK">HDR UK <span class="quarto-category-count">(5)</span></div><div class="category" data-category="NIHR Health Informatics Collaborative - Critical Care">NIHR Health Informatics Collaborative - Critical Care <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RNN">RNN <span class="quarto-category-count">(1)</span></div><div class="category" data-category="The Alan Turing Institute">The Alan Turing Institute <span class="quarto-category-count">(1)</span></div><div class="category" data-category="audit">audit <span class="quarto-category-count">(1)</span></div><div class="category" data-category="causal inference">causal inference <span class="quarto-category-count">(2)</span></div><div class="category" data-category="classification">classification <span class="quarto-category-count">(1)</span></div><div class="category" data-category="clinical trials">clinical trials <span class="quarto-category-count">(1)</span></div><div class="category" data-category="computer vision">computer vision <span class="quarto-category-count">(1)</span></div><div class="category" data-category="critical care">critical care <span class="quarto-category-count">(2)</span></div><div class="category" data-category="deep learning">deep learning <span class="quarto-category-count">(2)</span></div><div class="category" data-category="diversity">diversity <span class="quarto-category-count">(1)</span></div><div class="category" data-category="epidemiology">epidemiology <span class="quarto-category-count">(3)</span></div><div class="category" data-category="ethnicity">ethnicity <span class="quarto-category-count">(1)</span></div><div class="category" data-category="fairness">fairness <span class="quarto-category-count">(1)</span></div><div class="category" data-category="journal article">journal article <span class="quarto-category-count">(1)</span></div><div class="category" data-category="linkage">linkage <span class="quarto-category-count">(4)</span></div><div class="category" data-category="machine learning">machine learning <span class="quarto-category-count">(2)</span></div><div class="category" data-category="mechanical ventilation">mechanical ventilation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="microcirculation">microcirculation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="paediatrics">paediatrics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="phenomics">phenomics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="proceeding">proceeding <span class="quarto-category-count">(1)</span></div><div class="category" data-category="risk prediction">risk prediction <span class="quarto-category-count">(1)</span></div><div class="category" data-category="transformers">transformers <span class="quarto-category-count">(1)</span></div><div class="category" data-category="vaccination">vaccination <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(11)</span></div><div class="category" data-category="BHF Data Science Centre">BHF Data Science Centre <span class="quarto-category-count">(5)</span></div><div class="category" data-category="CNN">CNN <span class="quarto-category-count">(1)</span></div><div class="category" data-category="COVID-19">COVID-19 <span class="quarto-category-count">(5)</span></div><div class="category" data-category="EHR">EHR <span class="quarto-category-count">(5)</span></div><div class="category" data-category="HDR UK">HDR UK <span class="quarto-category-count">(5)</span></div><div class="category" data-category="NIHR Health Informatics Collaborative - Critical Care">NIHR Health Informatics Collaborative - Critical Care <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RNN">RNN <span class="quarto-category-count">(1)</span></div><div class="category" data-category="The Alan Turing Institute">The Alan Turing Institute <span class="quarto-category-count">(1)</span></div><div class="category" data-category="audit">audit <span class="quarto-category-count">(1)</span></div><div class="category" data-category="blink detection">blink detection <span class="quarto-category-count">(1)</span></div><div class="category" data-category="causal inference">causal inference <span class="quarto-category-count">(2)</span></div><div class="category" data-category="classification">classification <span class="quarto-category-count">(1)</span></div><div class="category" data-category="clinical trials">clinical trials <span class="quarto-category-count">(1)</span></div><div class="category" data-category="computer vision">computer vision <span class="quarto-category-count">(1)</span></div><div class="category" data-category="critical care">critical care <span class="quarto-category-count">(2)</span></div><div class="category" data-category="deep learning">deep learning <span class="quarto-category-count">(2)</span></div><div class="category" data-category="diversity">diversity <span class="quarto-category-count">(1)</span></div><div class="category" data-category="epidemiology">epidemiology <span class="quarto-category-count">(3)</span></div><div class="category" data-category="ethnicity">ethnicity <span class="quarto-category-count">(1)</span></div><div class="category" data-category="eye tracking">eye tracking <span class="quarto-category-count">(3)</span></div><div class="category" data-category="fairness">fairness <span class="quarto-category-count">(1)</span></div><div class="category" data-category="gaze-scene intersection">gaze-scene intersection <span class="quarto-category-count">(1)</span></div><div class="category" data-category="journal article">journal article <span class="quarto-category-count">(1)</span></div><div class="category" data-category="linkage">linkage <span class="quarto-category-count">(4)</span></div><div class="category" data-category="machine learning">machine learning <span class="quarto-category-count">(2)</span></div><div class="category" data-category="mechanical ventilation">mechanical ventilation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="microcirculation">microcirculation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="paediatrics">paediatrics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="phenomics">phenomics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="point of regard estimation">point of regard estimation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="proceeding">proceeding <span class="quarto-category-count">(1)</span></div><div class="category" data-category="real-time inference">real-time inference <span class="quarto-category-count">(2)</span></div><div class="category" data-category="risk prediction">risk prediction <span class="quarto-category-count">(1)</span></div><div class="category" data-category="transformers">transformers <span class="quarto-category-count">(1)</span></div><div class="category" data-category="vaccination">vaccination <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -189,7 +190,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
 </div>
 <ul class="pub-list list">
-  <li data-index="0" data-categories="COVID-19,EHR,linkage,epidemiology,causal inference,HDR UK,BHF Data Science Centre" data-listing-file-modified-sort="1668596568317" data-listing-reading-time-sort="2">
+  <li data-index="0" data-categories="COVID-19,EHR,linkage,epidemiology,causal inference,HDR UK,BHF Data Science Centre" data-listing-file-modified-sort="1668596944137" data-listing-reading-time-sort="2">
     <span class="listing-title lead">Association of COVID-19 With Major Arterial and Venous Thrombotic Diseases: A Population-Wide Cohort Study of 48 Million Adults in England and Wales</span><br>
     <span class="listing-author">Rochelle Knight, Venexia Walker, Samantha Ip, Jennifer A Cooper, Thomas Bolton, Spencer Keene, Rachel Denholm, Ashley Akbari, Hoda Abbasizanjani, Fatemeh Torabi, Efosa Omigie, Sam Hollings, Teri-Louise North, Renin Toms, Xiyun Jiang, Emanuele Di Angelantonio, Spiros Denaxas, Johan H Thygesen, Chris Tomlinson, Ben Bray, Craig J Smith, Mark Barber, Kamlesh Khunti, George Davey Smith, Nishi Chaturvedi, Cathie Sudlow, William N Whiteley, Angela M Wood, Jonathan A C Sterne, CVD-COVID-UK/COVID-IMPACT consortium, Longitudinal Health and Wellbeing COVID-19 National Core Study</span><br>
     <span class="listing-publication fst-italic ">Circulation</span>
@@ -201,7 +202,7 @@ ul.task-list li input[type="checkbox"] {
       DOI
     </a>
   </li>
-  <li data-index="1" data-categories="computer vision,deep learning,machine learning,CNN,RNN,classification,critical care,microcirculation,The Alan Turing Institute" data-listing-file-modified-sort="1668596568317" data-listing-reading-time-sort="1.32">
+  <li data-index="1" data-categories="computer vision,deep learning,machine learning,CNN,RNN,classification,critical care,microcirculation,The Alan Turing Institute" data-listing-file-modified-sort="1668596944141" data-listing-reading-time-sort="1.32">
     <span class="listing-title lead">Automating perfusion assessment of sublingual microcirculation in critical illness</span><br>
     <span class="listing-author">Chris Tomlinson, Jan Grols, Ramit Debnath, Sarah Johnson, Max Barton, Tianyu Han, Seyedeh Nazanin Khatami, Giacomo Baldo, Aniketh Ramesh, Diego Cammarano, Kashif Rajpoot</span><br>
     <span class="listing-publication fst-italic ">The Alan Turing Institute</span>
@@ -213,7 +214,7 @@ ul.task-list li input[type="checkbox"] {
       DOI
     </a>
   </li>
-  <li data-index="2" data-categories="COVID-19,EHR,phenomics,epidemiology,linkage,HDR UK,BHF Data Science Centre" data-listing-file-modified-sort="1668596568317" data-listing-reading-time-sort="2.27">
+  <li data-index="2" data-categories="COVID-19,EHR,phenomics,epidemiology,linkage,HDR UK,BHF Data Science Centre" data-listing-file-modified-sort="1668596944141" data-listing-reading-time-sort="2.27">
     <span class="listing-title lead">COVID-19 trajectories among 57 million adults in England: a cohort study using electronic health records</span><br>
     <span class="listing-author">Johan H Thygesen, Chris Tomlinson, Sam Hollings, Mehrdad Mizani, Alex Handy, Ashley Akbari, Amitava Banerjee, Jennifer Cooper, Alvina Lai, Ken Li, Bilal Mateen, Naveed Sattar, Reecha Sofat, Ana Torralbo, Honghan Wu, Angela Wood, Jonathan A C Sterne, Christina Pagel, William Whiteley, Cathie Sudlow, Harry Hemingway, Spiros Denaxas, on behalf of the CVD-COVID-UK Consortium</span><br>
     <span class="listing-publication fst-italic ">Lancet Digital Health</span>
@@ -225,7 +226,7 @@ ul.task-list li input[type="checkbox"] {
       DOI
     </a>
   </li>
-  <li data-index="3" data-categories="clinical trials,critical care,causal inference,journal article" data-listing-file-modified-sort="1668596568317" data-listing-reading-time-sort="1.46">
+  <li data-index="3" data-categories="clinical trials,critical care,causal inference,journal article" data-listing-file-modified-sort="1668596944141" data-listing-reading-time-sort="1.46">
     <span class="listing-title lead">Clinician preference instrumental variable analysis of the effectiveness of magnesium supplementation for atrial fibrillation prophylaxis in critical care</span><br>
     <span class="listing-author">Wilson MG, Rashan A, Klapaukh R, Asselbergs FW, Harris SK</span><br>
     <span class="listing-publication fst-italic ">Scientific Reports</span>
@@ -237,7 +238,7 @@ ul.task-list li input[type="checkbox"] {
       DOI
     </a>
   </li>
-  <li data-index="4" data-categories="COVID-19,EHR,linkage,ethnicity,diversity,fairness,HDR UK,BHF Data Science Centre" data-listing-file-modified-sort="1668596568317" data-listing-reading-time-sort="1.855">
+  <li data-index="4" data-categories="COVID-19,EHR,linkage,ethnicity,diversity,fairness,HDR UK,BHF Data Science Centre" data-listing-file-modified-sort="1668596944141" data-listing-reading-time-sort="1.855">
     <span class="listing-title lead">Digital ethnicity data in population-wide electronic health records in England: a description of completeness, coverage, and granularity of diversity</span><br>
     <span class="listing-author">Marta Pineda-Moncusí, Freya Allery, Antonella Delmestri, Thomas Bolton, John Nolan, Johan Thygesen, Alex Handy, Amitava Banerjee, Spiros Denaxas, Christopher Tomlinson, Alastair K Denniston, Cathie Sudlow, Ashley Akbari, Angela Wood, Gary S Collins, Irene Petersen, Kamlesh Khunti, Daniel Prieto-Alhambra, Sara Khalid, on behalf of the CVD-COVID-UK Consortium</span><br>
     <span class="listing-publication fst-italic ">medRxiv</span>
@@ -249,7 +250,31 @@ ul.task-list li input[type="checkbox"] {
       DOI
     </a>
   </li>
-  <li data-index="5" data-categories="COVID-19,EHR,linkage,deep learning,machine learning,transformers,risk prediction,HDR UK,BHF Data Science Centre" data-listing-file-modified-sort="1668596568317" data-listing-reading-time-sort="0.955">
+  <li data-index="5" data-categories="eye tracking,blink detection" data-listing-file-modified-sort="1668596944137" data-listing-reading-time-sort="0.925">
+    <span class="listing-title lead">Faster, Better Blink Detection through Curriculum Learning by Augmentation</span><br>
+    <span class="listing-author">Al-Hindawi A, Vizcaychipi M, Demiris Y</span><br>
+    <span class="listing-publication fst-italic ">ETRA</span>
+    <span class="listing-year">(2022)</span><br>
+    <a href="./publications/articles/alhindawi_2022a.html" class="btn btn-primary">
+      Details
+    </a>
+    <a href="https://doi.org/10.1145/3517031.3529617" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+      DOI
+    </a>
+  </li>
+  <li data-index="6" data-categories="eye tracking,gaze-scene intersection,point of regard estimation,real-time inference" data-listing-file-modified-sort="1668596944137" data-listing-reading-time-sort="0.77">
+    <span class="listing-title lead">What Is The Patient Looking At? Robust Gaze-Scene Intersection Under Free-Viewing Conditions</span><br>
+    <span class="listing-author">Al-Hindawi A, Vizcaychipi M, Demiris Y</span><br>
+    <span class="listing-publication fst-italic ">ICASSP</span>
+    <span class="listing-year">(2022)</span><br>
+    <a href="./publications/articles/alhindawi_2022b.html" class="btn btn-primary">
+      Details
+    </a>
+    <a href="https://doi.org/10.1109/ICASSP43922.2022.9746437" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+      DOI
+    </a>
+  </li>
+  <li data-index="7" data-categories="COVID-19,EHR,linkage,deep learning,machine learning,transformers,risk prediction,HDR UK,BHF Data Science Centre" data-listing-file-modified-sort="1668596944141" data-listing-reading-time-sort="0.955">
     <span class="listing-title lead">A nationwide deep learning pipeline to predict stroke and COVID-19 death in atrial fibrillation</span><br>
     <span class="listing-author">Alex Handy, Angela Wood, Cathie Sudlow, Chris Tomlinson, Frank Kee, Johan H Thygesen, Mohammad Mamouei, Reecha Sofat, Richard Dobson, Samantha Ip, Spiros Denaxas, on behalf of the CVD-COVID-UK Consortium</span><br>
     <span class="listing-publication fst-italic ">medRxiv</span>
@@ -261,7 +286,19 @@ ul.task-list li input[type="checkbox"] {
       DOI
     </a>
   </li>
-  <li data-index="6" data-categories="COVID-19,EHR,epidemiology,vaccination,paediatrics,HDR UK,BHF Data Science Centre" data-listing-file-modified-sort="1668596568317" data-listing-reading-time-sort="1.815">
+  <li data-index="8" data-categories="eye tracking,real-time inference" data-listing-file-modified-sort="1668596944137" data-listing-reading-time-sort="1.145">
+    <span class="listing-title lead">Continuous Non-Invasive Eye Tracking In Intensive Care</span><br>
+    <span class="listing-author">Al-Hindawi A, Vizcaychipi M, Demiris Y</span><br>
+    <span class="listing-publication fst-italic ">EMBC</span>
+    <span class="listing-year">(2021)</span><br>
+    <a href="./publications/articles/alhindawi_2021a.html" class="btn btn-primary">
+      Details
+    </a>
+    <a href="https://doi.org/10.1109/EMBC46164.2021.9630999" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+      DOI
+    </a>
+  </li>
+  <li data-index="9" data-categories="COVID-19,EHR,epidemiology,vaccination,paediatrics,HDR UK,BHF Data Science Centre" data-listing-file-modified-sort="1668596944137" data-listing-reading-time-sort="1.815">
     <span class="listing-title lead">Vaccinating adolescents against SARS-CoV-2 in England: a risk–benefit analysis</span><br>
     <span class="listing-author">Gurdasani D, Bhatt S, Costello A, Denaxas S, Flaxman S, Greenhalgh T, Griffin S, Hyde Z, Katzourakis A, McKee M, Michie S, Ratmann O, Reicher S, Scally G, Tomlinson C, Yates C, Ziauddeen H &amp; Pagel C</span><br>
     <span class="listing-publication fst-italic ">Journal of the Royal Society of Medicine</span>
@@ -273,7 +310,7 @@ ul.task-list li input[type="checkbox"] {
       DOI
     </a>
   </li>
-  <li data-index="7" data-categories="NIHR Health Informatics Collaborative - Critical Care,mechanical ventilation,audit,proceeding" data-listing-file-modified-sort="1668596568317" data-listing-reading-time-sort="1.705">
+  <li data-index="10" data-categories="NIHR Health Informatics Collaborative - Critical Care,mechanical ventilation,audit,proceeding" data-listing-file-modified-sort="1668596944141" data-listing-reading-time-sort="1.705">
     <span class="listing-title lead">Lung protective mechanical ventilation for acute respiratory failure is not being implemented in UK clinical practice</span><br>
     <span class="listing-author">Samanta R, Dixit A, Harris S, et al</span><br>
     <span class="listing-publication fst-italic ">Core outcomes for mechanical ventilation</span>
@@ -289,6 +326,9 @@ ul.task-list li input[type="checkbox"] {
 <div class="listing-no-matching d-none">
 No matching items
 </div>
+<nav id="articles-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div>
 
 
