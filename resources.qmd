@@ -1,5 +1,5 @@
 ---
-pagetitle: "Resources | AffCom Lab"
+pagetitle: "Resources | UCL Health Algorithm Lab"
 toc: true
 ---
 
