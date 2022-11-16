@@ -2,18 +2,28 @@
 pagetitle: "People | UCL Health Algorithms Laboratory"
 toc: false
 listing:
-  - id: research-staff
-    contents: "people/staff/*.qmd"
+  - id: academic
+    contents: "people/academic/*.qmd"
     type: grid
-    image-height: 350px
-    grid-columns: 2
+    image-height: 225px
+    grid-columns: 3
     fields: [image, title, subtitle]
     grid-item-align: center
     sort: sortby
     field-display-names: 
       started: "Started"
-  - id: research-assistants
-    contents: "people/ras/*.qmd"
+  - id: clinical
+    contents: "people/clinical/*.qmd"
+    type: grid
+    image-height: 225px
+    grid-columns: 3
+    sort: sortby
+    fields: [image, title, subtitle, started]
+    field-display-names: 
+      started: "Started"
+    grid-item-align: center
+  - id: associate
+    contents: "people/associate/*.qmd"
     type: grid
     image-height: 225px
     grid-columns: 3
@@ -28,7 +38,7 @@ listing:
     sort: sortby
     fields: [title, subtitle, started, ended]
     sort-ui: [title, subtitle, started, ended]
-    filter-ui: [title, subtitle, started, ended]
+    # filter-ui: [title, subtitle, started, ended]
     field-display-names: 
       title: "Name"
       subtitle: "Role"
@@ -46,17 +56,24 @@ listing:
 ```
 
 
-## Research Staff
+## Academic members
 
-:::{#research-staff}
+:::{#academic}
 :::
 
-## Research Assistants
+## Clinical members
 
-:::{#research-assistants}
+:::{#clinical}
+:::
+
+## Associate members
+
+:::{#associate}
 :::
 
 ## Alumni
 
 :::{#alumni}
 :::
+
+
