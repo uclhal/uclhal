@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Kohler K, Ercole A">
 
-<title>News | UCL Health Algorithms Laboratory</title>
+<title>UCL Health Algorithms Laboratory - Can network science reveal structure in a complex healthcare system? A network analysis using data from emergency surgical services</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +24,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -60,49 +59,19 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">UCL Health Algorithms Laboratory</span>
     </a>
   </div>
@@ -112,31 +81,31 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./news.html" aria-current="page">
+    <a class="nav-link" href="../../news.html">
  <span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./people.html">
+    <a class="nav-link" href="../../people.html">
  <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html">
+    <a class="nav-link" href="../../research.html">
  <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publications.html">
+    <a class="nav-link" href="../../publications.html">
  <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./resources.html">
+    <a class="nav-link" href="../../resources.html">
  <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./opportunities.html">
+    <a class="nav-link" href="../../opportunities.html">
  <span class="menu-text">Opportunities</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contact.html">
+    <a class="nav-link" href="../../contact.html">
  <span class="menu-text">Contact</span></a>
   </li>  
 </ul>
@@ -149,71 +118,68 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="awards">awards <span class="quarto-category-count">(1)</span></div><div class="category" data-category="emap">emap <span class="quarto-category-count">(1)</span></div><div class="category" data-category="hdr-uk">hdr-uk <span class="quarto-category-count">(1)</span></div><div class="category" data-category="news">news <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Can network science reveal structure in a complex healthcare system? A network analysis using data from emergency surgical services</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">network science</div>
+    <div class="quarto-category">peri-operative care</div>
+    <div class="quarto-category">emergency surgery</div>
+    <div class="quarto-category">journal article</div>
+  </div>
+  </div>
 
 
-<nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-    <li class="breadcrumb-item active" aria-current="page">News</li>
-  </ol>
-</nav>
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Kohler K, Ercole A </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/https://doi.org/10.1136/bmjopen-2019-034265">https://doi.org/10.1136/bmjopen-2019-034265</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+</header>
+
+<section id="citation-apa-7" class="level2">
+<h2 class="anchored" data-anchor-id="citation-apa-7">Citation (APA 7)</h2>
+<blockquote class="blockquote">
+<p>Kohler K, Ercole A Can network science reveal structure in a complex healthcare system? A network analysis using data from emergency surgical services BMJ Open 2020;10:e034265. doi: 10.1136/bmjopen-2019-034265</p>
+</blockquote>
+</section>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Abstract: Introduction Hospitals are complex systems and optimising their function is critical to the provision of high quality, cost effective healthcare. Metrics of performance have to date focused on the performance of individual elements rather than the whole system. Manipulation of individual elements of a complex system without an integrative understanding of its function is undesirable and may lead to counterintuitive outcomes and a holistic metric of hospital function might help design more efficient services.</p>
+<p>Objectives: We aimed to use network analysis to characterise the structure of the system of perioperative care for emergency surgical admissions in our tertiary care hospital.</p>
+<p>Design: We constructed a weighted directional network representation of the emergency surgical services using patient location data from electronic health records.</p>
+<p>Setting: A single-centre tertiary care hospital in the UK.</p>
+<p>Participants: We selected data from the retrospective electronic health record data of all unplanned admissions with a surgical intervention during their stay during a 3.5-year period, which resulted in a set of 16 500 individual admissions.</p>
+<p>Methods: We then constructed and analysed the structure of this network using established methods from network science such as degree distribution, betweenness centrality and small-world characteristics.</p>
+<p>Results: The analysis showed the service to be a complex system with scale-free, small-world network properties. We also identified such potential hubs and bottlenecks in the system.</p>
+<p>Conclusions: Our holistic, system-wide description of a hospital service may provide tools to inform service improvement initiatives and gives us insights into the architecture of a complex system of care. The implications for the structure and resilience of the service is that while being robust in general, the system may be vulnerable to outages at specific key nodes.</p>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="news,awards,emap,hdr-uk" data-listing-date-sort="1640044800000" data-listing-file-modified-sort="1668599081304" data-listing-reading-time-sort="0.915">
-<div class="body">
-<a href="./posts/hdruk-award-2021/index.html">
-<h3 class="no-anchor listing-title">
-HDR-UK Team of the Year Finalist
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
-news
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('awards'); return false;">
-awards
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('emap'); return false;">
-emap
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('hdr-uk'); return false;">
-hdr-uk
-</div>
-</div>
-<a href="./posts/hdruk-award-2021/index.html">
-<div class="listing-description">
-<p>Data science platform supports COVID bed management across North London Critical Care units</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/hdruk-award-2021/index.html">
-<div class="listing-date">
-Dec 21, 2021
-</div>
-<div class="listing-author">
-Steve Harris
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
