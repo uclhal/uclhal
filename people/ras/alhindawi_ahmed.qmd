@@ -1,0 +1,41 @@
+---
+title: "Ahmed Al-Hindawi"
+sortby: "Al-Hindawi, Ahmed"
+subtitle: "Post-Doctoral Researcher"
+image: ahmed_profile.jpeg
+started: "2020"
+toc: false
+
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: github
+      text: github
+      href: https://github.com/ahmed-alhindawi
+    - icon: twitter
+      text: twitter
+      href: https://www.twitter.com/aalhindawi
+    - text: "{{< ai google-scholar >}} Google Scholar"
+      href: https://scholar.google.com/citations?user=hqSh1CEAAAAJ&hl=en
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/ahmed-al-hindawi-381386119/
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../people.html">People</a></li>
+    <li class="breadcrumb-item active">Research Staff</li>
+    <li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li>
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+## Biography
+Ahmed Al-Hindawi is an NHS Critical Care Doctor and NIHR Academic Clinical Fellow at the UCL Bloomsbury Institute of Intensive Care. He is interested in novel physiological measurement utilising the latest in AI, machine learning, and domain specialisation in critical care. His Ph.D. at Imperial College London focused on the development and validation of a novel state-of-the-art AI-based eye tracker. This facilitated the exploration of eye-movements for the diagnosis of delirium in critical care.
