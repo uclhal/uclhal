@@ -1,8 +1,8 @@
 ---
 title: "Sarah Vaughan"
 sortby: "Vaughan, Sarah"
-subtitle: "Clinical Research Fellow"
-image: sarah_photo.JPG
+subtitle: "Clinical Fellow in Data Science & Critical Care"
+image: vaughan_sarah.JPG
 started: "August 2022"
 toc: false
 # resources: 
@@ -18,7 +18,7 @@ about:
   <ol class="breadcrumb">
     <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
     <li class="breadcrumb-item"><a href="../../people.html">People</a></li>
-    <li class="breadcrumb-item active">Research Staff</li>
+    <!-- <li class="breadcrumb-item active">Clinical Members</li> -->
     <li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li>
   </ol>
 </nav>

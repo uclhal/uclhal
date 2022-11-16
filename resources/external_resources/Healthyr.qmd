@@ -1,0 +1,18 @@
+---
+title: "HealthyR: R for Health Data Science"
+description: "Free online learning resource for R. Designed for healthcare professionals."
+author: "Ruaraidh Campbell"
+date: "2022-11-16"
+draft: false
+
+categories:
+  - external_resources
+---
+
+**R for Health Data Science**
+<https://argoshare.is.ed.ac.uk/healthyr_book/>
+
+A great *free* beginner introduction to R for healthcare professionals!  
+
+Created by Prof Ewan Harrison (a professor of Surgical & Data Science at Edinburgh University), this course takes you from an absolute beginner, with topics such as "what is R?" & "how to install it", through to running your own regression analyses and producing plots!
+

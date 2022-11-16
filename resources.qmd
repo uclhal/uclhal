@@ -1,29 +1,22 @@
 ---
-pagetitle: "Resources | UCL Health Algorithms Laboratory"
-toc: true
+pagetitle: "Resources | UCL Health Algorithm Lab"
+toc: false
+email-obfuscation: references
+listing:
+  type: table
+  contents: resources
+  sort: "date desc"
+  categories: true
+  fields: [title, description, categories]
 ---
 
-```{=html}
-<nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-    <li class="breadcrumb-item active" aria-current="page">Resources</li>
-  </ol>
-</nav>
-```
+# Resources
+Helpful [resources](resources.html) collated below:
 
-## Datasets
-
-- **CCHIC** (20xx)<br />
-  *Primary Article/Citation:* <https://jmgirard.com/pubs/girard2017d/><br />
-  *Website/Request Access:* <http://osf.io/7wcyz>
-  
-
-## Software
-
-  
-### Developing
-
-## Trainings
-
-## Videos
+* [Onboarding](#category=onboarding) information for UCL HAL 
+  * [**Start here!**](resources/onboarding/start.html)
+* What is [HYLODE](#category=hylode)?
+* An introduction to the [Data Clinic](#category=data_clinic)
+* [EPIC](#category=epic)-specific training
+* Curated [datasets](#category=datasets)
+* [External resources](#category=external_resources) that we have found helpful to learn data science
