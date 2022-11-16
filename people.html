@@ -63,7 +63,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-research-staff .list');
+    const listingTargetEl = window.document.querySelector('#listing-academic .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -76,7 +76,7 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-research-staff'] = new List('listing-research-staff', options);
+    window['quarto-listings']['listing-academic'] = new List('listing-academic', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -91,7 +91,7 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-research-assistants .list');
+    const listingTargetEl = window.document.querySelector('#listing-clinical .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -104,7 +104,35 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-research-assistants'] = new List('listing-research-assistants', options);
+    window['quarto-listings']['listing-clinical'] = new List('listing-clinical', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-associate .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-subtitle','listing-started',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-associate'] = new List('listing-associate', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -128,7 +156,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-title','listing-subtitle','listing-started','listing-ended',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: ["listing-title","listing-subtitle","listing-started","listing-ended"],
+      searchColumns: ["listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -168,16 +196,12 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./news.html">
- <span class="menu-text">News</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link active" href="./people.html" aria-current="page">
  <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html">
- <span class="menu-text">Research</span></a>
+    <a class="nav-link" href="./news.html">
+ <span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./publications.html">
@@ -186,10 +210,6 @@ ul.task-list li input[type="checkbox"] {
   <li class="nav-item">
     <a class="nav-link" href="./resources.html">
  <span class="menu-text">Resources</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./opportunities.html">
- <span class="menu-text">Opportunities</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./contact.html">
@@ -217,15 +237,15 @@ ul.task-list li input[type="checkbox"] {
     <li class="breadcrumb-item active" aria-current="page">People</li>
   </ol>
 </nav>
-<section id="research-staff" class="level2">
-<h2 class="anchored" data-anchor-id="research-staff">Research Staff</h2>
-<div id="listing-research-staff" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-2">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1668607989647" data-listing-reading-time-sort="0.74">
-<a href="./people/staff/harris_steve.html" class="quarto-grid-link">
+<section id="academic-members" class="level2">
+<h2 class="anchored" data-anchor-id="academic-members">Academic members</h2>
+<div id="listing-academic" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1668641720291" data-listing-reading-time-sort="0.75">
+<a href="./people/academic/harris_steve.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img src="./people/staff/steve_harris_avatar.jpg" class="thumbnail-image card-img" style="height: 350px;">
+<img src="./people/academic/harris_steve.jpg" class="thumbnail-image card-img" style="height: 225px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -238,21 +258,11 @@ Lab Director
 </div>
 </a>
 </div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-</section>
-<section id="research-assistants" class="level2">
-<h2 class="anchored" data-anchor-id="research-assistants">Research Assistants</h2>
-<div id="listing-research-assistants" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1668607989615" data-listing-reading-time-sort="0.545">
-<a href="./people/ras/alhindawi_ahmed.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1668641720291" data-listing-reading-time-sort="0.555">
+<a href="./people/academic/alhindawi_ahmed.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img src="./people/ras/ahmed_profile.jpeg" class="thumbnail-image card-img" style="height: 225px;">
+<img src="./people/academic/ahmed_profile.jpeg" class="thumbnail-image card-img" style="height: 225px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -261,27 +271,15 @@ Ahmed Al-Hindawi
 <div class="card-subtitle listing-subtitle">
 Post-Doctoral Researcher
 </div>
-
-<table class="card-other-values">
-<tbody><tr>
-<td>
-Started
-</td>
-<td class="started">
-2020
-</td>
-</tr>
-
-</tbody></table>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1668607989615" data-listing-reading-time-sort="0.18">
-<a href="./people/ras/claire_black.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1668641720291" data-listing-reading-time-sort="0.19">
+<a href="./people/academic/claire_black.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img src="./people/ras/CB_photo.jpg" class="thumbnail-image card-img" style="height: 225px;">
+<img src="./people/academic/CB_photo.jpg" class="thumbnail-image card-img" style="height: 225px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -290,27 +288,127 @@ Claire Black
 <div class="card-subtitle listing-subtitle">
 Post Doctoral Researcher
 </div>
-
-<table class="card-other-values">
-<tbody><tr>
-<td>
-Started
-</td>
-<td class="started">
-September 2020
-</td>
-</tr>
-
-</tbody></table>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1668607989643" data-listing-reading-time-sort="0.535">
-<a href="./people/ras/ruaraidh_campbell.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1668641720291" data-listing-reading-time-sort="0.715">
+<a href="./people/academic/catling_finn.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img src="./people/ras/ruaraidh_campbell.jpg" class="thumbnail-image card-img" style="height: 225px;">
+<img src="./people/academic/catling_finn.jpg" class="thumbnail-image card-img" style="height: 225px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Finn Catling
+</h5>
+<div class="card-subtitle listing-subtitle">
+Clinical PhD Fellow
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1668641720311" data-listing-reading-time-sort="0.795">
+<a href="./people/academic/thomasfrostpage.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img src="./people/academic/thomasfrost.jpg" class="thumbnail-image card-img" style="height: 225px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Thomas Frost
+</h5>
+<div class="card-subtitle listing-subtitle">
+PhD Student
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1668641720299" data-listing-reading-time-sort="1.54">
+<a href="./people/academic/kohler_katharina.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img src="./people/academic/katharina.jpg" class="thumbnail-image card-img" style="height: 225px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Katharina Kohler
+</h5>
+<div class="card-subtitle listing-subtitle">
+Post-doctoral Researcher
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="6" data-listing-file-modified-sort="1668641720311" data-listing-reading-time-sort="0.71">
+<a href="./people/academic/rashan_aasiyah.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<div class="card-img-bg" style="height: 225px;">
+&nbsp;
+</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Aasiyah Rashan
+</h5>
+<div class="card-subtitle listing-subtitle">
+PhD Student
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="7" data-listing-file-modified-sort="1668641720311" data-listing-reading-time-sort="0.78">
+<a href="./people/academic/tomlinson_chris.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<div class="card-img-bg" style="height: 225px;">
+&nbsp;
+</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Chris Tomlinson
+</h5>
+<div class="card-subtitle listing-subtitle">
+PhD Student
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="8" data-listing-file-modified-sort="1668641720311" data-listing-reading-time-sort="0.72">
+<a href="./people/academic/wilson_matt.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img src="./people/academic/matt.jpg" class="thumbnail-image card-img" style="height: 225px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Matt Wilson
+</h5>
+<div class="card-subtitle listing-subtitle">
+PhD Student
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="clinical-members" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-members">Clinical members</h2>
+<div id="listing-clinical" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1668641720319" data-listing-reading-time-sort="0.545">
+<a href="./people/clinical/ruaraidh_campbell.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img src="./people/clinical/ruaraidh_campbell.jpg" class="thumbnail-image card-img" style="height: 225px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -335,163 +433,18 @@ August 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1668607989615" data-listing-reading-time-sort="0.705">
-<a href="./people/ras/catling_finn.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1668641720319" data-listing-reading-time-sort="0.645">
+<a href="./people/clinical/hrishee_vaidya.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img src="./people/ras/catling_finn.jpg" class="thumbnail-image card-img" style="height: 225px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Finn Catling
-</h5>
-<div class="card-subtitle listing-subtitle">
-Clinical PhD Fellow
-</div>
-
-<table class="card-other-values">
-<tbody><tr>
-<td>
-Started
-</td>
-<td class="started">
-October 2020
-</td>
-</tr>
-
-</tbody></table>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1668607989647" data-listing-reading-time-sort="0.785">
-<a href="./people/ras/thomasfrostpage.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top">
-<img src="./people/ras/thomasfrost.jpg" class="thumbnail-image card-img" style="height: 225px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Thomas Frost
-</h5>
-<div class="card-subtitle listing-subtitle">
-PhD Student
-</div>
-
-<table class="card-other-values">
-<tbody><tr>
-<td>
-Started
-</td>
-<td class="started">
-September 2022
-</td>
-</tr>
-
-</tbody></table>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1668607989631" data-listing-reading-time-sort="1.53">
-<a href="./people/ras/kohler_katharina.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top">
-<img src="./people/ras/katharina.jpg" class="thumbnail-image card-img" style="height: 225px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Katharina Kohler
-</h5>
-<div class="card-subtitle listing-subtitle">
-Post-doctoral Researcher
-</div>
-
-<table class="card-other-values">
-<tbody><tr>
-<td>
-Started
-</td>
-<td class="started">
-September 2022
-</td>
-</tr>
-
-</tbody></table>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="6" data-listing-file-modified-sort="1668607989639" data-listing-reading-time-sort="0.7">
-<a href="./people/ras/rashan_aasiyah.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<div class="card-img-bg" style="height: 225px;">
-&nbsp;
-</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Aasiyah Rashan
-</h5>
-<div class="card-subtitle listing-subtitle">
-PhD Student
-</div>
-
-<table class="card-other-values">
-<tbody><tr>
-<td>
-Started
-</td>
-<td class="started">
-September 2020
-</td>
-</tr>
-
-</tbody></table>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="7" data-listing-file-modified-sort="1668607989647" data-listing-reading-time-sort="0.77">
-<a href="./people/ras/tomlinson_chris.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top">
-<img src="./people/ras/girard_jeffrey.jpg" class="thumbnail-image card-img" style="height: 225px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Chris Tomlinson
-</h5>
-<div class="card-subtitle listing-subtitle">
-PhD Student
-</div>
-
-<table class="card-other-values">
-<tbody><tr>
-<td>
-Started
-</td>
-<td class="started">
-September 2020
-</td>
-</tr>
-
-</tbody></table>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="8" data-listing-file-modified-sort="1668607989615" data-listing-reading-time-sort="0.635">
-<a href="./people/ras/hrishee.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top">
-<img src="./people/ras/hrishee1.jpg" class="thumbnail-image card-img" style="height: 225px;">
+<img src="./people/clinical/hrishee_vaidya.jpg" class="thumbnail-image card-img" style="height: 225px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Hrisheekesh Vaidya
 </h5>
 <div class="card-subtitle listing-subtitle">
-Data Science Fellow
+Clinical Fellow in Data Science &amp; Critical Care
 </div>
 
 <table class="card-other-values">
@@ -509,18 +462,18 @@ August 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="9" data-listing-file-modified-sort="1668607989647" data-listing-reading-time-sort="0.645">
-<a href="./people/ras/vaughan_sarah.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1668641720323" data-listing-reading-time-sort="0.655">
+<a href="./people/clinical/vaughan_sarah.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img src="./people/ras/sarah_photo.JPG" class="thumbnail-image card-img" style="height: 225px;">
+<img src="./people/clinical/vaughan_sarah.JPG" class="thumbnail-image card-img" style="height: 225px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Sarah Vaughan
 </h5>
 <div class="card-subtitle listing-subtitle">
-Clinical Research Fellow
+Clinical Fellow in Data Science &amp; Critical Care
 </div>
 
 <table class="card-other-values">
@@ -538,18 +491,28 @@ August 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="10" data-listing-file-modified-sort="1668607989647" data-listing-reading-time-sort="0.71">
-<a href="./people/ras/wilson_matt.html" class="quarto-grid-link">
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="associate-members" class="level2">
+<h2 class="anchored" data-anchor-id="associate-members">Associate members</h2>
+<div id="listing-associate" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1668641720311" data-listing-reading-time-sort="0.19">
+<a href="./people/associate/daniel_hanlon.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top">
-<img src="./people/ras/matt.jpg" class="thumbnail-image card-img" style="height: 225px;">
-</p>
+<div class="card-img-bg" style="height: 225px;">
+&nbsp;
+</div>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Matt Wilson
+Daniel Hanlon
 </h5>
 <div class="card-subtitle listing-subtitle">
-PhD Student
+Visiting Student
 </div>
 
 <table class="card-other-values">
@@ -558,7 +521,7 @@ PhD Student
 Started
 </td>
 <td class="started">
-September 2018
+August 2022
 </td>
 </tr>
 
@@ -620,7 +583,7 @@ No matching items
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-listing-file-modified-sort="1668607989611" data-listing-reading-time-sort="0.315" data-listing-title-sort="Danny Wong" data-listing-filename-sort="wong_danny.qmd">
+<tr data-index="0" data-listing-file-modified-sort="1668641720311" data-listing-reading-time-sort="0.325" data-listing-title-sort="Danny Wong" data-listing-filename-sort="wong_danny.qmd">
 <td class="listing-title">
 <a href="./people/alumni/wong_danny.html" class="title">Danny Wong</a>
 </td>
