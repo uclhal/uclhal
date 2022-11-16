@@ -1,0 +1,30 @@
+---
+pagetitle: "Opportunities | AffCom Lab"
+toc: true
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Opportunities</li>
+  </ol>
+</nav>
+```
+
+## For Undergraduate Students
+The lab is frequently home to undergraduate students ... 
+
+<!-- Undergraduate students work as **research assistants**, learning about the scientific method and assisting in the collection and processing of research data. Many enroll in PSYC 480 and receive **credit hours** for this work. Research assistants attend weekly lab meetings and can expect a **letter of recommendation** from **** describing their work in and contributions to the lab (please give one month of advanced notice). Opportunities to earn **co-authorship** on research products (e.g., conference presentations) are also occasionally offered to advanced research assistants. -->
+
+
+```{=html}
+<a href="mailto:steve.harris@ucl.ac.uk" class="btn btn-primary rounded-pill">Apply to be a Research Assistant</a>
+```
+
+## For Prospective Graduate Students
+
+...
+
+## For Prospective Postdocs and Staff
+Postdoctoral fellowships and other staff positions in the lab will be made available as funding permits. Please check the [News](news.qmd) page for more information.

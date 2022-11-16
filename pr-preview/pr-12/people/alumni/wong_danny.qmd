@@ -1,0 +1,31 @@
+---
+title: "Danny Wong"
+sortby: "Wong, Danny"
+subtitle: "Doctoral Candidate"
+# image: placeholder.png
+started: "2015"
+ended: "2019"
+toc: false
+about:
+  id: person-profile
+  template: jolla
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../people.html">People</a></li>
+    <li class="breadcrumb-item active">Alumni</li>
+    <li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li>
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+
+- Consultant Anaesthetist, Guys & St Thomas' NHS Foundation Trust
+- PhD at National Institute of Academic Anaesthesia Health Services Research Centre, Royal College of Anaesthetists & UCL
+- Personal [blog](https://dannyjnwong.github.io)
+
+:::
