@@ -1,5 +1,5 @@
 ---
-pagetitle: "Opportunities | AffCom Lab"
+pagetitle: "Opportunities | UCL Health Algorithms Laboratory"
 toc: true
 ---
 

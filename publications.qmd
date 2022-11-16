@@ -1,5 +1,5 @@
 ---
-pagetitle: "Publications | AffCom Lab"
+pagetitle: "Publications | UCL Health Algorithms Laboratory"
 toc: false
 listing:
   - id: articles
