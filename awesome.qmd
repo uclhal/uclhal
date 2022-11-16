@@ -2,7 +2,7 @@
 pagetitle: "Awesome links | UCL Health Algorithm Lab"
 toc: false
 listing:
-  contents: posts
+  contents: awesome_links
   sort: "date desc"
   type: default
   categories: true
