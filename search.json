@@ -238,6 +238,20 @@
     "text": "Biography\nMatt graduated from St Bartholomew’s and The Royal London Medical School in 2011 and works as an Anaesthetic registrar in London. He completed a MSc in Health Data Science in 2018 and is currently a final year PhD student at UCL funded through an MRC Doctoral Training Partnership grant.\nHis PhD is focused on creating a research pipeline for integrating randomised trials into routine clinical care by utilising modern electronic health record systems. This currently involves conducting observational analyses using natural experimental methods and investigating the feasibility of conducting digitally-enabled clinical trials to generate evidence from routine clinical practice in anaesthesia and critical care."
   },
   {
+    "objectID": "people/ras/kohler_katharina.html",
+    "href": "people/ras/kohler_katharina.html",
+    "title": "Katharina Kohler",
+    "section": "",
+    "text": "Home\n    People\n    Research Staff\n    Katharina Kohler"
+  },
+  {
+    "objectID": "people/ras/kohler_katharina.html#biography",
+    "href": "people/ras/kohler_katharina.html#biography",
+    "title": "Katharina Kohler",
+    "section": "Biography",
+    "text": "Biography\nI am an NIHR Research DSE Fellow working within the wider UCL Health Algorithms group. I am interested in peri-operative health systems both within the UK and a global health setting. My position as Locum Consultant in Anaesthesia at Cambridge University Hospitals gives me the clinical background to inform my research.\nCombining technical expertise in data science from my previous experience in physics research with my background in peri-operative medicine I am keen to discover the how aspects of health systems affect patient care quality and outcomes. I am particularly interested in analysing healthcare systems and resource usage both within the high-income data-rich environment of electronic health records and the low-income data-poor setting of low- and middle income (LMIC) acute care services. Within the data science setting I hope to employ quantitative methods from other areas of data science such as network analysis, machine learning and simulation to develop clinically founded models that allow us to understand strain/stress within healthcare systems and effectively target improvement and development in the peri-operative care.\nSome of my recent work published in a variety of journals:\nMulti-centre, international study on COVID-19 patients and the effects of treatment on the development of secondary infections\nSystems approach to improving traumatic brain injury care in Myanmar: a mixed-methods study from lived experience to discrete event simulation\nUse of network analysis to model the effects of the SARS Cov2 pandemic on acute patient care within a healthcare system\nNetwork science to investigate the structure of a complex healthcare system - a network analysis using data from emergency surgical services\nComputational model of cerebral oxygenation after traumatic brain injury and the implications for Rescuing Hypoxic Tissue"
+  },
+  {
     "objectID": "people/ras/hrishee.html",
     "href": "people/ras/hrishee.html",
     "title": "Hrisheekesh Vaidya",
@@ -333,7 +347,7 @@
     "href": "people.html#research-assistants",
     "title": "UCL Health Algorithms Laboratory",
     "section": "Research Assistants",
-    "text": "Research Assistants\n\n\n\n\n\n\n\n\n\n\nAhmed Al-Hindawi\n\n\nPost-Doctoral Researcher\n\n\n\n\n\nStarted\n\n\n2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRuaraidh Campbell\n\n\nClinical Fellow in Data Science & Critical Care\n\n\n\n\n\nStarted\n\n\nAugust 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFinn Catling\n\n\nClinical PhD Fellow\n\n\n\n\n\nStarted\n\n\nOctober 2020\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\nAasiyah Rashan\n\n\nPhD Student\n\n\n\n\n\nStarted\n\n\nSeptember 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChris Tomlinson\n\n\nPhD Student\n\n\n\n\n\nStarted\n\n\nSeptember 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHrisheekesh Vaidya\n\n\nData Science Fellow\n\n\n\n\n\nStarted\n\n\nAugust 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSarah Vaughan\n\n\nClinical Research Fellow\n\n\n\n\n\nStarted\n\n\nAugust 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMatt Wilson\n\n\nPhD Student\n\n\n\n\n\nStarted\n\n\nSeptember 2018\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Research Assistants\n\n\n\n\n\n\n\n\n\n\nAhmed Al-Hindawi\n\n\nPost-Doctoral Researcher\n\n\n\n\n\nStarted\n\n\n2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRuaraidh Campbell\n\n\nClinical Fellow in Data Science & Critical Care\n\n\n\n\n\nStarted\n\n\nAugust 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFinn Catling\n\n\nClinical PhD Fellow\n\n\n\n\n\nStarted\n\n\nOctober 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKatharina Kohler\n\n\nPost-doctoral Researcher\n\n\n\n\n\nStarted\n\n\nSeptember 2022\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\nAasiyah Rashan\n\n\nPhD Student\n\n\n\n\n\nStarted\n\n\nSeptember 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChris Tomlinson\n\n\nPhD Student\n\n\n\n\n\nStarted\n\n\nSeptember 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHrisheekesh Vaidya\n\n\nData Science Fellow\n\n\n\n\n\nStarted\n\n\nAugust 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSarah Vaughan\n\n\nClinical Research Fellow\n\n\n\n\n\nStarted\n\n\nAugust 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMatt Wilson\n\n\nPhD Student\n\n\n\n\n\nStarted\n\n\nSeptember 2018\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "people.html#alumni",
