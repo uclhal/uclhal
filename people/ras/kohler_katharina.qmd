@@ -1,0 +1,55 @@
+---
+title: "Katharina Kohler"
+sortby: "Kohler, Katharina"
+subtitle: "Post-doctoral Researcher"
+image: katharina.jpg
+started: "September 2022"
+toc: false
+# resources: 
+#   - "your_cv.pdf"
+about:
+  id: person-profile
+  template: jolla
+  links:
+    # Note fas & ai packs use -text: instead of - icon:
+    # See: https://github.com/quarto-ext/fontawesome/issues/6#issuecomment-1188620081
+    - icon: twitter
+      text: Twitter
+      href: https://www.twitter.com/KatharinaKohle4
+    - text: "{{< ai google-scholar >}} Google Scholar"
+      href: https://scholar.google.co.uk/citations?hl=en&authuser=3&user=kdn1BcoAAAAJ
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../people.html">People</a></li>
+    <li class="breadcrumb-item active">Research Staff</li>
+    <li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li>
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+## Biography
+
+I am an NIHR Research DSE Fellow working within the wider UCL Health Algorithms group. I am interested in peri-operative health systems both within the UK and a global health setting. My position as Locum Consultant in Anaesthesia at Cambridge University Hospitals gives me the clinical background to inform my research.
+
+Combining technical expertise in data science from my previous experience in physics research with my background in peri-operative medicine I am keen to discover the how aspects of health systems affect patient care quality and outcomes. I am particularly interested in analysing healthcare systems and resource usage both within the high-income data-rich environment of electronic health records and the low-income data-poor setting of low- and middle income (LMIC) acute care services. Within the data science setting I hope to employ quantitative methods from other areas of data science such as network analysis, machine learning and simulation to develop clinically founded models that allow us to understand strain/stress within healthcare systems and effectively target improvement and development in the peri-operative care.
+
+
+Some of my recent work published in a variety of journals:
+
+[Multi-centre, international study on COVID-19 patients and the effects of treatment on the development of secondary infections](https://ccforum.biomedcentral.com/articles/10.1186/s13054-022-04108-8)
+
+[Systems approach to improving traumatic brain injury care in Myanmar: a mixed-methods study from lived experience to discrete event simulation](https://bmjopen.bmj.com/content/12/5/e059935.long)
+
+[Use of network analysis to model the effects of the SARS Cov2 pandemic on acute patient care within a healthcare system](https://www.nature.com/articles/s41598-022-14261-3)
+
+[Network science to investigate the structure of a complex healthcare system - a network analysis using data from emergency surgical services ](https://bmjopen.bmj.com/content/10/2/e034265)
+
+[Computational model of cerebral oxygenation after traumatic brain injury and the implications for Rescuing Hypoxic Tissue](https://www.liebertpub.com/doi/10.1089/neu.2018.6187)
+---
