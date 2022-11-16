@@ -5,7 +5,7 @@ author: "Kohler K, Ercole A"
 year: "2020"
 publication: "BMJ Open"
 
-doi: "https://bmjopen.bmj.com/content/10/2/e034265"
+doi: "https://doi.org/10.1136/bmjopen-2019-034265"
 
 toc: false
 categories:

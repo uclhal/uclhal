@@ -1,11 +1,11 @@
 ---
-title: "Can network science reveal structure in a complex healthcare system? A network analysis using data from emergency surgical services"
+title: "Systems approach to improving traumatic brain injury care in Myanmar: a mixed-methods study from lived experience to discrete event simulation"
 type: "article"
 author: "Katharina Kohler, Phyu Phyu Nwe Myint, Sein Wynn, Alexander Komashie, Robyn Winters, Myat Thu, Mu Mu Naing, Thinn Hlaing, Rowan Burnstein, Zaw Wai Soe, John Clarkson, David Menon, Peter John Hutchinson, Tom Bashford "
 year: "2022"
 publication: "BMJ Open"
 
-doi: "https://bmjopen.bmj.com/content/12/5/e059935"
+doi: "https://doi.org/10.1136/bmjopen-2021-059935"
 
 toc: false
 categories:
