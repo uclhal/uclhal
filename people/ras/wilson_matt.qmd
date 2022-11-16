@@ -1,7 +1,7 @@
 ---
 title: "Matt Wilson"
 subtitle: "PhD Student"
-image: Bio_Picture.jpg
+image: matt.jpg
 started: "September 2018"
 toc: false
 about:
