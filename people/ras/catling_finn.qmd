@@ -1,0 +1,54 @@
+---
+title: "Finn Catling"
+sortby: "Catling, Finn"
+subtitle: "Clinical PhD Fellow"
+image: catling_finn.jpg
+started: "October 2020"
+toc: false
+# resources: 
+#   - "your_cv.pdf"
+about:
+  id: person-profile
+  template: jolla
+  links:
+    # Note fas & ai packs use -text: instead of - icon:
+    # See: https://github.com/quarto-ext/fontawesome/issues/6#issuecomment-1188620081
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/FinnCatling
+    - text: "{{< ai researchgate >}} ResearchGate"
+      href: https://www.researchgate.net/profile/Finn_Catling
+    - text: "{{< ai google-scholar >}} Google Scholar"
+      href: https://scholar.google.com/citations?user=-7mYqgwAAAAJ&hl=en&oi=sra
+    - icon: github
+      text: GitHub
+      href: https://github.com/finncatling
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/finncatling
+    - icon: globe
+      text: Imperial
+      href: https://www.imperial.ac.uk/people/f.catling
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../people.html">People</a></li>
+    <li class="breadcrumb-item active">Research Staff</li>
+    <li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li>
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+## Biography
+
+I am an academic Anaesthetic and Critical Care doctor, and a Wellcome Trust 4i Clinical PhD Fellow at Imperial College London.
+
+My research aims at early diagnosis and improved treatment of critical illness, using methods from Bayesian statistics and machine learning. I am particularly interested in merging these methods with physiological models to provide bedside decision support, in disease heterogeneity, and in the role of uncertainty in clinical decision-making.
+
+My recent work includes uncertainty-aware mortality risk prediction for patients undergoing emergency laparotomy, representing ICU patients’ status using time-series data to predict clinical events, using structured knowledge for automated clinical coding and phenotyping ventilator-associated pneumonia in electronic health records.
