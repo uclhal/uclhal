@@ -21,6 +21,8 @@ website:
         text: Publications
       - href: resources.qmd
         text: Resources
+      - href: awesome.qmd
+        text: Awesome 
       - href: opportunities.qmd
         text: Opportunities
       - href: contact.qmd
