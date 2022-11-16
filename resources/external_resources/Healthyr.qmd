@@ -1,12 +1,12 @@
 ---
-title: "Healthyr: R for Health Data Science"
+title: "HealthyR: R for Health Data Science"
 description: "Free online learning resource for R. Designed for healthcare professionals."
 author: "Ruaraidh Campbell"
 date: "2022-11-16"
 draft: false
 
 categories:
-  - external-resources
+  - external_resources
 ---
 
 **R for Health Data Science**

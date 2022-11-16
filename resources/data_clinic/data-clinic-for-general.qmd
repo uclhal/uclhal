@@ -1,7 +1,11 @@
 ---
-title: "Data Clinic - For General Staff"
+title: "Data Clinic"
+description: "An introduction to the data clinic"
 author: "Ruaraidh Campbell"
+date: 2022-11-16
 toc: true
+categories: 
+     - data_clinic
 --- 
 
 # What is the 'Data Clinic'? 
