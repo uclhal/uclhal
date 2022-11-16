@@ -1,0 +1,43 @@
+---
+title: "Claire Black"
+sortby: "Black, Claire"
+subtitle: "Physiotherapist"
+image: CB_photo.jpg
+started: "Ages ago"
+toc: false
+# resources: 
+#   - "your_cv.pdf"
+about:
+  id: person-profile
+  template: jolla
+  links:
+    # Note fas & ai packs use -text: instead of - icon:
+    # See: https://github.com/quarto-ext/fontawesome/issues/6#issuecomment-1188620081
+    - icon: twitter
+      text: Twitter
+      href: https://www.twitter.com/cjblackphysio
+   #  - text: "{{< ai researchgate >}} ResearchGate"
+   #   href: https://www.researchgate.net/profile/Christopher-Tomlinson
+   #  - text: "{{< ai google-scholar >}} Google Scholar"
+    #   href: https://scholar.google.co.uk/citations?hl=en&authuser=3&user=NcKe1aEAAAAJ
+    - icon: github
+      text: GitHub
+      href: https://github.com/clairejblack
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../people.html">People</a></li>
+    <li class="breadcrumb-item active">Research Staff</li>
+    <li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li>
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+## Biography
+
