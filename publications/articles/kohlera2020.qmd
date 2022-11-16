@@ -1,0 +1,38 @@
+---
+title: "Can network science reveal structure in a complex healthcare system? A network analysis using data from emergency surgical services"
+type: "article"
+author: "Kohler K, Ercole A"
+year: "2020"
+publication: "BMJ Open"
+
+doi: "https://doi.org/10.1136/bmjopen-2019-034265"
+
+toc: false
+categories:
+  - network science
+  - peri-operative care
+  - emergency surgery
+  - journal article
+---
+
+## Citation (APA 7)
+
+> Kohler K, Ercole A Can network science reveal structure in a complex healthcare system? A network analysis using data from emergency surgical services BMJ Open 2020;10:e034265. doi: 10.1136/bmjopen-2019-034265
+ 
+## Abstract
+
+Abstract: Introduction Hospitals are complex systems and optimising their function is critical to the provision of high quality, cost effective healthcare. Metrics of performance have to date focused on the performance of individual elements rather than the whole system. Manipulation of individual elements of a complex system without an integrative understanding of its function is undesirable and may lead to counterintuitive outcomes and a holistic metric of hospital function might help design more efficient services.
+
+Objectives: We aimed to use network analysis to characterise the structure of the system of perioperative care for emergency surgical admissions in our tertiary care hospital.
+
+Design: We constructed a weighted directional network representation of the emergency surgical services using patient location data from electronic health records.
+
+Setting: A single-centre tertiary care hospital in the UK.
+
+Participants: We selected data from the retrospective electronic health record data of all unplanned admissions with a surgical intervention during their stay during a 3.5-year period, which resulted in a set of 16 500 individual admissions.
+
+Methods: We then constructed and analysed the structure of this network using established methods from network science such as degree distribution, betweenness centrality and small-world characteristics.
+
+Results: The analysis showed the service to be a complex system with scale-free, small-world network properties. We also identified such potential hubs and bottlenecks in the system.
+
+Conclusions: Our holistic, system-wide description of a hospital service may provide tools to inform service improvement initiatives and gives us insights into the architecture of a complex system of care. The implications for the structure and resilience of the service is that while being robust in general, the system may be vulnerable to outages at specific key nodes.
