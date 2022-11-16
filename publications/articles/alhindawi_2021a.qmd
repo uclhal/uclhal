@@ -1,0 +1,31 @@
+---
+title: "Continuous Non-Invasive Eye Tracking In Intensive Care"
+type: "article"
+author: "Al-Hindawi A, Vizcaychipi M, Demiris Y"
+year: "2021"
+publication: "EMBC"
+# preprint: "https://psyarxiv.com/futv2/"
+doi: "https://doi.org/10.1109/EMBC46164.2021.9630999"
+# materials: "https://osf.io/gewrp/"
+toc: false
+categories:
+  - eye tracking
+  - real-time inference
+---
+
+## Citation (APA 7)
+
+> Al-Hindawi, A., Vizcaychipi, M. P., & Demiris, Y. (2021, November). Continuous Non-Invasive Eye Tracking In Intensive Care. In 2021 43rd Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC). IEEE.
+ 
+## Abstract
+
+Delirium, an acute confusional state, is a common occurrence in Intensive Care Units (ICUs). Patients who develop delirium have globally worse outcomes than those who do not and thus the diagnosis of delirium is of importance. Current diagnostic methods have several limitations leading to the suggestion of eye-tracking for its diagnosis through in-attention. To ascertain the requirements for an eye-tracking system in an adult ICU, measurements were carried out at Chelsea & Westminster Hospital NHS Foundation Trust. Clinical criteria guided empirical requirements of invasiveness and calibration methods while accuracy and precision were measured. A non-invasive system was then developed utilising a patient-facing RGB camera and a scene-facing RGBD camera. The system’s performance was measured in a replicated laboratory environment with healthy volunteers revealing an accuracy and precision that outperforms what is required while simultaneously being non-invasive and calibration-free The system was then deployed as part of CONfuSED, a clinical feasibility study where we report aggregated data from 5 patients as well as the acceptability of the system to bedside nursing staff. To the best of our knowledge, the system is the first eye-tracking systems to be deployed in an ICU for delirium monitoring.
+
+
+
+
+
+
+
+
+
