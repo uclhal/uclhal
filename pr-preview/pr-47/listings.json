@@ -45,8 +45,10 @@
   {
     "listing": "/resources.html",
     "items": [
-      "/resources/datasets/CCHIC.html",
-      "/resources/external/Healthyr.html"
+      "/resources/data-clinic/data-clinic-for-fellows.html",
+      "/resources/data-clinic/data-clinic-for-general.html",
+      "/resources/external-resources/Healthyr.html",
+      "/resources/datasets/CCHIC.html"
     ]
   }
 ]
