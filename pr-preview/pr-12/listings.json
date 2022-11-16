@@ -1,0 +1,29 @@
+[
+  {
+    "listing": "/news.html",
+    "items": [
+      "/posts/hdruk-award-2021/index.html"
+    ]
+  },
+  {
+    "listing": "/people.html",
+    "items": [
+      "/people/staff/harris_steve.html",
+      "/people/ras/tomlinson_chris.html",
+      "/people/alumni/wong_danny.html"
+    ]
+  },
+  {
+    "listing": "/publications.html",
+    "items": [
+      "/publications/articles/knight2022.html",
+      "/publications/reports/tomlinson2022.html",
+      "/publications/articles/thygesen2022.html",
+      "/publications/articles/wilson2022.html",
+      "/publications/preprints/pineda-moncusi2022.html",
+      "/publications/preprints/handy2021.html",
+      "/publications/articles/gurdasani2021.html",
+      "/publications/proceedings/samanta2017.html"
+    ]
+  }
+]
