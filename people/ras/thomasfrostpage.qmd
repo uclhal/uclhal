@@ -2,7 +2,7 @@
 title: "Thomas Frost"
 sortby: "Frost, Thomas"
 subtitle: "PhD Student"
-image: thomasfrost.jpg
+image: placeholder.jpg
 started: "September 2022"
 toc: false
 # resources: 
@@ -46,5 +46,7 @@ about:
 
 ## Biography
 
-Thomas Frost is [UKRI UCL Centre for Doctoral Training in AI-enabled Healthcare Systems](https://www.ucl.ac.uk/aihealth-cdt/).
+Dr. Thomas Frost is a clinical doctor currently studying for his PhD with the [UKRI UCL Centre for Doctoral Training in AI-enabled Healthcare Systems](https://www.ucl.ac.uk/aihealth-cdt/). His current work is looking at applying Reinforcement Learning algorithms to optimise IV infusions in Critical Care at UCLH. 
+
+He recently completed his Master of Research thesis in 2022, which identified ventilatory temporal phenotypes in patients with COVID-19-related ARDS using Hidden Markov Models. Prior to this, he was working in Scotland as a junior doctor.
 
