@@ -196,6 +196,20 @@
     "text": "Biography\nI am an academic Anaesthetic and Critical Care doctor, and a Wellcome Trust 4i Clinical PhD Fellow at Imperial College London.\nMy research aims at early diagnosis and improved treatment of critical illness, using methods from Bayesian statistics and machine learning. I am particularly interested in merging these methods with physiological models to provide bedside decision support, in disease heterogeneity, and in the role of uncertainty in clinical decision-making.\nMy recent work includes uncertainty-aware mortality risk prediction for patients undergoing emergency laparotomy, representing ICU patients’ status using time-series data to predict clinical events, using structured knowledge for automated clinical coding and phenotyping ventilator-associated pneumonia in electronic health records."
   },
   {
+    "objectID": "people/ras/vaughan_sarah.html",
+    "href": "people/ras/vaughan_sarah.html",
+    "title": "Sarah Vaughan",
+    "section": "",
+    "text": "Home\n    People\n    Research Staff\n    Sarah Vaughan"
+  },
+  {
+    "objectID": "people/ras/vaughan_sarah.html#biography",
+    "href": "people/ras/vaughan_sarah.html#biography",
+    "title": "Sarah Vaughan",
+    "section": "Biography",
+    "text": "Biography\nI am an SHO working as a clinical research fellow in data science and critical care at UCLH. I graduated from King’s College London in 2019, having completed my pre-clinical training at University of Cambridge and obtained a BA in Physiology, Development and Neuroscience. As an undergraduate I carried out a research project investigating the effects of visual crowding.\nI have an interest in critical care and hope to enter anaesthetic training in the future. Currently, I’m working on ways to model ‘ward strain’ and using this to predict patient deterioration, including ICU admission."
+  },
+  {
     "objectID": "people/ras/tomlinson_chris.html",
     "href": "people/ras/tomlinson_chris.html",
     "title": "Chris Tomlinson",
@@ -208,6 +222,20 @@
     "title": "Chris Tomlinson",
     "section": "Biography",
     "text": "Biography\nChris Tomlinson is an Anaesthetics & Intensive Care registrar undertaking a PhD at the UKRI UCL Centre for Doctoral Training in AI-enabled Healthcare Systems.\nCombining technical expertise in epidemiology, data science and machine/deep learning with an extensive background in clinical medicine and physiological research he uses real world evidence to uncover new insights of critical relevance to patients, clinicians and policymakers. Most recently this has involved creating novel COVID-19 phenotypes from linked-EHR data of 57 million individuals in England (now published in Lancet Digital Health).\nHe is interested in the application of AI methodologies to disentangle the complex interactions between organ systems, diseases, individuals and healthcare services to advance our scientific understanding and translate knowledge into tangible benefits to patient care."
+  },
+  {
+    "objectID": "people/ras/rashan_aasiyah.html",
+    "href": "people/ras/rashan_aasiyah.html",
+    "title": "Aasiyah Rashan",
+    "section": "",
+    "text": "Home\n    People\n    Research Staff\n    Aasiyah Rashan"
+  },
+  {
+    "objectID": "people/ras/rashan_aasiyah.html#biography",
+    "href": "people/ras/rashan_aasiyah.html#biography",
+    "title": "Aasiyah Rashan",
+    "section": "Biography",
+    "text": "Biography\nI am a data scientist undertaking a PhD at the UKRI UCL Centre for Doctoral Training in AI-enabled Healthcare Systems. I am also a data analyst at CritCare Asia Africa\nMy PhD focuses on establishing a harmonised FAIR dataset with an OMOP common data model for CritCare Asia Africa and then assessing the usability of that dataset by combining CritCare Asia Africa and UK critical care data to look at the timing of tracheostomies in ICU patients. My specific methods focus is on (a) causal inference and (b) reproducibility of biological findings across health care systems."
   },
   {
     "objectID": "people/staff/harris_steve.html",
@@ -263,7 +291,7 @@
     "href": "people.html#research-assistants",
     "title": "UCL Health Algorithms Laboratory",
     "section": "Research Assistants",
-    "text": "Research Assistants\n\n\n\n\n\n\n\n\n\n\nAhmed Al-Hindawi\n\n\nPost-Doctoral Researcher\n\n\n\n\n\nStarted\n\n\n2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFinn Catling\n\n\nClinical PhD Fellow\n\n\n\n\n\nStarted\n\n\nOctober 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChris Tomlinson\n\n\nPhD Student\n\n\n\n\n\nStarted\n\n\nSeptember 2020\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Research Assistants\n\n\n\n\n\n\n\n\n\n\nAhmed Al-Hindawi\n\n\nPost-Doctoral Researcher\n\n\n\n\n\nStarted\n\n\n2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFinn Catling\n\n\nClinical PhD Fellow\n\n\n\n\n\nStarted\n\n\nOctober 2020\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\nAasiyah Rashan\n\n\nPhD Student\n\n\n\n\n\nStarted\n\n\nSeptember 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChris Tomlinson\n\n\nPhD Student\n\n\n\n\n\nStarted\n\n\nSeptember 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSarah Vaughan\n\n\nClinical Research Fellow\n\n\n\n\n\nStarted\n\n\nAugust 2022\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "people.html#alumni",
