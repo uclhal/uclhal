@@ -18,6 +18,6 @@ jobs:
         uses: quarto-dev/quarto-actions/render@v2
 
       - name: Deploy PR Preview
-        uses: dan-hanlon/pr-preview-action@v1.0.0
+        uses: rossjrw/pr-preview-action@v1.2.0
         with:
           source-dir: ./docs/
