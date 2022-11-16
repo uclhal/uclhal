@@ -1,0 +1,23 @@
+name: Render pull request
+
+on: 
+  pull_request
+
+jobs:
+  build-pr:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        
+      - name: Render Quarto Project
+        uses: quarto-dev/quarto-actions/render@v2
+
+      - name: Deploy PR Preview
+        uses: rossjrw/pr-preview-action@v1.2.0
+        with:
+          source-dir: ./docs/

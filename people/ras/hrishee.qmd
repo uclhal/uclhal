@@ -1,0 +1,44 @@
+---
+title: "Hrisheekesh Vaidya"
+sortby: "Vaidya, Hrisheekesh"
+subtitle: "Data Science Fellow"
+image: hrishee1.jpg
+started: "August 2022"
+toc: false
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: globe
+      text: Personal Website
+      href: https://site.hrish.ee
+    - icon: twitter
+      text: Twitter
+      href: https://www.twitter.com/hqva
+    - text: "{{< ai orcid >}} ORCID"
+      href: https://hrish.ee/orcid
+    - icon: github
+      text: GitHub
+      href: https://github.com/hqva
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../people.html">People</a></li>
+    <li class="breadcrumb-item active">Research Staff</li>
+    <li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li>
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+## Biography
+
+I am a data science fellow in critical care and an out-of-programme IMT3. I am currently working on pre-operative prediction of ICU admission after elective surgery, using machine learning methods applied to electronic healthcare records. I am also working with [Ruaraidh](ruaraidh_campbell), [Sarah](vaughan_sarah), and [Tim](https://twitter.com/timbonnici) to develop the Data Clinic, a novel service to provide timely data to clinicans for the use in audit and quality improvement. 
+
+Long-term, I hope to persue a career in academic and clinical medicine with a focus on applying machine learning techniques to challenges in critical care. 
+

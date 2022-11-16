@@ -1,0 +1,33 @@
+---
+title: "What Is The Patient Looking At? Robust Gaze-Scene Intersection Under Free-Viewing Conditions"
+type: "article"
+author: "Al-Hindawi A, Vizcaychipi M, Demiris Y"
+year: "2022"
+publication: "ICASSP"
+# preprint: "https://psyarxiv.com/futv2/"
+doi: "https://doi.org/10.1109/ICASSP43922.2022.9746437"
+# materials: "https://osf.io/gewrp/"
+toc: false
+categories:
+  - eye tracking
+  - gaze-scene intersection
+  - point of regard estimation
+  - real-time inference
+---
+
+## Citation (APA 7)
+
+> Al-Hindawi, A., Vizcaychipi, M. P., & Demiris, Y. (2022, May). What Is The Patient Looking At? Robust Gaze-Scene Intersection Under Free-Viewing Conditions. In ICASSP 2022-2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE.
+ 
+## Abstract
+
+Locating the user’s gaze in the scene, also known as Point of Regard (PoR) estimation, following gaze regression is important for many downstream tasks. Current techniques either require the user to wear and calibrate instruments, require significant pre-processing of the scene information, or place restrictions on user’s head movements.We propose a geometrically inspired algorithm that, despite its simplicity, provides high accuracy and O(J) performance under a variety of challenging situations including sparse depth maps, high noise, and high dynamic parallax between the user and the scene camera. We demonstrate the utility of the proposed algorithm in regressing the PoR from scenes captured in the Intensive Care Unit (ICU) at Chelsea & Westminster Hospital NHS Foundation Trust
+
+
+
+
+
+
+
+
+
