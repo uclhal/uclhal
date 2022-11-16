@@ -1,0 +1,37 @@
+---
+title: "Matt Wilson"
+subtitle: "PhD Student"
+image: Bio_Picture.jpg
+started: "September 2018"
+toc: false
+about:
+    id: person-profile
+    template: jolla
+    links:
+        - icon: github
+          text: github
+          href: https://github.com/ha05069
+        - icon: twitter
+          text: twitter
+          href: https://twitter.com/MWilson1987
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../people.html">People</a></li>
+    <li class="breadcrumb-item active">Research Staff</li>
+    <li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li>
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+## Biography
+
+Matt graduated from St Bartholomew's and The Royal London Medical School in 2011 and works as an Anaesthetic registrar in London.   He completed a MSc in Health Data Science in 2018 and is currently a final year PhD student at UCL funded through an MRC Doctoral Training Partnership grant. 
+
+His PhD is focused on creating a research pipeline for integrating randomised trials into routine clinical care by utilising modern electronic health record systems.  This currently involves conducting observational analyses using natural experimental methods and investigating the feasibility of conducting digitally-enabled clinical trials to generate evidence from routine clinical practice in anaesthesia and critical care.
