@@ -1,0 +1,37 @@
+---
+title: "Sarah Vaughan"
+sortby: "Vaughan, Sarah"
+subtitle: "Clinical Research Fellow"
+image: sarah_photo.JPG
+started: "August 2022"
+toc: false
+# resources: 
+#   - "your_cv.pdf"
+about:
+  id: person-profile
+  template: jolla
+  
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="../../people.html">People</a></li>
+    <li class="breadcrumb-item active">Research Staff</li>
+    <li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li>
+  </ol>
+</nav>
+```
+
+:::{#person-profile}
+:::
+
+## Biography
+
+I am an SHO working as a clinical research fellow in data science and critical care at UCLH. I graduated from King’s College London in 2019, having completed my pre-clinical training at University of Cambridge and obtained a BA in Physiology, Development and Neuroscience. As an undergraduate I carried out a research project investigating the effects of visual crowding. 
+
+I have an interest in critical care and hope to enter anaesthetic training in the future. Currently, I'm working on ways to model ‘ward strain’ and using this to predict patient deterioration, including ICU admission.
+
+---
+
