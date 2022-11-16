@@ -4,9 +4,9 @@ description: "Free online learning resource for R. Designed for healthcare profe
 author: "Ruaraidh Campbell"
 date: "2022-11-16"
 draft: false
+
 categories:
-  - R
-  - e-learning
+  - external-resources
 ---
 
 **R for Health Data Science**
