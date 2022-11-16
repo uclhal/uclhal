@@ -1,0 +1,50 @@
+---
+title: "Getting Started"
+description: "How to get set up!"
+date: 2022-11-16
+categories:
+  - onboarding
+---
+
+If you're here, you're likely about to start work with the UCL Health Algorithms Laboratory. 
+
+**Welcome!**
+
+This guide aims to explain or signpost everything you need to know to start analysing health data at UCLH. 
+(general aims, translational data science, etc)
+
+## How are health data stored at UCLH?
+(the importance of live and recent data, etc)
+
+### Working with EPIC
+(link to page on further details on EPIC)
+
+### Working with EMAP
+(link to EMAP page)
+
+## How are health data analysed?
+
+### Working safely with health data
+five safes etc
+
+### Resources to learn {stats / ML / SQL / python}
+(link to Resources tab?)
+- Link to Data Science for Docs material?
+
+### HYLODE 
+(link to the full explanation page)
+(HySys diagrams, FlowEHR, etc)
+
+## What do I need to get started?
+
+### Setting up your computer
+- python
+- git 
+- R
+- (onboarding page for adding a User page to this website etc too)
+
+### UCLH access required
+- names of people to get involved with 
+
+## What is the Data Clinic?
+- links

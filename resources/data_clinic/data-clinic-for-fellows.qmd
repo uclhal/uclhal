@@ -1,7 +1,12 @@
 ---
-title: "Data Clinic - For Data Fellows"
+title: "Data Clinic: Detail"
+description: "An in-depth explanation of the Data Clinic, made for future data science fellows."
 author: "Ruaraidh Campbell"
+date: 2022-11-16
 toc: true
+categories: 
+    - data_clinic
+    - onboarding
 ---
 
 # What is the 'Data Clinic'? 
