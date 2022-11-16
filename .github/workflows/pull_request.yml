@@ -2,8 +2,6 @@ name: Render pull request
 
 on: 
   pull_request
-    branches:
-      - master
 
 jobs:
   build-pr:
