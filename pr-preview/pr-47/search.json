@@ -469,13 +469,6 @@
     "text": "Alumni\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Name\n        \n         \n          Role\n        \n         \n          Started\n        \n         \n          Ended\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nName\n\n\nRole\n\n\nStarted\n\n\nEnded\n\n\n\n\n\n\nDanny Wong\n\n\nDoctoral Candidate\n\n\n2015\n\n\n2019\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "awesome_links/Healthyr.html",
-    "href": "awesome_links/Healthyr.html",
-    "title": "Healthyr: R for Health Data Science",
-    "section": "",
-    "text": "R for Health Data Science https://argoshare.is.ed.ac.uk/healthyr_book/\nA great free beginner introduction to R for healthcare professionals!\nCreated by Prof Ewan Harrison (a professor of Surgical & Data Science at Edinburgh University), this course takes you from an absolute beginner, with topics such as “what is R?” & “how to install it”, through to running your own regression analyses and producing plots!"
-  },
-  {
     "objectID": "publications.html",
     "href": "publications.html",
     "title": "UCL Health Algorithms Laboratory",
@@ -483,46 +476,25 @@
     "text": "Home\n    Publications\n  \n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n         \n          Publication\n        \n         \n          Year\n        \n     \n  \n    \n      \n      \n    \n\n\n  \n    Association of COVID-19 With Major Arterial and Venous Thrombotic Diseases: A Population-Wide Cohort Study of 48 Million Adults in England and Wales\n    Rochelle Knight, Venexia Walker, Samantha Ip, Jennifer A Cooper, Thomas Bolton, Spencer Keene, Rachel Denholm, Ashley Akbari, Hoda Abbasizanjani, Fatemeh Torabi, Efosa Omigie, Sam Hollings, Teri-Louise North, Renin Toms, Xiyun Jiang, Emanuele Di Angelantonio, Spiros Denaxas, Johan H Thygesen, Chris Tomlinson, Ben Bray, Craig J Smith, Mark Barber, Kamlesh Khunti, George Davey Smith, Nishi Chaturvedi, Cathie Sudlow, William N Whiteley, Angela M Wood, Jonathan A C Sterne, CVD-COVID-UK/COVID-IMPACT consortium, Longitudinal Health and Wellbeing COVID-19 National Core Study\n    Circulation\n    (2022)\n    \n      Details\n    \n    \n      DOI\n    \n  \n  \n    Automating perfusion assessment of sublingual microcirculation in critical illness\n    Chris Tomlinson, Jan Grols, Ramit Debnath, Sarah Johnson, Max Barton, Tianyu Han, Seyedeh Nazanin Khatami, Giacomo Baldo, Aniketh Ramesh, Diego Cammarano, Kashif Rajpoot\n    The Alan Turing Institute\n    (2022)\n    \n      Details\n    \n    \n      DOI\n    \n  \n  \n    COVID-19 trajectories among 57 million adults in England: a cohort study using electronic health records\n    Johan H Thygesen, Chris Tomlinson, Sam Hollings, Mehrdad Mizani, Alex Handy, Ashley Akbari, Amitava Banerjee, Jennifer Cooper, Alvina Lai, Ken Li, Bilal Mateen, Naveed Sattar, Reecha Sofat, Ana Torralbo, Honghan Wu, Angela Wood, Jonathan A C Sterne, Christina Pagel, William Whiteley, Cathie Sudlow, Harry Hemingway, Spiros Denaxas, on behalf of the CVD-COVID-UK Consortium\n    Lancet Digital Health\n    (2022)\n    \n      Details\n    \n    \n      DOI\n    \n  \n  \n    Clinician preference instrumental variable analysis of the effectiveness of magnesium supplementation for atrial fibrillation prophylaxis in critical care\n    Wilson MG, Rashan A, Klapaukh R, Asselbergs FW, Harris SK\n    Scientific Reports\n    (2022)\n    \n      Details\n    \n    \n      DOI\n    \n  \n  \n    Digital ethnicity data in population-wide electronic health records in England: a description of completeness, coverage, and granularity of diversity\n    Marta Pineda-Moncusí, Freya Allery, Antonella Delmestri, Thomas Bolton, John Nolan, Johan Thygesen, Alex Handy, Amitava Banerjee, Spiros Denaxas, Christopher Tomlinson, Alastair K Denniston, Cathie Sudlow, Ashley Akbari, Angela Wood, Gary S Collins, Irene Petersen, Kamlesh Khunti, Daniel Prieto-Alhambra, Sara Khalid, on behalf of the CVD-COVID-UK Consortium\n    medRxiv\n    (2022)\n    \n      Details\n    \n    \n      DOI\n    \n  \n  \n    Embedded point of care randomisation for evaluating comparative effectiveness questions: PROSPECTOR-critical care feasibility study protocol\n    Wilson MG, Asselbergs FW, Miguel R, Brealey D, Harris SK\n    BMJ Open\n    (2022)\n    \n      Details\n    \n    \n      DOI\n    \n  \n  \n    Faster, Better Blink Detection through Curriculum Learning by Augmentation\n    Al-Hindawi A, Vizcaychipi M, Demiris Y\n    ETRA\n    (2022)\n    \n      Details\n    \n    \n      DOI\n    \n  \n  \n    Systems approach to improving traumatic brain injury care in Myanmar: a mixed-methods study from lived experience to discrete event simulation\n    Katharina Kohler, Phyu Phyu Nwe Myint, Sein Wynn, Alexander Komashie, Robyn Winters, Myat Thu, Mu Mu Naing, Thinn Hlaing, Rowan Burnstein, Zaw Wai Soe, John Clarkson, David Menon, Peter John Hutchinson, Tom Bashford \n    BMJ Open\n    (2022)\n    \n      Details\n    \n    \n      DOI\n    \n  \n  \n    What Is The Patient Looking At? Robust Gaze-Scene Intersection Under Free-Viewing Conditions\n    Al-Hindawi A, Vizcaychipi M, Demiris Y\n    ICASSP\n    (2022)\n    \n      Details\n    \n    \n      DOI\n    \n  \n  \n    A nationwide deep learning pipeline to predict stroke and COVID-19 death in atrial fibrillation\n    Alex Handy, Angela Wood, Cathie Sudlow, Chris Tomlinson, Frank Kee, Johan H Thygesen, Mohammad Mamouei, Reecha Sofat, Richard Dobson, Samantha Ip, Spiros Denaxas, on behalf of the CVD-COVID-UK Consortium\n    medRxiv\n    (2021)\n    \n      Details\n    \n    \n      DOI\n    \n  \n  \n    Continuous Non-Invasive Eye Tracking In Intensive Care\n    Al-Hindawi A, Vizcaychipi M, Demiris Y\n    EMBC\n    (2021)\n    \n      Details\n    \n    \n      DOI\n    \n  \n  \n    Vaccinating adolescents against SARS-CoV-2 in England: a risk–benefit analysis\n    Gurdasani D, Bhatt S, Costello A, Denaxas S, Flaxman S, Greenhalgh T, Griffin S, Hyde Z, Katzourakis A, McKee M, Michie S, Ratmann O, Reicher S, Scally G, Tomlinson C, Yates C, Ziauddeen H & Pagel C\n    Journal of the Royal Society of Medicine\n    (2021)\n    \n      Details\n    \n    \n      DOI\n    \n  \n  \n    Can network science reveal structure in a complex healthcare system? A network analysis using data from emergency surgical services\n    Kohler K, Ercole A\n    BMJ Open\n    (2020)\n    \n      Details\n    \n    \n      DOI\n    \n  \n  \n    Lung protective mechanical ventilation for acute respiratory failure is not being implemented in UK clinical practice\n    Samanta R, Dixit A, Harris S, et al\n    Core outcomes for mechanical ventilation\n    (2017)\n    \n      Details\n    \n    \n      DOI\n    \n  \n\n\nNo matching items"
   },
   {
+    "objectID": "resources/datasets/CCHIC.html",
+    "href": "resources/datasets/CCHIC.html",
+    "title": "CCHIC",
+    "section": "",
+    "text": "CCHIC (20xx) Primary Article/Citation: https://jmgirard.com/pubs/girard2017d/ Website/Request Access: http://osf.io/7wcyz"
+  },
+  {
+    "objectID": "resources/external/Healthyr.html",
+    "href": "resources/external/Healthyr.html",
+    "title": "Healthyr: R for Health Data Science",
+    "section": "",
+    "text": "R for Health Data Science https://argoshare.is.ed.ac.uk/healthyr_book/\nA great free beginner introduction to R for healthcare professionals!\nCreated by Prof Ewan Harrison (a professor of Surgical & Data Science at Edinburgh University), this course takes you from an absolute beginner, with topics such as “what is R?” & “how to install it”, through to running your own regression analyses and producing plots!"
+  },
+  {
     "objectID": "resources.html",
     "href": "resources.html",
     "title": "UCL Health Algorithms Laboratory",
     "section": "",
-    "text": "Home\n    Resources"
-  },
-  {
-    "objectID": "resources.html#datasets",
-    "href": "resources.html#datasets",
-    "title": "UCL Health Algorithms Laboratory",
-    "section": "Datasets",
-    "text": "Datasets\n\nCCHIC (20xx) Primary Article/Citation: https://jmgirard.com/pubs/girard2017d/ Website/Request Access: http://osf.io/7wcyz"
-  },
-  {
-    "objectID": "resources.html#software",
-    "href": "resources.html#software",
-    "title": "UCL Health Algorithms Laboratory",
-    "section": "Software",
-    "text": "Software\n\nDeveloping"
-  },
-  {
-    "objectID": "resources.html#trainings",
-    "href": "resources.html#trainings",
-    "title": "UCL Health Algorithms Laboratory",
-    "section": "Trainings",
-    "text": "Trainings"
-  },
-  {
-    "objectID": "resources.html#videos",
-    "href": "resources.html#videos",
-    "title": "UCL Health Algorithms Laboratory",
-    "section": "Videos",
-    "text": "Videos"
-  },
-  {
-    "objectID": "awesome.html",
-    "href": "awesome.html",
-    "title": "UCL Health Algorithms Laboratory",
-    "section": "",
-    "text": "Home\n    Awesome links\n  \n\n\n\n\n\n\n\n\n\n\n\nHealthyr: R for Health Data Science\n\n\n\n\n\n\n\nR\n\n\ne-learning\n\n\n\n\nFree online learning resource for R. Designed for healthcare professionals.\n\n\n\n\n\n\nNov 16, 2022\n\n\nRuaraidh Campbell\n\n\n\n\n\n\nNo matching items"
+    "text": "Resources\nHelpful resources listed below:\n\nOnboarding information for UCL HAL\nWhat is HYLODE?\nAn introduction to the Data-Clinic\nEPIC-specific training\nCurated datasets\nExternal-resources that we have found helpful to learn data science\n\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\nDescription\n\n\nCategories\n\n\n\n\n\n\nCCHIC\n\n\n\n\n\ndatasets\n\n\n\n\nHealthyr: R for Health Data Science\n\n\nFree online learning resource for R. Designed for healthcare professionals.\n\n\nexternal-resources\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "opportunities.html",

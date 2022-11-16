@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -58,7 +60,37 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -100,10 +132,6 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./awesome.html">
- <span class="menu-text">Awesome</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="./opportunities.html">
  <span class="menu-text">Opportunities</span></a>
   </li>  
@@ -122,53 +150,90 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#datasets" id="toc-datasets" class="nav-link active" data-scroll-target="#datasets">Datasets</a></li>
-  <li><a href="#software" id="toc-software" class="nav-link" data-scroll-target="#software">Software</a>
-  <ul class="collapse">
-  <li><a href="#developing" id="toc-developing" class="nav-link" data-scroll-target="#developing">Developing</a></li>
-  </ul></li>
-  <li><a href="#trainings" id="toc-trainings" class="nav-link" data-scroll-target="#trainings">Trainings</a></li>
-  <li><a href="#videos" id="toc-videos" class="nav-link" data-scroll-target="#videos">Videos</a></li>
-  </ul>
-</nav>
-    </div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="datasets">datasets <span class="quarto-category-count">(1)</span></div><div class="category" data-category="external-resources">external-resources <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 
 
-<nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-    <li class="breadcrumb-item active" aria-current="page">Resources</li>
-  </ol>
-</nav>
-<section id="datasets" class="level2">
-<h2 class="anchored" data-anchor-id="datasets">Datasets</h2>
+<section id="resources" class="level1">
+<h1>Resources</h1>
+<p>Helpful resources listed below:</p>
 <ul>
-<li><strong>CCHIC</strong> (20xx)<br> <em>Primary Article/Citation:</em> <a href="https://jmgirard.com/pubs/girard2017d/" class="uri">https://jmgirard.com/pubs/girard2017d/</a><br> <em>Website/Request Access:</em> <a href="http://osf.io/7wcyz" class="uri">http://osf.io/7wcyz</a></li>
+<li><a href="#category=onboarding">Onboarding</a> information for UCL HAL</li>
+<li>What is <a href="#category=hylode">HYLODE</a>?</li>
+<li>An introduction to the <a href="#category=data-clinic">Data-Clinic</a></li>
+<li><a href="#category=epic">EPIC</a>-specific training</li>
+<li>Curated <a href="#category=datasets">datasets</a></li>
+<li><a href="#category=external-resources">External-resources</a> that we have found helpful to learn data science</li>
 </ul>
-</section>
-<section id="software" class="level2">
-<h2 class="anchored" data-anchor-id="software">Software</h2>
-<section id="developing" class="level3">
-<h3 class="anchored" data-anchor-id="developing">Developing</h3>
-</section>
-</section>
-<section id="trainings" class="level2">
-<h2 class="anchored" data-anchor-id="trainings">Trainings</h2>
-</section>
-<section id="videos" class="level2">
-<h2 class="anchored" data-anchor-id="videos">Videos</h2>
+
 
 
 </section>
 
-</main> <!-- /main -->
+<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title-sort" data-direction="asc">
+          Title
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
+</th>
+<th>
+Description
+</th>
+<th>
+Categories
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-categories="datasets" data-listing-date-sort="1668556800000" data-listing-file-modified-sort="1668602109664" data-listing-reading-time-sort="0.065" data-listing-title-sort="CCHIC" data-listing-filename-sort="CCHIC.qmd">
+<td class="listing-title">
+<a href="./resources/datasets/CCHIC.html" class="title">CCHIC</a>
+</td>
+<td class="listing-description">
+
+</td>
+<td class="listing-categories">
+datasets
+</td>
+</tr>
+<tr data-index="1" data-categories="external-resources" data-listing-date-sort="1668556800000" data-listing-file-modified-sort="1668602109664" data-listing-reading-time-sort="0.3" data-listing-title-sort="Healthyr: R for Health Data Science" data-listing-filename-sort="Healthyr.qmd">
+<td class="listing-title">
+<a href="./resources/external/Healthyr.html" class="title">Healthyr: R for Health Data Science</a>
+</td>
+<td class="listing-description">
+Free online learning resource for R. Designed for healthcare professionals.
+</td>
+<td class="listing-categories">
+external-resources
+</td>
+</tr>
+</tbody>
+
+</table>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

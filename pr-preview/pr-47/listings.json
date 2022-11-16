@@ -43,9 +43,10 @@
     ]
   },
   {
-    "listing": "/awesome.html",
+    "listing": "/resources.html",
     "items": [
-      "/awesome_links/Healthyr.html"
+      "/resources/datasets/CCHIC.html",
+      "/resources/external/Healthyr.html"
     ]
   }
 ]
