@@ -1,0 +1,28 @@
+---
+title: "Embedded point of care randomisation for evaluating comparative effectiveness questions: PROSPECTOR-critical care feasibility study protocol"
+type: "article"
+author: "Wilson MG, Asselbergs FW, Miguel R, Brealey D, Harris SK"
+year: "2022"
+publication: "BMJ Open"
+# preprint: "https://psyarxiv.com/futv2/"
+doi: "http://dx.doi.org/10.1136/bmjopen-2021-059995"
+# materials: "https://osf.io/gewrp/"
+toc: false
+categories:
+  - digital trials
+  - critical care
+  - trial design
+  - point of care randomisation
+---
+
+## Citation (APA 7)
+
+> Wilson, M. G., Asselbergs, F. W., Miguel, R., Brealey, D., & Harris, S. K. (2022). Embedded point of care randomisation for evaluating comparative effectiveness questions: PROSPECTOR-critical care feasibility study protocol. *BMJ open*, 12(9), e059995.
+
+## Abstract
+
+Many routinely administered treatments lack evidence as to their effectiveness. When treatments lack evidence, patients receive varying care based on the preferences of clinicians. Standard randomised controlled trials are unsuited to comparisons of different routine treatment strategies, and there remains little economic incentive for change. Integrating clinical trial infrastructure into electronic health record systems offers the potential for routine treatment comparisons at scale, through reduced trial costs. To date, embedded trials have automated data collection, participant identification and eligibility screening, but randomisation and consent remain manual and therefore costly tasks. This study will investigate the feasibility of using computer prompts to allow flexible randomisation at the point of clinical decision making. It will compare the effectiveness of two prompt designs through the lens of a candidate research question—comparing liberal or restrictive magnesium supplementation practices for critical care patients. It will also explore the acceptability of two consent models for conducting comparative effectiveness research.
+
+We will conduct a single centre, mixed-methods feasibility study, aiming to recruit 50 patients undergoing elective surgery requiring postoperative critical care admission. Participants will be randomised to either ‘Nudge’ or ‘Preference’ designs of electronic point-of-care randomisation prompt, and liberal or restrictive magnesium supplementation. We will judge feasibility through a combination of study outcomes. The primary outcome will be the proportion of prompts displayed resulting in successful randomisation events (compliance with the allocated magnesium strategy). Secondary outcomes will evaluate the acceptability of both prompt designs to clinicians and ascertain the acceptability of preemptive and opt-out consent models to patients. 
+
+This study was approved by Riverside Research Ethics Committee (Ref: 21/ LO/0785) and will be published on completion. Trial registration number NCT05149820.
