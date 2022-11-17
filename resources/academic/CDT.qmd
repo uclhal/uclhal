@@ -9,11 +9,9 @@ categories:
   - academic
 ---
 
-The UKRI Centre for Doctoral Training (CDT) in AI-enabled Healthcare Systems combines UCL’s excellence both in AI and computational science, and in biomedical research.
+The [UKRI Centre for Doctoral Training (CDT) in AI-enabled Healthcare Systems](https://www.ucl.ac.uk/aihealth-cdt/) combines UCL’s excellence both in AI and computational science, and in biomedical research.  
 
-We offer a unique programme consisting of a 1 year MRes followed by a 3 year PhD embedded within an NHS setting.
-
-NB applicants with a clinical background or degree in Biomedical Science **must be able to demonstrate strong computational skills, prior to applying**.
+We offer a unique programme consisting of a 1 year MRes followed by a 3 year PhD embedded within an NHS setting.  
 
 Current lab group members:  
 * 2020 intake: Aasiyah Rashan, Chris Tomlinson  
@@ -22,3 +20,7 @@ Current lab group members:
 Previous [CDT projects](https://www.ucl.ac.uk/aihealth-cdt/study/projects) offered by the lab group:  
 * 2022: Use of reinforcement learning to optimise dosing of IV infusions in critical care. (Supervisor: Steve Harris, Student: Tom Frost)  
 * 2021: Hyperlocal beds plus demand forecasting within the NHS (Supervisor: Steve Harris, Student: Jen Hunter)  
+
+[Applications](https://www.ucl.ac.uk/aihealth-cdt/information-applicants) typically begin in January for September entry.  
+* Applicants are advised to apply early, priority will be given to those who have applied in round one.  
+* NB applicants with a clinical background or degree in Biomedical Science **must be able to demonstrate strong computational skills, prior to applying**  
