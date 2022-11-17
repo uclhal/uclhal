@@ -1,0 +1,11 @@
+---
+title: "CCHIC"
+date: "2022-11-16"
+draft: false
+categories:
+  - datasets 
+---
+
+- **CCHIC** (20xx)<br />
+  *Primary Article/Citation:* <https://jmgirard.com/pubs/girard2017d/><br />
+  *Website/Request Access:* <http://osf.io/7wcyz>

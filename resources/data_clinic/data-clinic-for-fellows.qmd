@@ -1,0 +1,146 @@
+---
+title: "Data Clinic: Detail"
+description: "An in-depth explanation of the Data Clinic, made for future data science fellows."
+author: "Ruaraidh Campbell"
+date: 2022-11-16
+toc: true
+categories: 
+    - data_clinic
+    - onboarding
+---
+
+# What is the 'Data Clinic'? 
+
+The Data Clinic is a Quality Improvement initiative to help frontline healthcare workers in Critical Care get data from EPIC.  
+
+This is to improve the ease and speed of audits, QIPs and service evaluations we perform in Critical Care. 
+
+# What are the issues that the Data Clinic is trying to solve? 
+
+UCLH has invested millons of pounds to obtain an fully electronic health record system (EHRS) in the form of EPIC since 2019. It aims to be a leader in the field of technologically-enabled healthcare.
+
+The current method for obtaining data from EPIC is through contacting the Buisness Intelligence (BI) team, whose role it is to monitor performance data in their department and service data requests. This has a number of issues: 
+
+     - Many clinical staff are unaware of who the BI team are or what they do 
+     - The current process of requesting data often takes the form of numerous back-and-forth emails between clinical staff and the BI team, clarifying what data is required vs what is possible to extract. This process is often time-consuming and frustrating for both the clinical staff and BI team. 
+     - Although the BI team have a good understanding of how to find data in Epic and manage it, sometimes they lack the clinical understanding and direction to provide learning from it. 
+
+The Data Clinic aims to improve the process of providing data to clinical staff using two approaches:
+
+     1. We aim to understand the clinical question the requestor is trying to answer and, with our knowledge of the data that is available, clarify exactly what data is required for their project.
+     2. Then we work with the BI team to provide that data for the requestor as quickly as possible, in the form that the requestor needs.
+
+We hypothesise that this shall benefit both clinical staff and the BI team. 
+
+     Clinical staff: 
+     - makes the process of getting data from EPIC clearer
+     - enhances understanding of the data that is available from EPIC 
+     - help with analysis of data (if required)
+     - easier to get the data needed to complete audit/QIP/service evaluations (thereby increasing the number of projects completed and improving patient care)
+
+     BI team:
+     - Saves time/frustration emailing back-and-forth with clinical staff   
+     - Better understanding of clinical relevance of their work (through feedback on the results of QI projects)
+
+# (Current) Structure of the Data Clinic
+
+Below is a brief, introductory overview of the current stucture of the Data Clinic. A more in-depth overview can be found in the Data Clinic Teams channel. 
+
+Requests for data can currently come from 2 channels: 
+
+1. A referral from the Audit/QI clinic (where a project has indicated that they need EPIC data to complete their project)
+2. A direct email to the Data Clinic email address or one of the members of the Data Clinic team. 
+
+As a rule of thumb, all audit/QIP should go through the Audit/QI clinic prior to being referred to the Data Clinic. This allows the Audit/QIP team to register the project, keep track of it and provide methodological support prior to the Data Clinic. Other data requests that are *not* audit/QI (e.g. service evaluation) are more likely to come through the second route. 
+
+Once a request has been recieved, a Data Fellow meets with the requestor to discuss their project and the data requirements.   
+
+Following this, the Data Fellow shall meet with the BI team to perform a 1st extraction of the data. This shall be shown to the requestor.   
+
+If they are happy with this data, we then proceed to a full data extraction and delivery. If they are not satisfied, the extraction is revised and further meeting are arranged with the requestor until the data provided is adaquate (see Figure 1 for a diagram of this) 
+
+```{mermaid}
+flowchart TD
+A(Data request recieved) --- B(1st Meeting between requestor & Data Fellow)
+B --- C(Meeting between Data Fellow and BI team)
+C --- D[1st extraction of data]
+D --- F{2nd meeting between requestor & Data Fellow}
+F --- G[Happy with data]
+F --- H[Revisions needed]
+G --- I(Full extraction & data delivered)
+H --- J(Further revision to extraction)
+J --- F
+
+linkStyle default stroke: white;
+```
+
+As the Data Clinic is being run as a QIP, this process is subject to change over time. 
+
+# Relevant People 
+
+### Data Clinic
+Dr Tim Bonnici: Data Lead for Critical Care (t.bonnici@nhs.net)  
+Data Fellows: Change yearly, previous fellows are listed below  
+
+ > 2021/22: Conor Foley, Dan Stein   
+ > 2022/23: Ruaraidh Campbell, Sarah Vaughan, Hrisheekesh Vaidya
+
+### BI team
+Tracey Crissell: Critical BI team lead (traceycrissell@nhs.net)  
+Humayra Chowdhury: BI analyst (humayra.chowdhury@nhs.net) 
+
+
+**The Data Clinic also works closely with the Audit/QI team and the Methodology Clinic team**
+
+### Audit/QI team
+Veronica ('Ronnie') Marsh: Audit/QI lead (veronica.marsh1@nhs.net)
+
+### Methodology team
+Siri Steinmo: Quality Improvement Lead (siri.steinmo@nhs.net)  
+Petra Voegele: PERRT nurse, Methodology clinic co-lead (petra.voegele@nhs.net)
+
+# Onboarding information 
+
+This page will have given you a good general oversight of the Data Clinic and the people involved.   
+
+However, if you are going to be working with the Data Clinic team, then you shall require some further information/orientation.  
+
+Below is a checklist of items to arrange to get up-and-running with the Data Clinic:
+
+1. Obtain access to the Data Clinic Teams channel (contains more detailed information of structure of Data clinic, training on how to extract data from EPIC, a tracker for projects currently going through Data Clinic, records of previous projects)
+    i) Email Tim Bonicci to obtain  
+    ii) Read through the comprehensive "Data Clinic Handover Document" & watch the video tour of the Data Clinic Teams channel
+2. Obtain access to the Data Clinic GitHub repository (contains code for extracting data from EPIC)  
+    i) Email Tim Bonicci to obtain 
+3. Obtain access to Caboodle (EPIC's main reporting database). Allows you to extract EPIC data. 
+    i) Email David Thomson (Information Services Manager) to obtain (david.thompson19@nhs.net). You shall need to attend a mandatory training session with David before being given access 
+4. Complete Caboodle training via EpicUserWeb
+    i) To sign up for an EpicUserWeb account, visit https://userweb.epic.com/Account/Register  
+    ii) There is a lot of training resources for using EPIC on EpicUserWeb, most of which is not relevant to the Data Clinic. The key learning to look at can be found in the "Recommended Reading List.docx" file, within the EPIC training folder in the Data Clinic Teams channel 
+5. Complete SQL learning (SQL is the coding language used for extracting data from reporting databases, such as Caboodle) 
+    i) There are a number of free vs paid learning reserouces for this. 
+    ii) Previous Data Fellows have bought a subscription to DataCamp. This is paid for, however it is good for learning and also has other coding languages (e.g. python, R)  
+    iii) There are free learning resources in the "Data Science learning resources" folder within the Data Clinic Teams channel
+6. Introduce yourself to Ronnie, Siri & Petra from the Audit/QI and Methodology teams
+    i) You will work closely with them throughout the year. It is good to meet up with them so they can show you what they do in the Audit/QI & Methodology clinics and how this relates to the Data Clinic
+7. Get access to the Data Clinic email inbox 
+    i) Email Tim Bonnici to obtain 
+
+# Current Progress of Project 
+
+2021/22
+
+> - Start of project  
+>  - Background to project including issues we hoped to address laid out in project overview document (see Notion document on Teams channel)  
+> - Survey done on 33 staff members in Critical Care that identified barriers to using data to complete audit/QI projects  
+> - 7/8 projects served through Data Clinic, including audit/QI/project feasibility projects.  
+> - Draft project tracker set up to record length of time taken to serve data for data requests  
+> - Qualitative feedback on the Data Clinic process gathered from joint meetings between Data lead/Data Fellows/BI team  
+> - Adjustments made to running of the Data Clinic from this feedback including identifying the need for Audit/Methodology support for some projects before they attend Data Clinic, to clarify the aims and scope of projects.  
+> - Overall, provided qualitative evidence that the Data Clinic initiative was feasible, beneficial to BI team and could help clinical staff.  
+
+2022/23
+
+> - Plan for the year was to formalise the measurement of the Data Clinic outcomes, with a view to future publication  
+> - Data Clinic email address and Teams channel set up, to create central repositiory for Data Clinic items. Github set up for code repository.  
+> - Audit/QI clinic & Methodology clinic set up. Process of referring projects from these clinics to Data Clinic set up.  
