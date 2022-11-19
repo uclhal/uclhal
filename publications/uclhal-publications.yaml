@@ -1,0 +1,1155 @@
+---
+references:
+- id: arulkumaranUncontrolledInterventionsPandemics2020a
+  accessed:
+    - year: 2022
+      month: 7
+      day: 17
+  author:
+    - family: Arulkumaran
+      given: N.
+    - family: Wright
+      given: T.
+    - family: Harris
+      given: S.
+    - family: Singer
+      given: M.
+  citation-key: arulkumaranUncontrolledInterventionsPandemics2020a
+  container-title: Intensive Care Medicine
+  container-title-short: Intensive Care Med
+  DOI: 10.1007/s00134-020-06180-6
+  ISSN: 0342-4642, 1432-1238
+  issue: '10'
+  issued:
+    - year: 2020
+      month: 10
+  language: en
+  license: All rights reserved
+  page: 1930-1931
+  source: DOI.org (Crossref)
+  title: 'Uncontrolled interventions during pandemics: a missed learning opportunity?'
+  title-short: Uncontrolled interventions during pandemics
+  type: article-journal
+  URL: https://link.springer.com/10.1007/s00134-020-06180-6
+  volume: '46'
+
+- id: banerjeeEstimatingExcess1year2020a
+  accessed:
+    - year: 2022
+      month: 7
+      day: 17
+  author:
+    - family: Banerjee
+      given: Amitava
+    - family: Pasea
+      given: Laura
+    - family: Harris
+      given: Steve
+    - family: Gonzalez-Izquierdo
+      given: Arturo
+    - family: Torralbo
+      given: Ana
+    - family: Shallcross
+      given: Laura
+    - family: Noursadeghi
+      given: Mahdad
+    - family: Pillay
+      given: Deenan
+    - family: Sebire
+      given: Neil
+    - family: Holmes
+      given: Chris
+    - family: Pagel
+      given: Christina
+    - family: Wong
+      given: Wai Keong
+    - family: Langenberg
+      given: Claudia
+    - family: Williams
+      given: Bryan
+    - family: Denaxas
+      given: Spiros
+    - family: Hemingway
+      given: Harry
+  citation-key: banerjeeEstimatingExcess1year2020a
+  container-title: The Lancet
+  container-title-short: The Lancet
+  DOI: 10.1016/S0140-6736(20)30854-0
+  ISSN: '01406736'
+  issue: '10238'
+  issued:
+    - year: 2020
+      month: 5
+  language: en
+  license: All rights reserved
+  page: 1715-1725
+  source: DOI.org (Crossref)
+  title: >-
+    Estimating excess 1-year mortality associated with the COVID-19 pandemic
+    according to underlying conditions and age: a population-based cohort study
+  title-short: >-
+    Estimating excess 1-year mortality associated with the COVID-19 pandemic
+    according to underlying conditions and age
+  type: article-journal
+  URL: https://linkinghub.elsevier.com/retrieve/pii/S0140673620308540
+  volume: '395'
+
+- id: chenNudgingLearningHealth2022b
+  accessed:
+    - year: 2022
+      month: 7
+      day: 17
+  author:
+    - family: Chen
+      given: Yang
+    - family: Harris
+      given: Steve
+    - family: Rogers
+      given: Yvonne
+    - family: Ahmad
+      given: Tariq
+    - family: Asselbergs
+      given: Folkert W.
+  citation-key: chenNudgingLearningHealth2022b
+  container-title: European Heart Journal
+  container-title-short: Eur. Heart J.
+  DOI: 10.1093/eurheartj/ehac030
+  ISSN: 0195-668X, 1522-9645
+  issue: '13'
+  issued:
+    - year: 2022
+      month: 3
+      day: 31
+  language: en
+  license: All rights reserved
+  page: 1296-1306
+  source: DOI.org (Crossref)
+  title: >-
+    Nudging within learning health systems: next generation decision support to
+    improve cardiovascular care
+  title-short: Nudging within learning health systems
+  type: article-journal
+  URL: https://academic.oup.com/eurheartj/article/43/13/1296/6525340
+  volume: '43'
+
+- id: critcareasiaEstablishingCriticalCare2020a
+  accessed:
+    - year: 2022
+      month: 7
+      day: 17
+  author:
+    - literal: CRIT CARE ASIA
+    - family: Beane
+      given: Abi
+    - family: Dondorp
+      given: Arjen M.
+    - family: Taqi
+      given: Arshad
+    - family: Ahsan
+      given: A. S. M. Areef
+    - family: Vijayaraghavan
+      given: Bharath Kumar Tirupakuzhi
+    - family: Permpikul
+      given: Chairrat
+    - family: Pell
+      given: Christopher
+    - family: Gandy
+      given: David
+    - family: Priyadarshani
+      given: Dilanthi
+    - family: Aryal
+      given: Diptesh
+    - family: Khiem
+      given: Dong Phu
+    - family: Thuy
+      given: Duong Bich
+    - family: Thwaites
+      given: Guy
+    - family: Kayastha
+      given: Gyan
+    - family: Udayanga
+      given: Ishara
+    - family: Salluh
+      given: Jorge
+    - family: Detleuxay
+      given: Khamsay
+    - family: Ranganathan
+      given: Lakshmi
+    - family: Yen
+      given: Lam Minh
+    - family: Har
+      given: Lim Chew
+    - family: Thwaites
+      given: Louise
+    - family: Hashmi
+      given: Madiha
+    - family: Schultz
+      given: Marcus J.
+    - family: Mukaka
+      given: Mavuto
+    - family: Leaver
+      given: Meghan
+    - family: Nor
+      given: Mohd Basri Mat
+    - family: Hayat
+      given: Muhammad
+    - family: Day
+      given: Nick
+    - family: Moonesinghe
+      given: Ramani
+    - family: Haniffa
+      given: Rashan
+    - family: Champunot
+      given: Ratapum
+    - family: Inglis
+      given: Rebecca
+    - family: Sultana
+      given: Rozina
+    - family: Yacoub
+      given: Sophie
+    - family: Harris
+      given: Steve
+    - family: Acharya
+      given: Subhash Prasad
+    - family: Tripathy
+      given: Swagata
+    - family: Ali
+      given: Syed Muneeb
+    - family: Kadhiravan
+      given: Tamilarasu
+    - family: Lubell
+      given: Yoel
+  citation-key: critcareasiaEstablishingCriticalCare2020a
+  container-title: Critical Care
+  container-title-short: Crit Care
+  DOI: 10.1186/s13054-020-03321-7
+  ISSN: 1364-8535
+  issue: '1'
+  issued:
+    - year: 2020
+      month: 12
+  language: en
+  license: All rights reserved
+  page: 608, s13054-020-03321-7
+  source: DOI.org (Crossref)
+  title: >-
+    Establishing a critical care network in Asia to improve care for critically
+    ill patients in low- and middle-income countries
+  type: article-journal
+  URL: https://ccforum.biomedcentral.com/articles/10.1186/s13054-020-03321-7
+  volume: '24'
+
+- id: domiziRelationshipNorepinephrineDose2020a
+  accessed:
+    - year: 2022
+      month: 7
+      day: 17
+  author:
+    - family: Domizi
+      given: Roberta
+    - family: Calcinaro
+      given: Sara
+    - family: Harris
+      given: Steve
+    - family: Beilstein
+      given: Christian
+    - family: Boerma
+      given: Christiaan
+    - family: Chiche
+      given: Jean-Daniel
+    - family: D'Egidio
+      given: Annalia
+    - family: Damiani
+      given: Elisa
+    - family: Donati
+      given: Abele
+    - family: Koetsier
+      given: Peter M.
+    - family: Madden
+      given: Mary P.
+    - family: McAuley
+      given: Daniel F.
+    - family: Morelli
+      given: Andrea
+    - family: Pelaia
+      given: Paolo
+    - family: Royer
+      given: Patrick
+    - family: Shankar-Hari
+      given: Manu
+    - family: Wickboldt
+      given: Nadine
+    - family: Zolfaghari
+      given: Parjam
+    - family: Singer
+      given: Mervyn
+  citation-key: domiziRelationshipNorepinephrineDose2020a
+  container-title: Journal of Critical Care
+  container-title-short: Journal of Critical Care
+  DOI: 10.1016/j.jcrc.2020.02.014
+  ISSN: '08839441'
+  issued:
+    - year: 2020
+      month: 6
+  language: en
+  license: All rights reserved
+  page: 185-190
+  source: DOI.org (Crossref)
+  title: >-
+    Relationship between norepinephrine dose, tachycardia and outcome in septic
+    shock: A multicentre evaluation
+  title-short: >-
+    Relationship between norepinephrine dose, tachycardia and outcome in septic
+    shock
+  type: article-journal
+  URL: https://linkinghub.elsevier.com/retrieve/pii/S0883944119313590
+  volume: '57'
+
+- id: flowerAcuteSTsegmentElevation2021a
+  accessed:
+    - year: 2022
+      month: 8
+      day: 29
+  author:
+    - family: Flower
+      given: Luke
+    - family: Bares
+      given: Zdenek
+    - family: Santiapillai
+      given: Georgina
+    - family: Harris
+      given: Stephen
+  citation-key: flowerAcuteSTsegmentElevation2021a
+  container-title: BMJ Case Reports CP
+  container-title-short: BMJ Case Rep. CP
+  DOI: 10.1136/bcr-2021-245218
+  ISSN: 1757-790X
+  issue: '9'
+  issued:
+    - year: 2021
+      month: 9
+      day: 1
+  language: en
+  license: >-
+    © BMJ Publishing Group Limited 2021. No commercial re-use. See rights and
+    permissions. Published by BMJ.. This article is made freely available for
+    use in accordance with BMJ’s website terms and conditions for the duration
+    of the covid-19 pandemic or until otherwise determined by BMJ. You may use,
+    download and print the article for any lawful, non-commercial purpose
+    (including text and data mining) provided that all copyright notices and
+    trade marks are retained.https://bmj.com/coronavirus/usage
+  page: e245218
+  PMID: '34580132'
+  publisher: BMJ Specialist Journals
+  section: Case report
+  source: casereports.bmj.com
+  title: >-
+    Acute ST-segment elevation myocardial infarction secondary to
+    vaccine-induced immune thrombosis with thrombocytopaenia (VITT)
+  type: article-journal
+  URL: https://casereports.bmj.com/content/14/9/e245218
+  volume: '14'
+
+- id: ghorashianTisagenlecleucelTherapyRelapsed2022a
+  accessed:
+    - year: 2022
+      month: 9
+      day: 7
+  author:
+    - family: Ghorashian
+      given: Sara
+    - family: Jacoby
+      given: Elad
+    - family: De Moerloose
+      given: Barbara
+    - family: Rives
+      given: Susana
+    - family: Bonney
+      given: Denise
+    - family: Shenton
+      given: Geoff
+    - family: Bader
+      given: Peter
+    - family: Bodmer
+      given: Nicole
+    - family: Quintana
+      given: Agueda Molinos
+    - family: Herrero
+      given: Blanca
+    - family: Algeri
+      given: Mattia
+    - family: Locatelli
+      given: Franco
+    - family: Vettenranta
+      given: Kim
+    - family: Gonzalez
+      given: Berta
+    - family: Attarbaschi
+      given: Andishe
+    - family: Harris
+      given: Stephen
+    - family: Bourquin
+      given: Jean Pierre
+    - family: Baruchel
+      given: André
+  citation-key: ghorashianTisagenlecleucelTherapyRelapsed2022a
+  container-title: The Lancet Haematology
+  container-title-short: The Lancet Haematology
+  DOI: 10.1016/S2352-3026(22)00225-3
+  ISSN: 2352-3026
+  issued:
+    - year: 2022
+      month: 9
+      day: 6
+  language: en
+  license: All rights reserved
+  note: 1 citations (Crossref) [2022-09-07]
+  source: ScienceDirect
+  title: >-
+    Tisagenlecleucel therapy for relapsed or refractory B-cell acute
+    lymphoblastic leukaemia in infants and children younger than 3 years of age
+    at screening: an international, multicentre, retrospective cohort study
+  title-short: >-
+    Tisagenlecleucel therapy for relapsed or refractory B-cell acute
+    lymphoblastic leukaemia in infants and children younger than 3 years of age
+    at screening
+  type: article-journal
+  URL: https://www.sciencedirect.com/science/article/pii/S2352302622002253
+
+- id: harrisClinicalDeploymentEnvironments2022
+  accessed:
+    - year: 2022
+      month: 8
+      day: 31
+  author:
+    - family: Harris
+      given: Steve
+    - family: Bonnici
+      given: Tim
+    - family: Keen
+      given: Thomas
+    - family: Lilaonitkul
+      given: Watjana
+    - family: White
+      given: Mark J.
+    - family: Swanepoel
+      given: Nel
+  citation-key: harrisClinicalDeploymentEnvironments2022
+  container-title: Frontiers in Digital Health
+  container-title-short: Front. Digit. Health
+  DOI: 10.3389/fdgth.2022.939292
+  ISSN: 2673-253X
+  issued:
+    - year: 2022
+  license: CC0 1.0 Universal Public Domain Dedication
+  source: Frontiers
+  title: >-
+    Clinical deployment environments: Five pillars of translational machine
+    learning for health
+  title-short: Clinical deployment environments
+  type: article-journal
+  URL: https://www.frontiersin.org/articles/10.3389/fdgth.2022.939292
+  volume: '4'
+
+- id: harrisDonWantMy2021a
+  accessed:
+    - year: 2022
+      month: 7
+      day: 17
+  author:
+    - family: Harris
+      given: Steve
+  citation-key: harrisDonWantMy2021a
+  container-title: American Journal of Respiratory and Critical Care Medicine
+  container-title-short: Am J Respir Crit Care Med
+  DOI: 10.1164/rccm.202102-0459ED
+  ISSN: 1073-449X, 1535-4970
+  issue: '1'
+  issued:
+    - year: 2021
+      month: 7
+      day: 1
+  language: en
+  license: All rights reserved
+  page: 4-5
+  source: DOI.org (Crossref)
+  title: >-
+    I Don't Want My Algorithm to Die in a Paper: Detecting Deteriorating
+    Patients Early
+  title-short: I Don't Want My Algorithm to Die in a Paper
+  type: article-journal
+  URL: https://www.atsjournals.org/doi/10.1164/rccm.202102-0459ED
+  volume: '204'
+
+- id: harrisTrialsPandemicsHere2021a
+  accessed:
+    - year: 2022
+      month: 7
+      day: 17
+  author:
+    - family: Harris
+      given: Steve
+    - family: Palmer
+      given: Ed
+    - family: Fong
+      given: Kevin
+  citation-key: harrisTrialsPandemicsHere2021a
+  container-title: British Journal of Anaesthesia
+  container-title-short: British Journal of Anaesthesia
+  DOI: 10.1016/j.bja.2020.10.008
+  ISSN: '00070912'
+  issue: '1'
+  issued:
+    - year: 2021
+      month: 1
+  language: en
+  license: All rights reserved
+  page: e42-e44
+  source: DOI.org (Crossref)
+  title: 'Trials in pandemics: here we go again?'
+  title-short: Trials in pandemics
+  type: article-journal
+  URL: https://linkinghub.elsevier.com/retrieve/pii/S0007091220308400
+  volume: '126'
+
+- id: hashimPerceptionsUKClinicians2021a
+  accessed:
+    - year: 2022
+      month: 7
+      day: 17
+  author:
+    - family: Hashim
+      given: S.
+    - family: Wong
+      given: D. J. N.
+    - family: Farmer
+      given: L.
+    - family: Harris
+      given: S. K.
+    - family: Moonesinghe
+      given: S. R.
+  citation-key: hashimPerceptionsUKClinicians2021a
+  container-title: Anaesthesia
+  container-title-short: Anaesthesia
+  DOI: 10.1111/anae.15302
+  ISSN: 0003-2409, 1365-2044
+  issue: '3'
+  issued:
+    - year: 2021
+      month: 3
+  language: en
+  license: All rights reserved
+  page: 336-345
+  source: DOI.org (Crossref)
+  title: Perceptions of UK clinicians towards postoperative critical care
+  type: article-journal
+  URL: https://onlinelibrary.wiley.com/doi/10.1111/anae.15302
+  volume: '76'
+
+- id: keeleStrongerInstrumentsRefined2020a
+  accessed:
+    - year: 2022
+      month: 7
+      day: 17
+  author:
+    - family: Keele
+      given: Luke
+    - family: Harris
+      given: Steve
+    - family: Pimentel
+      given: Samuel D.
+    - family: Grieve
+      given: Richard
+  citation-key: keeleStrongerInstrumentsRefined2020a
+  container-title: 'Journal of the Royal Statistical Society: Series A (Statistics in Society)'
+  container-title-short: J. R. Stat. Soc. A
+  DOI: 10.1111/rssa.12437
+  ISSN: 0964-1998, 1467-985X
+  issue: '4'
+  issued:
+    - year: 2020
+      month: 10
+  language: en
+  license: All rights reserved
+  page: 1501-1521
+  source: DOI.org (Crossref)
+  title: >-
+    Stronger instruments and refined covariate balance in an observational study
+    of the effectiveness of prompt admission to intensive care units
+  type: article-journal
+  URL: https://onlinelibrary.wiley.com/doi/10.1111/rssa.12437
+  volume: '183'
+
+- id: kingMachineLearningRealtime2022a
+  author:
+    - family: King
+      given: Zella
+    - family: Farrington
+      given: Joseph
+    - family: Utley
+      given: Martin
+    - family: Kung
+      given: Enoch
+    - family: Elkhodair
+      given: Samer
+    - family: Harris
+      given: Steve
+    - family: Sekula
+      given: Richard
+    - family: Gillham
+      given: Jonathan
+    - family: Li
+      given: Kezhi
+    - family: Crowe
+      given: Sonya
+  citation-key: kingMachineLearningRealtime2022a
+  container-title: npj Digital Medicine
+  container-title-short: npj Digital Medicine
+  DOI: 10.1038/s41746-022-00649-y
+  ISSN: 2398-6352
+  issue: '1'
+  issued:
+    - year: 2022
+      month: 7
+      day: 26
+  license: All rights reserved
+  page: '104'
+  title: >-
+    Machine learning for real-time aggregated prediction of hospital admission
+    for emergency patients
+  type: article-journal
+  URL: https://doi.org/10.1038/s41746-022-00649-y
+  volume: '5'
+
+- id: krishnamoorthyCausalInferencePerioperative2020b
+  accessed:
+    - year: 2022
+      month: 7
+      day: 17
+  author:
+    - family: Krishnamoorthy
+      given: Vijay
+    - family: Wong
+      given: Danny J.N.
+    - family: Wilson
+      given: Matt
+    - family: Raghunathan
+      given: Karthik
+    - family: Ohnuma
+      given: Tetsu
+    - family: McLean
+      given: Duncan
+    - family: Moonesinghe
+      given: S. Ramani
+    - family: Harris
+      given: Steve K.
+  citation-key: krishnamoorthyCausalInferencePerioperative2020b
+  container-title: British Journal of Anaesthesia
+  container-title-short: British Journal of Anaesthesia
+  DOI: 10.1016/j.bja.2020.03.031
+  ISSN: '00070912'
+  issue: '3'
+  issued:
+    - year: 2020
+      month: 9
+  language: en
+  license: All rights reserved
+  page: 393-397
+  source: DOI.org (Crossref)
+  title: >-
+    Causal inference in perioperative medicine observational research: part 1, a
+    graphical introduction
+  title-short: Causal inference in perioperative medicine observational research
+  type: article-journal
+  URL: https://linkinghub.elsevier.com/retrieve/pii/S0007091220302932
+  volume: '125'
+
+- id: krishnamoorthyCausalInferencePerioperative2020c
+  accessed:
+    - year: 2022
+      month: 7
+      day: 17
+  author:
+    - family: Krishnamoorthy
+      given: Vijay
+    - family: McLean
+      given: Duncan
+    - family: Ohnuma
+      given: Tetsu
+    - family: Harris
+      given: Steve K.
+    - family: Wong
+      given: Danny J.N.
+    - family: Wilson
+      given: Matt
+    - family: Moonesinghe
+      given: Ramani
+    - family: Raghunathan
+      given: Karthik
+  citation-key: krishnamoorthyCausalInferencePerioperative2020c
+  container-title: British Journal of Anaesthesia
+  container-title-short: British Journal of Anaesthesia
+  DOI: 10.1016/j.bja.2020.03.032
+  ISSN: '00070912'
+  issue: '3'
+  issued:
+    - year: 2020
+      month: 9
+  language: en
+  license: All rights reserved
+  page: 398-405
+  source: DOI.org (Crossref)
+  title: >-
+    Causal inference in perioperative medicine observational research: part 2,
+    advanced methods
+  title-short: Causal inference in perioperative medicine observational research
+  type: article-journal
+  URL: https://linkinghub.elsevier.com/retrieve/pii/S0007091220303020
+  volume: '125'
+
+- id: laiInformaticsConsultApproach2021a
+  accessed:
+    - year: 2022
+      month: 7
+      day: 17
+  author:
+    - family: Lai
+      given: Alvina G.
+    - family: Chang
+      given: Wai Hoong
+    - family: Parisinos
+      given: Constantinos A.
+    - family: Katsoulis
+      given: Michail
+    - family: Blackburn
+      given: Ruth M.
+    - family: Shah
+      given: Anoop D.
+    - family: Nguyen
+      given: Vincent
+    - family: Denaxas
+      given: Spiros
+    - family: Davey Smith
+      given: George
+    - family: Gaunt
+      given: Tom R.
+    - family: Nirantharakumar
+      given: Krishnarajah
+    - family: Cox
+      given: Murray P.
+    - family: Forde
+      given: Donall
+    - family: Asselbergs
+      given: Folkert W.
+    - family: Harris
+      given: Steve
+    - family: Richardson
+      given: Sylvia
+    - family: Sofat
+      given: Reecha
+    - family: Dobson
+      given: Richard J. B.
+    - family: Hingorani
+      given: Aroon
+    - family: Patel
+      given: Riyaz
+    - family: Sterne
+      given: Jonathan
+    - family: Banerjee
+      given: Amitava
+    - family: Denniston
+      given: Alastair K.
+    - family: Ball
+      given: Simon
+    - family: Sebire
+      given: Neil J.
+    - family: Shah
+      given: Nigam H.
+    - family: Foster
+      given: Graham R.
+    - family: Williams
+      given: Bryan
+    - family: Hemingway
+      given: Harry
+  citation-key: laiInformaticsConsultApproach2021a
+  container-title: BMC Medical Informatics and Decision Making
+  container-title-short: BMC Med Inform Decis Mak
+  DOI: 10.1186/s12911-021-01638-z
+  ISSN: 1472-6947
+  issue: '1'
+  issued:
+    - year: 2021
+      month: 12
+  language: en
+  license: All rights reserved
+  page: '281'
+  source: DOI.org (Crossref)
+  title: >-
+    An informatics consult approach for generating clinical evidence for
+    treatment decisions
+  type: article-journal
+  URL: >-
+    https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-021-01638-z
+  volume: '21'
+
+- id: newcombeFutureAcuteEmergency2021a
+  accessed:
+    - year: 2022
+      month: 7
+      day: 17
+  author:
+    - family: Newcombe
+      given: Virginia
+    - family: Coats
+      given: Timothy
+    - family: Dark
+      given: Paul
+    - family: Gordon
+      given: Anthony
+    - family: Harris
+      given: Steve
+    - family: McAuley
+      given: Danny F
+    - family: Menon
+      given: David K
+    - family: Price
+      given: Susanna
+    - family: Puthucheary
+      given: Zudin
+    - family: Singer
+      given: Mervyn
+  citation-key: newcombeFutureAcuteEmergency2021a
+  container-title: Future Healthcare Journal
+  container-title-short: Future Healthc J
+  DOI: 10.7861/fhj.2021-0097
+  ISSN: 2514-6645, 2514-6653
+  issue: '2'
+  issued:
+    - year: 2021
+      month: 7
+  language: en
+  license: All rights reserved
+  page: e230-e236
+  source: DOI.org (Crossref)
+  title: The future of acute and emergency care
+  type: article-journal
+  URL: https://www.rcpjournals.org/lookup/doi/10.7861/fhj.2021-0097
+  volume: '8'
+
+- id: postOxygenationCriticallyIll2020a
+  accessed:
+    - year: 2022
+      month: 7
+      day: 17
+  author:
+    - family: Post
+      given: Benjamin
+    - family: Palmer
+      given: Edward
+    - family: Harris
+      given: Steve
+    - family: Singer
+      given: Mervyn
+    - family: Martin
+      given: Daniel
+  citation-key: postOxygenationCriticallyIll2020a
+  container-title: British Journal of Anaesthesia
+  container-title-short: British Journal of Anaesthesia
+  DOI: 10.1016/j.bja.2020.06.033
+  ISSN: '00070912'
+  issue: '3'
+  issued:
+    - year: 2020
+      month: 9
+  language: en
+  license: All rights reserved
+  page: e277-e279
+  source: DOI.org (Crossref)
+  title: >-
+    Oxygenation of the critically ill in selected intensive care units in the
+    UK: are we usual?
+  title-short: Oxygenation of the critically ill in selected intensive care units in the UK
+  type: article-journal
+  URL: https://linkinghub.elsevier.com/retrieve/pii/S0007091220304931
+  volume: '125'
+
+- id: shahDescriptorsSepsisUsing2021a
+  accessed:
+    - year: 2022
+      month: 7
+      day: 17
+  author:
+    - family: Shah
+      given: Anoop D.
+    - family: MacCallum
+      given: Niall S.
+    - family: Harris
+      given: Steve
+    - family: Brealey
+      given: David A.
+    - family: Palmer
+      given: Edward
+    - family: Hetherington
+      given: James
+    - family: Shi
+      given: Sinan
+    - family: Perez-Suarez
+      given: David
+    - family: Ercole
+      given: Ari
+    - family: Watkinson
+      given: Peter J.
+    - family: Jones
+      given: Andrew
+    - family: Ashworth
+      given: Simon
+    - family: Beale
+      given: Richard
+    - family: Brett
+      given: Stephen J.
+    - family: Singer
+      given: Mervyn
+  citation-key: shahDescriptorsSepsisUsing2021a
+  container-title: Critical Care Medicine
+  container-title-short: Crit. Care Med.
+  DOI: 10.1097/CCM.0000000000005169
+  ISSN: 0090-3493
+  issue: '11'
+  issued:
+    - year: 2021
+      month: 11
+  language: en
+  license: All rights reserved
+  page: 1883-1894
+  source: DOI.org (Crossref)
+  title: >-
+    Descriptors of Sepsis Using the Sepsis-3 Criteria: A Cohort Study in
+    Critical Care Units Within the U.K. National Institute for Health Research
+    Critical Care Health Informatics Collaborative*
+  title-short: Descriptors of Sepsis Using the Sepsis-3 Criteria
+  type: article-journal
+  URL: https://journals.lww.com/10.1097/CCM.0000000000005169
+  volume: '49'
+
+- id: tissotNaturalLanguageProcessing2020a
+  accessed:
+    - year: 2022
+      month: 7
+      day: 17
+  author:
+    - family: Tissot
+      given: Hegler C.
+    - family: Shah
+      given: Anoop D.
+    - family: Brealey
+      given: David
+    - family: Harris
+      given: Steve
+    - family: Agbakoba
+      given: Ruth
+    - family: Folarin
+      given: Amos
+    - family: Romao
+      given: Luis
+    - family: Roguski
+      given: Lukasz
+    - family: Dobson
+      given: Richard
+    - family: Asselbergs
+      given: Folkert W.
+  citation-key: tissotNaturalLanguageProcessing2020a
+  container-title: IEEE Journal of Biomedical and Health Informatics
+  container-title-short: IEEE J. Biomed. Health Inform.
+  DOI: 10.1109/JBHI.2020.2977925
+  ISSN: 2168-2194, 2168-2208
+  issue: '10'
+  issued:
+    - year: 2020
+      month: 10
+  language: en
+  license: All rights reserved
+  page: 2950-2959
+  source: DOI.org (Crossref)
+  title: >-
+    Natural Language Processing for Mimicking Clinical Trial Recruitment in
+    Critical Care: A Semi-Automated Simulation Based on the LeoPARDS Trial
+  title-short: >-
+    Natural Language Processing for Mimicking Clinical Trial Recruitment in
+    Critical Care
+  type: article-journal
+  URL: https://ieeexplore.ieee.org/document/9027845/
+  volume: '24'
+
+- id: wilsonClinicianPreferenceInstrumental2022a
+  accessed:
+    - year: 2022
+      month: 10
+      day: 20
+  author:
+    - family: Wilson
+      given: Matthew G.
+    - family: Rashan
+      given: Aasiyah
+    - family: Klapaukh
+      given: Roman
+    - family: Asselbergs
+      given: Folkert W.
+    - family: Harris
+      given: Steve K.
+  citation-key: wilsonClinicianPreferenceInstrumental2022a
+  container-title: Scientific Reports
+  container-title-short: Sci Rep
+  DOI: 10.1038/s41598-022-21286-1
+  ISSN: 2045-2322
+  issue: '1'
+  issued:
+    - year: 2022
+      month: 10
+      day: 19
+  language: en
+  license: All rights reserved
+  note: 0 citations (Crossref) [2022-11-17]
+  page: '17433'
+  source: DOI.org (Crossref)
+  title: >-
+    Clinician preference instrumental variable analysis of the effectiveness of
+    magnesium supplementation for atrial fibrillation prophylaxis in critical
+    care
+  type: article-journal
+  URL: https://www.nature.com/articles/s41598-022-21286-1
+  volume: '12'
+
+- id: wilsonEmbeddedPointCare2022a
+  accessed:
+    - year: 2022
+      month: 9
+      day: 20
+  author:
+    - family: Wilson
+      given: Matthew G
+    - family: Asselbergs
+      given: Folkert W
+    - family: Miguel
+      given: Ruben
+    - family: Brealey
+      given: David
+    - family: Harris
+      given: Steve K
+  citation-key: wilsonEmbeddedPointCare2022a
+  container-title: BMJ Open
+  container-title-short: BMJ Open
+  DOI: 10.1136/bmjopen-2021-059995
+  ISSN: 2044-6055, 2044-6055
+  issue: '9'
+  issued:
+    - year: 2022
+      month: 9
+  language: en
+  license: CC0 1.0 Universal Public Domain Dedication
+  note: 0 citations (Crossref) [2022-09-20]
+  page: e059995
+  source: DOI.org (Crossref)
+  title: >-
+    Embedded point of care randomisation for evaluating comparative
+    effectiveness questions: PROSPECTOR-critical care feasibility study protocol
+  title-short: >-
+    Embedded point of care randomisation for evaluating comparative
+    effectiveness questions
+  type: article-journal
+  URL: https://bmjopen.bmj.com/lookup/doi/10.1136/bmjopen-2021-059995
+  volume: '12'
+
+- id: wilsonLearningIndividualisedVariation2022a
+  accessed:
+    - year: 2022
+      month: 7
+      day: 17
+  author:
+    - family: Wilson
+      given: Matthew G.
+    - family: Asselbergs
+      given: Folkert W.
+    - family: Harris
+      given: Steve K.
+  citation-key: wilsonLearningIndividualisedVariation2022a
+  container-title: British Journal of Anaesthesia
+  container-title-short: British Journal of Anaesthesia
+  DOI: 10.1016/j.bja.2022.02.008
+  ISSN: '00070912'
+  issue: '5'
+  issued:
+    - year: 2022
+      month: 5
+  language: en
+  license: All rights reserved
+  note: 1 citations (Crossref) [2022-11-17]
+  page: e320-e322
+  source: DOI.org (Crossref)
+  title: >-
+    Learning from individualised variation for evidence generation within a
+    learning health system
+  type: article-journal
+  URL: https://linkinghub.elsevier.com/retrieve/pii/S0007091222000757
+  volume: '128'
+
+- id: wongDevelopingValidatingSubjective2020a
+  accessed:
+    - year: 2022
+      month: 7
+      day: 17
+  author:
+    - family: Wong
+      given: Danny J. N.
+    - family: Harris
+      given: Steve
+    - family: Sahni
+      given: Arun
+    - family: Bedford
+      given: James R.
+    - family: Cortes
+      given: Laura
+    - family: Shawyer
+      given: Richard
+    - family: Wilson
+      given: Andrew M.
+    - family: Lindsay
+      given: Helen A.
+    - family: Campbell
+      given: Doug
+    - family: Popham
+      given: Scott
+    - family: Barneto
+      given: Lisa M.
+    - family: Myles
+      given: Paul S.
+    - literal: 'SNAP-2: EPICCS collaborators'
+    - family: Moonesinghe
+      given: S. Ramani
+  citation-key: wongDevelopingValidatingSubjective2020a
+  container-title: PLOS Medicine
+  container-title-short: PLoS Med
+  DOI: 10.1371/journal.pmed.1003253
+  editor:
+    - family: Menon
+      given: David
+  ISSN: 1549-1676
+  issue: '10'
+  issued:
+    - year: 2020
+      month: 10
+      day: 15
+  language: en
+  license: All rights reserved
+  page: e1003253
+  source: DOI.org (Crossref)
+  title: >-
+    Developing and validating subjective and objective risk-assessment measures
+    for predicting mortality after major surgery: An international prospective
+    cohort study
+  title-short: >-
+    Developing and validating subjective and objective risk-assessment measures
+    for predicting mortality after major surgery
+  type: article-journal
+  URL: https://dx.plos.org/10.1371/journal.pmed.1003253
+  volume: '17'
+...
