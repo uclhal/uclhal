@@ -7,6 +7,8 @@
   url: https://link.springer.com/10.1007/s00134-020-06180-6
   url4title: http://doi.org/10.1007/s00134-020-06180-6
   categories: []
+  favourite: false
+  abstract: ''
 - cite_key: banerjeeEstimatingExcess1year2020a
   authors: Banerjee A, Pasea L, Harris S, Gonzalez-Izquierdo A, Torralbo A, Shallcross
     L, Noursadeghi M, Pillay D, Sebire N, Holmes C, Pagel C, Wong W, Langenberg C,
@@ -20,6 +22,16 @@
   url4title: http://doi.org/10.1016/S0140-6736(20)30854-0
   categories:
   - recommended
+  favourite: true
+  abstract: Background The medical, societal, and economic impact of the coronavirus
+    disease 2019 (COVID-19) pandemic has unknown effects on overall population mortality.
+    Previous models of population mortality are based on death over days among infected
+    people, nearly all of whom thus far have underlying conditions. Models have not
+    incorporated information on high-risk conditions or their longer-term baseline
+    (pre-COVID-19) mortality. We estimated the excess number of deaths over 1 year
+    under different COVID-19 incidence scenarios based on varying levels of transmission
+    suppression and differing mortality impacts based on different relative risks
+    for the disease.
 - cite_key: chenNudgingLearningHealth2022b
   authors: Chen Y, Harris S, Rogers Y, Ahmad T, Asselbergs F
   title: 'Nudging within learning health systems: next generation decision support
@@ -30,6 +42,8 @@
   url: https://academic.oup.com/eurheartj/article/43/13/1296/6525340
   url4title: http://doi.org/10.1093/eurheartj/ehac030
   categories: []
+  favourite: false
+  abstract: ''
 - cite_key: critcareasiaEstablishingCriticalCare2020a
   authors: ' , Beane A, Dondorp A, Taqi A, Ahsan A, Vijayaraghavan B, Permpikul C,
     Pell C, Gandy D, Priyadarshani D, Aryal D, Khiem D, Thuy D, Thwaites G, Kayastha
@@ -45,6 +59,8 @@
   url: https://ccforum.biomedcentral.com/articles/10.1186/s13054-020-03321-7
   url4title: http://doi.org/10.1186/s13054-020-03321-7
   categories: []
+  favourite: false
+  abstract: ''
 - cite_key: domiziRelationshipNorepinephrineDose2020a
   authors: Domizi R, Calcinaro S, Harris S, Beilstein C, Boerma C, Chiche J, D'Egidio
     A, Damiani E, Donati A, Koetsier P, Madden M, McAuley D, Morelli A, Pelaia P,
@@ -57,6 +73,8 @@
   url: https://linkinghub.elsevier.com/retrieve/pii/S0883944119313590
   url4title: http://doi.org/10.1016/j.jcrc.2020.02.014
   categories: []
+  favourite: false
+  abstract: ''
 - cite_key: flowerAcuteSTsegmentElevation2021a
   authors: Flower L, Bares Z, Santiapillai G, Harris S
   title: Acute ST-segment elevation myocardial infarction secondary to vaccine-induced
@@ -71,6 +89,8 @@
   - COVID-19
   - haematology (including blood transfusion)
   - ischaemic heart disease
+  favourite: false
+  abstract: ''
 - cite_key: ghorashianTisagenlecleucelTherapyRelapsed2022a
   authors: Ghorashian S, Jacoby E, De Moerloose B, Rives S, Bonney D, Shenton G, Bader
     P, Bodmer N, Quintana A, Herrero B, Algeri M, Locatelli F, Vettenranta K, Gonzalez
@@ -84,6 +104,8 @@
   url: https://www.sciencedirect.com/science/article/pii/S2352302622002253
   url4title: http://doi.org/10.1016/S2352-3026(22)00225-3
   categories: []
+  favourite: false
+  abstract: ''
 - cite_key: harrisClinicalDeploymentEnvironments2022
   authors: Harris S, Bonnici T, Keen T, Lilaonitkul W, White M, Swanepoel N
   title: 'Clinical deployment environments: Five pillars of translational machine
@@ -94,6 +116,8 @@
   url: https://www.frontiersin.org/articles/10.3389/fdgth.2022.939292
   url4title: http://doi.org/10.3389/fdgth.2022.939292
   categories: []
+  favourite: false
+  abstract: ''
 - cite_key: harrisDonWantMy2021a
   authors: Harris S
   title: 'I Don''t Want My Algorithm to Die in a Paper: Detecting Deteriorating Patients
@@ -104,6 +128,8 @@
   url: https://www.atsjournals.org/doi/10.1164/rccm.202102-0459ED
   url4title: http://doi.org/10.1164/rccm.202102-0459ED
   categories: []
+  favourite: false
+  abstract: ''
 - cite_key: harrisTrialsPandemicsHere2021a
   authors: Harris S, Palmer E, Fong K
   title: 'Trials in pandemics: here we go again?'
@@ -113,6 +139,8 @@
   url: https://linkinghub.elsevier.com/retrieve/pii/S0007091220308400
   url4title: http://doi.org/10.1016/j.bja.2020.10.008
   categories: []
+  favourite: false
+  abstract: ''
 - cite_key: hashimPerceptionsUKClinicians2021a
   authors: Hashim S, Wong D, Farmer L, Harris S, Moonesinghe S
   title: Perceptions of UK clinicians towards postoperative critical care
@@ -122,6 +150,8 @@
   url: https://onlinelibrary.wiley.com/doi/10.1111/anae.15302
   url4title: http://doi.org/10.1111/anae.15302
   categories: []
+  favourite: false
+  abstract: ''
 - cite_key: keeleStrongerInstrumentsRefined2020a
   authors: Keele L, Harris S, Pimentel S, Grieve R
   title: Stronger instruments and refined covariate balance in an observational study
@@ -132,6 +162,8 @@
   url: https://onlinelibrary.wiley.com/doi/10.1111/rssa.12437
   url4title: http://doi.org/10.1111/rssa.12437
   categories: []
+  favourite: false
+  abstract: ''
 - cite_key: kingMachineLearningRealtime2022a
   authors: King Z, Farrington J, Utley M, Kung E, Elkhodair S, Harris S, Sekula R,
     Gillham J, Li K, Crowe S
@@ -144,6 +176,22 @@
   url4title: http://doi.org/10.1038/s41746-022-00649-y
   categories:
   - recommended
+  favourite: true
+  abstract: "Machine learning for hospital operations is under-studied. We present\
+    \ a prediction pipeline that uses live electronic health-records for patients\
+    \ in a UK teaching hospital\u2019s emergency department (ED) to generate short-term,\
+    \ probabilistic forecasts of emergency admissions. A set of XGBoost classifiers\
+    \ applied to 109,465 ED visits yielded AUROCs from 0.82 to 0.90 depending on elapsed\
+    \ visit-time at the point of prediction. Patient-level probabilities of admission\
+    \ were aggregated to forecast the number of admissions among current ED patients\
+    \ and, incorporating patients yet to arrive, total emergency admissions within\
+    \ specified time-windows. The pipeline gave a mean absolute error (MAE) of 4.0\
+    \ admissions (mean percentage error of 17%) versus 6.5 (32%) for a benchmark metric.\
+    \ Models developed with 104,504 later visits during the Covid-19 pandemic gave\
+    \ AUROCs of 0.68\u20130.90 and MAE of 4.2 (30%) versus a 4.9 (33%) benchmark.\
+    \ We discuss how we surmounted challenges of designing and implementing models\
+    \ for real-time use, including temporal framing, data preparation, and changing\
+    \ operational conditions."
 - cite_key: krishnamoorthyCausalInferencePerioperative2020b
   authors: Krishnamoorthy V, Wong D, Wilson M, Raghunathan K, Ohnuma T, McLean D,
     Moonesinghe S, Harris S
@@ -155,6 +203,8 @@
   url: https://linkinghub.elsevier.com/retrieve/pii/S0007091220302932
   url4title: http://doi.org/10.1016/j.bja.2020.03.031
   categories: []
+  favourite: false
+  abstract: ''
 - cite_key: krishnamoorthyCausalInferencePerioperative2020c
   authors: Krishnamoorthy V, McLean D, Ohnuma T, Harris S, Wong D, Wilson M, Moonesinghe
     R, Raghunathan K
@@ -166,6 +216,8 @@
   url: https://linkinghub.elsevier.com/retrieve/pii/S0007091220303020
   url4title: http://doi.org/10.1016/j.bja.2020.03.032
   categories: []
+  favourite: false
+  abstract: ''
 - cite_key: laiInformaticsConsultApproach2021a
   authors: Lai A, Chang W, Parisinos C, Katsoulis M, Blackburn R, Shah A, Nguyen V,
     Denaxas S, Davey Smith G, Gaunt T, Nirantharakumar K, Cox M, Forde D, Asselbergs
@@ -180,6 +232,8 @@
   url: https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-021-01638-z
   url4title: http://doi.org/10.1186/s12911-021-01638-z
   categories: []
+  favourite: false
+  abstract: ''
 - cite_key: newcombeFutureAcuteEmergency2021a
   authors: Newcombe V, Coats T, Dark P, Gordon A, Harris S, McAuley D, Menon D, Price
     S, Puthucheary Z, Singer M
@@ -190,6 +244,8 @@
   url: https://www.rcpjournals.org/lookup/doi/10.7861/fhj.2021-0097
   url4title: http://doi.org/10.7861/fhj.2021-0097
   categories: []
+  favourite: false
+  abstract: ''
 - cite_key: postOxygenationCriticallyIll2020a
   authors: Post B, Palmer E, Harris S, Singer M, Martin D
   title: 'Oxygenation of the critically ill in selected intensive care units in the
@@ -200,6 +256,8 @@
   url: https://linkinghub.elsevier.com/retrieve/pii/S0007091220304931
   url4title: http://doi.org/10.1016/j.bja.2020.06.033
   categories: []
+  favourite: false
+  abstract: ''
 - cite_key: shahDescriptorsSepsisUsing2021a
   authors: Shah A, MacCallum N, Harris S, Brealey D, Palmer E, Hetherington J, Shi
     S, Perez-Suarez D, Ercole A, Watkinson P, Jones A, Ashworth S, Beale R, Brett
@@ -213,6 +271,8 @@
   url: https://journals.lww.com/10.1097/CCM.0000000000005169
   url4title: http://doi.org/10.1097/CCM.0000000000005169
   categories: []
+  favourite: false
+  abstract: ''
 - cite_key: tissotNaturalLanguageProcessing2020a
   authors: Tissot H, Shah A, Brealey D, Harris S, Agbakoba R, Folarin A, Romao L,
     Roguski L, Dobson R, Asselbergs F
@@ -224,6 +284,8 @@
   url: https://ieeexplore.ieee.org/document/9027845/
   url4title: http://doi.org/10.1109/JBHI.2020.2977925
   categories: []
+  favourite: false
+  abstract: ''
 - cite_key: wilsonClinicianPreferenceInstrumental2022a
   authors: Wilson M, Rashan A, Klapaukh R, Asselbergs F, Harris S
   title: Clinician preference instrumental variable analysis of the effectiveness
@@ -234,6 +296,8 @@
   url: https://www.nature.com/articles/s41598-022-21286-1
   url4title: http://doi.org/10.1038/s41598-022-21286-1
   categories: []
+  favourite: false
+  abstract: ''
 - cite_key: wilsonEmbeddedPointCare2022a
   authors: Wilson M, Asselbergs F, Miguel R, Brealey D, Harris S
   title: 'Embedded point of care randomisation for evaluating comparative effectiveness
@@ -245,6 +309,38 @@
   url4title: http://doi.org/10.1136/bmjopen-2021-059995
   categories:
   - recommended
+  favourite: true
+  abstract: "Introduction\n              Many routinely administered treatments lack\
+    \ evidence as to their effectiveness. When treatments lack evidence, patients\
+    \ receive varying care based on the preferences of clinicians. Standard randomised\
+    \ controlled trials are unsuited to comparisons of different routine treatment\
+    \ strategies, and there remains little economic incentive for change.\n      \
+    \        Integrating clinical trial infrastructure into electronic health record\
+    \ systems offers the potential for routine treatment comparisons at scale, through\
+    \ reduced trial costs. To date, embedded trials have automated data collection,\
+    \ participant identification and eligibility screening, but randomisation and\
+    \ consent remain manual and therefore costly tasks.\n              This study\
+    \ will investigate the feasibility of using computer prompts to allow flexible\
+    \ randomisation at the point of clinical decision making. It will compare the\
+    \ effectiveness of two prompt designs through the lens of a candidate research\
+    \ question\u2014comparing liberal or restrictive magnesium supplementation practices\
+    \ for critical care patients. It will also explore the acceptability of two consent\
+    \ models for conducting comparative effectiveness research.\n            \n  \
+    \          \n              Methods and analysis\n              We will conduct\
+    \ a single centre, mixed-methods feasibility study, aiming to recruit 50 patients\
+    \ undergoing elective surgery requiring postoperative critical care admission.\
+    \ Participants will be randomised to either \u2018Nudge\u2019 or \u2018Preference\u2019\
+    \ designs of electronic point-of-care randomisation prompt, and liberal or restrictive\
+    \ magnesium supplementation.\n              We will judge feasibility through\
+    \ a combination of study outcomes. The primary outcome will be the proportion\
+    \ of prompts displayed resulting in successful randomisation events (compliance\
+    \ with the allocated magnesium strategy). Secondary outcomes will evaluate the\
+    \ acceptability of both prompt designs to clinicians and ascertain the acceptability\
+    \ of pre-emptive and opt-out consent models to patients.\n            \n     \
+    \       \n              Ethics and dissemination\n              This study was\
+    \ approved by Riverside Research Ethics Committee (Ref: 21/LO/0785) and will be\
+    \ published on completion.\n            \n            \n              Trial registration\
+    \ number\n              \n                NCT05149820\n                ."
 - cite_key: wilsonLearningIndividualisedVariation2022a
   authors: Wilson M, Asselbergs F, Harris S
   title: Learning from individualised variation for evidence generation within a learning
@@ -255,6 +351,8 @@
   url: https://linkinghub.elsevier.com/retrieve/pii/S0007091222000757
   url4title: http://doi.org/10.1016/j.bja.2022.02.008
   categories: []
+  favourite: false
+  abstract: ''
 - cite_key: wongDevelopingValidatingSubjective2020a
   authors: Wong D, Harris S, Sahni A, Bedford J, Cortes L, Shawyer R, Wilson A, Lindsay
     H, Campbell D, Popham S, Barneto L, Myles P,  , Moonesinghe S
@@ -267,3 +365,5 @@
   url: https://dx.plos.org/10.1371/journal.pmed.1003253
   url4title: http://doi.org/10.1371/journal.pmed.1003253
   categories: []
+  favourite: false
+  abstract: ''

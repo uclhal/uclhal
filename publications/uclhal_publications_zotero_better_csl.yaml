@@ -1,5 +1,75 @@
 ---
 references:
+- id: acklandRevisedCardiacRisk2010c
+  abstract: >-
+    Background. The revised cardiac risk index (RCRI) is associated strongly
+    with increased cardiac ischaemic risk and perioperative death. Associations
+    with non-cardiac morbidity in non-cardiac surgery have not been explored. In
+    the elective orthopaedic surgical population, morbidity is common but
+    preoperative predictors are unclear. We hypothesized that RCRI would
+    identify individuals at increased risk of non-cardiac morbidity in this
+    surgically homogenous population.
+
+    Methods. Five hundred and sixty patients undergoing elective primary (.90%)
+    and revision hip and knee procedures were studied. A modiﬁed RCRI (mRCRI)
+    score was calculated, weighting intermediate and low risk factors. The
+    primary endpoint was the development of morbidity, collected prospectively
+    using the Postoperative Morbidity Survey, on postoperative day (POD) 5.
+
+    Results. Morbidity on POD 5 was more frequent in patients with mRCRI ≥3
+    {relative risk 1.7, [95% conﬁdence interval (CI): 1.4–2.1]; P,0.001}. Time
+    to hospital discharge was delayed in patients with mRCRI score ≥3 (log-rank
+    test, P¼0.0002). Pulmonary (P,0.001), infectious (P¼0.001), cardiovascular
+    (P¼0.0003), renal (P,0.0001), wound (P¼0.02), and neurological (P¼0.002)
+    morbidities were more common in patients with mRCRI score ≥3. Pre/
+    postoperative haematocrit, anaesthetic/analgesic technique, and
+    postoperative temperature were similar across mRCRI groups. There were
+    signiﬁcant associations with hospital stay, as measured by the area under
+    the receiver-operating characteristic curves for mRCRI 0.64 (95% CI:
+    0.58–0.70) and POSSUM 0.70 (95% CI: 0.63–0.75).
+
+    Conclusions. mRCRI score ≥3 is associated with increased postoperative
+    non-cardiac morbidity and prolonged hospital stay after elective orthopaedic
+    procedures. mRCRI can contribute to objective risk stratiﬁcation of
+    postoperative morbidity.
+  accessed:
+    - year: 2022
+      month: 7
+      day: 17
+  author:
+    - family: Ackland
+      given: G.L.
+    - family: Harris
+      given: S
+    - family: Ziabari
+      given: 'Y'
+    - family: Grocott
+      given: M
+    - family: Mythen
+      given: M
+  citation-key: acklandRevisedCardiacRisk2010c
+  container-title: British Journal of Anaesthesia
+  container-title-short: British Journal of Anaesthesia
+  DOI: 10.1093/bja/aeq245
+  ISSN: '00070912'
+  issue: '6'
+  issued:
+    - year: 2010
+      month: 12
+  keyword: []
+  language: en
+  page: 744-752
+  source: DOI.org (Crossref)
+  title: >-
+    Revised cardiac risk index and postoperative morbidity after elective
+    orthopaedic surgery: a prospective cohort study
+  title-short: >-
+    Revised cardiac risk index and postoperative morbidity after elective
+    orthopaedic surgery
+  type: article-journal
+  URL: https://linkinghub.elsevier.com/retrieve/pii/S0007091217334025
+  volume: '105'
+
 - id: arulkumaranUncontrolledInterventionsPandemics2020a
   accessed:
     - year: 2022
@@ -33,7 +103,129 @@ references:
   URL: https://link.springer.com/10.1007/s00134-020-06180-6
   volume: '46'
 
+- id: balasegaramMelarsoprolEflornithineTreating2006b
+  abstract: >-
+    Objective To compare the effectiveness of melarsoprol and eflornithine in
+    treating late-stage Gambian trypanosomiasis in the Republic of the Congo.
+
+    Methods We analysed the outcomes of death during treatment and relapse
+    within 1 year of discharge for 288 patients treated with eflornithine, 311
+    patients treated with the standard melarsoprol regimen and 62 patients
+    treated with a short-course (10-day) melarsoprol regimen between April 2001
+    and April 2005. Findings A total of 1.7% (5/288) of patients treated with
+    eflornithine died compared with 4.8% (15/311) of those treated with standard
+    melarsoprol and 6.5% (4/62) of those treated with short-course melarsoprol.
+    Patients treated with eflornithine tended to be younger and were more likely
+    to have trypanosomes or higher white blood cell counts in their
+    cerebrospinal fluid. The cumulated incidence of relapse among patients who
+    attended at least one follow-up visit 1 year after discharge was 8.1%
+    (11/136) for those treated with eflornithine, 14% (36/258) for those treated
+    with standard melarsoprol and 15.5% (9/58) for those treated with
+    shortcourse melarsoprol. In a multivariate analysis, when compared with
+    eflornithine, standard melarsoprol was found to be a risk factor for both
+    death (odds ratio (OR) = 2.87; 95% confidence interval (CI) = 1.03–8.00) and
+    relapse (hazard ratio (HR) = 2.47; 95% CI = 1.22–5.03); when compared with
+    eflornithine, short-course melarsoprol was also found to be a risk factor
+    for death (OR = 3.90; 95% CI = 1.02–14.98) and relapse (HR = 6.65; 95% CI =
+    2.61–16.94).
+
+    Conclusion The effectiveness of melarsoprol treatment appears to have
+    diminished. Eflornithine seems to be a better first-line therapy for
+    treating late-stage Gambian trypanosomiasis in the Republic of the Congo.
+  author:
+    - family: Balasegaram
+      given: Manica
+    - family: Harris
+      given: Steve
+    - family: Checchi
+      given: Francesco
+    - family: Ghorashian
+      given: Sara
+    - family: Hamel
+      given: Catherine
+    - family: Karunakara
+      given: Unni
+  citation-key: balasegaramMelarsoprolEflornithineTreating2006b
+  container-title: Bulletin of the World Health Organization
+  container-title-short: Bull. World Health Organ.
+  DOI: 10.2471/BLT.06.031955
+  issued:
+    - year: 2006
+  keyword: []
+  language: en
+  page: '9'
+  source: Zotero
+  title: >-
+    Melarsoprol versus eflornithine for treating late-stage Gambian
+    trypanosomiasis in the Republic of the Congo
+  type: article-journal
+
+- id: balasegaramTreatmentOutcomesRisk2006b
+  abstract: >-
+    Objective In 2002–03, the Republic of the Congo increased the threshold
+    separating stage 1 and 2 cases of human African trypanosomiasis (HAT) from a
+    cerebrospinal fluid (CSF) white cell count of 5 cells/mm³ to 10 cells/mm³.
+    We aimed to assess whether the increased threshold of 10 cells/mm³ is a safe
+    indicator of stage 2 disease.
+
+    Methods We assessed patients treated for stage 1 HAT caused by Trypanosoma
+    brucei gambiense in the Republic of the Congo between April 2001 and April
+    2005. Patients with 0–10 cells/mm³ in CSF were classed as stage 1 and
+    treated with pentamidine. Patients with CSF of > 10 cells/mm³ were classed
+    as stage 2 and treated with either melarsoprol or eflornithine. We did a
+    retrospective analysis of all patients treated after the September 2002
+    increase in threshold for classification of HAT disease stage 2, and who
+    were eligible for at least 1 year of follow-up. Primary outcome was survival
+    without death or relapse within 1 year of discharge. Risk factors for
+    treatment failure, in particular CSF white cell count on diagnosis, were
+    assessed. Findings Between September 2002 to April 2004, 692 patients
+    eligible for our analysis were treated with pentamidine. All were discharged
+    alive. Relapse rate was 5% (n = 33). The only identified risk factor for
+    relapse was a CSF white cell count of 6–10 cells/mm³ rather than 0–5
+    cells/mm³ (adjusted hazard ratio 3.27 (95% confidence interval, 1.52–7.01);
+    P = 0.002).
+
+    Conclusion A threshold of 5 white cells/mm³ in CSF is safer than 10
+    cells/mm³ to determine stage 2 HAT and reduce risk of relapse. Bulletin of
+    the World Health Organization 2006;84:777-782. Voir page 781 le résumé en
+    français. En la página 781 figura un resumen en español.
+  author:
+    - family: Balasegaram
+      given: Manica
+    - family: Harris
+      given: Steve
+    - family: Checchi
+      given: Francesco
+    - family: Hamel
+      given: Catherine
+    - family: Karunakara
+      given: Unni
+  citation-key: balasegaramTreatmentOutcomesRisk2006b
+  container-title: Bulletin of the World Health Organization
+  container-title-short: Bull. World Health Organ.
+  DOI: 10.2471/BLT.05.028399
+  issued:
+    - year: 2006
+  keyword: []
+  language: en
+  page: '6'
+  source: Zotero
+  title: >-
+    Treatment outcomes and risk factors for relapse in patients with early-stage
+    human African trypanosomiasis (HAT) in the Republic of the Congo
+  type: article-journal
+
 - id: banerjeeEstimatingExcess1year2020a
+  abstract: >-
+    Background The medical, societal, and economic impact of the coronavirus
+    disease 2019 (COVID-19) pandemic has unknown effects on overall population
+    mortality. Previous models of population mortality are based on death over
+    days among infected people, nearly all of whom thus far have underlying
+    conditions. Models have not incorporated information on high-risk conditions
+    or their longer-term baseline (pre-COVID-19) mortality. We estimated the
+    excess number of deaths over 1 year under different COVID-19 incidence
+    scenarios based on varying levels of transmission suppression and differing
+    mortality impacts based on different relative risks for the disease.
   accessed:
     - year: 2022
       month: 7
@@ -80,8 +272,7 @@ references:
   issued:
     - year: 2020
       month: 5
-  keyword:
-    - tag: recommended
+  keyword: []
   language: en
   page: 1715-1725
   source: DOI.org (Crossref)
@@ -95,7 +286,330 @@ references:
   URL: https://linkinghub.elsevier.com/retrieve/pii/S0140673620308540
   volume: '395'
 
+- id: barnesSystematicReviewConsensus2019a
+  abstract: >-
+    Background: Perioperative infection and sepsis are of fundamental concern to
+    perioperative clinicians. However, standardised endpoints are either poorly
+    deﬁned or not routinely implemented. The Standardised Endpoints in
+    Perioperative Medicine (StEP) initiative was established to derive a set of
+    standardised endpoints for use in perioperative clinical trials.
+
+    Methods: We undertook a systematic review to identify measures of infection
+    and sepsis used in the perioperative literature. A multi-round Delphi
+    consensus process that included more than 60 clinician researchers was then
+    used to reﬁne a recommended list of outcome measures.
+
+    Results: A literature search yielded 1857 titles of which 255 met inclusion
+    criteria for endpoint extraction. A long list of endpoints, with deﬁnitions
+    and timescales, was generated and those potentially relevant to infection
+    and sepsis circulated to the theme subgroup and then the wider StEP-COMPAC
+    working group, undergoing a three-stage Delphi process. The response rates
+    for Delphi rounds 1, 3, and 3 were 89% (n¼8), 67% (n¼62), and 80% (n¼8),
+    respectively. A set of 13 endpoints including fever, surgical site, and
+    organ-speciﬁc infections as deﬁned by the US Centres for Disease Control and
+    Sepsis-3 are proposed for future use.
+
+    Conclusions: We deﬁned a consensus list of standardised endpoints related to
+    infection and sepsis for perioperative trials using an established and
+    rigorous approach. Each endpoint was evaluated with respect to validity,
+    reliability, feasibility, and patient centredness. One or more of these
+    should be considered for inclusion in future perioperative clinical trials
+    assessing infection, sepsis, or both, thereby permitting synthesis and
+    comparison of future results.
+  accessed:
+    - year: 2022
+      month: 7
+      day: 17
+  author:
+    - family: Barnes
+      given: Jonathan
+    - family: Hunter
+      given: Jennifer
+    - family: Harris
+      given: Steve
+    - family: Shankar-Hari
+      given: Manu
+    - family: Diouf
+      given: Elisabeth
+    - family: Jammer
+      given: Ib
+    - family: Kalkman
+      given: Cor
+    - family: Klein
+      given: Andrew A.
+    - family: Corcoran
+      given: Tomas
+    - family: Dieleman
+      given: Stefan
+    - family: Grocott
+      given: Michael P.W.
+    - family: Mythen
+      given: Michael G.
+    - family: Myles
+      given: Paul
+    - family: Gan
+      given: Tang Joon
+    - family: Kurz
+      given: Andrea
+    - family: Peyton
+      given: Phil
+    - family: Sessler
+      given: Dan
+    - family: Tramèr
+      given: Martin
+    - family: Cyna
+      given: Alan
+    - family: De Oliveira
+      given: Gildasio S.
+    - family: Wu
+      given: Christopher
+    - family: Jensen
+      given: Mark
+    - family: Kehlet
+      given: Henrik
+    - family: Botti
+      given: Mari
+    - family: Boney
+      given: Oliver
+    - family: Haller
+      given: Guy
+    - family: Grocott
+      given: Mike
+    - family: Cook
+      given: Tim
+    - family: Fleisher
+      given: Lee
+    - family: Neuman
+      given: Mark
+    - family: Story
+      given: David
+    - family: Gruen
+      given: Russell
+    - family: Bampoe
+      given: Sam
+    - family: Evered
+      given: Lis
+    - family: Scott
+      given: David
+    - family: Silbert
+      given: Brendan
+    - family: Dijk
+      given: Diederik
+      non-dropping-particle: van
+    - family: Kalkman
+      given: Cor
+    - family: Chan
+      given: Matthew
+    - family: Grocott
+      given: Hilary
+    - family: Haller
+      given: Guy
+    - family: Eckenhoff
+      given: Rod
+    - family: Rasmussen
+      given: Lars
+    - family: Eriksson
+      given: Lars
+    - family: Beattie
+      given: Scott
+    - family: Wijeysundera
+      given: Duminda
+    - family: Fleisher
+      given: Lee
+    - family: Landoni
+      given: Giovanni
+    - family: Leslie
+      given: Kate
+    - family: Biccard
+      given: Bruce
+    - family: Howell
+      given: Simon
+    - family: Grocott
+      given: Hilary
+    - family: Nagele
+      given: Peter
+    - family: Richards
+      given: Toby
+    - family: Lamy
+      given: Andre
+    - family: Lalu
+      given: Manoj
+    - family: Pearse
+      given: Rupert
+    - family: Mythen
+      given: Monty
+    - family: Canet
+      given: Jaume
+    - family: Moller
+      given: Ann
+    - family: Gin
+      given: Tony
+    - family: Schultz
+      given: Marcus
+    - family: Pelosi
+      given: Paolo
+    - family: Gabreu
+      given: Marcelo
+    - family: Futier
+      given: Emmanuel
+    - family: Creagh-Brown
+      given: Ben
+    - family: Lalu
+      given: Manoj
+    - family: Fowler
+      given: Alexander
+    - family: Abbott
+      given: Tom
+    - family: Mythen
+      given: Monty
+    - family: Kalkman
+      given: Cor
+    - family: Klein
+      given: Andy
+    - family: Corcoran
+      given: Tomas
+    - family: Cooper
+      given: David James
+    - family: Dieleman
+      given: Stefan
+    - family: Diouf
+      given: Elisabeth
+    - family: McIlroy
+      given: David
+    - family: Bellomo
+      given: Rinaldo
+    - family: Shaw
+      given: Andrew
+    - family: Prowle
+      given: John
+    - family: Karkouti
+      given: Keyvan
+    - family: Billings
+      given: Josh
+    - family: Wijeysundera
+      given: Duminda
+    - family: Klein
+      given: Andy
+    - family: Richards
+      given: Toby
+    - family: Mazer
+      given: David
+    - family: Myles
+      given: Paul
+    - family: Jayarajah
+      given: Mohindas
+    - family: Karkouti
+      given: Keyvan
+    - family: Murphy
+      given: Michael
+    - family: Lamy
+      given: Andre
+    - family: Bartoszko
+      given: Justyna
+    - family: Sneyd
+      given: Rob
+    - family: Beattie
+      given: Scott
+    - family: Fleisher
+      given: Lee
+    - family: Grocott
+      given: Mike
+    - family: Sessler
+      given: Dan
+    - family: Morris
+      given: Steve
+    - family: George
+      given: Ron
+    - family: Moonesinghe
+      given: Ramani
+    - family: Chan
+      given: Matthew
+    - family: Cook
+      given: Tim
+    - family: Myles
+      given: Paul
+    - family: Shulman
+      given: Mark
+    - family: Neuman
+      given: Mark
+    - family: Kalkman
+      given: Cor
+    - family: Lane-Fall
+      given: Meghan
+    - family: Nilsson
+      given: Ulrica
+    - family: Stevenson
+      given: Nathalie
+    - family: Grocott
+      given: Mike
+    - family: Myles
+      given: Paul
+    - family: Pearse
+      given: Rupert
+    - family: Kurz
+      given: Andrea
+    - family: Moonesinghe
+      given: Ramani
+    - family: Cooper
+      given: Jamie (DJ)
+    - family: Klei
+      given: Wilton
+      non-dropping-particle: van
+    - family: Cabrini
+      given: Luca
+    - family: Miller
+      given: Tim
+    - family: Pace
+      given: Nathan
+    - family: Jackson
+      given: Sandy
+    - family: Buggy
+      given: Donal
+    - family: Sessler
+      given: Dan
+    - family: Leslie
+      given: Kate
+    - family: Short
+      given: Tim
+    - family: Kurz
+      given: Andrea
+    - family: Riedel
+      given: Bernhard
+    - family: Gottumukkala
+      given: Vijay
+    - family: Pace
+      given: Nathan
+    - family: Alkhaffaf
+      given: Bilal
+    - family: Johnson
+      given: Mark
+  citation-key: barnesSystematicReviewConsensus2019a
+  container-title: British Journal of Anaesthesia
+  container-title-short: British Journal of Anaesthesia
+  DOI: 10.1016/j.bja.2019.01.009
+  ISSN: '00070912'
+  issue: '4'
+  issued:
+    - year: 2019
+      month: 4
+  keyword: []
+  language: en
+  page: 500-508
+  source: DOI.org (Crossref)
+  title: >-
+    Systematic review and consensus definitions for the Standardised Endpoints
+    in Perioperative Medicine (StEP) initiative: infection and sepsis
+  title-short: >-
+    Systematic review and consensus definitions for the Standardised Endpoints
+    in Perioperative Medicine (StEP) initiative
+  type: article-journal
+  URL: https://linkinghub.elsevier.com/retrieve/pii/S0007091219300443
+  volume: '122'
+
 - id: chenNudgingLearningHealth2022b
+  abstract: |-
+    Abstract
+                The increasing volume and richness of healthcare data collected during routine clinical practice have not yet translated into significant numbers of actionable insights that have systematically improved patient outcomes. An evidence-practice gap continues to exist in healthcare. We contest that this gap can be reduced by assessing the use of nudge theory as part of clinical decision support systems (CDSS). Deploying nudges to modify clinician behaviour and improve adherence to guideline-directed therapy represents an underused tool in bridging the evidence-practice gap. In conjunction with electronic health records (EHRs) and newer devices including artificial intelligence algorithms that are increasingly integrated within learning health systems, nudges such as CDSS alerts should be iteratively tested for all stakeholders involved in health decision-making: clinicians, researchers, and patients alike. Not only could they improve the implementation of known evidence, but the true value of nudging could lie in areas where traditional randomized controlled trials are lacking, and where clinical equipoise and variation dominate. The opportunity to test CDSS nudge alerts and their ability to standardize behaviour in the face of uncertainty may generate novel insights and improve patient outcomes in areas of clinical practice currently without a robust evidence base.
   accessed:
     - year: 2022
       month: 7
@@ -241,6 +755,30 @@ references:
   volume: '24'
 
 - id: domiziRelationshipNorepinephrineDose2020a
+  abstract: >-
+    Purpose: Septic shock is associated with massive release of endogenous
+    catecholamines. Adrenergic agents may exacerbate catecholamine toxicity and
+    contribute to poor outcomes. We sought to determine whether an association
+    existed between tachycardia and mortality in septic shock patients requiring
+    norepinephrine for more than 6 h despite adequate volume resuscitation.
+    Materials and methods: Multicentre retrospective observational study on 730
+    adult patients in septic shock consecutively admitted to eight European ICUs
+    between 2011 and 2013. Three timepoints were selected: T1 (ﬁrst hour of
+    infusion of norepinephrine), Tpeak (time of highest dose during the ﬁrst 24
+    h of treatment), and T24 (24-h post-T1). Binary logistic regression models
+    were constructed for the three time-points.
+
+    Results: Overall ICU mortality was 38.4%. Mortality was higher in those
+    requiring high-dose (≥0.3 mcg/kg/min) versus low-dose (b0.3 mcg/kg/min)
+    norepinephrine at T1 (53.4% vs 30.6%; p b 0.001) and T24 (61.4% vs 20.4%; p
+    b 0.0001). Patients requiring high-dose with concurrent tachycardia had
+    higher mortality at T1; in the lowdose group tachycardia was not associated
+    with mortality. Resolving tachycardia (from T1 to T24) was associated with
+    lower mortality compared to patients where tachycardia persisted (27.8% vs
+    46.4%; p = 0.001).
+
+    Conclusions: Use of high-dose norepinephrine and concurrent tachycardia are
+    associated with poor outcomes in septic shock.
   accessed:
     - year: 2022
       month: 7
@@ -307,6 +845,23 @@ references:
   volume: '57'
 
 - id: flowerAcuteSTsegmentElevation2021a
+  abstract: >-
+    A 40-year-old man with no cardiac history presented with central chest pain
+    8 days after receiving the ChAdOx1 nCov-19 vaccine against COVID-19. Initial
+    blood tests demonstrated a thrombocytopaenia (24×109 μg/L) and a raised
+    d-dimer (>110 000 μg/L), and he was urgently transferred to our tertiary
+    referral central for suspected vaccine-induced immune thrombocytopaenia and
+    thrombosis (VITT). He developed dynamic ischaemic electrocardiographic
+    changes with ST elevation, a troponin of 3185 ng/L, and regional wall motion
+    abnormalities. An occlusion of his left anterior descending coronary artery
+    was seen on CT coronary angiography. His platelet factor-4 (PF-4) antibody
+    returned strongly positive. He was urgently treated for presumed VITT with
+    intravenous immunoglobulin, methylprednisolone and plasma exchange, but
+    remained thrombocytopaenic and was initiated on rituximab. Argatroban was
+    used for anticoagulation for his myocardial infarction while he remained
+    thrombocytopaenic. After 6 days, his platelet count improved, and his PF-4
+    antibody level, troponin and d-dimer fell. He was successfully discharged
+    after 14 days.
   accessed:
     - year: 2022
       month: 8
@@ -353,6 +908,62 @@ references:
   volume: '14'
 
 - id: ghorashianTisagenlecleucelTherapyRelapsed2022a
+  abstract: >-
+    Background
+
+    Children aged younger than 3 years were excluded from the ELIANA phase 2
+    trial of tisagenlecleucel in children with acute lymphoblastic leukaemia.
+    The feasibility, safety, and activity of tisagenlecleucel have not been
+    defined in this group, the majority of whom have high-risk
+    (KMT2A-rearranged) infant acute lymphoblastic leukaemia and historically
+    poor outcomes despite intensification of chemotherapy, and for whom novel
+    therapies are urgently needed. We aimed to provide real-world outcome
+    analysis of the feasibility, activity, and safety of tisagenlecleucel in
+    younger children and infants with acute lymphoblastic leukaemia.
+
+    Methods
+
+    We did an international, multicentre, retrospective cohort study at 15
+    hospitals across ten countries in Europe. Eligible patients were children
+    aged younger than 3 years at screening between Sept 1, 2018, and Sept 1,
+    2021, who were screened for tisagenlecleucel therapy for relapsed or
+    refractory B-cell precursor acute lymphoblastic leukaemia according to
+    licensed indications. Patients received a single intravenous infusion of
+    tisagenlecleucel. We tracked chimeric antigen receptor T-cell therapy
+    outcomes using a standardised data reporting form. Overall survival,
+    event-free survival, stringent event-free survival, B-cell aplasia, and
+    toxicity were assessed in all patients who received a tisagenlecleucel
+    infusion.
+
+    Findings
+
+    38 eligible patients were screened, of whom 35 (92%) received a
+    tisagenlecleucel infusion. 29 (76%) of 38 patients had KMT2A-rearranged
+    acute lymphoblastic leukaemia, and 25 (66%) had relapsed after previous
+    allogeneic haematopoietic stem-cell transplantation (HSCT). Patients had
+    previously received a median of 2 lines (IQR 2–3) of (non-HSCT) therapy.
+    Seven (18%) of 38 patients had received inotuzumab and 14 (37%) had received
+    blinatumomab. After a median of 14 months (IQR 9–21) of follow-up, overall
+    survival at 12 months after tisagenlecleucel infusion was 84% (64–93; five
+    patients had died), event-free survival was 69% (47–83; nine events), and
+    stringent event-free survival was 41% (23–58; 18 events). The probability of
+    ongoing B-cell aplasia was 70% (95% CI 46–84; seven events) at 12 months.
+    Adverse events included cytokine release syndrome, which occurred at any
+    grade in 21 (60%) of 35 patients and at grade 3 or worse in five (14%), and
+    neurotoxicity at any grade in nine (26%), none of which were severe.
+    Measurable residual disease-negative complete response with or without
+    haematological recovery occurred in 24 (86%) of 28 patients who had
+    measurable disease.
+
+    Interpretation
+
+    These data suggest that tisagenlecleucel has antitumour activity and has an
+    acceptable safety profile for young children and infants with B-cell
+    precursor acute lymphoblastic leukaemia.
+
+    Funding
+
+    None.
   accessed:
     - year: 2022
       month: 9
@@ -418,7 +1029,71 @@ references:
   type: article-journal
   URL: https://www.sciencedirect.com/science/article/pii/S2352302622002253
 
+- id: grieveAnalysisBenefitIntensive2019a
+  abstract: >-
+    IMPORTANCE It is unknown which deteriorating ward patients benefit from
+    intensive care unit (ICU) transfer.
+  accessed:
+    - year: 2022
+      month: 7
+      day: 17
+  author:
+    - family: Grieve
+      given: Richard
+    - family: O’Neill
+      given: Stephen
+    - family: Basu
+      given: Anirban
+    - family: Keele
+      given: Luke
+    - family: Rowan
+      given: Kathryn M.
+    - family: Harris
+      given: Steve
+  citation-key: grieveAnalysisBenefitIntensive2019a
+  container-title: JAMA Network Open
+  container-title-short: JAMA Netw Open
+  DOI: 10.1001/jamanetworkopen.2018.7704
+  ISSN: 2574-3805
+  issue: '2'
+  issued:
+    - year: 2019
+      month: 2
+      day: 15
+  keyword: []
+  language: en
+  page: e187704
+  source: DOI.org (Crossref)
+  title: >-
+    Analysis of Benefit of Intensive Care Unit Transfer for Deteriorating Ward
+    Patients: A Patient-Centered Approach to Clinical Evaluation
+  title-short: >-
+    Analysis of Benefit of Intensive Care Unit Transfer for Deteriorating Ward
+    Patients
+  type: article-journal
+  URL: >-
+    http://jamanetworkopen.jamanetwork.com/article.aspx?doi=10.1001/jamanetworkopen.2018.7704
+  volume: '2'
+
 - id: harrisClinicalDeploymentEnvironments2022
+  abstract: >-
+    Machine Learning for Health (ML4H) has demonstrated efficacy in computer
+    imaging and other self-contained digital workflows, but has failed to
+    substantially impact routine clinical care. This is no longer because of
+    poor adoption of Electronic Health Records Systems (EHRS), but because ML4H
+    needs an infrastructure for development, deployment and evaluation within
+    the healthcare institution. In this paper, we propose a design pattern
+    called a Clinical Deployment Environment (CDE). We sketch the five pillars
+    of the CDE: (1) real world development supported by live data where ML4H
+    teams can iteratively build and test at the bedside (2) an ML-Ops platform
+    that brings the rigour and standards of continuous deployment to ML4H (3)
+    design and supervision by those with expertise in AI safety (4) the methods
+    of implementation science that enable the algorithmic insights to influence
+    the behaviour of clinicians and patients and (5) continuous evaluation that
+    uses randomisation to avoid bias but in an agile manner. The CDE is intended
+    to answer the same requirements that bio-medicine articulated in
+    establishing the translational medicine domain. It envisions a transition
+    from “real-world” data to “real-world” development.
   accessed:
     - year: 2022
       month: 8
@@ -453,6 +1128,61 @@ references:
   URL: https://www.frontiersin.org/articles/10.3389/fdgth.2022.939292
   volume: '4'
 
+- id: harrisCriticalCareHealth2018b
+  accessed:
+    - year: 2022
+      month: 7
+      day: 17
+  author:
+    - family: Harris
+      given: Steve
+    - family: Shi
+      given: Sinan
+    - family: Brealey
+      given: David
+    - family: MacCallum
+      given: Niall S.
+    - family: Denaxas
+      given: Spiros
+    - family: Perez-Suarez
+      given: David
+    - family: Ercole
+      given: Ari
+    - family: Watkinson
+      given: Peter
+    - family: Jones
+      given: Andrew
+    - family: Ashworth
+      given: Simon
+    - family: Beale
+      given: Richard
+    - family: Young
+      given: Duncan
+    - family: Brett
+      given: Stephen
+    - family: Singer
+      given: Mervyn
+  citation-key: harrisCriticalCareHealth2018b
+  container-title: International Journal of Medical Informatics
+  container-title-short: International Journal of Medical Informatics
+  DOI: 10.1016/j.ijmedinf.2018.01.006
+  ISSN: '13865056'
+  issued:
+    - year: 2018
+      month: 4
+  keyword: []
+  language: en
+  note: 30 citations (Crossref) [2022-08-29]
+  page: 82-89
+  source: DOI.org (Crossref)
+  title: >-
+    Critical Care Health Informatics Collaborative (CCHIC): Data, tools and
+    methods for reproducible research: A multi-centre UK intensive care database
+  title-short: Critical Care Health Informatics Collaborative (CCHIC)
+  type: article-journal
+  URL: https://linkinghub.elsevier.com/retrieve/pii/S1386505618300078
+  volume: '112'
+
 - id: harrisDonWantMy2021a
   accessed:
     - year: 2022
@@ -482,6 +1212,209 @@ references:
   type: article-journal
   URL: https://www.atsjournals.org/doi/10.1164/rccm.202102-0459ED
   volume: '204'
+
+- id: harrisImpactMortalityPrompt2018b
+  abstract: >-
+    Purpose:  To estimate the effect of prompt admission to critical care on
+    mortality for deteriorating ward patients.
+
+    Methods:  We performed a prospective cohort study of consecutive ward
+    patients assessed for critical care. Prompt admissions (within 4 h of
+    assessment) were compared to a ‘watchful waiting’ cohort. We used critical
+    care strain (bed occupancy) as a natural randomisation event that would
+    predict prompt transfer to critical care. Strain was classified as low,
+    medium or high (2+, 1 or 0 empty beds). This instrumental variable (IV)
+    analysis was repeated for the subgroup of referrals with a recommendation
+    for critical care once assessed. Risk-adjusted 90-day survival models were
+    also constructed.
+
+    Results:  A total of 12,380 patients from 48 hospitals were available for
+    analysis. There were 2411 (19%) prompt admissions (median delay 1 h, IQR
+    1–2) and 9969 (81%) controls; 1990 (20%) controls were admitted later
+    (median delay 11 h, IQR 6–26). Prompt admissions were less frequent
+    (p < 0.0001) as strain increased from low (22%), to medium (15%) to high
+    (9%); the median delay to admission was 3, 4 and 5 h respectively. In the IV
+    analysis, prompt admission reduced 90-day mortality by 7.4% (95% CI
+    1.7–18.5%, p = 0.117) overall, and 16.2% (95% CI 1.1–31.3%, p = 0.036) for
+    those recommended for critical care. In the risk-adjust survival model,
+    90-day mortality was similar.
+
+    Conclusion:  After allowing for unobserved prognostic differences between
+    the groups, we find that prompt admission to critical care leads to lower
+    90-day mortality for patients assessed and recommended to critical care.
+  accessed:
+    - year: 2022
+      month: 7
+      day: 17
+  author:
+    - family: Harris
+      given: Steve
+    - family: Singer
+      given: Mervyn
+    - family: Sanderson
+      given: Colin
+    - family: Grieve
+      given: Richard
+    - family: Harrison
+      given: David
+    - family: Rowan
+      given: Kathryn
+  citation-key: harrisImpactMortalityPrompt2018b
+  container-title: Intensive Care Medicine
+  container-title-short: Intensive Care Med
+  DOI: 10.1007/s00134-018-5148-2
+  ISSN: 0342-4642, 1432-1238
+  issue: '5'
+  issued:
+    - year: 2018
+      month: 5
+  keyword: []
+  language: en
+  page: 606-615
+  source: DOI.org (Crossref)
+  title: >-
+    Impact on mortality of prompt admission to critical care for deteriorating
+    ward patients: an instrumental variable analysis using critical care bed
+    strain
+  title-short: >-
+    Impact on mortality of prompt admission to critical care for deteriorating
+    ward patients
+  type: article-journal
+  URL: http://link.springer.com/10.1007/s00134-018-5148-2
+  volume: '44'
+
+- id: harrisImpactMortalityPrompt2018c
+  abstract: >-
+    Purpose:  To estimate the effect of prompt admission to critical care on
+    mortality for deteriorating ward patients.
+
+    Methods:  We performed a prospective cohort study of consecutive ward
+    patients assessed for critical care. Prompt admissions (within 4 h of
+    assessment) were compared to a ‘watchful waiting’ cohort. We used critical
+    care strain (bed occupancy) as a natural randomisation event that would
+    predict prompt transfer to critical care. Strain was classified as low,
+    medium or high (2+, 1 or 0 empty beds). This instrumental variable (IV)
+    analysis was repeated for the subgroup of referrals with a recommendation
+    for critical care once assessed. Risk-adjusted 90-day survival models were
+    also constructed.
+
+    Results:  A total of 12,380 patients from 48 hospitals were available for
+    analysis. There were 2411 (19%) prompt admissions (median delay 1 h, IQR
+    1–2) and 9969 (81%) controls; 1990 (20%) controls were admitted later
+    (median delay 11 h, IQR 6–26). Prompt admissions were less frequent
+    (p < 0.0001) as strain increased from low (22%), to medium (15%) to high
+    (9%); the median delay to admission was 3, 4 and 5 h respectively. In the IV
+    analysis, prompt admission reduced 90-day mortality by 7.4% (95% CI
+    1.7–18.5%, p = 0.117) overall, and 16.2% (95% CI 1.1–31.3%, p = 0.036) for
+    those recommended for critical care. In the risk-adjust survival model,
+    90-day mortality was similar.
+
+    Conclusion:  After allowing for unobserved prognostic differences between
+    the groups, we find that prompt admission to critical care leads to lower
+    90-day mortality for patients assessed and recommended to critical care.
+  accessed:
+    - year: 2022
+      month: 7
+      day: 17
+  author:
+    - family: Harris
+      given: Steve
+    - family: Singer
+      given: Mervyn
+    - family: Sanderson
+      given: Colin
+    - family: Grieve
+      given: Richard
+    - family: Harrison
+      given: David
+    - family: Rowan
+      given: Kathryn
+  citation-key: harrisImpactMortalityPrompt2018c
+  container-title: Intensive Care Medicine
+  container-title-short: Intensive Care Med
+  DOI: 10.1007/s00134-018-5148-2
+  ISSN: 0342-4642, 1432-1238
+  issue: '5'
+  issued:
+    - year: 2018
+      month: 5
+  keyword: []
+  language: en
+  page: 606-615
+  source: DOI.org (Crossref)
+  title: >-
+    Impact on mortality of prompt admission to critical care for deteriorating
+    ward patients: an instrumental variable analysis using critical care bed
+    strain
+  title-short: >-
+    Impact on mortality of prompt admission to critical care for deteriorating
+    ward patients
+  type: article-journal
+  URL: http://link.springer.com/10.1007/s00134-018-5148-2
+  volume: '44'
+
+- id: harrisRelationshipPatientsOutcomes2015b
+  accessed:
+    - year: 2022
+      month: 7
+      day: 17
+  author:
+    - family: Harris
+      given: Steve K.
+    - family: Lewington
+      given: Andrew J.P.
+    - family: Harrison
+      given: David A.
+    - family: Rowan
+      given: Kathy M.
+  citation-key: harrisRelationshipPatientsOutcomes2015b
+  container-title: Kidney International
+  container-title-short: Kidney International
+  DOI: 10.1038/ki.2015.70
+  ISSN: '00852538'
+  issue: '2'
+  issued:
+    - year: 2015
+      month: 8
+  keyword: []
+  language: en
+  page: 369-377
+  source: DOI.org (Crossref)
+  title: >-
+    Relationship between patients’ outcomes and the changes in serum creatinine
+    and urine output and RIFLE classification in a large critical care cohort
+    database
+  type: article-journal
+  URL: https://linkinghub.elsevier.com/retrieve/pii/S2157171615321857
+  volume: '88'
+
+- id: harrisSepsis3SyndromesEmpiricism2017a
+  accessed:
+    - year: 2022
+      month: 7
+      day: 17
+  author:
+    - family: Harris
+      given: Steve
+  citation-key: harrisSepsis3SyndromesEmpiricism2017a
+  container-title: American Journal of Respiratory and Critical Care Medicine
+  container-title-short: Am J Respir Crit Care Med
+  DOI: 10.1164/rccm.201610-1977ED
+  ISSN: 1073-449X, 1535-4970
+  issue: '7'
+  issued:
+    - year: 2017
+      month: 4
+      day: 1
+  keyword: []
+  language: en
+  page: 847-849
+  source: DOI.org (Crossref)
+  title: 'Sepsis-3: Syndromes and Empiricism in the Age of Big Data'
+  title-short: Sepsis-3
+  type: article-journal
+  URL: https://www.atsjournals.org/doi/10.1164/rccm.201610-1977ED
+  volume: '195'
 
 - id: harrisTrialsPandemicsHere2021a
   accessed:
@@ -514,7 +1447,67 @@ references:
   URL: https://linkinghub.elsevier.com/retrieve/pii/S0007091220308400
   volume: '126'
 
+- id: harrisUnusualElectrocardiographicAbnormality2003b
+  accessed:
+    - year: 2022
+      month: 7
+      day: 17
+  author:
+    - family: Harris
+      given: S
+  citation-key: harrisUnusualElectrocardiographicAbnormality2003b
+  container-title: Postgraduate Medical Journal
+  container-title-short: Postgraduate Medical Journal
+  DOI: 10.1136/pmj.79.935.539
+  ISSN: 0032-5473
+  issue: '935'
+  issued:
+    - year: 2003
+      month: 9
+      day: 1
+  keyword: []
+  language: en
+  page: 539-540
+  source: DOI.org (Crossref)
+  title: An unusual electrocardiographic abnormality
+  type: article-journal
+  URL: https://pmj.bmj.com/lookup/doi/10.1136/pmj.79.935.539
+  volume: '79'
+
 - id: hashimPerceptionsUKClinicians2021a
+  abstract: >-
+    Postoperative critical care is a ﬁnite resource that is recommended for
+    high-risk patients. Despite national recommendations specifying that such
+    patients should receive postoperative critical care, there is evidence that
+    these recommendations are not universally followed. We performed a national
+    survey aiming to better understand how patients are risk-stratiﬁed in
+    practice; elucidate clinicians’ opinions about how patients should be
+    selected for critical care; and determine factors which affect the actual
+    provision of postoperative critical care. As part of the second Sprint
+    National Anaesthesia Project, epidemiology of critical care after surgery
+    study, we distributed a paper survey to anaesthetists, surgeons and
+    intensivists providing peri-operative care during a single week in March
+    2017. We collected data on respondent characteristics, and their opinions of
+    postoperative critical care provision, potential beneﬁts and real-world
+    challenges. We undertook both quantitative and qualitative analyses to
+    interpret the responses. We received 10,383 survey responses from 237
+    hospitals across the UK. Consultants used a lower threshold for critical
+    care admission than other career grades, indicating potentially more
+    risk-averse behaviour. The majority of respondents reported that critical
+    care provision was inadequate, and cited the value of critical care as being
+    predominantly due to higher nurse: patient ratios. Use of objective risk
+    assessment tools was poor, and patients were commonly selected for critical
+    care based on procedure-speciﬁc pathways rather than individualised risk
+    assessment. Challenges were highlighted in the delivery of peri-operative
+    critical care services, such as an overall lack of capacity, competition for
+    beds with non-surgical cases and poor ﬂow through the hospital leading to
+    bed ‘blockages’. Critical care is perceived to provide beneﬁt to high-risk
+    surgical patients, but there is variation in practice about the deﬁnition
+    and determination of risk, how patients are referred and how to deal with
+    the lack of critical care resources. Future work should focus on evaluating
+    ‘enhanced care’ units for postoperative patients, how to better implement
+    individualised risk assessment in practice, and how to improve patient ﬂow
+    through hospitals.
   accessed:
     - year: 2022
       month: 7
@@ -548,7 +1541,84 @@ references:
   URL: https://onlinelibrary.wiley.com/doi/10.1111/anae.15302
   volume: '76'
 
+- id: keeleDoesTransferIntensive2019a
+  abstract: >-
+    Background: Instrumental variable (IV) analysis can estimate treatment
+    effects in the presence of residual or unmeasured confounding. In settings
+    wherein measures of baseline risk severity are unavailable, IV designs are,
+    therefore, particularly appealing, but, where established measures of risk
+    severity are available, it is unclear whether IV methods are preferable.
+
+    Objective: We compared regression with an IV design to estimate the effect
+    of intensive care unit (ICU) transfer on mortality in a study with
+    well-established measures of risk severity. Research Design: We use ICU bed
+    availability at the time of assessment for ICU transfer as an instrument.
+    Bed availability increases the chance of ICU admission, contains little
+    information about patient characteristics, and it is unlikely that bed
+    availability has any direct effect on in-hospital mortality. Subjects: We
+    used a cohort study of deteriorating ward patients assessed for critical
+    care unit admission, in 49 UK National Health Service hospitals between
+    November 1, 2010, and December 31, 2011. Measures: Detailed demographic,
+    physiological, and comorbidity data were collected for all patients.
+
+    Results: The risk adjustment methods reported that, after controlling for
+    all measured covariates including measures of risk severity, ICU transfer
+    was associated with higher 28-day mortality, with a risk difference of 7.2%
+    (95% conﬁdence interval = 5.3%–9.1%). The IV estimate of ICU transfer was
+    −5.4% (95% conﬁdence interval = −47.1% to 36.3%) and applies to the
+    subsample of patients whose transfer was “encouraged” by bed availability.
+
+    Conclusions: IV estimates indicate that ICU care is beneﬁcial but are
+    imprecisely estimated. Risk-adjusted estimates are more precise
+  accessed:
+    - year: 2022
+      month: 7
+      day: 17
+  author:
+    - family: Keele
+      given: Luke
+    - family: Harris
+      given: Steve
+    - family: Grieve
+      given: Richard
+  citation-key: keeleDoesTransferIntensive2019a
+  container-title: Medical Care
+  container-title-short: Med. Care
+  DOI: 10.1097/MLR.0000000000001093
+  ISSN: 0025-7079
+  issue: '11'
+  issued:
+    - year: 2019
+      month: 11
+  keyword: []
+  language: en
+  page: e73-e79
+  source: DOI.org (Crossref)
+  title: >-
+    Does Transfer to Intensive Care Units Reduce Mortality? A Comparison of an
+    Instrumental Variables Design to Risk Adjustment
+  title-short: Does Transfer to Intensive Care Units Reduce Mortality?
+  type: article-journal
+  URL: https://journals.lww.com/10.1097/MLR.0000000000001093
+  volume: '57'
+
 - id: keeleStrongerInstrumentsRefined2020a
+  abstract: >-
+    Instrumental variable methods, subject to appropriate identiﬁcation
+    assumptions, enable consistent estimation of causal effects in the presence
+    of unobserved confounding. Near–far matching has been proposed as one
+    analytic method to improve inference by strengthening the effect of the
+    instrument on the exposure and balancing observable characteristics between
+    groups of subjects with low and high values of the instrument. However, in
+    settings with hierarchical data (e.g. patients nested within hospitals), or
+    where several covariate interactions must be balanced, conventional near–far
+    matching algorithms may fail to achieve the requisite covariate balance. We
+    develop a new matching algorithm, that combines near–far matching with
+    reﬁned covariate balance, to balance large numbers of nominal covariates
+    while also strengthening the instrumental variable. This extension of
+    near–far matching is motivated by a case-study that aims to identify the
+    causal effect of prompt admission to an intensive care unit on 7-day and
+    28-day mortality.
   accessed:
     - year: 2022
       month: 7
@@ -582,7 +1652,77 @@ references:
   URL: https://onlinelibrary.wiley.com/doi/10.1111/rssa.12437
   volume: '183'
 
+- id: kennedySurvivorComplierEffectsPresence2019a
+  abstract: >-
+    Pretreatment selection or censoring (“selection on treatment”) can occur
+    when two treatment levels are compared ignoring the third option of neither
+    treatment, in “censoring by death” settings where treatment is only defined
+    for those who survive long enough to receive it, or in general in studies
+    where the treatment is only defined for a subset of the population.
+    Unfortunately, the standard instrumental variable (IV) estimand is not
+    defined in the presence of such selection, so we consider estimating a new
+    survivor-complier causal effect. Although this effect is generally not
+    identified under standard IV assumptions, it is possible to construct sharp
+    bounds. We derive these bounds and give a corresponding data-driven
+    sensitivity analysis, along with nonparametric yet efficient estimation
+    methods. Importantly, our approach allows for high-dimensional confounding
+    adjustment, and valid inference even after employing machine learning.
+    Incorporating covariates can tighten bounds dramatically, especially when
+    they are strong predictors of the selection process. We apply the methods in
+    a UK cohort study of critical care patients to examine the mortality effects
+    of prompt admission to the intensive care unit, using ICU bed availability
+    as an instrument. Supplementary materials for this article are available
+    online.
+  accessed:
+    - year: 2022
+      month: 7
+      day: 17
+  author:
+    - family: Kennedy
+      given: Edward H.
+    - family: Harris
+      given: Steve
+    - family: Keele
+      given: Luke J.
+  citation-key: kennedySurvivorComplierEffectsPresence2019a
+  container-title: Journal of the American Statistical Association
+  container-title-short: Journal of the American Statistical Association
+  DOI: 10.1080/01621459.2018.1469990
+  ISSN: 0162-1459, 1537-274X
+  issue: '525'
+  issued:
+    - year: 2019
+      month: 1
+      day: 2
+  keyword: []
+  language: en
+  page: 93-104
+  source: DOI.org (Crossref)
+  title: >-
+    Survivor-Complier Effects in the Presence of Selection on Treatment, With
+    Application to a Study of Prompt ICU Admission
+  type: article-journal
+  URL: https://www.tandfonline.com/doi/full/10.1080/01621459.2018.1469990
+  volume: '114'
+
 - id: kingMachineLearningRealtime2022a
+  abstract: >-
+    Machine learning for hospital operations is under-studied. We present a
+    prediction pipeline that uses live electronic health-records for patients in
+    a UK teaching hospital’s emergency department (ED) to generate short-term,
+    probabilistic forecasts of emergency admissions. A set of XGBoost
+    classifiers applied to 109,465 ED visits yielded AUROCs from 0.82 to 0.90
+    depending on elapsed visit-time at the point of prediction. Patient-level
+    probabilities of admission were aggregated to forecast the number of
+    admissions among current ED patients and, incorporating patients yet to
+    arrive, total emergency admissions within specified time-windows. The
+    pipeline gave a mean absolute error (MAE) of 4.0 admissions (mean percentage
+    error of 17%) versus 6.5 (32%) for a benchmark metric. Models developed with
+    104,504 later visits during the Covid-19 pandemic gave AUROCs of 0.68–0.90
+    and MAE of 4.2 (30%) versus a 4.9 (33%) benchmark. We discuss how we
+    surmounted challenges of designing and implementing models for real-time
+    use, including temporal framing, data preparation, and changing operational
+    conditions.
   author:
     - family: King
       given: Zella
@@ -625,6 +1765,14 @@ references:
   volume: '5'
 
 - id: krishnamoorthyCausalInferencePerioperative2020b
+  abstract: >-
+    Graphical models have emerged as a tool to map out the interplay between
+    multiple measured and unmeasured variables, and can help strengthen the case
+    for a causal association between exposures and outcomes in observational
+    studies. In Part 1 of this methods series, we will introduce the reader to
+    graphical models for causal inference in perioperative medicine, and set the
+    framework for Part 2 of the series involving advanced methods for causal
+    inference.
   accessed:
     - year: 2022
       month: 7
@@ -668,6 +1816,19 @@ references:
   volume: '125'
 
 - id: krishnamoorthyCausalInferencePerioperative2020c
+  abstract: >-
+    Although RCTs represent the gold standard in clinical research, most
+    clinical questions cannot be answered using this technique, because of
+    ethical considerations, time, and cost. The goal of observational research
+    in clinical medicine is to gain insight into the relationship between a
+    clinical exposure and patient outcome, in the absence of evidence from RCTs.
+    Observational research offers additional beneﬁt when compared with data from
+    RCTs: the conclusions are often more generalisable to a heterogenous
+    population, which may be of greater value to everyday clinical practice. In
+    Part 2 of this methods series, we will introduce the reader to several
+    advanced methods for supporting the case for causality between an exposure
+    and outcome, including: mediation analysis, natural experiments, and joint
+    effects methods.
   accessed:
     - year: 2022
       month: 7
@@ -711,6 +1872,42 @@ references:
   volume: '125'
 
 - id: laiInformaticsConsultApproach2021a
+  abstract: >-
+    Background:  An Informatics Consult has been proposed in which clinicians
+    request novel evidence from large scale health data resources, tailored to
+    the treatment of a specific patient. However, the availability of such
+    consultations is lacking. We seek to provide an Informatics Consult for a
+    situation where a treatment indication and contraindication coexist in the
+    same patient, i.e., anti-coagulation use for stroke prevention in a patient
+    with both atrial fibrillation (AF) and liver cirrhosis.
+
+    Methods:  We examined four sources of evidence for the effect of warfarin on
+    stroke risk or all-cause mortality from: (1) randomised controlled trials
+    (RCTs), (2) meta-analysis of prior observational studies, (3) trial
+    emulation (using population electronic health records (N = 3,854,710) and
+    (4) genetic evidence (Mendelian randomisation). We developed prototype forms
+    to request an Informatics Consult and return of results in electronic health
+    record systems.
+
+    Results:  We found 0 RCT reports and 0 trials recruiting for patients with
+    AF and cirrhosis. We found broad concordance across the three new sources of
+    evidence we generated. Meta-analysis of prior observational studies showed
+    that warfarin use was associated with lower stroke risk (hazard ratio
+    [HR] = 0.71, CI 0.39–1.29). In a target trial emulation, warfarin was
+    associated with lower all-cause mortality (HR = 0.61, CI 0.49–0.76) and
+    ischaemic stroke (HR = 0.27, CI 0.08–0.91). Mendelian randomisation served
+    as a drug target validation where we found that lower levels of vitamin K1
+    (warfarin is a vitamin K1 antagonist) are associated with lower stroke risk.
+    A pilot survey with an independent sample of 34 clinicians revealed that 85%
+    of clinicians found information on prognosis useful and that 79% thought
+    that they should have access to the Informatics Consult as a service within
+    their healthcare systems. We identified candidate steps for automation to
+    scale evidence generation and to accelerate the return of results.
+
+    Conclusion:  We performed a proof-of-concept Informatics Consult for
+    evidence generation, which may inform treatment decisions in situations
+    where there is dearth of randomised trials. Patients are surprised to know
+    that their
   accessed:
     - year: 2022
       month: 7
@@ -795,7 +1992,213 @@ references:
     https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-021-01638-z
   volume: '21'
 
+- id: meiringOptimalIntensiveCare2018b
+  accessed:
+    - year: 2022
+      month: 7
+      day: 17
+  author:
+    - family: Meiring
+      given: Christopher
+    - family: Dixit
+      given: Abhishek
+    - family: Harris
+      given: Steve
+    - family: MacCallum
+      given: Niall S.
+    - family: Brealey
+      given: David A.
+    - family: Watkinson
+      given: Peter J.
+    - family: Jones
+      given: Andrew
+    - family: Ashworth
+      given: Simon
+    - family: Beale
+      given: Richard
+    - family: Brett
+      given: Stephen J.
+    - family: Singer
+      given: Mervyn
+    - family: Ercole
+      given: Ari
+  citation-key: meiringOptimalIntensiveCare2018b
+  container-title: PLOS ONE
+  container-title-short: PLoS ONE
+  DOI: 10.1371/journal.pone.0206862
+  editor:
+    - family: Celi
+      given: Leo Anthony
+  ISSN: 1932-6203
+  issue: '11'
+  issued:
+    - year: 2018
+      month: 11
+      day: 14
+  keyword: []
+  language: en
+  page: e0206862
+  source: DOI.org (Crossref)
+  title: Optimal intensive care outcome prediction over time using machine learning
+  type: article-journal
+  URL: https://dx.plos.org/10.1371/journal.pone.0206862
+  volume: '13'
+
+- id: moonesingheSNAP2EPICCSSecond2017b
+  abstract: >-
+    Introduction The admission of high-risk patients to critical care after
+    surgery is a recommended standard of care. Nevertheless, poor compliance
+    against this recommendation has been repeatedly demonstrated in large
+    epidemiological studies. It is unclear whether this is due to reasons of
+    capacity, equipoise, poor quality clinical care or because hospitals are
+    working creatively to create capacity for augmented care on normal surgical
+    wards. The EPIdemiology of Critical Care after Surgery study aims to address
+    these uncertainties. Methods and analysis One-week observational cohort
+    study in the UK and Australasia. All patients undergoing inpatient
+    (overnight stay) surgery will be included. All will have prospective data
+    collection on risk factors, surgical procedure and postoperative outcomes
+    including the primary outcome of morbidity (measured using the Postoperative
+    Morbidity Survey on day 7 after surgery) and secondary outcomes including
+    length of stay and mortality. Data will also be collected on critical care
+    referral and admission, surgical cancellations and critical care occupancy.
+    The epidemiology of patient characteristics, processes and outcomes will be
+    described. Inferential techniques (multilevel multivariable regression,
+    propensity score matching and instrumental variable analysis) will be used
+    to evaluate the relationship between critical care admission and
+    postoperative outcome. Ethics and dissemination The study has received
+    ethical approval from the National Research Ethics Service in the UK and
+    equivalent in Australasia. The collection of patient identi able data
+    without prior consent has been approved by the Con dentiality Advisory Group
+    (England and Wales) and the Public Privacy and Patient Bene t Panel
+    (Scotland). In these countries, patient identi able data will be used to
+    link prospectively collected data with national registers of death and
+    inpatient administrative data. The study ndings will be disseminated using a
+    multimedia approach with the support of our lay collaborators, to patients,
+    public, policymakers, clinical and academic audiences.
+  accessed:
+    - year: 2022
+      month: 7
+      day: 17
+  author:
+    - family: Moonesinghe
+      given: S Ramani
+    - family: Wong
+      given: Danny J N
+    - family: Farmer
+      given: Laura
+    - family: Shawyer
+      given: Richard
+    - family: Myles
+      given: Paul S
+    - family: Harris
+      given: Steve K
+  citation-key: moonesingheSNAP2EPICCSSecond2017b
+  container-title: BMJ Open
+  container-title-short: BMJ Open
+  DOI: 10.1136/bmjopen-2017-017690
+  ISSN: 2044-6055, 2044-6055
+  issue: '9'
+  issued:
+    - year: 2017
+      month: 9
+  keyword: []
+  language: en
+  page: e017690
+  source: DOI.org (Crossref)
+  title: >-
+    SNAP-2 EPICCS: the second Sprint National Anaesthesia Project—EPIdemiology
+    of Critical Care after Surgery: protocol for an international observational
+    cohort study
+  title-short: SNAP-2 EPICCS
+  type: article-journal
+  URL: https://bmjopen.bmj.com/lookup/doi/10.1136/bmjopen-2017-017690
+  volume: '7'
+
+- id: moonesingheSurvivalPostoperativeMorbidity2014b
+  abstract: >-
+    Background. Previous studies have suggested that there may be long-term harm
+    associated with postoperative complications. Uncertainty exists however,
+    because of the need for risk adjustment and inconsistent deﬁnitions of
+    postoperative morbidity.
+
+    Methods. We did a longitudinal observational cohort study of patients
+    undergoing major surgery. Case-mix adjustment was applied and morbidity was
+    recorded using a validated outcome measure. Cox proportional hazards
+    modelling using time-dependent covariates was used to measure the
+    independent relationship between prolonged postoperative morbidity and
+    longer term survival.
+
+    Results. Data were analysed for 1362 patients. The median length of stay was
+    9 days and the median follow-up time was 6.5 yr. Independent of
+    perioperative risk, postoperative neurological morbidity (prevalence 2.9%)
+    was associated with a relative hazard for longterm mortality of 2.00
+    [P¼0.001; 95% conﬁdence interval (CI) 1.32 –3.04]. Prolonged postoperative
+    morbidity (prevalence 15.6%) conferred a relative hazard for death in the
+    ﬁrst 12 months after surgery of 3.51 (P,0.001; 95% CI 2.28 –5.42) and for
+    the next 2 yr of 2.44 (P,0.001; 95% CI 1.62–3.65), returning to baseline
+    thereafter.
+
+    Conclusions. Prolonged morbidity after surgery is associated with a risk of
+    premature death for a longer duration than perhaps is commonly thought;
+    however, this risk falls with time. We suggest that prolonged postoperative
+    morbidity measured in this way may be a valid indicator of the quality of
+    surgical healthcare. Our ﬁndings reinforce the importance of research and
+    quality improvement initiatives aimed at reducing the duration and severity
+    of postoperative complications.
+  accessed:
+    - year: 2022
+      month: 7
+      day: 17
+  author:
+    - family: Moonesinghe
+      given: S.R.
+    - family: Harris
+      given: S.
+    - family: Mythen
+      given: M.G.
+    - family: Rowan
+      given: K.M.
+    - family: Haddad
+      given: F.S.
+    - family: Emberton
+      given: M.
+    - family: Grocott
+      given: M.P.W.
+  citation-key: moonesingheSurvivalPostoperativeMorbidity2014b
+  container-title: British Journal of Anaesthesia
+  container-title-short: British Journal of Anaesthesia
+  DOI: 10.1093/bja/aeu224
+  ISSN: '00070912'
+  issue: '6'
+  issued:
+    - year: 2014
+      month: 12
+  keyword: []
+  language: en
+  page: 977-984
+  source: DOI.org (Crossref)
+  title: >-
+    Survival after postoperative morbidity: a longitudinal observational cohort
+    study †
+  title-short: Survival after postoperative morbidity
+  type: article-journal
+  URL: https://linkinghub.elsevier.com/retrieve/pii/S0007091217306542
+  volume: '113'
+
 - id: newcombeFutureAcuteEmergency2021a
+  abstract: >-
+    Improved outcomes for acutely unwell patients are predicated on early
+    identification of deterioration, accelerating the time to accurate diagnosis
+    of the underlying condition, selection and titration of treatments that
+    target biological phenotypes, and personalised endpoints to achieve optimal
+    benefit yet minimise iatrogenic harm. Technological developments entering
+    routine clinical practice over the next decade will deliver a sea change in
+    patient management. Enhanced point of care diagnostics, more sophisticated
+    physiological and biochemical monitoring with superior analytics and
+    computeraided support tools will all add considerable artificial
+    intelligence to complement clinical skills. Experts in different fields of
+    emergency and critical care medicine offer their perspectives as to which
+    research developments could make a big difference within the next decade.
   accessed:
     - year: 2022
       month: 7
@@ -839,6 +2242,192 @@ references:
   URL: https://www.rcpjournals.org/lookup/doi/10.7861/fhj.2021-0097
   volume: '8'
 
+- id: palmerAssociationSupraphysiologicArterial2019a
+  abstract: >-
+    Rationale: There is conﬂicting evidence on harm related to exposure to
+    supraphysiologic PaO2 (hyperoxemia) in critically ill patients.
+  accessed:
+    - year: 2022
+      month: 7
+      day: 17
+  author:
+    - family: Palmer
+      given: Edward
+    - family: Post
+      given: Benjamin
+    - family: Klapaukh
+      given: Roman
+    - family: Marra
+      given: Giampiero
+    - family: MacCallum
+      given: Niall S.
+    - family: Brealey
+      given: David
+    - family: Ercole
+      given: Ari
+    - family: Jones
+      given: Andrew
+    - family: Ashworth
+      given: Simon
+    - family: Watkinson
+      given: Peter
+    - family: Beale
+      given: Richard
+    - family: Brett
+      given: Stephen J.
+    - family: Young
+      given: J. Duncan
+    - family: Black
+      given: Claire
+    - family: Rashan
+      given: Aasiyah
+    - family: Martin
+      given: Daniel
+    - family: Singer
+      given: Mervyn
+    - family: Harris
+      given: Steve
+  citation-key: palmerAssociationSupraphysiologicArterial2019a
+  container-title: American Journal of Respiratory and Critical Care Medicine
+  container-title-short: Am J Respir Crit Care Med
+  DOI: 10.1164/rccm.201904-0849OC
+  ISSN: 1073-449X, 1535-4970
+  issue: '11'
+  issued:
+    - year: 2019
+      month: 12
+      day: 1
+  keyword: []
+  language: en
+  page: 1373-1380
+  source: DOI.org (Crossref)
+  title: >-
+    The Association between Supraphysiologic Arterial Oxygen Levels and
+    Mortality in Critically Ill Patients. A Multicenter Observational Cohort
+    Study
+  type: article-journal
+  URL: https://www.atsjournals.org/doi/10.1164/rccm.201904-0849OC
+  volume: '200'
+
+- id: palmerIntelligentlyLearningData2019a
+  accessed:
+    - year: 2022
+      month: 7
+      day: 17
+  author:
+    - family: Palmer
+      given: Edward
+    - family: Klapaukh
+      given: Roman
+    - family: Harris
+      given: Steve
+    - family: Singer
+      given: Mervyn
+  citation-key: palmerIntelligentlyLearningData2019a
+  container-title: Critical Care
+  container-title-short: Crit Care
+  DOI: 10.1186/s13054-019-2424-7
+  ISSN: 1364-8535
+  issue: '1'
+  issued:
+    - year: 2019
+      month: 12
+  keyword: []
+  language: en
+  page: 136, s13054-019-2424-7
+  source: DOI.org (Crossref)
+  title: Intelligently learning from data
+  type: article-journal
+  URL: https://ccforum.biomedcentral.com/articles/10.1186/s13054-019-2424-7
+  volume: '23'
+
+- id: palmerOperatingRoomtoincisionInterval2018a
+  abstract: >-
+    We conducted a 5-year retrospective cohort study on women undergoing
+    caesarean section to investigate factors influencing the operating
+    room-to-incision interval. Time-to-event analysis was performed for
+    category-1 caesarean section using a Cox proportional hazards regression
+    model. Covariates included: anaesthetic technique; body mass index; age;
+    parity; time of delivery; and gestational age. Binary logistic regression
+    was performed for 5-min Apgar score ≥ 7. There were 677 women who underwent
+    category-1 caesarean section and who met the entry criteria. Unadjusted
+    median (IQR \[range]) operating room-to-incision intervals were: epidural
+    top-up 11 (7–17 \[0–87]) min; general anaesthesia 6 (4–11 \[0–69]) min;
+    spinal 13 (10–20 \[0–83]) min; and combined spinal-epidural 24 (13–35
+    \[0–75]) min. Cox regression showed general anaesthesia to be the most rapid
+    method with a hazard ratio (95%CI) of 1.97 (1.60–2.44; p < 0.0001), followed
+    by epidural top-up (reference group), spinal anaesthesia 0.79 (0.65–0.96; p
+    = 0.02) and combined spinal-epidural 0.48 (0.35–0.67; p < 0.0001).
+    Underweight and overweight body mass indexes were associated with longer
+    operating room-to-incision intervals. General anaesthesia was associated
+    with fewer 5-min Apgar scores ≥ 7 with an odds ratio (95%CI) of 0.28
+    (0.11–0.68; p < 0.01). There was no difference in neonatal outcomes between
+    the first and fifth quintiles for operating room-to-incision intervals.
+    General anaesthesia is associated with the most rapid operating
+    room-to-incision interval for category-1 caesarean section, but is also
+    associated with worse short term neonatal outcomes. Longer operating
+    room-to-incision intervals were not associated with worse neonatal outcomes.
+  accessed:
+    - year: 2022
+      month: 7
+      day: 17
+  author:
+    - family: Palmer
+      given: E.
+    - family: Ciechanowicz
+      given: S.
+    - family: Reeve
+      given: A.
+    - family: Harris
+      given: S.
+    - family: Wong
+      given: D. J. N.
+    - family: Sultan
+      given: P.
+  citation-key: palmerOperatingRoomtoincisionInterval2018a
+  container-title: Anaesthesia
+  container-title-short: Anaesthesia
+  DOI: 10.1111/anae.14296
+  ISSN: '00032409'
+  issue: '7'
+  issued:
+    - year: 2018
+      month: 7
+  keyword: []
+  language: en
+  page: 825-831
+  source: DOI.org (Crossref)
+  title: >-
+    Operating room-to-incision interval and neonatal outcome in emergency
+    caesarean section: a retrospective 5-year cohort study
+  title-short: >-
+    Operating room-to-incision interval and neonatal outcome in emergency
+    caesarean section
+  type: article-journal
+  URL: https://onlinelibrary.wiley.com/doi/10.1111/anae.14296
+  volume: '73'
+
+- id: pickardHighFlowNasal2018a
+  author:
+    - family: Pickard
+      given: Dr Keir
+    - family: Harris
+      given: Dr Steve
+  citation-key: pickardHighFlowNasal2018a
+  container-title: British Journal of Hospital Medicine
+  container-title-short: Br. J. Hosp. Med.
+  DOI: 10.12968/hmed.2018.79.1.C13
+  issue: '1'
+  issued:
+    - year: 2018
+  keyword: []
+  language: en
+  page: '3'
+  source: Zotero
+  title: High flow nasal oxygen therapy
+  type: article-journal
+  volume: '79'
+
 - id: postOxygenationCriticallyIll2020a
   accessed:
     - year: 2022
@@ -877,6 +2466,31 @@ references:
   volume: '125'
 
 - id: shahDescriptorsSepsisUsing2021a
+  abstract: >-
+    OBJECTIVES: To describe the epidemiology of sepsis in critical care by
+    applying the Sepsis-3 criteria to electronic health records. DESIGN:
+    Retrospective cohort study using electronic health records. SETTING: Ten
+    ICUs from four U.K. National Health Service hospital trusts contributing to
+    the National Institute for Health Research Critical Care Health Informatics
+    Collaborative. PATIENTS: A total of 28,456 critical care admissions (14,332
+    emergency medical, 4,585 emergency surgical, and 9,539 elective surgical).
+
+    MEASUREMENTS AND MAIN RESULTS: Twenty-nine thousand three hundred
+    forty-three episodes of clinical deterioration were identified with a rise
+    in Sequential Organ Failure Assessment score of at least 2 points, of which
+    14,869 (50.7%) were associated with antibiotic escalation and thereby met
+    the Sepsis-3 criteria for sepsis. A total of 4,100 episodes of sepsis
+    (27.6%) were associated with vasopressor use and lactate greater than 2.0
+    mmol/L, and therefore met the Sepsis-3 criteria for septic shock. ICU
+    mortality by source of sepsis was highest for ICU-acquired sepsis (23.7%;
+    95% CI, 21.9–25.6%), followed by hospitalacquired sepsis (18.6%; 95% CI,
+    17.5–19.9%), and community-acquired sepsis (12.9%; 95% CI, 12.1–13.6%) (p
+    for comparison less than 0.0001).
+
+    CONCLUSIONS: We successfully operationalized the Sepsis-3 criteria to an
+    electronic health record dataset to describe the characteristics of critical
+    care patients with sepsis. This may facilitate sepsis research using
+    electronic health record data at scale without relying on human coding.
   accessed:
     - year: 2022
       month: 7
@@ -934,7 +2548,103 @@ references:
   URL: https://journals.lww.com/10.1097/CCM.0000000000005169
   volume: '49'
 
+- id: shiCriticalCareData2017b
+  accessed:
+    - year: 2022
+      month: 7
+      day: 17
+  author:
+    - family: Shi
+      given: Sinan
+    - family: Pérez-Suárez
+      given: David
+    - family: Harris
+      given: Steve
+    - family: MacCallum
+      given: Niall
+    - family: Brealey
+      given: David
+    - family: Singer
+      given: Mervyn
+    - family: Hetherington
+      given: James
+  citation-key: shiCriticalCareData2017b
+  container-title: The Journal of Open Source Software
+  container-title-short: JOSS
+  DOI: 10.21105/joss.00513
+  ISSN: 2475-9066
+  issue: '20'
+  issued:
+    - year: 2017
+      month: 12
+      day: 21
+  keyword: []
+  language: en
+  page: '513'
+  source: DOI.org (Crossref)
+  title: Critical care data processing tools
+  type: article-journal
+  URL: http://joss.theoj.org/papers/10.21105/joss.00513
+  volume: '2'
+
+- id: syedGrandmaEyes2003b
+  accessed:
+    - year: 2022
+      month: 7
+      day: 17
+  author:
+    - family: Syed
+      given: Hafiz
+    - family: Harris
+      given: Steve
+    - family: Dubrey
+      given: Simon
+  citation-key: syedGrandmaEyes2003b
+  container-title: The Lancet
+  container-title-short: The Lancet
+  DOI: 10.1016/S0140-6736(03)12893-0
+  ISSN: 0140-6736, 1474-547X
+  issue: '9363'
+  issued:
+    - year: 2003
+      month: 3
+      day: 29
+  keyword: []
+  language: English
+  page: '1083'
+  PMID: '12672311'
+  publisher: Elsevier
+  source: www.thelancet.com
+  title: Grandma's eyes
+  type: article-journal
+  URL: >-
+    https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(03)12893-0/fulltext
+  volume: '361'
+
 - id: tissotNaturalLanguageProcessing2020a
+  abstract: >-
+    Clinical trials often fail to recruit an adequate number of appropriate
+    patients. Identifying eligible trial participants is resource-intensive when
+    relying on manual review of clinical notes, particularly in critical care
+    settings where the time window is short. Automated review of electronic
+    health records (EHR) may help, but much of the information is in free text
+    rather than a computable form. We applied natural language processing (NLP)
+    to free text EHR data using the CogStack platform to simulate recruitment
+    into the LeoPARDS study, a clinical trial aiming to reduce organ dysfunction
+    in septic shock. We applied an algorithm to identify eligible patients using
+    a moving 1-hour time window, and compared patients identiﬁed by our approach
+    with those actually screened and recruited for the trial, for the time
+    period that data were available. We manually reviewed records of a random
+    sample of patients identiﬁed by the algorithm but not screened in the
+    original trial. Our method identiﬁed 376 patients, including 34 patients
+    with EHR data available who were actually recruited to LeoPARDS in our
+    centre. The sensitivity of CogStack for identifying patients screened was
+    90% (95% CI 85%, 93%). Of the 203 patients identiﬁed by both manual
+    screening and CogStack, the index date matched in 95 (47%) and CogStack was
+    earlier in 94 (47%). In conclusion, analysis of EHR data using NLP could
+    effectively replicate recruitment in a critical care trial, and identify
+    some eligible patients at an earlier stage, potentially improving trial
+    recruitment if implemented in real time.
   accessed:
     - year: 2022
       month: 7
@@ -984,6 +2694,12 @@ references:
   volume: '24'
 
 - id: wilsonClinicianPreferenceInstrumental2022a
+  abstract: |-
+    Abstract
+                
+                  Atrial fibrillation is a frequently encountered condition in critical illness and causes adverse effects including haemodynamic decompensation, stroke and prolonged hospital stay. It is a common practice in critical care to supplement serum magnesium for the purpose of preventing episodes of atrial fibrillation. However, no randomised studies support this practice in the non-cardiac surgery critical care population, and the effectiveness of magnesium supplementation is unclear. We sought to investigate the effectiveness of magnesium supplementation in preventing the onset of atrial fibrillation in a mixed critical care population. We conducted a single centre retrospective observational study of adult critical care patients. We utilised a natural experiment design, using the supplementation preference of the bedside critical care nurse as an instrumental variable. Using routinely collected electronic patient data, magnesium supplementation opportunities were defined and linked to the bedside nurse. Nurse preference for administering magnesium was obtained using multilevel modelling. The results were used to define "liberal" and "restrictive" supplementation groups, which were inputted into an instrumental variable regression to obtain an estimate of the effect of magnesium supplementation. 9114 magnesium supplementation opportunities were analysed, representing 2137 critical care admissions for 1914 patients. There was significant variation in magnesium supplementation practices attributable to the individual nurse, after accounting for covariates. The instrumental variable analysis showed magnesium supplementation was associated with a 3% decreased relative risk of experiencing an atrial fibrillation event (95% CI − 0.06 to − 0.004,
+                  p
+                   = 0.03). This study supports the strategy of routine supplementation, but further work is required to identify optimal serum magnesium targets for atrial fibrillation prophylaxis.
   accessed:
     - year: 2022
       month: 10
@@ -1023,6 +2739,26 @@ references:
   volume: '12'
 
 - id: wilsonEmbeddedPointCare2022a
+  abstract: |-
+    Introduction
+                  Many routinely administered treatments lack evidence as to their effectiveness. When treatments lack evidence, patients receive varying care based on the preferences of clinicians. Standard randomised controlled trials are unsuited to comparisons of different routine treatment strategies, and there remains little economic incentive for change.
+                  Integrating clinical trial infrastructure into electronic health record systems offers the potential for routine treatment comparisons at scale, through reduced trial costs. To date, embedded trials have automated data collection, participant identification and eligibility screening, but randomisation and consent remain manual and therefore costly tasks.
+                  This study will investigate the feasibility of using computer prompts to allow flexible randomisation at the point of clinical decision making. It will compare the effectiveness of two prompt designs through the lens of a candidate research question—comparing liberal or restrictive magnesium supplementation practices for critical care patients. It will also explore the acceptability of two consent models for conducting comparative effectiveness research.
+                
+                
+                  Methods and analysis
+                  We will conduct a single centre, mixed-methods feasibility study, aiming to recruit 50 patients undergoing elective surgery requiring postoperative critical care admission. Participants will be randomised to either ‘Nudge’ or ‘Preference’ designs of electronic point-of-care randomisation prompt, and liberal or restrictive magnesium supplementation.
+                  We will judge feasibility through a combination of study outcomes. The primary outcome will be the proportion of prompts displayed resulting in successful randomisation events (compliance with the allocated magnesium strategy). Secondary outcomes will evaluate the acceptability of both prompt designs to clinicians and ascertain the acceptability of pre-emptive and opt-out consent models to patients.
+                
+                
+                  Ethics and dissemination
+                  This study was approved by Riverside Research Ethics Committee (Ref: 21/LO/0785) and will be published on completion.
+                
+                
+                  Trial registration number
+                  
+                    NCT05149820
+                    .
   accessed:
     - year: 2022
       month: 9
@@ -1047,8 +2783,7 @@ references:
   issued:
     - year: 2022
       month: 9
-  keyword:
-    - tag: recommended
+  keyword: []
   language: en
   note: 0 citations (Crossref) [2022-09-20]
   page: e059995
@@ -1096,7 +2831,69 @@ references:
   URL: https://linkinghub.elsevier.com/retrieve/pii/S0007091222000757
   volume: '128'
 
+- id: wongCancelledOperations7day2018a
+  abstract: >-
+    Background: Cancellation of planned surgery impacts substantially on
+    patients and health systems. This study describes the incidence and reasons
+    for cancellation of inpatient surgery in the UK NHS. Methods: We conducted a
+    prospective observational cohort study over 7 consecutive days in March 2017
+    in 245 NHS hospitals. Occurrences and reasons for previous surgical
+    cancellations were recorded. Using multilevel logistic regression, we
+    identified patient- and hospital-level factors associated with cancellation
+    due to inadequate bed capacity. Results: We analysed data from 14 936
+    patients undergoing planned surgery. A total of 1499 patients (10.0%)
+    reported previous cancellation for the same procedure; contemporaneous
+    hospital census data indicated that 13.9% patients attending inpatient
+    operations were cancelled on the day of surgery. Non-clinical reasons,
+    predominantly inadequate bed capacity, accounted for a large proportion of
+    previous cancellations. Independent risk factors for cancellation due to
+    inadequate bed capacity included requirement for postoperative critical care
+    \[odds ratio (OR)¼2.92; 95% confidence interval (CI), 2.12e4.02; P<0.001]
+    and the presence of an emergency department in the treating hospital
+    (OR¼4.18; 95% CI, 2.22e7.89; P<0.001). Patients undergoing cancer surgery
+    (OR¼0.32; 95% CI, 0.22e0.46; P<0.001), obstetric procedures (OR¼0.17; 95%
+    CI, 0.08e0.32; P<0.001), and expedited surgery (OR¼0.39; 95% CI, 0.27e0.56;
+    P<0.001) were less likely to be cancelled.
+  accessed:
+    - year: 2022
+      month: 7
+      day: 17
+  author:
+    - family: Wong
+      given: D.J.N.
+    - family: Harris
+      given: S.K.
+    - family: Moonesinghe
+      given: S.R.
+  citation-key: wongCancelledOperations7day2018a
+  container-title: British Journal of Anaesthesia
+  container-title-short: British Journal of Anaesthesia
+  DOI: 10.1016/j.bja.2018.07.002
+  ISSN: '00070912'
+  issue: '4'
+  issued:
+    - year: 2018
+      month: 10
+  keyword: []
+  language: en
+  page: 730-738
+  source: DOI.org (Crossref)
+  title: >-
+    Cancelled operations: a 7-day cohort study of planned adult inpatient
+    surgery in 245 UK National Health Service hospitals
+  title-short: Cancelled operations
+  type: article-journal
+  URL: https://linkinghub.elsevier.com/retrieve/pii/S0007091218305658
+  volume: '121'
+
 - id: wongDevelopingValidatingSubjective2020a
+  abstract: >-
+    Background Preoperative risk prediction is important for guiding clinical
+    decision-making and resource allocation. Clinicians frequently rely solely
+    on their own clinical judgement for risk prediction rather than objective
+    measures. We aimed to compare the accuracy of freely available objective
+    surgical risk tools with subjective clinical assessment in predicting 30-day
+    mortality.
   accessed:
     - year: 2022
       month: 7
@@ -1156,4 +2953,705 @@ references:
   type: article-journal
   URL: https://dx.plos.org/10.1371/journal.pmed.1003253
   volume: '17'
+
+- id: wongManVsMachine2018b
+  accessed:
+    - year: 2022
+      month: 7
+      day: 17
+  author:
+    - family: Wong
+      given: D.J.N.
+    - family: Sahni
+      given: A.
+    - family: Bedford
+      given: J.R.
+    - family: Harris
+      given: S.K.
+    - family: Moonesinghe
+      given: S.R.
+  citation-key: wongManVsMachine2018b
+  container-title: British Journal of Anaesthesia
+  container-title-short: British Journal of Anaesthesia
+  DOI: 10.1016/j.bja.2018.05.037
+  ISSN: '00070912'
+  issue: '2'
+  issued:
+    - year: 2018
+      month: 8
+  keyword: []
+  language: en
+  page: e28-e29
+  source: DOI.org (Crossref)
+  title: 'Man vs machine: how good are clinicians at predicting perioperative risk?'
+  title-short: Man vs machine
+  type: article-journal
+  URL: https://linkinghub.elsevier.com/retrieve/pii/S0007091218304288
+  volume: '121'
+
+- id: wongPostoperativeCriticalCare2019a
+  abstract: >-
+    Background: Decisions to admit high-risk postoperative patients to critical
+    care may be affected by resource availability. We aimed to quantify adult
+    ICU/high-dependency unit (ICU/HDU) capacity in hospitals from the UK,
+    Australia, and New Zealand (NZ), and to identify and describe additional
+    ‘high-acuity’ beds capable of managing high-risk patients outside the
+    ICU/HDU environment.
+  accessed:
+    - year: 2022
+      month: 7
+      day: 17
+  author:
+    - family: Wong
+      given: Danny Jon Nian
+    - family: Popham
+      given: Scott
+    - family: Wilson
+      given: Andrew Marshall
+    - family: Barneto
+      given: Lisa M.
+    - family: Lindsay
+      given: Helen A.
+    - family: Farmer
+      given: Laura
+    - family: Saunders
+      given: David
+    - family: Wallace
+      given: Sophie
+    - family: Campbell
+      given: Douglas
+    - family: Myles
+      given: Paul S.
+    - family: Harris
+      given: Steve Kendrick
+    - family: Moonesinghe
+      given: Suneetha Ramani
+    - family: Grocott
+      given: Mike P.W.
+    - family: Sneyd
+      given: Robert
+    - family: Batchelor
+      given: Anna
+    - family: Brett
+      given: Stephen
+    - family: Plowright
+      given: Catherine
+    - family: Shrestha
+      given: Suman
+    - family: Shawyer
+      given: Richard
+    - family: Ahmed
+      given: Shafi
+    - family: Khondoker
+      given: Mizan
+    - family: Nathanson
+      given: Mike
+    - family: Sathe
+      given: Sonia
+    - family: Rawat
+      given: Shilpa
+    - family: Range
+      given: Christine
+    - family: Moloney
+      given: Dermot
+    - family: Hee
+      given: Wendy Lum
+    - family: Tozer
+      given: James
+    - family: Hamlyn
+      given: Vincent
+    - family: MacGregor
+      given: Mark
+    - family: Qadri
+      given: Shabir
+    - family: Chaurasia
+      given: Sunil
+      dropping-particle: kumar
+    - family: Torrance
+      given: Hew
+    - family: Raj
+      given: Ashok
+    - family: Ross-Anderson
+      given: Davina
+    - family: Anwar
+      given: Sibtain
+    - family: Armanious
+      given: Samuel
+    - family: Knowlden
+      given: Peter
+    - family: McCourt
+      given: Killian
+    - family: Pugh
+      given: Richard
+    - family: Clements
+      given: Stephan
+    - family: Littler
+      given: Christopher
+    - family: Whapples
+      given: Annabelle
+    - family: Cupitt
+      given: Jason
+    - family: Balasubramaniam
+      given: Madhushankar
+    - family: Spencer
+      given: Robert
+    - family: White
+      given: Stuart
+    - family: Drake
+      given: Jeremy
+    - family: Ramhewa
+      given: Tendai
+    - family: Hill
+      given: Stephen
+    - family: Patil
+      given: Vishal
+    - family: Goodwin
+      given: Naomi
+    - family: Bansal
+      given: Sujesh
+    - family: Greenwood
+      given: Nick
+    - family: Sutton
+      given: Rebecca
+    - family: Hanison
+      given: James
+    - family: Same
+      given: Melinda
+    - family: Matson
+      given: Alexandra
+    - family: Spittle
+      given: Nick
+    - family: Slorach
+      given: Marc
+    - family: McLoughlin
+      given: Liam
+    - family: Wilson
+      given: Lawrence
+    - family: Melsom
+      given: Helen
+    - family: Rafi
+      given: M. Amir
+    - family: Limb
+      given: James
+    - family: Saibaba
+      given: Ravishankar Jakkala
+    - family: Lynch
+      given: Ceri
+    - family: Pemberton
+      given: Omar
+    - family: Sange
+      given: Mansoor
+    - family: Rogerson
+      given: David
+    - family: Dobson
+      given: Richard
+    - family: Chambers
+      given: Jonathan
+    - family: Bramall
+      given: Jon
+    - family: Gorman
+      given: Andrew
+    - family: Joanna
+      given: Moore
+    - family: Kapoor
+      given: Ritoo
+    - family: Natarajan
+      given: Nagendra
+    - family: Chukkambotla
+      given: Srikanth
+    - family: Marshall
+      given: Philippa
+    - family: Thorning
+      given: Geoff
+    - family: Csabi
+      given: Peter
+    - family: Woods
+      given: Justin
+    - family: Ritzema
+      given: Jenny
+    - family: Orme
+      given: Robert
+    - family: Koh
+      given: Sock Huang
+    - family: Gary
+      given: Baigel
+    - family: Zucco
+      given: Liana
+    - family: Bromhead
+      given: Helen
+    - family: Partridge
+      given: Richard
+    - family: Kant
+      given: Abhinav
+    - family: Yeung
+      given: Joyce
+    - family: Ignatov
+      given: Dancho
+    - family: Talati
+      given: Chiraag
+    - family: Gratrix
+      given: Andrew
+    - family: Ghosh
+      given: Subhamay
+    - family: Ignatova
+      given: Zhana
+    - family: Gill
+      given: Stuart
+    - family: Agarwal
+      given: Sunita
+    - family: Nagaratnam
+      given: Vidhya
+    - family: Kirby
+      given: Susan
+    - family: Brett
+      given: Stephen
+    - family: Bell
+      given: Stephanie
+    - family: Debreceni
+      given: Gabor
+    - family: Bothma
+      given: Pieter
+    - family: Jakkampudi
+      given: Satyanarayana
+    - family: Botfield
+      given: Claire
+    - family: Kok
+      given: Waisun
+    - family: Maharaj
+      given: Ritesh
+    - family: Puranik
+      given: Sarang
+    - family: Laha
+      given: Shondipon
+    - family: Whiteley
+      given: Simon
+    - family: Shephard
+      given: Buzz
+    - family: Agarwal
+      given: Manju
+    - family: McNamara
+      given: Helen
+    - family: Fitzgerald
+      given: Thomas
+    - family: Zaidi
+      given: Suhail
+    - family: Blackie
+      given: Philip
+    - family: Mukherjee
+      given: Kirtida
+    - family: Price
+      given: Nicolas
+    - family: Pennington
+      given: James
+    - family: Varma
+      given: Sandeep
+    - family: Stewart
+      given: Richard
+    - family: O'Brien
+      given: Peter
+    - family: Mitchell
+      given: Joellene
+    - family: Aldridge
+      given: Jonathan
+    - family: Edwards
+      given: Vivien
+    - family: Hunter
+      given: Catherine
+    - family: Allen
+      given: Laurin
+    - family: Service
+      given: Jennifer
+    - family: Pettigrew
+      given: Tom
+    - family: Campbell
+      given: Robert
+    - family: Varveris
+      given: Daphne
+    - family: Young
+      given: Simon
+    - family: Harten
+      given: Johann
+    - family: Brett
+      given: Michael
+    - family: Howes
+      given: Jacqueline
+    - family: Robinson
+      given: David
+    - family: Chapman
+      given: Roddy
+    - family: Rattray
+      given: Austin
+    - family: Razouk
+      given: Khaled
+    - family: McLellan
+      given: Stuart
+    - family: Alston
+      given: Robin
+    - family: Geddes
+      given: Murray
+    - family: Schraag
+      given: Stefan
+    - family: Cooper
+      given: Paul
+    - family: Barr
+      given: Catriona
+    - family: Sim
+      given: Stephanie
+    - family: Hilton-Christie
+      given: Sharon
+    - family: Reavley
+      given: Caroline
+    - family: Jenkins
+      given: Kathryn
+    - family: Smith
+      given: Tim
+    - family: Graham
+      given: Fiona
+    - family: Ezihe-Ejiofor
+      given: J.A.
+    - family: Pritchard
+      given: David
+    - family: Williams
+      given: Lynne
+    - family: Kakodkar
+      given: Prashant
+    - family: Henry
+      given: Garry
+    - family: Nutt
+      given: Christopher
+    - family: Wright
+      given: Geoff
+    - family: Mitra
+      given: Atideb
+    - family: Garg
+      given: Sanjeev
+    - family: Taylor
+      given: Adrian
+    - family: Moppett
+      given: Iain
+    - family: Clark
+      given: Sam
+    - family: Ford
+      given: Eleanor
+    - family: Bond-Smith
+      given: Giles
+    - family: Siviter
+      given: Richard
+    - family: Webb
+      given: Stephen
+    - family: Humphreys
+      given: Joanne
+    - family: Brammar
+      given: Andrew
+    - family: Weisz
+      given: Michael
+    - family: Minto
+      given: Gary
+    - family: Girgis
+      given: Michael
+    - family: Bain
+      given: James
+    - family: Giles
+      given: Julian
+    - family: John
+      given: John
+    - family: Dill-Russell
+      given: Patrick
+    - family: Fogg
+      given: Katheryn
+    - family: Berry
+      given: Julian
+    - family: Matthews
+      given: Cathryn
+    - family: Hooker
+      given: Nicolas
+    - family: Kidel
+      given: Carlos
+    - family: Jha
+      given: Rajeev
+    - family: Williams
+      given: Colin
+    - family: Gunning
+      given: Malcolm
+    - family: Dickinson
+      given: Matthew
+    - family: Cook
+      given: Tim
+    - family: Bailey
+      given: Kate
+    - family: Williams
+      given: Simon
+    - family: Rambhatla
+      given: Mrutyunjaya Rao
+    - family: Kannan
+      given: Santhana
+    - family: Wrench
+      given: Ian
+    - family: Jones
+      given: Paul
+    - family: Wright
+      given: Jane
+    - family: Foley
+      given: Paul
+    - family: Henning
+      given: Jeremy
+    - family: Frey
+      given: Christian
+    - family: White
+      given: Emert
+    - family: Goddard
+      given: Chris
+    - family: Shah
+      given: Nirav
+    - family: Goel
+      given: Vandana
+    - family: Thomas
+      given: Elizabeth
+    - literal: atyas Andorka
+    - family: Kulkarni
+      given: Anand
+    - family: Hine
+      given: Abigail
+    - family: Nariani
+      given: Jaya
+    - family: Sonksen
+      given: Julian
+    - family: Papageorgiou
+      given: Con
+    - family: Kotur
+      given: Karuna
+    - family: Saunders
+      given: David
+    - family: Hamilton
+      given: Kevin
+    - family: Gent
+      given: Emma
+    - family: Hormis
+      given: Anil
+    - family: Craig
+      given: James
+    - family: Juneja
+      given: Rohit
+    - family: Siddaiah
+      given: Narendra
+    - family: Claxton
+      given: Andrew
+    - family: Hargreaves
+      given: Chris
+    - family: Montgomery
+      given: Jane
+    - family: Kakkar
+      given: Manish
+    - family: Joachim
+      given: Suganthi
+    - family: Orr
+      given: John
+    - family: Ferguson
+      given: Catriona
+    - family: Stewart
+      given: Adrienne
+    - family: Tasker
+      given: Laura
+    - family: Washington
+      given: Stephen
+    - family: Al-Rawi
+      given: Samar
+    - family: Wakatsuki
+      given: Mai
+    - family: Wharton
+      given: Nicholas
+    - family: Bradbury
+      given: Carol
+    - family: Lau
+      given: Gary
+    - family: McArthur
+      given: Carol
+    - family: Markham
+      given: Rachel
+    - family: Merron
+      given: Stephen
+    - family: Shanbhag
+      given: Sumant
+    - family: Jumani
+      given: Deepa
+    - family: Charters
+      given: Seema
+    - family: Page
+      given: Valerie
+    - family: Gopal
+      given: Vijayakumar
+    - family: Latif
+      given: Muhammad
+    - family: Mcivor
+      given: Vinanti Cherian
+    - family: Kennedy
+      given: Richard
+    - family: Dana
+      given: Emily
+    - family: Hosdurga
+      given: Gurunath
+    - family: Singaravelu
+      given: Suresh
+    - family: Persad
+      given: Cindy
+    - family: Burtenshaw
+      given: Andrew
+    - family: Clements
+      given: Paul
+    - family: Troth
+      given: Laura
+    - family: Kubisz-Pudelko
+      given: Agnieszka
+    - family: Chandler
+      given: Ben
+    - family: Jonathan T Wilson
+      given: R.
+    - family: Moss
+      given: Janette
+    - family: Rowe
+      given: Paul
+    - family: Kumar
+      given: Pallavi
+    - family: Gillespie
+      given: David
+    - family: Cheung
+      given: Winston
+    - family: Dwyer
+      given: Laurie
+    - family: Anderson
+      given: James R.
+    - family: Hicks
+      given: Chelsea
+    - family: Bowden
+      given: Chris
+    - family: Popham
+      given: Scott
+    - family: Roberts
+      given: Helen
+    - family: Diczbalis
+      given: Monica
+    - family: Dawson
+      given: Rob
+    - family: Wonders
+      given: Robert
+    - family: Teisseyre
+      given: Dominik
+    - family: Robinson
+      given: Andrew
+    - family: Tan
+      given: Khong
+    - family: Posselt
+      given: Bronwyn
+    - family: Coventry
+      given: Lillian
+    - family: Shan
+      given: David
+    - family: Highton
+      given: David
+    - family: Miller-Greenman
+      given: Tony
+    - family: Kooner
+      given: Tehal
+    - family: Guy
+      given: Louis
+    - family: Spain
+      given: Brian
+    - family: Naidoo
+      given: Vasheya
+    - family: Hennessy
+      given: Brien
+    - family: Scott
+      given: David A.
+    - family: Prassas
+      given: Georgina
+    - family: Matthews
+      given: Joel
+    - family: Kakos
+      given: Alan
+    - family: Smith
+      given: Robert
+    - family: Williams
+      given: Daryl L.
+    - family: Le
+      given: Nam
+    - family: Jones
+      given: Andrew
+    - family: Patel
+      given: Nikhil
+    - family: Campbell
+      given: Doug
+    - family: Lindsay
+      given: Helen
+    - family: Wilson
+      given: Andrew M.
+    - family: Allen
+      given: Charles
+    - family: Oudenaaren
+      given: Sophie
+      non-dropping-particle: van
+    - family: Frankpitt
+      given: Alexandra
+    - family: Ongley
+      given: Dick
+    - family: Barneto
+      given: Lisa M.
+    - family: Garden
+      given: Alexander
+    - family: Yam
+      given: Sai Tim
+    - family: Welch
+      given: Mark
+    - family: Freebairn
+      given: Ross
+    - family: Bhattacharya
+      given: Dhir
+    - family: Truong
+      given: Han
+    - family: Kwan
+      given: Laura
+    - family: Panckhurst
+      given: Jonathan
+    - family: Henry
+      given: Jenny
+    - family: Perrin
+      given: Samuel
+    - family: Campbell
+      given: Kate
+    - family: Singh
+      given: Vikramjit
+    - family: Birioukov
+      given: Victor
+    - family: Ireland
+      given: Claire
+    - family: Shanmuganathan
+      given: Priya
+    - family: Brown
+      given: Duncan
+    - family: Gormack
+      given: Sophie
+    - family: Jackson
+      given: Alison
+    - family: Sharma
+      given: Swarna
+    - family: Dale-Gandar
+      given: Julius
+  citation-key: wongPostoperativeCriticalCare2019a
+  container-title: British Journal of Anaesthesia
+  container-title-short: British Journal of Anaesthesia
+  DOI: 10.1016/j.bja.2018.12.026
+  ISSN: '00070912'
+  issue: '4'
+  issued:
+    - year: 2019
+      month: 4
+  keyword: []
+  language: en
+  page: 460-469
+  source: DOI.org (Crossref)
+  title: >-
+    Postoperative critical care and high-acuity care provision in the United
+    Kingdom, Australia, and New Zealand
+  type: article-journal
+  URL: https://linkinghub.elsevier.com/retrieve/pii/S000709121930011X
+  volume: '122'
 ...
