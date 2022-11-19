@@ -2,7 +2,7 @@
 title: "Ruaraidh Campbell"
 sortby: "Campbell, Ruaraidh"
 subtitle: "Clinical Fellow in Data Science & Critical Care"
-image: ruaraidh_campbell.jpg
+image: campbell_ruaraidh.jpg
 started: "August 2022"
 toc: false
 about:

@@ -3,7 +3,7 @@ title: "Claire Black"
 sortby: "Black, Claire"
 subtitle: "Post Doctoral Researcher"
 started: "September 2020"
-image: CB_photo.jpg
+image: black_claire.jpg
 toc: false
 # resources: 
 #   - "your_cv.pdf"

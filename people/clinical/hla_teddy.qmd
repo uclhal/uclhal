@@ -1,8 +1,8 @@
 ---
 title: "Teddy Tun Win HLA"
 sortby: "Hla, Teddy"
-subtitle: "Data science fellow"
-image: teddyhla.jpeg
+subtitle: "Clinical Fellow in Data Science & Critical Care"
+image: hla_teddy.jpeg
 started: "February 2022"
 toc: false
 # resources: 

@@ -2,7 +2,7 @@
 title: "Matt Wilson"
 sortby: "Wilson, Matt"
 subtitle: "PhD Student"
-image: matt.jpg
+image: wilson_matt.jpg
 started: "September 2018"
 toc: false
 about:

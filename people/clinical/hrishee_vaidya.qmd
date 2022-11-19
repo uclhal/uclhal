@@ -2,7 +2,7 @@
 title: "Hrisheekesh Vaidya"
 sortby: "Vaidya, Hrisheekesh"
 subtitle: "Clinical Fellow in Data Science & Critical Care"
-image: hrishee_vaidya.jpg
+image: vaidya_hrishee.jpg
 started: "August 2022"
 toc: false
 about:

@@ -2,7 +2,7 @@
 title: "Katharina Kohler"
 sortby: "Kohler, Katharina"
 subtitle: "Post-doctoral Researcher"
-image: katharina.jpg
+image: kohler_katharina.jpg
 started: "September 2022"
 toc: false
 # resources: 

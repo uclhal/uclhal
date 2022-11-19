@@ -2,7 +2,7 @@
 title: "Ahmed Al-Hindawi"
 sortby: "Al-Hindawi, Ahmed"
 subtitle: "Post-Doctoral Researcher"
-image: ahmed_profile.jpeg
+image: alhindawi_ahmed.jpeg
 started: "2020"
 toc: false
 
