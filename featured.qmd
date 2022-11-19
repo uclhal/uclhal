@@ -1,0 +1,26 @@
+---
+pagetitle: "Featured | UCL Health Algorithms Laboratory"
+toc: false
+listing:
+  - id: featured
+    contents:
+      - "publications/uclhal_quarto_listing.yaml"
+    template: ejs/featured.ejs
+    sort:
+      - "year desc"
+      - "title"
+    page-size: 5
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Featured</li>
+  </ol>
+</nav>
+```
+
+
+:::{#featured}
+:::

@@ -1,0 +1,17 @@
+<!-- https://quarto.org/docs/websites/website-listings-custom.html#sorting-filtering-and-pagination -->
+```{=html}
+<ul class="list">
+<% for (const item of items) { %>
+  <% if (item.favourite) { %>
+    <li <%= metadataAttrs(item) %>>
+      <span class="listing-year"> <%= item.year %> <span>
+      <span class="listing-journal"> <strong><i> <%= item.journal %><br/> </i></strong> <span>
+      <span class="listing-authors"><%= item['authors'] %><span><br/>
+      <a href="<%- item.url4title %>" class="listing-title"><%= item.title %></a><br/>
+      <%= item.abstract %>
+    </li>
+  <% } %>
+
+<% } %>
+</ul>
+```

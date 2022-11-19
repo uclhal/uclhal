@@ -43,6 +43,7 @@ class ZoteroRef:
         self.title = ref.get('title', '')
         self.url = ref.get('URL', '')
         self.doi = ref.get('DOI', '')
+        self.abstract = ref.get('abstract', '')
 
         self.year = ref.get('issued')[0]['year']
 
@@ -76,6 +77,8 @@ class ZoteroRef:
         litem['url'] = self.url
         litem['url4title'] = f"http://doi.org/{self.doi}" if self.doi else self.url
         litem['categories'] = self.tags
+        litem['favourite'] = True if 'recommended' in self.tags else False
+        litem['abstract'] = self.abstract if 'recommended' in self.tags else ''
         return litem
 
 

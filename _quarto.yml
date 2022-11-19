@@ -10,6 +10,7 @@ execute:
 website:
   title: "UCL Health Algorithms Laboratory"
   navbar:
+    pinned: true
     right:
       - href: people.qmd
         text: People
@@ -17,8 +18,12 @@ website:
         text: News
       # - href: research.qmd
       #   text: Research
-      - href: publications.qmd
-        text: Publications
+      - text: Research
+        menu:
+          - href: featured.qmd
+            text: Featured
+          - href: publications.qmd
+            text: Publications
       - href: resources.qmd
         text: Resources
       # - href: opportunities.qmd
