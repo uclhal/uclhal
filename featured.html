@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Contact | UCLHAL</title>
+<title>Featured | UCL Health Algorithms Laboratory</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -29,6 +29,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -57,7 +59,38 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-featured .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-cite_key','listing-authors','listing-title','listing-journal','listing-year','listing-doi','listing-url','listing-url4title','listing-categories','listing-favourite','listing-abstract',{ data: ['index'] },{ data: ['categories'] }],
+      page: 5,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
+      searchColumns: ["listing-cite_key","listing-authors","listing-title","listing-journal","listing-year","listing-doi","listing-url","listing-url4title","listing-categories","listing-favourite","listing-abstract"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-featured'] = new List('listing-featured', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -106,7 +139,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./contact.html" aria-current="page">
+    <a class="nav-link" href="./contact.html">
  <span class="menu-text">Contact</span></a>
   </li>  
 </ul>
@@ -128,23 +161,57 @@ ul.task-list li input[type="checkbox"] {
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
     <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-    <li class="breadcrumb-item active" aria-current="page">Contact</li>
+    <li class="breadcrumb-item active" aria-current="page">Featured</li>
   </ol>
 </nav>
-<section id="visit-us" class="level2">
-<h2 class="anchored" data-anchor-id="visit-us">Visit Us</h2>
-<p>The UCL Health Algorithm Laboratory is based at <strong>Institute of Health Informatics</strong> at University College London.</p>
-<blockquote class="blockquote">
-<p><strong>Street Address:</strong> 222 Euston Road, London, NW1 2DA</p>
-</blockquote>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.3081696623235!2d-0.137801584241075!3d51.52590731717089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b260446fa31%3A0xc97a5981bb924a0d!2sUCL%20Institute%20Of%20Health%20Informatics!5e0!3m2!1sen!2suk!4v1668376825965!5m2!1sen!2suk" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</section>
-<section id="email-us" class="level2">
-<h2 class="anchored" data-anchor-id="email-us">Email Us</h2>
-<p>hello@uclhal.org</p>
+<div id="listing-featured" class="quarto-listing quarto-listing-container-custom">
+<!-- https://quarto.org/docs/websites/website-listings-custom.html#sorting-filtering-and-pagination -->
+<ul class="list">
+    <li data-index="0" data-categories="recommended,translational-datascience">
+      <span class="listing-year"> 2022 <span>
+      <span class="listing-journal"> <strong><i> Frontiers in Digital Health<br> </i></strong> <span>
+      <span class="listing-authors">Harris S, Bonnici T, Keen T, Lilaonitkul W, White M, Swanepoel N<span><br>
+      <a href="http://doi.org/10.3389/fdgth.2022.939292" class="listing-title">Clinical deployment environments: Five pillars of translational machine learning for health</a><br>
+      Machine Learning for Health (ML4H) has demonstrated efficacy in computer imaging and other self-contained digital workflows, but has failed to substantially impact routine clinical care. This is no longer because of poor adoption of Electronic Health Records Systems (EHRS), but because ML4H needs an infrastructure for development, deployment and evaluation within the healthcare institution. In this paper, we propose a design pattern called a Clinical Deployment Environment (CDE). We sketch the five pillars of the CDE: (1) real world development supported by live data where ML4H teams can iteratively build and test at the bedside (2) an ML-Ops platform that brings the rigour and standards of continuous deployment to ML4H (3) design and supervision by those with expertise in AI safety (4) the methods of implementation science that enable the algorithmic insights to influence the behaviour of clinicians and patients and (5) continuous evaluation that uses randomisation to avoid bias but in an agile manner. The CDE is intended to answer the same requirements that bio-medicine articulated in establishing the translational medicine domain. It envisions a transition from “real-world” data to “real-world” development.
+    </span></span></span></span></span></span></li>
+    <li data-index="1" data-categories="nudge-trials,recommended">
+      <span class="listing-year"> 2022 <span>
+      <span class="listing-journal"> <strong><i> British Journal of Anaesthesia<br> </i></strong> <span>
+      <span class="listing-authors">Wilson M, Asselbergs F, Harris S<span><br>
+      <a href="http://doi.org/10.1016/j.bja.2022.02.008" class="listing-title">Learning from individualised variation for evidence generation within a learning health system</a><br>
+    </span></span></span></span></span></span></li>
+    <li data-index="2" data-categories="ml4h,recommended,translational-datascience">
+      <span class="listing-year"> 2022 <span>
+      <span class="listing-journal"> <strong><i> npj Digital Medicine<br> </i></strong> <span>
+      <span class="listing-authors">King Z, Farrington J, Utley M, Kung E, Elkhodair S, Harris S, Sekula R, Gillham J, Li K, Crowe S<span><br>
+      <a href="http://doi.org/10.1038/s41746-022-00649-y" class="listing-title">Machine learning for real-time aggregated prediction of hospital admission for emergency patients</a><br>
+      Machine learning for hospital operations is under-studied. We present a prediction pipeline that uses live electronic health-records for patients in a UK teaching hospital’s emergency department (ED) to generate short-term, probabilistic forecasts of emergency admissions. A set of XGBoost classifiers applied to 109,465 ED visits yielded AUROCs from 0.82 to 0.90 depending on elapsed visit-time at the point of prediction. Patient-level probabilities of admission were aggregated to forecast the number of admissions among current ED patients and, incorporating patients yet to arrive, total emergency admissions within specified time-windows. The pipeline gave a mean absolute error (MAE) of 4.0 admissions (mean percentage error of 17%) versus 6.5 (32%) for a benchmark metric. Models developed with 104,504 later visits during the Covid-19 pandemic gave AUROCs of 0.68–0.90 and MAE of 4.2 (30%) versus a 4.9 (33%) benchmark. We discuss how we surmounted challenges of designing and implementing models for real-time use, including temporal framing, data preparation, and changing operational conditions.
+    </span></span></span></span></span></span></li>
+    <li data-index="3" data-categories="recommended,snap-2">
+      <span class="listing-year"> 2020 <span>
+      <span class="listing-journal"> <strong><i> PLOS Medicine<br> </i></strong> <span>
+      <span class="listing-authors">Wong D, Harris S, Sahni A, Bedford J, Cortes L, Shawyer R, Wilson A, Lindsay H, Campbell D, Popham S, Barneto L, Myles P,  , Moonesinghe S<span><br>
+      <a href="http://doi.org/10.1371/journal.pmed.1003253" class="listing-title">Developing and validating subjective and objective risk-assessment measures for predicting mortality after major surgery: An international prospective cohort study</a><br>
+      Background Preoperative risk prediction is important for guiding clinical decision-making and resource allocation. Clinicians frequently rely solely on their own clinical judgement for risk prediction rather than objective measures. We aimed to compare the accuracy of freely available objective surgical risk tools with subjective clinical assessment in predicting 30-day mortality.
+    </span></span></span></span></span></span></li>
+    <li data-index="4" data-categories="recommended">
+      <span class="listing-year"> 2020 <span>
+      <span class="listing-journal"> <strong><i> The Lancet<br> </i></strong> <span>
+      <span class="listing-authors">Banerjee A, Pasea L, Harris S, Gonzalez-Izquierdo A, Torralbo A, Shallcross L, Noursadeghi M, Pillay D, Sebire N, Holmes C, Pagel C, Wong W, Langenberg C, Williams B, Denaxas S, Hemingway H<span><br>
+      <a href="http://doi.org/10.1016/S0140-6736(20)30854-0" class="listing-title">Estimating excess 1-year mortality associated with the COVID-19 pandemic according to underlying conditions and age: a population-based cohort study</a><br>
+      Background The medical, societal, and economic impact of the coronavirus disease 2019 (COVID-19) pandemic has unknown effects on overall population mortality. Previous models of population mortality are based on death over days among infected people, nearly all of whom thus far have underlying conditions. Models have not incorporated information on high-risk conditions or their longer-term baseline (pre-COVID-19) mortality. We estimated the excess number of deaths over 1 year under different COVID-19 incidence scenarios based on varying levels of transmission suppression and differing mortality impacts based on different relative risks for the disease.
+    </span></span></span></span></span></span></li>
+</ul>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+<nav id="featured-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
+</div>
 
 
-</section>
+
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

@@ -1,5 +1,9 @@
 [
   {
+    "listing": "/featured.html",
+    "items": []
+  },
+  {
     "listing": "/news.html",
     "items": [
       "/posts/hdruk-award-2021/index.html"
@@ -27,23 +31,7 @@
   },
   {
     "listing": "/publications.html",
-    "items": [
-      "/publications/articles/knight2022.html",
-      "/publications/reports/tomlinson2022.html",
-      "/publications/articles/thygesen2022.html",
-      "/publications/articles/wilson2022.html",
-      "/publications/preprints/pineda-moncusi2022.html",
-      "/publications/articles/wilson2022b.html",
-      "/publications/articles/alhindawi_2022a.html",
-      "/publications/articles/kohler2022.html",
-      "/publications/articles/alhindawi_2022b.html",
-      "/publications/preprints/handy2021.html",
-      "/publications/articles/alhindawi_2021a.html",
-      "/publications/articles/gurdasani2021.html",
-      "/publications/articles/kohlera2020.html",
-      "/publications/articles/wilson2020.html",
-      "/publications/proceedings/samanta2017.html"
-    ]
+    "items": []
   },
   {
     "listing": "/resources.html",
