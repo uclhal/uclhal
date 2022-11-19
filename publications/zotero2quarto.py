@@ -45,8 +45,11 @@ class ZoteroRef:
             "Unpack and format author list"
             author_list = []
             for d in lofd:
-                author_list.append(
-                    " ".join([d.get('given', ''), d.get('family', '')]))
+                first_name = d.get('given', '')
+                first_initial = first_name[0] if first_name else ''
+                last_name = d.get('family', '')
+                author = ' '.join([last_name, first_initial])
+                author_list.append(author)
             return ', '.join(author_list)
 
         self.authors = _author_list(ref['author'])

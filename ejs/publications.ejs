@@ -5,7 +5,7 @@
   <li <%= metadataAttrs(item) %>>
     <span class="listing-year"> <%= item.year %> <span>
     <span class="listing-journal"> <strong><i> <%= item.journal %><br/> </i></strong> <span>
-    <span class="listing-authors"><%= item['authors'] %><span>
+    <span class="listing-authors"><%= item['authors'] %><span><br/>
     <a href="<%- item.url4title %>" class="listing-title"><%= item.title %></a><br/>
   </li>
 <% } %>
