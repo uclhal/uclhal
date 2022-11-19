@@ -70,7 +70,7 @@ ul.task-list li input[type="checkbox"] {
 
     const options = {
       valueNames: ['listing-cite_key','listing-authors','listing-title','listing-journal','listing-year','listing-doi','listing-url','listing-url4title','listing-categories','listing-favourite','listing-abstract',{ data: ['index'] },{ data: ['categories'] }],
-      page: 5,
+      page: 10,
     pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-cite_key","listing-authors","listing-title","listing-journal","listing-year","listing-doi","listing-url","listing-url4title","listing-categories","listing-favourite","listing-abstract"],
     };
@@ -174,32 +174,76 @@ ul.task-list li input[type="checkbox"] {
       <a href="http://doi.org/10.3389/fdgth.2022.939292" class="listing-title">Clinical deployment environments: Five pillars of translational machine learning for health</a><br>
       Machine Learning for Health (ML4H) has demonstrated efficacy in computer imaging and other self-contained digital workflows, but has failed to substantially impact routine clinical care. This is no longer because of poor adoption of Electronic Health Records Systems (EHRS), but because ML4H needs an infrastructure for development, deployment and evaluation within the healthcare institution. In this paper, we propose a design pattern called a Clinical Deployment Environment (CDE). We sketch the five pillars of the CDE: (1) real world development supported by live data where ML4H teams can iteratively build and test at the bedside (2) an ML-Ops platform that brings the rigour and standards of continuous deployment to ML4H (3) design and supervision by those with expertise in AI safety (4) the methods of implementation science that enable the algorithmic insights to influence the behaviour of clinicians and patients and (5) continuous evaluation that uses randomisation to avoid bias but in an agile manner. The CDE is intended to answer the same requirements that bio-medicine articulated in establishing the translational medicine domain. It envisions a transition from “real-world” data to “real-world” development.
     </span></span></span></span></span></span></li>
-    <li data-index="1" data-categories="nudge-trials,recommended">
+    <li data-index="1" data-categories="recommended">
+      <span class="listing-year"> 2022 <span>
+      <span class="listing-journal"> <strong><i> <br> </i></strong> <span>
+      <span class="listing-authors">Pineda-Moncusí M, Allery F, Delmestri A, Bolton T, Nolan J, Thygesen J, Handy A, Banerjee A, Denaxas S, Tomlinson C, Denniston A, Sudlow C, Akbari A, Wood A, Collins G, Petersen I, Khunti K, Prieto-Alhambra D, Khalid S<span><br>
+      <a href="http://doi.org/10.1101/2022.11.11.22282217" class="listing-title">Digital ethnicity data in population-wide electronic health records in England: a description of completeness, coverage, and granularity of diversity</a><br>
+      Abstract
+            Background
+            The link between ethnicity and healthcare inequity, and the urgency for better data is well-recognised. This study describes ethnicity data in nation-wide electronic health records in England, UK.
+            Methods
+            We conducted a retrospective cohort study using de-identified person-level records for the England population available in the National Health Service (NHS) Digital trusted research environment. Primary care records (GDPPR) were linked to hospital and national mortality records. We assessed completeness, consistency, and granularity of ethnicity records using all available SNOMED-CT concepts for ethnicity and NHS ethnicity categories.
+            Findings
+            From 61.8 million individuals registered with a primary care practice in England, 51.5 (83.3%) had at least one ethnicity record in GDPPR, increasing to 93·9% when linked with hospital records. Approximately 12·0% had at least two conflicting ethnicity codes in primary care records. Women were more likely to have ethnicity recorded than men. Ethnicity was missing most frequently in individuals from 18 to 39 years old and in the southern regions of England. Individuals with an ethnicity record had more comorbidities recorded than those without. Of 489 SNOMED-CT ethnicity concepts available, 255 were used in primary care records. Discrepancies between SNOMED-CT and NHS ethnicity categories were observed, specifically within “Other-” ethnicity groups.
+            Interpretation
+            More than 250 ethnicity sub-groups may be found in health records for the English population, although commonly categorised into “White”, “Black”, “Asian”, “Mixed”, and “Other”. One in ten individuals do not have ethnicity information recorded in primary care or hospital records. SNOMED-CT codes represent more diversity in ethnicity groups than the NHS ethnicity classification. Improved recording of self-reported ethnicity at first point-of-care and consistency in ethnicity classification across healthcare settings can potentially improve the accuracy of ethnicity in research and ultimately care for all ethnicities.
+            Funding
+            British Heart Foundation Data Science Centre led by Health Data Research UK.
+            Research in context
+              Evidence before this study
+                Ethnicity has been highlighted as a significant factor in the disproportionate impact of SARS-CoV-2 infection and mortality. Better knowledge of ethnicity data recorded in real clinical practice is required to improve health research and ultimately healthcare. We searched PubMed from database inception to 14
+                th
+                July 2022 for publications using the search terms “ethnicity” and “electronic health records” or “EHR,” without language restrictions. 228 publications in 2019, before the COVID-19 pandemic, and 304 publications between 2020 and 2022 were identified. However, none of these publications used or reported any of over 400 available SNOMED-CT concepts for ethnicity to account for more granularity and diversity than captured by traditional high-level classification limited to 5 to 9 ethnicity groups.
+              Added value of this study
+              We provide a comprehensive study of the largest collection of ethnicity records from a national-level electronic health records trusted research environment, exploring completeness, consistency, and granularity. This work can serve as a data resource profile of ethnicity from routinely-collected EHR in England.
+              Implications of all the available evidence
+              To achieve equity in healthcare, we need to understand the differences between individuals, as well as the influence of ethnicity both on health status and on health interventions, including variation in the behaviour of tests and therapies. Thus, there is a need for measurements, thresholds, and risk estimates to be tailored to different ethnic groups. This study presents the different medical concepts describing ethnicity in routinely collected data that are readily available to researchers and highlights key elements for improving their accuracy in research. We aim to encourage researchers to use more granular ethnicity than the than typical approaches which aggregate ethnicity into a limited number of categories, failing to reflect the diversity of underlying populations. Accurate ethnicity data will lead to a better understanding of individual diversity, which will help to address disparities and influence policy recommendations that can translate into better, fairer health for all.
+    </span></span></span></span></span></span></li>
+    <li data-index="2" data-categories="nudge-trials,recommended">
       <span class="listing-year"> 2022 <span>
       <span class="listing-journal"> <strong><i> British Journal of Anaesthesia<br> </i></strong> <span>
       <span class="listing-authors">Wilson M, Asselbergs F, Harris S<span><br>
       <a href="http://doi.org/10.1016/j.bja.2022.02.008" class="listing-title">Learning from individualised variation for evidence generation within a learning health system</a><br>
     </span></span></span></span></span></span></li>
-    <li data-index="2" data-categories="ml4h,recommended,translational-datascience">
+    <li data-index="3" data-categories="ml4h,recommended,translational-datascience">
       <span class="listing-year"> 2022 <span>
       <span class="listing-journal"> <strong><i> npj Digital Medicine<br> </i></strong> <span>
       <span class="listing-authors">King Z, Farrington J, Utley M, Kung E, Elkhodair S, Harris S, Sekula R, Gillham J, Li K, Crowe S<span><br>
       <a href="http://doi.org/10.1038/s41746-022-00649-y" class="listing-title">Machine learning for real-time aggregated prediction of hospital admission for emergency patients</a><br>
       Machine learning for hospital operations is under-studied. We present a prediction pipeline that uses live electronic health-records for patients in a UK teaching hospital’s emergency department (ED) to generate short-term, probabilistic forecasts of emergency admissions. A set of XGBoost classifiers applied to 109,465 ED visits yielded AUROCs from 0.82 to 0.90 depending on elapsed visit-time at the point of prediction. Patient-level probabilities of admission were aggregated to forecast the number of admissions among current ED patients and, incorporating patients yet to arrive, total emergency admissions within specified time-windows. The pipeline gave a mean absolute error (MAE) of 4.0 admissions (mean percentage error of 17%) versus 6.5 (32%) for a benchmark metric. Models developed with 104,504 later visits during the Covid-19 pandemic gave AUROCs of 0.68–0.90 and MAE of 4.2 (30%) versus a 4.9 (33%) benchmark. We discuss how we surmounted challenges of designing and implementing models for real-time use, including temporal framing, data preparation, and changing operational conditions.
     </span></span></span></span></span></span></li>
-    <li data-index="3" data-categories="recommended,snap-2">
+    <li data-index="4" data-categories="recommended">
+      <span class="listing-year"> 2022 <span>
+      <span class="listing-journal"> <strong><i> BMJ Open<br> </i></strong> <span>
+      <span class="listing-authors">Kohler K, Nwe Myint P, Wynn S, Komashie A, Winters R, Thu M, Naing M, Hlaing T, Burnstein R, Wai Soe Z, Clarkson J, Menon D, Hutchinson P, Bashford T<span><br>
+      <a href="http://doi.org/10.1136/bmjopen-2021-059935" class="listing-title">Systems approach to improving traumatic brain injury care in Myanmar: a mixed-methods study from lived experience to discrete event simulation</a><br>
+      Objectives
+              Traumatic brain injury (TBI) is a global health problem, whose management in low-resource settings is hampered by fragile health systems and lack of access to specialist services. Improvement is complex, given the interaction of multiple people, processes and institutions. We aimed to develop a mixed-method approach to understand the TBI pathway based on the lived experience of local people, supported by quantitative methodologies and to determine potential improvement targets.
+              Design
+              We describe a systems approach based on narrative exploration, participatory diagramming, data collection and discrete event simulation (DES), conducted by an international research collaborative.
+              Setting
+              The study is set in the tertiary neurotrauma centre in Yangon General Hospital, Myanmar, in 2019–2020 (prior to the SARS-CoV2 pandemic).
+              Participants
+              The qualitative work involved 40 workshop participants and 64 interviewees to explore the views of a wide range of stakeholders including staff, patients and relatives. The 1-month retrospective admission snapshot covered 85 surgical neurotrauma admissions.
+              Results
+              The TBI pathway was outlined, with system boundaries defined around the management of TBI once admitted to the neurosurgical unit. Retrospective data showed 18% mortality, 71% discharge to home and an 11% referral rate. DES was used to investigate the system, showing its vulnerability to small surges in patient numbers, with critical points being CT scanning and observation ward beds. This explorative model indicated that a modest expansion of observation ward beds to 30 would remove the flow-limitations and indicated possible consequences of changes.
+              Conclusions
+              A systems approach to improving TBI care in resource-poor settings may be supported by simulation and informed by qualitative work to ground it in the direct experience of those involved. Narrative interviews, participatory diagramming and DES represent one possible suite of methods deliverable within an international partnership. Findings can support targeted improvement investments despite coexisting resource limitations while indicating concomitant risks.
+    </span></span></span></span></span></span></li>
+    <li data-index="5" data-categories="Conferences,Estimation,Eye Tracking,Gaze Cue estimation,Heuristic algorithms,Hospitals,Instruments,Point of Regard estimation,recommended,Signal processing,Signal processing algorithms">
+      <span class="listing-year"> 2022 <span>
+      <span class="listing-journal"> <strong><i> ICASSP 2022 - 2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)<br> </i></strong> <span>
+      <span class="listing-authors">Al-Hindawi A, Vizcaychipi M, Demiris Y<span><br>
+      <a href="http://doi.org/10.1109/ICASSP43922.2022.9746437" class="listing-title">What Is The Patient Looking At? Robust Gaze-Scene Intersection Under Free-Viewing Conditions</a><br>
+      Locating the user’s gaze in the scene, also known as Point of Regard (PoR) estimation, following gaze regression is important for many downstream tasks. Current techniques either require the user to wear and calibrate instruments, require significant pre-processing of the scene information, or place restrictions on user’s head movements.We propose a geometrically inspired algorithm that, despite its simplicity, provides high accuracy and O(J) performance under a variety of challenging situations including sparse depth maps, high noise, and high dynamic parallax between the user and the scene camera. We demonstrate the utility of the proposed algorithm in regressing the PoR from scenes captured in the Intensive Care Unit (ICU) at Chelsea &amp; Westminster Hospital NHS Foundation Trusta.
+    </span></span></span></span></span></span></li>
+    <li data-index="6" data-categories="recommended,snap-2">
       <span class="listing-year"> 2020 <span>
       <span class="listing-journal"> <strong><i> PLOS Medicine<br> </i></strong> <span>
       <span class="listing-authors">Wong D, Harris S, Sahni A, Bedford J, Cortes L, Shawyer R, Wilson A, Lindsay H, Campbell D, Popham S, Barneto L, Myles P,  , Moonesinghe S<span><br>
       <a href="http://doi.org/10.1371/journal.pmed.1003253" class="listing-title">Developing and validating subjective and objective risk-assessment measures for predicting mortality after major surgery: An international prospective cohort study</a><br>
       Background Preoperative risk prediction is important for guiding clinical decision-making and resource allocation. Clinicians frequently rely solely on their own clinical judgement for risk prediction rather than objective measures. We aimed to compare the accuracy of freely available objective surgical risk tools with subjective clinical assessment in predicting 30-day mortality.
-    </span></span></span></span></span></span></li>
-    <li data-index="4" data-categories="recommended">
-      <span class="listing-year"> 2020 <span>
-      <span class="listing-journal"> <strong><i> The Lancet<br> </i></strong> <span>
-      <span class="listing-authors">Banerjee A, Pasea L, Harris S, Gonzalez-Izquierdo A, Torralbo A, Shallcross L, Noursadeghi M, Pillay D, Sebire N, Holmes C, Pagel C, Wong W, Langenberg C, Williams B, Denaxas S, Hemingway H<span><br>
-      <a href="http://doi.org/10.1016/S0140-6736(20)30854-0" class="listing-title">Estimating excess 1-year mortality associated with the COVID-19 pandemic according to underlying conditions and age: a population-based cohort study</a><br>
-      Background The medical, societal, and economic impact of the coronavirus disease 2019 (COVID-19) pandemic has unknown effects on overall population mortality. Previous models of population mortality are based on death over days among infected people, nearly all of whom thus far have underlying conditions. Models have not incorporated information on high-risk conditions or their longer-term baseline (pre-COVID-19) mortality. We estimated the excess number of deaths over 1 year under different COVID-19 incidence scenarios based on varying levels of transmission suppression and differing mortality impacts based on different relative risks for the disease.
     </span></span></span></span></span></span></li>
 </ul>
 <div class="listing-no-matching d-none">
