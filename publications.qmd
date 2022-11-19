@@ -3,17 +3,18 @@ pagetitle: "Publications | UCL Health Algorithms Laboratory"
 toc: false
 listing:
   - id: articles
-    contents: "publications/*/**.qmd"
-    template: ./ejs/article.ejs
+    contents:
+      - "publications/uclhal_quarto_listing.yaml"
+    template: ejs/publications.ejs
     categories: true
     sort:
       - "year desc"
       - "title"
-    sort-ui: [title,author,publication,year]
-    filter-ui: [title,author,publication,year]
-    page-size: 10
+    sort-ui: [journal,year]
+    filter-ui: [title,authors,journal,year]
+    page-size: 50
     field-display-names: 
-      publication: "Publication"
+      journal: "Publication"
       year: "Year"
 ---
 
@@ -25,6 +26,7 @@ listing:
   </ol>
 </nav>
 ```
+
 
 :::{#articles}
 :::
