@@ -47,19 +47,28 @@ class ZoteroRef:
 
         self.year = ref.get('issued')[0]['year']
 
-        def _author_list(lofd: List[Dict]) -> str:
+        def _author_list(lofd: List[Dict], max_authors: int = 5) -> str:
             "Unpack and format author list"
             author_list = []
             for d in lofd:
+                # skip where author is literal (e.g. a Consortium etc.)
+                if d.get('literal', None) is not None:
+                    continue
+
                 first_name = d.get('given', '')
                 first_initial = first_name[0] if first_name else ''
                 last_name = d.get('family', '')
                 author = ' '.join([last_name, first_initial])
                 author_list.append(author)
+
+            # limit list for readability
+            if len(author_list) > max_authors:
+                author_list = author_list[:4] + ['...'] + author_list[-1:]
+
             return ', '.join(author_list)
 
         self.authors = _author_list(ref['author'])
-        self.tags = [t.get('tag') for t in ref.get('keyword', []) ]
+        self.tags = [t.get('tag') for t in ref.get('keyword', [])]
 
     def __repr__(self):
         return f"{self.cite_key}"
