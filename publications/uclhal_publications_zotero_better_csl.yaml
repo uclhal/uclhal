@@ -976,11 +976,7 @@ references:
     - year: 2022
       month: 7
       day: 5
-  keyword:
-    - tag: Data Study Group
-      type: 1
-    - tag: University of Birmingham
-      type: 1
+  keyword: []
   language: en
   publisher: Zenodo
   source: DOI.org (Datacite)

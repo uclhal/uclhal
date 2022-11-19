@@ -9,6 +9,7 @@ execute:
 
 website:
   title: "UCL Health Algorithms Laboratory"
+  favicon: img/noun-patient-3907718.png
   navbar:
     pinned: true
     right:
@@ -16,8 +17,6 @@ website:
         text: People
       - href: news.qmd
         text: News
-      # - href: research.qmd
-      #   text: Research
       - text: Research
         menu:
           - href: featured.qmd
@@ -26,16 +25,20 @@ website:
             text: Publications
       - href: resources.qmd
         text: Resources
-      # - href: opportunities.qmd
-      #   text: Opportunities
       - href: contact.qmd
         text: Contact
   page-footer: "Copyright 2022 &copy; Steve Harris"
   site-url: https://uclhal.org
   repo-url: https://github.com/uclhal/uclhal
+  repo-actions: [edit, issue]
+  search:
+    location: navbar
+    type: textbox
 
 format:
   html:
-    theme: superhero
+    theme: 
+      light: flatly
+      dark: darkly
     css: styles.css
     toc: true

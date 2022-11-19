@@ -1,7 +1,7 @@
 ---
 title: "Steve Harris"
 sortby: "1"
-subtitle: "Lab Director"
+subtitle: "Group Leader"
 image: harris_steve.jpg
 started: "2015"
 toc: false
