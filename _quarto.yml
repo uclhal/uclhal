@@ -23,8 +23,12 @@ website:
             text: Featured
           - href: publications.qmd
             text: Publications
-      - href: resources.qmd
-        text: Resources
+      - text: Resources
+        menu:
+        - href: resources/awesome.qmd
+          text: Awesome Links
+        - href: resources/homegrown.qmd
+          text: Home grown
       - href: contact.qmd
         text: Contact
   page-footer: "Copyright 2022 &copy; Steve Harris"

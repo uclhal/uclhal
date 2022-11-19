@@ -1,0 +1,30 @@
+---
+pagetitle: "Resources | Awesome"
+toc: false
+listing:
+  - id: linklist
+    contents:
+      - "awesome.yaml"
+    template: ../ejs/awesome.ejs
+    categories: true
+    sort:
+      - "year desc"
+      - "title"
+    sort-ui: [year]
+    filter-ui: [title, description, year]
+    page-size: 50
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Awesome</li>
+  </ol>
+</nav>
+```
+
+A curated list of *awesome* resources recommended by our lab group.
+
+:::{#linklist}
+:::
