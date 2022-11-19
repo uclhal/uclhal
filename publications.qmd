@@ -10,12 +10,12 @@ listing:
     sort:
       - "year desc"
       - "title"
-    sort-ui: [title,authors,journal,year]
+    sort-ui: [journal,year]
     filter-ui: [title,authors,journal,year]
     page-size: 50
-    # field-display-names: 
-    #   journal: "Publication"
-    #   year: "Year"
+    field-display-names: 
+      journal: "Publication"
+      year: "Year"
 ---
 
 ```{=html}
