@@ -9,7 +9,7 @@ listing:
     sort:
       - "year desc"
       - "title"
-    page-size: 5
+    page-size: 10
 ---
 
 ```{=html}
