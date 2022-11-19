@@ -6,7 +6,7 @@ listing:
     contents:
       - "publications/uclhal_quarto_listing.yaml"
     template: ejs/publications.ejs
-    # categories: true
+    categories: true
     sort:
       - "year desc"
       - "title"

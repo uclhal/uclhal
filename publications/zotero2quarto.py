@@ -16,8 +16,13 @@
 # activates the correct virtualenv it should contain one line
 
 # 3.11.0/envs/uclhal
-#
+
 # ```
+
+# Add the following to the Zotero BetterBibtex Export postscript
+# if (Translator.BetterCSL) {
+#     csl.keyword = zotero.tags
+# }
 
 
 # Example
@@ -53,6 +58,7 @@ class ZoteroRef:
             return ', '.join(author_list)
 
         self.authors = _author_list(ref['author'])
+        self.tags = [t.get('tag') for t in ref.get('keyword', []) ]
 
     def __repr__(self):
         return f"{self.cite_key}"
@@ -69,6 +75,7 @@ class ZoteroRef:
         litem['doi'] = self.doi
         litem['url'] = self.url
         litem['url4title'] = f"http://doi.org/{self.doi}" if self.doi else self.url
+        litem['categories'] = self.tags
         return litem
 
 

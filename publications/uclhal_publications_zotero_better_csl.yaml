@@ -23,8 +23,8 @@ references:
   issued:
     - year: 2020
       month: 10
+  keyword: []
   language: en
-  license: All rights reserved
   page: 1930-1931
   source: DOI.org (Crossref)
   title: 'Uncontrolled interventions during pandemics: a missed learning opportunity?'
@@ -80,8 +80,9 @@ references:
   issued:
     - year: 2020
       month: 5
+  keyword:
+    - tag: recommended
   language: en
-  license: All rights reserved
   page: 1715-1725
   source: DOI.org (Crossref)
   title: >-
@@ -120,8 +121,8 @@ references:
     - year: 2022
       month: 3
       day: 31
+  keyword: []
   language: en
-  license: All rights reserved
   page: 1296-1306
   source: DOI.org (Crossref)
   title: >-
@@ -228,8 +229,8 @@ references:
   issued:
     - year: 2020
       month: 12
+  keyword: []
   language: en
-  license: All rights reserved
   page: 608, s13054-020-03321-7
   source: DOI.org (Crossref)
   title: >-
@@ -291,8 +292,8 @@ references:
   issued:
     - year: 2020
       month: 6
+  keyword: []
   language: en
-  license: All rights reserved
   page: 185-190
   source: DOI.org (Crossref)
   title: >-
@@ -329,15 +330,16 @@ references:
     - year: 2021
       month: 9
       day: 1
+  keyword:
+    - tag: adult intensive care
+      type: 1
+    - tag: COVID-19
+      type: 1
+    - tag: haematology (including blood transfusion)
+      type: 1
+    - tag: ischaemic heart disease
+      type: 1
   language: en
-  license: >-
-    © BMJ Publishing Group Limited 2021. No commercial re-use. See rights and
-    permissions. Published by BMJ.. This article is made freely available for
-    use in accordance with BMJ’s website terms and conditions for the duration
-    of the covid-19 pandemic or until otherwise determined by BMJ. You may use,
-    download and print the article for any lawful, non-commercial purpose
-    (including text and data mining) provided that all copyright notices and
-    trade marks are retained.https://bmj.com/coronavirus/usage
   page: e245218
   PMID: '34580132'
   publisher: BMJ Specialist Journals
@@ -401,8 +403,8 @@ references:
     - year: 2022
       month: 9
       day: 6
+  keyword: []
   language: en
-  license: All rights reserved
   note: 1 citations (Crossref) [2022-09-07]
   source: ScienceDirect
   title: >-
@@ -441,7 +443,7 @@ references:
   ISSN: 2673-253X
   issued:
     - year: 2022
-  license: CC0 1.0 Universal Public Domain Dedication
+  keyword: []
   source: Frontiers
   title: >-
     Clinical deployment environments: Five pillars of translational machine
@@ -469,8 +471,8 @@ references:
     - year: 2021
       month: 7
       day: 1
+  keyword: []
   language: en
-  license: All rights reserved
   page: 4-5
   source: DOI.org (Crossref)
   title: >-
@@ -502,8 +504,8 @@ references:
   issued:
     - year: 2021
       month: 1
+  keyword: []
   language: en
-  license: All rights reserved
   page: e42-e44
   source: DOI.org (Crossref)
   title: 'Trials in pandemics: here we go again?'
@@ -537,8 +539,8 @@ references:
   issued:
     - year: 2021
       month: 3
+  keyword: []
   language: en
-  license: All rights reserved
   page: 336-345
   source: DOI.org (Crossref)
   title: Perceptions of UK clinicians towards postoperative critical care
@@ -569,8 +571,8 @@ references:
   issued:
     - year: 2020
       month: 10
+  keyword: []
   language: en
-  license: All rights reserved
   page: 1501-1521
   source: DOI.org (Crossref)
   title: >-
@@ -612,7 +614,8 @@ references:
     - year: 2022
       month: 7
       day: 26
-  license: All rights reserved
+  keyword:
+    - tag: recommended
   page: '104'
   title: >-
     Machine learning for real-time aggregated prediction of hospital admission
@@ -652,8 +655,8 @@ references:
   issued:
     - year: 2020
       month: 9
+  keyword: []
   language: en
-  license: All rights reserved
   page: 393-397
   source: DOI.org (Crossref)
   title: >-
@@ -695,8 +698,8 @@ references:
   issued:
     - year: 2020
       month: 9
+  keyword: []
   language: en
-  license: All rights reserved
   page: 398-405
   source: DOI.org (Crossref)
   title: >-
@@ -780,8 +783,8 @@ references:
   issued:
     - year: 2021
       month: 12
+  keyword: []
   language: en
-  license: All rights reserved
   page: '281'
   source: DOI.org (Crossref)
   title: >-
@@ -827,8 +830,8 @@ references:
   issued:
     - year: 2021
       month: 7
+  keyword: []
   language: en
-  license: All rights reserved
   page: e230-e236
   source: DOI.org (Crossref)
   title: The future of acute and emergency care
@@ -861,8 +864,8 @@ references:
   issued:
     - year: 2020
       month: 9
+  keyword: []
   language: en
-  license: All rights reserved
   page: e277-e279
   source: DOI.org (Crossref)
   title: >-
@@ -918,8 +921,8 @@ references:
   issued:
     - year: 2021
       month: 11
+  keyword: []
   language: en
-  license: All rights reserved
   page: 1883-1894
   source: DOI.org (Crossref)
   title: >-
@@ -966,8 +969,8 @@ references:
   issued:
     - year: 2020
       month: 10
+  keyword: []
   language: en
-  license: All rights reserved
   page: 2950-2959
   source: DOI.org (Crossref)
   title: >-
@@ -1006,8 +1009,8 @@ references:
     - year: 2022
       month: 10
       day: 19
+  keyword: []
   language: en
-  license: All rights reserved
   note: 0 citations (Crossref) [2022-11-17]
   page: '17433'
   source: DOI.org (Crossref)
@@ -1044,8 +1047,9 @@ references:
   issued:
     - year: 2022
       month: 9
+  keyword:
+    - tag: recommended
   language: en
-  license: CC0 1.0 Universal Public Domain Dedication
   note: 0 citations (Crossref) [2022-09-20]
   page: e059995
   source: DOI.org (Crossref)
@@ -1080,8 +1084,8 @@ references:
   issued:
     - year: 2022
       month: 5
+  keyword: []
   language: en
-  license: All rights reserved
   note: 1 citations (Crossref) [2022-11-17]
   page: e320-e322
   source: DOI.org (Crossref)
@@ -1138,8 +1142,8 @@ references:
     - year: 2020
       month: 10
       day: 15
+  keyword: []
   language: en
-  license: All rights reserved
   page: e1003253
   source: DOI.org (Crossref)
   title: >-

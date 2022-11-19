@@ -6,6 +6,7 @@
   doi: 10.1007/s00134-020-06180-6
   url: https://link.springer.com/10.1007/s00134-020-06180-6
   url4title: http://doi.org/10.1007/s00134-020-06180-6
+  categories: []
 - cite_key: banerjeeEstimatingExcess1year2020a
   authors: Banerjee A, Pasea L, Harris S, Gonzalez-Izquierdo A, Torralbo A, Shallcross
     L, Noursadeghi M, Pillay D, Sebire N, Holmes C, Pagel C, Wong W, Langenberg C,
@@ -17,6 +18,8 @@
   doi: 10.1016/S0140-6736(20)30854-0
   url: https://linkinghub.elsevier.com/retrieve/pii/S0140673620308540
   url4title: http://doi.org/10.1016/S0140-6736(20)30854-0
+  categories:
+  - recommended
 - cite_key: chenNudgingLearningHealth2022b
   authors: Chen Y, Harris S, Rogers Y, Ahmad T, Asselbergs F
   title: 'Nudging within learning health systems: next generation decision support
@@ -26,6 +29,7 @@
   doi: 10.1093/eurheartj/ehac030
   url: https://academic.oup.com/eurheartj/article/43/13/1296/6525340
   url4title: http://doi.org/10.1093/eurheartj/ehac030
+  categories: []
 - cite_key: critcareasiaEstablishingCriticalCare2020a
   authors: ' , Beane A, Dondorp A, Taqi A, Ahsan A, Vijayaraghavan B, Permpikul C,
     Pell C, Gandy D, Priyadarshani D, Aryal D, Khiem D, Thuy D, Thwaites G, Kayastha
@@ -40,6 +44,7 @@
   doi: 10.1186/s13054-020-03321-7
   url: https://ccforum.biomedcentral.com/articles/10.1186/s13054-020-03321-7
   url4title: http://doi.org/10.1186/s13054-020-03321-7
+  categories: []
 - cite_key: domiziRelationshipNorepinephrineDose2020a
   authors: Domizi R, Calcinaro S, Harris S, Beilstein C, Boerma C, Chiche J, D'Egidio
     A, Damiani E, Donati A, Koetsier P, Madden M, McAuley D, Morelli A, Pelaia P,
@@ -51,6 +56,7 @@
   doi: 10.1016/j.jcrc.2020.02.014
   url: https://linkinghub.elsevier.com/retrieve/pii/S0883944119313590
   url4title: http://doi.org/10.1016/j.jcrc.2020.02.014
+  categories: []
 - cite_key: flowerAcuteSTsegmentElevation2021a
   authors: Flower L, Bares Z, Santiapillai G, Harris S
   title: Acute ST-segment elevation myocardial infarction secondary to vaccine-induced
@@ -60,6 +66,11 @@
   doi: 10.1136/bcr-2021-245218
   url: https://casereports.bmj.com/content/14/9/e245218
   url4title: http://doi.org/10.1136/bcr-2021-245218
+  categories:
+  - adult intensive care
+  - COVID-19
+  - haematology (including blood transfusion)
+  - ischaemic heart disease
 - cite_key: ghorashianTisagenlecleucelTherapyRelapsed2022a
   authors: Ghorashian S, Jacoby E, De Moerloose B, Rives S, Bonney D, Shenton G, Bader
     P, Bodmer N, Quintana A, Herrero B, Algeri M, Locatelli F, Vettenranta K, Gonzalez
@@ -72,6 +83,7 @@
   doi: 10.1016/S2352-3026(22)00225-3
   url: https://www.sciencedirect.com/science/article/pii/S2352302622002253
   url4title: http://doi.org/10.1016/S2352-3026(22)00225-3
+  categories: []
 - cite_key: harrisClinicalDeploymentEnvironments2022
   authors: Harris S, Bonnici T, Keen T, Lilaonitkul W, White M, Swanepoel N
   title: 'Clinical deployment environments: Five pillars of translational machine
@@ -81,6 +93,7 @@
   doi: 10.3389/fdgth.2022.939292
   url: https://www.frontiersin.org/articles/10.3389/fdgth.2022.939292
   url4title: http://doi.org/10.3389/fdgth.2022.939292
+  categories: []
 - cite_key: harrisDonWantMy2021a
   authors: Harris S
   title: 'I Don''t Want My Algorithm to Die in a Paper: Detecting Deteriorating Patients
@@ -90,6 +103,7 @@
   doi: 10.1164/rccm.202102-0459ED
   url: https://www.atsjournals.org/doi/10.1164/rccm.202102-0459ED
   url4title: http://doi.org/10.1164/rccm.202102-0459ED
+  categories: []
 - cite_key: harrisTrialsPandemicsHere2021a
   authors: Harris S, Palmer E, Fong K
   title: 'Trials in pandemics: here we go again?'
@@ -98,6 +112,7 @@
   doi: 10.1016/j.bja.2020.10.008
   url: https://linkinghub.elsevier.com/retrieve/pii/S0007091220308400
   url4title: http://doi.org/10.1016/j.bja.2020.10.008
+  categories: []
 - cite_key: hashimPerceptionsUKClinicians2021a
   authors: Hashim S, Wong D, Farmer L, Harris S, Moonesinghe S
   title: Perceptions of UK clinicians towards postoperative critical care
@@ -106,6 +121,7 @@
   doi: 10.1111/anae.15302
   url: https://onlinelibrary.wiley.com/doi/10.1111/anae.15302
   url4title: http://doi.org/10.1111/anae.15302
+  categories: []
 - cite_key: keeleStrongerInstrumentsRefined2020a
   authors: Keele L, Harris S, Pimentel S, Grieve R
   title: Stronger instruments and refined covariate balance in an observational study
@@ -115,6 +131,7 @@
   doi: 10.1111/rssa.12437
   url: https://onlinelibrary.wiley.com/doi/10.1111/rssa.12437
   url4title: http://doi.org/10.1111/rssa.12437
+  categories: []
 - cite_key: kingMachineLearningRealtime2022a
   authors: King Z, Farrington J, Utley M, Kung E, Elkhodair S, Harris S, Sekula R,
     Gillham J, Li K, Crowe S
@@ -125,6 +142,8 @@
   doi: 10.1038/s41746-022-00649-y
   url: https://doi.org/10.1038/s41746-022-00649-y
   url4title: http://doi.org/10.1038/s41746-022-00649-y
+  categories:
+  - recommended
 - cite_key: krishnamoorthyCausalInferencePerioperative2020b
   authors: Krishnamoorthy V, Wong D, Wilson M, Raghunathan K, Ohnuma T, McLean D,
     Moonesinghe S, Harris S
@@ -135,6 +154,7 @@
   doi: 10.1016/j.bja.2020.03.031
   url: https://linkinghub.elsevier.com/retrieve/pii/S0007091220302932
   url4title: http://doi.org/10.1016/j.bja.2020.03.031
+  categories: []
 - cite_key: krishnamoorthyCausalInferencePerioperative2020c
   authors: Krishnamoorthy V, McLean D, Ohnuma T, Harris S, Wong D, Wilson M, Moonesinghe
     R, Raghunathan K
@@ -145,6 +165,7 @@
   doi: 10.1016/j.bja.2020.03.032
   url: https://linkinghub.elsevier.com/retrieve/pii/S0007091220303020
   url4title: http://doi.org/10.1016/j.bja.2020.03.032
+  categories: []
 - cite_key: laiInformaticsConsultApproach2021a
   authors: Lai A, Chang W, Parisinos C, Katsoulis M, Blackburn R, Shah A, Nguyen V,
     Denaxas S, Davey Smith G, Gaunt T, Nirantharakumar K, Cox M, Forde D, Asselbergs
@@ -158,6 +179,7 @@
   doi: 10.1186/s12911-021-01638-z
   url: https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-021-01638-z
   url4title: http://doi.org/10.1186/s12911-021-01638-z
+  categories: []
 - cite_key: newcombeFutureAcuteEmergency2021a
   authors: Newcombe V, Coats T, Dark P, Gordon A, Harris S, McAuley D, Menon D, Price
     S, Puthucheary Z, Singer M
@@ -167,6 +189,7 @@
   doi: 10.7861/fhj.2021-0097
   url: https://www.rcpjournals.org/lookup/doi/10.7861/fhj.2021-0097
   url4title: http://doi.org/10.7861/fhj.2021-0097
+  categories: []
 - cite_key: postOxygenationCriticallyIll2020a
   authors: Post B, Palmer E, Harris S, Singer M, Martin D
   title: 'Oxygenation of the critically ill in selected intensive care units in the
@@ -176,6 +199,7 @@
   doi: 10.1016/j.bja.2020.06.033
   url: https://linkinghub.elsevier.com/retrieve/pii/S0007091220304931
   url4title: http://doi.org/10.1016/j.bja.2020.06.033
+  categories: []
 - cite_key: shahDescriptorsSepsisUsing2021a
   authors: Shah A, MacCallum N, Harris S, Brealey D, Palmer E, Hetherington J, Shi
     S, Perez-Suarez D, Ercole A, Watkinson P, Jones A, Ashworth S, Beale R, Brett
@@ -188,6 +212,7 @@
   doi: 10.1097/CCM.0000000000005169
   url: https://journals.lww.com/10.1097/CCM.0000000000005169
   url4title: http://doi.org/10.1097/CCM.0000000000005169
+  categories: []
 - cite_key: tissotNaturalLanguageProcessing2020a
   authors: Tissot H, Shah A, Brealey D, Harris S, Agbakoba R, Folarin A, Romao L,
     Roguski L, Dobson R, Asselbergs F
@@ -198,6 +223,7 @@
   doi: 10.1109/JBHI.2020.2977925
   url: https://ieeexplore.ieee.org/document/9027845/
   url4title: http://doi.org/10.1109/JBHI.2020.2977925
+  categories: []
 - cite_key: wilsonClinicianPreferenceInstrumental2022a
   authors: Wilson M, Rashan A, Klapaukh R, Asselbergs F, Harris S
   title: Clinician preference instrumental variable analysis of the effectiveness
@@ -207,6 +233,7 @@
   doi: 10.1038/s41598-022-21286-1
   url: https://www.nature.com/articles/s41598-022-21286-1
   url4title: http://doi.org/10.1038/s41598-022-21286-1
+  categories: []
 - cite_key: wilsonEmbeddedPointCare2022a
   authors: Wilson M, Asselbergs F, Miguel R, Brealey D, Harris S
   title: 'Embedded point of care randomisation for evaluating comparative effectiveness
@@ -216,6 +243,8 @@
   doi: 10.1136/bmjopen-2021-059995
   url: https://bmjopen.bmj.com/lookup/doi/10.1136/bmjopen-2021-059995
   url4title: http://doi.org/10.1136/bmjopen-2021-059995
+  categories:
+  - recommended
 - cite_key: wilsonLearningIndividualisedVariation2022a
   authors: Wilson M, Asselbergs F, Harris S
   title: Learning from individualised variation for evidence generation within a learning
@@ -225,6 +254,7 @@
   doi: 10.1016/j.bja.2022.02.008
   url: https://linkinghub.elsevier.com/retrieve/pii/S0007091222000757
   url4title: http://doi.org/10.1016/j.bja.2022.02.008
+  categories: []
 - cite_key: wongDevelopingValidatingSubjective2020a
   authors: Wong D, Harris S, Sahni A, Bedford J, Cortes L, Shawyer R, Wilson A, Lindsay
     H, Campbell D, Popham S, Barneto L, Myles P,  , Moonesinghe S
@@ -236,3 +266,4 @@
   doi: 10.1371/journal.pmed.1003253
   url: https://dx.plos.org/10.1371/journal.pmed.1003253
   url4title: http://doi.org/10.1371/journal.pmed.1003253
+  categories: []
