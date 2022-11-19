@@ -1,6 +1,6 @@
 ---
 references:
-- id: acklandRevisedCardiacRisk2010c
+- id: acklandRevisedCardiacRisk2010d
   abstract: >-
     Background. The revised cardiac risk index (RCRI) is associated strongly
     with increased cardiac ischaemic risk and perioperative death. Associations
@@ -47,7 +47,7 @@ references:
       given: M
     - family: Mythen
       given: M
-  citation-key: acklandRevisedCardiacRisk2010c
+  citation-key: acklandRevisedCardiacRisk2010d
   container-title: British Journal of Anaesthesia
   container-title-short: British Journal of Anaesthesia
   DOI: 10.1093/bja/aeq245
@@ -70,7 +70,7 @@ references:
   URL: https://linkinghub.elsevier.com/retrieve/pii/S0007091217334025
   volume: '105'
 
-- id: arulkumaranUncontrolledInterventionsPandemics2020a
+- id: arulkumaranUncontrolledInterventionsPandemics2020b
   accessed:
     - year: 2022
       month: 7
@@ -84,7 +84,7 @@ references:
       given: S.
     - family: Singer
       given: M.
-  citation-key: arulkumaranUncontrolledInterventionsPandemics2020a
+  citation-key: arulkumaranUncontrolledInterventionsPandemics2020b
   container-title: Intensive Care Medicine
   container-title-short: Intensive Care Med
   DOI: 10.1007/s00134-020-06180-6
@@ -103,7 +103,7 @@ references:
   URL: https://link.springer.com/10.1007/s00134-020-06180-6
   volume: '46'
 
-- id: balasegaramMelarsoprolEflornithineTreating2006b
+- id: balasegaramMelarsoprolEflornithineTreating2006c
   abstract: >-
     Objective To compare the effectiveness of melarsoprol and eflornithine in
     treating late-stage Gambian trypanosomiasis in the Republic of the Congo.
@@ -145,7 +145,7 @@ references:
       given: Catherine
     - family: Karunakara
       given: Unni
-  citation-key: balasegaramMelarsoprolEflornithineTreating2006b
+  citation-key: balasegaramMelarsoprolEflornithineTreating2006c
   container-title: Bulletin of the World Health Organization
   container-title-short: Bull. World Health Organ.
   DOI: 10.2471/BLT.06.031955
@@ -160,7 +160,7 @@ references:
     trypanosomiasis in the Republic of the Congo
   type: article-journal
 
-- id: balasegaramTreatmentOutcomesRisk2006b
+- id: balasegaramTreatmentOutcomesRisk2006c
   abstract: >-
     Objective In 2002–03, the Republic of the Congo increased the threshold
     separating stage 1 and 2 cases of human African trypanosomiasis (HAT) from a
@@ -200,7 +200,7 @@ references:
       given: Catherine
     - family: Karunakara
       given: Unni
-  citation-key: balasegaramTreatmentOutcomesRisk2006b
+  citation-key: balasegaramTreatmentOutcomesRisk2006c
   container-title: Bulletin of the World Health Organization
   container-title-short: Bull. World Health Organ.
   DOI: 10.2471/BLT.05.028399
@@ -215,7 +215,7 @@ references:
     human African trypanosomiasis (HAT) in the Republic of the Congo
   type: article-journal
 
-- id: banerjeeEstimatingExcess1year2020a
+- id: banerjeeEstimatingExcess1year2020b
   abstract: >-
     Background The medical, societal, and economic impact of the coronavirus
     disease 2019 (COVID-19) pandemic has unknown effects on overall population
@@ -263,7 +263,7 @@ references:
       given: Spiros
     - family: Hemingway
       given: Harry
-  citation-key: banerjeeEstimatingExcess1year2020a
+  citation-key: banerjeeEstimatingExcess1year2020b
   container-title: The Lancet
   container-title-short: The Lancet
   DOI: 10.1016/S0140-6736(20)30854-0
@@ -272,7 +272,8 @@ references:
   issued:
     - year: 2020
       month: 5
-  keyword: []
+  keyword:
+    - tag: recommended
   language: en
   page: 1715-1725
   source: DOI.org (Crossref)
@@ -286,7 +287,7 @@ references:
   URL: https://linkinghub.elsevier.com/retrieve/pii/S0140673620308540
   volume: '395'
 
-- id: barnesSystematicReviewConsensus2019a
+- id: barnesSystematicReviewConsensus2019b
   abstract: >-
     Background: Perioperative infection and sepsis are of fundamental concern to
     perioperative clinicians. However, standardised endpoints are either poorly
@@ -583,7 +584,7 @@ references:
       given: Bilal
     - family: Johnson
       given: Mark
-  citation-key: barnesSystematicReviewConsensus2019a
+  citation-key: barnesSystematicReviewConsensus2019b
   container-title: British Journal of Anaesthesia
   container-title-short: British Journal of Anaesthesia
   DOI: 10.1016/j.bja.2019.01.009
@@ -606,7 +607,7 @@ references:
   URL: https://linkinghub.elsevier.com/retrieve/pii/S0007091219300443
   volume: '122'
 
-- id: chenNudgingLearningHealth2022b
+- id: chenNudgingLearningHealth2022c
   abstract: |-
     Abstract
                 The increasing volume and richness of healthcare data collected during routine clinical practice have not yet translated into significant numbers of actionable insights that have systematically improved patient outcomes. An evidence-practice gap continues to exist in healthcare. We contest that this gap can be reduced by assessing the use of nudge theory as part of clinical decision support systems (CDSS). Deploying nudges to modify clinician behaviour and improve adherence to guideline-directed therapy represents an underused tool in bridging the evidence-practice gap. In conjunction with electronic health records (EHRs) and newer devices including artificial intelligence algorithms that are increasingly integrated within learning health systems, nudges such as CDSS alerts should be iteratively tested for all stakeholders involved in health decision-making: clinicians, researchers, and patients alike. Not only could they improve the implementation of known evidence, but the true value of nudging could lie in areas where traditional randomized controlled trials are lacking, and where clinical equipoise and variation dominate. The opportunity to test CDSS nudge alerts and their ability to standardize behaviour in the face of uncertainty may generate novel insights and improve patient outcomes in areas of clinical practice currently without a robust evidence base.
@@ -625,7 +626,7 @@ references:
       given: Tariq
     - family: Asselbergs
       given: Folkert W.
-  citation-key: chenNudgingLearningHealth2022b
+  citation-key: chenNudgingLearningHealth2022c
   container-title: European Heart Journal
   container-title-short: Eur. Heart J.
   DOI: 10.1093/eurheartj/ehac030
@@ -635,7 +636,8 @@ references:
     - year: 2022
       month: 3
       day: 31
-  keyword: []
+  keyword:
+    - tag: nudge-trials
   language: en
   page: 1296-1306
   source: DOI.org (Crossref)
@@ -647,7 +649,7 @@ references:
   URL: https://academic.oup.com/eurheartj/article/43/13/1296/6525340
   volume: '43'
 
-- id: critcareasiaEstablishingCriticalCare2020a
+- id: critcareasiaEstablishingCriticalCare2020b
   accessed:
     - year: 2022
       month: 7
@@ -734,7 +736,7 @@ references:
       given: Tamilarasu
     - family: Lubell
       given: Yoel
-  citation-key: critcareasiaEstablishingCriticalCare2020a
+  citation-key: critcareasiaEstablishingCriticalCare2020b
   container-title: Critical Care
   container-title-short: Crit Care
   DOI: 10.1186/s13054-020-03321-7
@@ -754,7 +756,7 @@ references:
   URL: https://ccforum.biomedcentral.com/articles/10.1186/s13054-020-03321-7
   volume: '24'
 
-- id: domiziRelationshipNorepinephrineDose2020a
+- id: domiziRelationshipNorepinephrineDose2020b
   abstract: >-
     Purpose: Septic shock is associated with massive release of endogenous
     catecholamines. Adrenergic agents may exacerbate catecholamine toxicity and
@@ -822,7 +824,7 @@ references:
       given: Parjam
     - family: Singer
       given: Mervyn
-  citation-key: domiziRelationshipNorepinephrineDose2020a
+  citation-key: domiziRelationshipNorepinephrineDose2020b
   container-title: Journal of Critical Care
   container-title-short: Journal of Critical Care
   DOI: 10.1016/j.jcrc.2020.02.014
@@ -844,7 +846,7 @@ references:
   URL: https://linkinghub.elsevier.com/retrieve/pii/S0883944119313590
   volume: '57'
 
-- id: flowerAcuteSTsegmentElevation2021a
+- id: flowerAcuteSTsegmentElevation2021b
   abstract: >-
     A 40-year-old man with no cardiac history presented with central chest pain
     8 days after receiving the ChAdOx1 nCov-19 vaccine against COVID-19. Initial
@@ -875,7 +877,7 @@ references:
       given: Georgina
     - family: Harris
       given: Stephen
-  citation-key: flowerAcuteSTsegmentElevation2021a
+  citation-key: flowerAcuteSTsegmentElevation2021b
   container-title: BMJ Case Reports CP
   container-title-short: BMJ Case Rep. CP
   DOI: 10.1136/bcr-2021-245218
@@ -888,6 +890,7 @@ references:
   keyword:
     - tag: adult intensive care
       type: 1
+    - tag: case-report
     - tag: COVID-19
       type: 1
     - tag: haematology (including blood transfusion)
@@ -907,7 +910,7 @@ references:
   URL: https://casereports.bmj.com/content/14/9/e245218
   volume: '14'
 
-- id: ghorashianTisagenlecleucelTherapyRelapsed2022a
+- id: ghorashianTisagenlecleucelTherapyRelapsed2022b
   abstract: >-
     Background
 
@@ -1005,7 +1008,7 @@ references:
       given: Jean Pierre
     - family: Baruchel
       given: André
-  citation-key: ghorashianTisagenlecleucelTherapyRelapsed2022a
+  citation-key: ghorashianTisagenlecleucelTherapyRelapsed2022b
   container-title: The Lancet Haematology
   container-title-short: The Lancet Haematology
   DOI: 10.1016/S2352-3026(22)00225-3
@@ -1029,7 +1032,7 @@ references:
   type: article-journal
   URL: https://www.sciencedirect.com/science/article/pii/S2352302622002253
 
-- id: grieveAnalysisBenefitIntensive2019a
+- id: grieveAnalysisBenefitIntensive2019b
   abstract: >-
     IMPORTANCE It is unknown which deteriorating ward patients benefit from
     intensive care unit (ICU) transfer.
@@ -1050,7 +1053,7 @@ references:
       given: Kathryn M.
     - family: Harris
       given: Steve
-  citation-key: grieveAnalysisBenefitIntensive2019a
+  citation-key: grieveAnalysisBenefitIntensive2019b
   container-title: JAMA Network Open
   container-title-short: JAMA Netw Open
   DOI: 10.1001/jamanetworkopen.2018.7704
@@ -1060,7 +1063,8 @@ references:
     - year: 2019
       month: 2
       day: 15
-  keyword: []
+  keyword:
+    - tag: causal-inference
   language: en
   page: e187704
   source: DOI.org (Crossref)
@@ -1075,7 +1079,7 @@ references:
     http://jamanetworkopen.jamanetwork.com/article.aspx?doi=10.1001/jamanetworkopen.2018.7704
   volume: '2'
 
-- id: harrisClinicalDeploymentEnvironments2022
+- id: harrisClinicalDeploymentEnvironments2022b
   abstract: >-
     Machine Learning for Health (ML4H) has demonstrated efficacy in computer
     imaging and other self-contained digital workflows, but has failed to
@@ -1111,14 +1115,16 @@ references:
       given: Mark J.
     - family: Swanepoel
       given: Nel
-  citation-key: harrisClinicalDeploymentEnvironments2022
+  citation-key: harrisClinicalDeploymentEnvironments2022b
   container-title: Frontiers in Digital Health
   container-title-short: Front. Digit. Health
   DOI: 10.3389/fdgth.2022.939292
   ISSN: 2673-253X
   issued:
     - year: 2022
-  keyword: []
+  keyword:
+    - tag: recommended
+    - tag: translational-datascience
   source: Frontiers
   title: >-
     Clinical deployment environments: Five pillars of translational machine
@@ -1128,7 +1134,7 @@ references:
   URL: https://www.frontiersin.org/articles/10.3389/fdgth.2022.939292
   volume: '4'
 
-- id: harrisCriticalCareHealth2018b
+- id: harrisCriticalCareHealth2018d
   accessed:
     - year: 2022
       month: 7
@@ -1162,7 +1168,7 @@ references:
       given: Stephen
     - family: Singer
       given: Mervyn
-  citation-key: harrisCriticalCareHealth2018b
+  citation-key: harrisCriticalCareHealth2018d
   container-title: International Journal of Medical Informatics
   container-title-short: International Journal of Medical Informatics
   DOI: 10.1016/j.ijmedinf.2018.01.006
@@ -1170,7 +1176,9 @@ references:
   issued:
     - year: 2018
       month: 4
-  keyword: []
+  keyword:
+    - tag: cchic
+    - tag: health-informatics-collaborative
   language: en
   note: 30 citations (Crossref) [2022-08-29]
   page: 82-89
@@ -1183,7 +1191,7 @@ references:
   URL: https://linkinghub.elsevier.com/retrieve/pii/S1386505618300078
   volume: '112'
 
-- id: harrisDonWantMy2021a
+- id: harrisDonWantMy2021b
   accessed:
     - year: 2022
       month: 7
@@ -1191,7 +1199,7 @@ references:
   author:
     - family: Harris
       given: Steve
-  citation-key: harrisDonWantMy2021a
+  citation-key: harrisDonWantMy2021b
   container-title: American Journal of Respiratory and Critical Care Medicine
   container-title-short: Am J Respir Crit Care Med
   DOI: 10.1164/rccm.202102-0459ED
@@ -1213,7 +1221,7 @@ references:
   URL: https://www.atsjournals.org/doi/10.1164/rccm.202102-0459ED
   volume: '204'
 
-- id: harrisImpactMortalityPrompt2018b
+- id: harrisImpactMortalityPrompt2018d
   abstract: >-
     Purpose:  To estimate the effect of prompt admission to critical care on
     mortality for deteriorating ward patients.
@@ -1259,7 +1267,7 @@ references:
       given: David
     - family: Rowan
       given: Kathryn
-  citation-key: harrisImpactMortalityPrompt2018b
+  citation-key: harrisImpactMortalityPrompt2018d
   container-title: Intensive Care Medicine
   container-title-short: Intensive Care Med
   DOI: 10.1007/s00134-018-5148-2
@@ -1268,7 +1276,8 @@ references:
   issued:
     - year: 2018
       month: 5
-  keyword: []
+  keyword:
+    - tag: causal-inference
   language: en
   page: 606-615
   source: DOI.org (Crossref)
@@ -1283,77 +1292,7 @@ references:
   URL: http://link.springer.com/10.1007/s00134-018-5148-2
   volume: '44'
 
-- id: harrisImpactMortalityPrompt2018c
-  abstract: >-
-    Purpose:  To estimate the effect of prompt admission to critical care on
-    mortality for deteriorating ward patients.
-
-    Methods:  We performed a prospective cohort study of consecutive ward
-    patients assessed for critical care. Prompt admissions (within 4 h of
-    assessment) were compared to a ‘watchful waiting’ cohort. We used critical
-    care strain (bed occupancy) as a natural randomisation event that would
-    predict prompt transfer to critical care. Strain was classified as low,
-    medium or high (2+, 1 or 0 empty beds). This instrumental variable (IV)
-    analysis was repeated for the subgroup of referrals with a recommendation
-    for critical care once assessed. Risk-adjusted 90-day survival models were
-    also constructed.
-
-    Results:  A total of 12,380 patients from 48 hospitals were available for
-    analysis. There were 2411 (19%) prompt admissions (median delay 1 h, IQR
-    1–2) and 9969 (81%) controls; 1990 (20%) controls were admitted later
-    (median delay 11 h, IQR 6–26). Prompt admissions were less frequent
-    (p < 0.0001) as strain increased from low (22%), to medium (15%) to high
-    (9%); the median delay to admission was 3, 4 and 5 h respectively. In the IV
-    analysis, prompt admission reduced 90-day mortality by 7.4% (95% CI
-    1.7–18.5%, p = 0.117) overall, and 16.2% (95% CI 1.1–31.3%, p = 0.036) for
-    those recommended for critical care. In the risk-adjust survival model,
-    90-day mortality was similar.
-
-    Conclusion:  After allowing for unobserved prognostic differences between
-    the groups, we find that prompt admission to critical care leads to lower
-    90-day mortality for patients assessed and recommended to critical care.
-  accessed:
-    - year: 2022
-      month: 7
-      day: 17
-  author:
-    - family: Harris
-      given: Steve
-    - family: Singer
-      given: Mervyn
-    - family: Sanderson
-      given: Colin
-    - family: Grieve
-      given: Richard
-    - family: Harrison
-      given: David
-    - family: Rowan
-      given: Kathryn
-  citation-key: harrisImpactMortalityPrompt2018c
-  container-title: Intensive Care Medicine
-  container-title-short: Intensive Care Med
-  DOI: 10.1007/s00134-018-5148-2
-  ISSN: 0342-4642, 1432-1238
-  issue: '5'
-  issued:
-    - year: 2018
-      month: 5
-  keyword: []
-  language: en
-  page: 606-615
-  source: DOI.org (Crossref)
-  title: >-
-    Impact on mortality of prompt admission to critical care for deteriorating
-    ward patients: an instrumental variable analysis using critical care bed
-    strain
-  title-short: >-
-    Impact on mortality of prompt admission to critical care for deteriorating
-    ward patients
-  type: article-journal
-  URL: http://link.springer.com/10.1007/s00134-018-5148-2
-  volume: '44'
-
-- id: harrisRelationshipPatientsOutcomes2015b
+- id: harrisRelationshipPatientsOutcomes2015c
   accessed:
     - year: 2022
       month: 7
@@ -1367,7 +1306,7 @@ references:
       given: David A.
     - family: Rowan
       given: Kathy M.
-  citation-key: harrisRelationshipPatientsOutcomes2015b
+  citation-key: harrisRelationshipPatientsOutcomes2015c
   container-title: Kidney International
   container-title-short: Kidney International
   DOI: 10.1038/ki.2015.70
@@ -1388,7 +1327,7 @@ references:
   URL: https://linkinghub.elsevier.com/retrieve/pii/S2157171615321857
   volume: '88'
 
-- id: harrisSepsis3SyndromesEmpiricism2017a
+- id: harrisSepsis3SyndromesEmpiricism2017b
   accessed:
     - year: 2022
       month: 7
@@ -1396,7 +1335,7 @@ references:
   author:
     - family: Harris
       given: Steve
-  citation-key: harrisSepsis3SyndromesEmpiricism2017a
+  citation-key: harrisSepsis3SyndromesEmpiricism2017b
   container-title: American Journal of Respiratory and Critical Care Medicine
   container-title-short: Am J Respir Crit Care Med
   DOI: 10.1164/rccm.201610-1977ED
@@ -1416,7 +1355,7 @@ references:
   URL: https://www.atsjournals.org/doi/10.1164/rccm.201610-1977ED
   volume: '195'
 
-- id: harrisTrialsPandemicsHere2021a
+- id: harrisTrialsPandemicsHere2021b
   accessed:
     - year: 2022
       month: 7
@@ -1428,7 +1367,7 @@ references:
       given: Ed
     - family: Fong
       given: Kevin
-  citation-key: harrisTrialsPandemicsHere2021a
+  citation-key: harrisTrialsPandemicsHere2021b
   container-title: British Journal of Anaesthesia
   container-title-short: British Journal of Anaesthesia
   DOI: 10.1016/j.bja.2020.10.008
@@ -1447,7 +1386,7 @@ references:
   URL: https://linkinghub.elsevier.com/retrieve/pii/S0007091220308400
   volume: '126'
 
-- id: harrisUnusualElectrocardiographicAbnormality2003b
+- id: harrisUnusualElectrocardiographicAbnormality2003c
   accessed:
     - year: 2022
       month: 7
@@ -1455,7 +1394,7 @@ references:
   author:
     - family: Harris
       given: S
-  citation-key: harrisUnusualElectrocardiographicAbnormality2003b
+  citation-key: harrisUnusualElectrocardiographicAbnormality2003c
   container-title: Postgraduate Medical Journal
   container-title-short: Postgraduate Medical Journal
   DOI: 10.1136/pmj.79.935.539
@@ -1474,7 +1413,7 @@ references:
   URL: https://pmj.bmj.com/lookup/doi/10.1136/pmj.79.935.539
   volume: '79'
 
-- id: hashimPerceptionsUKClinicians2021a
+- id: hashimPerceptionsUKClinicians2021b
   abstract: >-
     Postoperative critical care is a ﬁnite resource that is recommended for
     high-risk patients. Despite national recommendations specifying that such
@@ -1523,7 +1462,7 @@ references:
       given: S. K.
     - family: Moonesinghe
       given: S. R.
-  citation-key: hashimPerceptionsUKClinicians2021a
+  citation-key: hashimPerceptionsUKClinicians2021b
   container-title: Anaesthesia
   container-title-short: Anaesthesia
   DOI: 10.1111/anae.15302
@@ -1532,7 +1471,8 @@ references:
   issued:
     - year: 2021
       month: 3
-  keyword: []
+  keyword:
+    - tag: snap-2
   language: en
   page: 336-345
   source: DOI.org (Crossref)
@@ -1541,7 +1481,7 @@ references:
   URL: https://onlinelibrary.wiley.com/doi/10.1111/anae.15302
   volume: '76'
 
-- id: keeleDoesTransferIntensive2019a
+- id: keeleDoesTransferIntensive2019b
   abstract: >-
     Background: Instrumental variable (IV) analysis can estimate treatment
     effects in the presence of residual or unmeasured confounding. In settings
@@ -1581,7 +1521,7 @@ references:
       given: Steve
     - family: Grieve
       given: Richard
-  citation-key: keeleDoesTransferIntensive2019a
+  citation-key: keeleDoesTransferIntensive2019b
   container-title: Medical Care
   container-title-short: Med. Care
   DOI: 10.1097/MLR.0000000000001093
@@ -1602,7 +1542,7 @@ references:
   URL: https://journals.lww.com/10.1097/MLR.0000000000001093
   volume: '57'
 
-- id: keeleStrongerInstrumentsRefined2020a
+- id: keeleStrongerInstrumentsRefined2020b
   abstract: >-
     Instrumental variable methods, subject to appropriate identiﬁcation
     assumptions, enable consistent estimation of causal effects in the presence
@@ -1632,7 +1572,7 @@ references:
       given: Samuel D.
     - family: Grieve
       given: Richard
-  citation-key: keeleStrongerInstrumentsRefined2020a
+  citation-key: keeleStrongerInstrumentsRefined2020b
   container-title: 'Journal of the Royal Statistical Society: Series A (Statistics in Society)'
   container-title-short: J. R. Stat. Soc. A
   DOI: 10.1111/rssa.12437
@@ -1652,7 +1592,7 @@ references:
   URL: https://onlinelibrary.wiley.com/doi/10.1111/rssa.12437
   volume: '183'
 
-- id: kennedySurvivorComplierEffectsPresence2019a
+- id: kennedySurvivorComplierEffectsPresence2019b
   abstract: >-
     Pretreatment selection or censoring (“selection on treatment”) can occur
     when two treatment levels are compared ignoring the third option of neither
@@ -1684,7 +1624,7 @@ references:
       given: Steve
     - family: Keele
       given: Luke J.
-  citation-key: kennedySurvivorComplierEffectsPresence2019a
+  citation-key: kennedySurvivorComplierEffectsPresence2019b
   container-title: Journal of the American Statistical Association
   container-title-short: Journal of the American Statistical Association
   DOI: 10.1080/01621459.2018.1469990
@@ -1694,7 +1634,8 @@ references:
     - year: 2019
       month: 1
       day: 2
-  keyword: []
+  keyword:
+    - tag: causal-inference
   language: en
   page: 93-104
   source: DOI.org (Crossref)
@@ -1705,7 +1646,7 @@ references:
   URL: https://www.tandfonline.com/doi/full/10.1080/01621459.2018.1469990
   volume: '114'
 
-- id: kingMachineLearningRealtime2022a
+- id: kingMachineLearningRealtime2022b
   abstract: >-
     Machine learning for hospital operations is under-studied. We present a
     prediction pipeline that uses live electronic health-records for patients in
@@ -1744,7 +1685,7 @@ references:
       given: Kezhi
     - family: Crowe
       given: Sonya
-  citation-key: kingMachineLearningRealtime2022a
+  citation-key: kingMachineLearningRealtime2022b
   container-title: npj Digital Medicine
   container-title-short: npj Digital Medicine
   DOI: 10.1038/s41746-022-00649-y
@@ -1755,7 +1696,9 @@ references:
       month: 7
       day: 26
   keyword:
+    - tag: ml4h
     - tag: recommended
+    - tag: translational-datascience
   page: '104'
   title: >-
     Machine learning for real-time aggregated prediction of hospital admission
@@ -1764,7 +1707,7 @@ references:
   URL: https://doi.org/10.1038/s41746-022-00649-y
   volume: '5'
 
-- id: krishnamoorthyCausalInferencePerioperative2020b
+- id: krishnamoorthyCausalInferencePerioperative2020d
   abstract: >-
     Graphical models have emerged as a tool to map out the interplay between
     multiple measured and unmeasured variables, and can help strengthen the case
@@ -1794,7 +1737,7 @@ references:
       given: S. Ramani
     - family: Harris
       given: Steve K.
-  citation-key: krishnamoorthyCausalInferencePerioperative2020b
+  citation-key: krishnamoorthyCausalInferencePerioperative2020d
   container-title: British Journal of Anaesthesia
   container-title-short: British Journal of Anaesthesia
   DOI: 10.1016/j.bja.2020.03.031
@@ -1803,7 +1746,8 @@ references:
   issued:
     - year: 2020
       month: 9
-  keyword: []
+  keyword:
+    - tag: causal-inference
   language: en
   page: 393-397
   source: DOI.org (Crossref)
@@ -1815,7 +1759,7 @@ references:
   URL: https://linkinghub.elsevier.com/retrieve/pii/S0007091220302932
   volume: '125'
 
-- id: krishnamoorthyCausalInferencePerioperative2020c
+- id: krishnamoorthyCausalInferencePerioperative2020e
   abstract: >-
     Although RCTs represent the gold standard in clinical research, most
     clinical questions cannot be answered using this technique, because of
@@ -1850,7 +1794,7 @@ references:
       given: Ramani
     - family: Raghunathan
       given: Karthik
-  citation-key: krishnamoorthyCausalInferencePerioperative2020c
+  citation-key: krishnamoorthyCausalInferencePerioperative2020e
   container-title: British Journal of Anaesthesia
   container-title-short: British Journal of Anaesthesia
   DOI: 10.1016/j.bja.2020.03.032
@@ -1859,7 +1803,8 @@ references:
   issued:
     - year: 2020
       month: 9
-  keyword: []
+  keyword:
+    - tag: causal-inference
   language: en
   page: 398-405
   source: DOI.org (Crossref)
@@ -1871,7 +1816,7 @@ references:
   URL: https://linkinghub.elsevier.com/retrieve/pii/S0007091220303020
   volume: '125'
 
-- id: laiInformaticsConsultApproach2021a
+- id: laiInformaticsConsultApproach2021b
   abstract: >-
     Background:  An Informatics Consult has been proposed in which clinicians
     request novel evidence from large scale health data resources, tailored to
@@ -1971,7 +1916,7 @@ references:
       given: Bryan
     - family: Hemingway
       given: Harry
-  citation-key: laiInformaticsConsultApproach2021a
+  citation-key: laiInformaticsConsultApproach2021b
   container-title: BMC Medical Informatics and Decision Making
   container-title-short: BMC Med Inform Decis Mak
   DOI: 10.1186/s12911-021-01638-z
@@ -1992,7 +1937,7 @@ references:
     https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-021-01638-z
   volume: '21'
 
-- id: meiringOptimalIntensiveCare2018b
+- id: meiringOptimalIntensiveCare2018c
   accessed:
     - year: 2022
       month: 7
@@ -2022,7 +1967,7 @@ references:
       given: Mervyn
     - family: Ercole
       given: Ari
-  citation-key: meiringOptimalIntensiveCare2018b
+  citation-key: meiringOptimalIntensiveCare2018c
   container-title: PLOS ONE
   container-title-short: PLoS ONE
   DOI: 10.1371/journal.pone.0206862
@@ -2044,7 +1989,7 @@ references:
   URL: https://dx.plos.org/10.1371/journal.pone.0206862
   volume: '13'
 
-- id: moonesingheSNAP2EPICCSSecond2017b
+- id: moonesingheSNAP2EPICCSSecond2017c
   abstract: >-
     Introduction The admission of high-risk patients to critical care after
     surgery is a recommended standard of care. Nevertheless, poor compliance
@@ -2092,7 +2037,7 @@ references:
       given: Paul S
     - family: Harris
       given: Steve K
-  citation-key: moonesingheSNAP2EPICCSSecond2017b
+  citation-key: moonesingheSNAP2EPICCSSecond2017c
   container-title: BMJ Open
   container-title-short: BMJ Open
   DOI: 10.1136/bmjopen-2017-017690
@@ -2114,7 +2059,7 @@ references:
   URL: https://bmjopen.bmj.com/lookup/doi/10.1136/bmjopen-2017-017690
   volume: '7'
 
-- id: moonesingheSurvivalPostoperativeMorbidity2014b
+- id: moonesingheSurvivalPostoperativeMorbidity2014c
   abstract: >-
     Background. Previous studies have suggested that there may be long-term harm
     associated with postoperative complications. Uncertainty exists however,
@@ -2164,7 +2109,7 @@ references:
       given: M.
     - family: Grocott
       given: M.P.W.
-  citation-key: moonesingheSurvivalPostoperativeMorbidity2014b
+  citation-key: moonesingheSurvivalPostoperativeMorbidity2014c
   container-title: British Journal of Anaesthesia
   container-title-short: British Journal of Anaesthesia
   DOI: 10.1093/bja/aeu224
@@ -2185,7 +2130,7 @@ references:
   URL: https://linkinghub.elsevier.com/retrieve/pii/S0007091217306542
   volume: '113'
 
-- id: newcombeFutureAcuteEmergency2021a
+- id: newcombeFutureAcuteEmergency2021b
   abstract: >-
     Improved outcomes for acutely unwell patients are predicated on early
     identification of deterioration, accelerating the time to accurate diagnosis
@@ -2224,7 +2169,7 @@ references:
       given: Zudin
     - family: Singer
       given: Mervyn
-  citation-key: newcombeFutureAcuteEmergency2021a
+  citation-key: newcombeFutureAcuteEmergency2021b
   container-title: Future Healthcare Journal
   container-title-short: Future Healthc J
   DOI: 10.7861/fhj.2021-0097
@@ -2242,7 +2187,7 @@ references:
   URL: https://www.rcpjournals.org/lookup/doi/10.7861/fhj.2021-0097
   volume: '8'
 
-- id: palmerAssociationSupraphysiologicArterial2019a
+- id: palmerAssociationSupraphysiologicArterial2019b
   abstract: >-
     Rationale: There is conﬂicting evidence on harm related to exposure to
     supraphysiologic PaO2 (hyperoxemia) in critically ill patients.
@@ -2287,7 +2232,7 @@ references:
       given: Mervyn
     - family: Harris
       given: Steve
-  citation-key: palmerAssociationSupraphysiologicArterial2019a
+  citation-key: palmerAssociationSupraphysiologicArterial2019b
   container-title: American Journal of Respiratory and Critical Care Medicine
   container-title-short: Am J Respir Crit Care Med
   DOI: 10.1164/rccm.201904-0849OC
@@ -2309,7 +2254,7 @@ references:
   URL: https://www.atsjournals.org/doi/10.1164/rccm.201904-0849OC
   volume: '200'
 
-- id: palmerIntelligentlyLearningData2019a
+- id: palmerIntelligentlyLearningData2019b
   accessed:
     - year: 2022
       month: 7
@@ -2323,7 +2268,7 @@ references:
       given: Steve
     - family: Singer
       given: Mervyn
-  citation-key: palmerIntelligentlyLearningData2019a
+  citation-key: palmerIntelligentlyLearningData2019b
   container-title: Critical Care
   container-title-short: Crit Care
   DOI: 10.1186/s13054-019-2424-7
@@ -2341,7 +2286,7 @@ references:
   URL: https://ccforum.biomedcentral.com/articles/10.1186/s13054-019-2424-7
   volume: '23'
 
-- id: palmerOperatingRoomtoincisionInterval2018a
+- id: palmerOperatingRoomtoincisionInterval2018b
   abstract: >-
     We conducted a 5-year retrospective cohort study on women undergoing
     caesarean section to investigate factors influencing the operating
@@ -2384,7 +2329,7 @@ references:
       given: D. J. N.
     - family: Sultan
       given: P.
-  citation-key: palmerOperatingRoomtoincisionInterval2018a
+  citation-key: palmerOperatingRoomtoincisionInterval2018b
   container-title: Anaesthesia
   container-title-short: Anaesthesia
   DOI: 10.1111/anae.14296
@@ -2407,13 +2352,13 @@ references:
   URL: https://onlinelibrary.wiley.com/doi/10.1111/anae.14296
   volume: '73'
 
-- id: pickardHighFlowNasal2018a
+- id: pickardHighFlowNasal2018b
   author:
     - family: Pickard
       given: Dr Keir
     - family: Harris
       given: Dr Steve
-  citation-key: pickardHighFlowNasal2018a
+  citation-key: pickardHighFlowNasal2018b
   container-title: British Journal of Hospital Medicine
   container-title-short: Br. J. Hosp. Med.
   DOI: 10.12968/hmed.2018.79.1.C13
@@ -2428,7 +2373,7 @@ references:
   type: article-journal
   volume: '79'
 
-- id: postOxygenationCriticallyIll2020a
+- id: postOxygenationCriticallyIll2020b
   accessed:
     - year: 2022
       month: 7
@@ -2444,7 +2389,7 @@ references:
       given: Mervyn
     - family: Martin
       given: Daniel
-  citation-key: postOxygenationCriticallyIll2020a
+  citation-key: postOxygenationCriticallyIll2020b
   container-title: British Journal of Anaesthesia
   container-title-short: British Journal of Anaesthesia
   DOI: 10.1016/j.bja.2020.06.033
@@ -2453,7 +2398,9 @@ references:
   issued:
     - year: 2020
       month: 9
-  keyword: []
+  keyword:
+    - tag: cchic
+    - tag: health-informatics-collaborative
   language: en
   page: e277-e279
   source: DOI.org (Crossref)
@@ -2465,7 +2412,7 @@ references:
   URL: https://linkinghub.elsevier.com/retrieve/pii/S0007091220304931
   volume: '125'
 
-- id: shahDescriptorsSepsisUsing2021a
+- id: shahDescriptorsSepsisUsing2021b
   abstract: >-
     OBJECTIVES: To describe the epidemiology of sepsis in critical care by
     applying the Sepsis-3 criteria to electronic health records. DESIGN:
@@ -2526,7 +2473,7 @@ references:
       given: Stephen J.
     - family: Singer
       given: Mervyn
-  citation-key: shahDescriptorsSepsisUsing2021a
+  citation-key: shahDescriptorsSepsisUsing2021b
   container-title: Critical Care Medicine
   container-title-short: Crit. Care Med.
   DOI: 10.1097/CCM.0000000000005169
@@ -2535,7 +2482,9 @@ references:
   issued:
     - year: 2021
       month: 11
-  keyword: []
+  keyword:
+    - tag: cchic
+    - tag: health-informatics-collaborative
   language: en
   page: 1883-1894
   source: DOI.org (Crossref)
@@ -2548,7 +2497,7 @@ references:
   URL: https://journals.lww.com/10.1097/CCM.0000000000005169
   volume: '49'
 
-- id: shiCriticalCareData2017b
+- id: shiCriticalCareData2017c
   accessed:
     - year: 2022
       month: 7
@@ -2568,7 +2517,7 @@ references:
       given: Mervyn
     - family: Hetherington
       given: James
-  citation-key: shiCriticalCareData2017b
+  citation-key: shiCriticalCareData2017c
   container-title: The Journal of Open Source Software
   container-title-short: JOSS
   DOI: 10.21105/joss.00513
@@ -2578,7 +2527,9 @@ references:
     - year: 2017
       month: 12
       day: 21
-  keyword: []
+  keyword:
+    - tag: cchic
+    - tag: health-informatics-collaborative
   language: en
   page: '513'
   source: DOI.org (Crossref)
@@ -2587,7 +2538,7 @@ references:
   URL: http://joss.theoj.org/papers/10.21105/joss.00513
   volume: '2'
 
-- id: syedGrandmaEyes2003b
+- id: syedGrandmaEyes2003c
   accessed:
     - year: 2022
       month: 7
@@ -2599,7 +2550,7 @@ references:
       given: Steve
     - family: Dubrey
       given: Simon
-  citation-key: syedGrandmaEyes2003b
+  citation-key: syedGrandmaEyes2003c
   container-title: The Lancet
   container-title-short: The Lancet
   DOI: 10.1016/S0140-6736(03)12893-0
@@ -2609,7 +2560,8 @@ references:
     - year: 2003
       month: 3
       day: 29
-  keyword: []
+  keyword:
+    - tag: case-report
   language: English
   page: '1083'
   PMID: '12672311'
@@ -2621,7 +2573,7 @@ references:
     https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(03)12893-0/fulltext
   volume: '361'
 
-- id: tissotNaturalLanguageProcessing2020a
+- id: tissotNaturalLanguageProcessing2020b
   abstract: >-
     Clinical trials often fail to recruit an adequate number of appropriate
     patients. Identifying eligible trial participants is resource-intensive when
@@ -2670,7 +2622,7 @@ references:
       given: Richard
     - family: Asselbergs
       given: Folkert W.
-  citation-key: tissotNaturalLanguageProcessing2020a
+  citation-key: tissotNaturalLanguageProcessing2020b
   container-title: IEEE Journal of Biomedical and Health Informatics
   container-title-short: IEEE J. Biomed. Health Inform.
   DOI: 10.1109/JBHI.2020.2977925
@@ -2679,7 +2631,9 @@ references:
   issued:
     - year: 2020
       month: 10
-  keyword: []
+  keyword:
+    - tag: cchic
+    - tag: health-informatics-collaborative
   language: en
   page: 2950-2959
   source: DOI.org (Crossref)
@@ -2693,7 +2647,7 @@ references:
   URL: https://ieeexplore.ieee.org/document/9027845/
   volume: '24'
 
-- id: wilsonClinicianPreferenceInstrumental2022a
+- id: wilsonClinicianPreferenceInstrumental2022b
   abstract: |-
     Abstract
                 
@@ -2715,7 +2669,7 @@ references:
       given: Folkert W.
     - family: Harris
       given: Steve K.
-  citation-key: wilsonClinicianPreferenceInstrumental2022a
+  citation-key: wilsonClinicianPreferenceInstrumental2022b
   container-title: Scientific Reports
   container-title-short: Sci Rep
   DOI: 10.1038/s41598-022-21286-1
@@ -2725,9 +2679,10 @@ references:
     - year: 2022
       month: 10
       day: 19
-  keyword: []
+  keyword:
+    - tag: causal-inference
   language: en
-  note: 0 citations (Crossref) [2022-11-17]
+  note: 0 citations (Crossref) [2022-10-20]
   page: '17433'
   source: DOI.org (Crossref)
   title: >-
@@ -2738,7 +2693,7 @@ references:
   URL: https://www.nature.com/articles/s41598-022-21286-1
   volume: '12'
 
-- id: wilsonEmbeddedPointCare2022a
+- id: wilsonEmbeddedPointCare2022b
   abstract: |-
     Introduction
                   Many routinely administered treatments lack evidence as to their effectiveness. When treatments lack evidence, patients receive varying care based on the preferences of clinicians. Standard randomised controlled trials are unsuited to comparisons of different routine treatment strategies, and there remains little economic incentive for change.
@@ -2774,7 +2729,7 @@ references:
       given: David
     - family: Harris
       given: Steve K
-  citation-key: wilsonEmbeddedPointCare2022a
+  citation-key: wilsonEmbeddedPointCare2022b
   container-title: BMJ Open
   container-title-short: BMJ Open
   DOI: 10.1136/bmjopen-2021-059995
@@ -2783,7 +2738,8 @@ references:
   issued:
     - year: 2022
       month: 9
-  keyword: []
+  keyword:
+    - tag: nudge-trials
   language: en
   note: 0 citations (Crossref) [2022-09-20]
   page: e059995
@@ -2798,7 +2754,7 @@ references:
   URL: https://bmjopen.bmj.com/lookup/doi/10.1136/bmjopen-2021-059995
   volume: '12'
 
-- id: wilsonLearningIndividualisedVariation2022a
+- id: wilsonLearningIndividualisedVariation2022b
   accessed:
     - year: 2022
       month: 7
@@ -2810,7 +2766,7 @@ references:
       given: Folkert W.
     - family: Harris
       given: Steve K.
-  citation-key: wilsonLearningIndividualisedVariation2022a
+  citation-key: wilsonLearningIndividualisedVariation2022b
   container-title: British Journal of Anaesthesia
   container-title-short: British Journal of Anaesthesia
   DOI: 10.1016/j.bja.2022.02.008
@@ -2819,9 +2775,10 @@ references:
   issued:
     - year: 2022
       month: 5
-  keyword: []
+  keyword:
+    - tag: nudge-trials
+    - tag: recommended
   language: en
-  note: 1 citations (Crossref) [2022-11-17]
   page: e320-e322
   source: DOI.org (Crossref)
   title: >-
@@ -2831,7 +2788,7 @@ references:
   URL: https://linkinghub.elsevier.com/retrieve/pii/S0007091222000757
   volume: '128'
 
-- id: wongCancelledOperations7day2018a
+- id: wongCancelledOperations7day2018b
   abstract: >-
     Background: Cancellation of planned surgery impacts substantially on
     patients and health systems. This study describes the incidence and reasons
@@ -2865,7 +2822,7 @@ references:
       given: S.K.
     - family: Moonesinghe
       given: S.R.
-  citation-key: wongCancelledOperations7day2018a
+  citation-key: wongCancelledOperations7day2018b
   container-title: British Journal of Anaesthesia
   container-title-short: British Journal of Anaesthesia
   DOI: 10.1016/j.bja.2018.07.002
@@ -2874,7 +2831,8 @@ references:
   issued:
     - year: 2018
       month: 10
-  keyword: []
+  keyword:
+    - tag: snap-2
   language: en
   page: 730-738
   source: DOI.org (Crossref)
@@ -2886,7 +2844,7 @@ references:
   URL: https://linkinghub.elsevier.com/retrieve/pii/S0007091218305658
   volume: '121'
 
-- id: wongDevelopingValidatingSubjective2020a
+- id: wongDevelopingValidatingSubjective2020b
   abstract: >-
     Background Preoperative risk prediction is important for guiding clinical
     decision-making and resource allocation. Clinicians frequently rely solely
@@ -2926,7 +2884,7 @@ references:
     - literal: 'SNAP-2: EPICCS collaborators'
     - family: Moonesinghe
       given: S. Ramani
-  citation-key: wongDevelopingValidatingSubjective2020a
+  citation-key: wongDevelopingValidatingSubjective2020b
   container-title: PLOS Medicine
   container-title-short: PLoS Med
   DOI: 10.1371/journal.pmed.1003253
@@ -2939,7 +2897,9 @@ references:
     - year: 2020
       month: 10
       day: 15
-  keyword: []
+  keyword:
+    - tag: recommended
+    - tag: snap-2
   language: en
   page: e1003253
   source: DOI.org (Crossref)
@@ -2954,7 +2914,7 @@ references:
   URL: https://dx.plos.org/10.1371/journal.pmed.1003253
   volume: '17'
 
-- id: wongManVsMachine2018b
+- id: wongManVsMachine2018c
   accessed:
     - year: 2022
       month: 7
@@ -2970,7 +2930,7 @@ references:
       given: S.K.
     - family: Moonesinghe
       given: S.R.
-  citation-key: wongManVsMachine2018b
+  citation-key: wongManVsMachine2018c
   container-title: British Journal of Anaesthesia
   container-title-short: British Journal of Anaesthesia
   DOI: 10.1016/j.bja.2018.05.037
@@ -2979,7 +2939,8 @@ references:
   issued:
     - year: 2018
       month: 8
-  keyword: []
+  keyword:
+    - tag: snap-2
   language: en
   page: e28-e29
   source: DOI.org (Crossref)
@@ -2989,7 +2950,7 @@ references:
   URL: https://linkinghub.elsevier.com/retrieve/pii/S0007091218304288
   volume: '121'
 
-- id: wongPostoperativeCriticalCare2019a
+- id: wongPostoperativeCriticalCare2019b
   abstract: >-
     Background: Decisions to admit high-risk postoperative patients to critical
     care may be affected by resource availability. We aimed to quantify adult
@@ -3635,7 +3596,7 @@ references:
       given: Swarna
     - family: Dale-Gandar
       given: Julius
-  citation-key: wongPostoperativeCriticalCare2019a
+  citation-key: wongPostoperativeCriticalCare2019b
   container-title: British Journal of Anaesthesia
   container-title-short: British Journal of Anaesthesia
   DOI: 10.1016/j.bja.2018.12.026
@@ -3644,7 +3605,8 @@ references:
   issued:
     - year: 2019
       month: 4
-  keyword: []
+  keyword:
+    - tag: snap-2
   language: en
   page: 460-469
   source: DOI.org (Crossref)
