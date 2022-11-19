@@ -11,7 +11,8 @@ listing:
 ---
 
 # Resources
-Helpful [resources](resources.html) collated below:
+
+<!-- Helpful [resources](resources.html) collated below:
 
 * [Onboarding](#category=onboarding) information for UCL HAL 
   * [**Start here!**](resources/onboarding/start.html)
@@ -20,3 +21,4 @@ Helpful [resources](resources.html) collated below:
 * [EPIC](#category=epic)-specific training
 * Curated [datasets](#category=datasets)
 * [External resources](#category=external_resources) that we have found helpful to learn data science
+ -->

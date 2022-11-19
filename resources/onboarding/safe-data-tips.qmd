@@ -6,7 +6,9 @@ cap-location: margin
 reference-location: margin
 citation-location: margin
 description: "Working with health data; the 'Five Safes'"
-categories: onboarding, data_science
+categories: 
+  - onboarding
+  - data_science
 ---
 
 # Working with health data 

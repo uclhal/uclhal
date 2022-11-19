@@ -5,7 +5,9 @@ author: "Ruaraidh Campbell"
 date: 2022-11-16
 toc: true
 categories: 
-     - data_clinic
+     - Data Clinic
+     - Noobie
+     - UCLH
 --- 
 
 # What is the 'Data Clinic'? 

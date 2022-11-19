@@ -7,6 +7,8 @@ draft: false
 
 categories:
   - academic
+  - PhD
+  - UCL
 ---
 
 The [UKRI Centre for Doctoral Training (CDT) in AI-enabled Healthcare Systems](https://www.ucl.ac.uk/aihealth-cdt/) combines UCL’s excellence both in AI and computational science, and in biomedical research.  
