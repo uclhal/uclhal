@@ -37,8 +37,6 @@ website:
 
 format:
   html:
-    theme: 
-      light: flatly
-      dark: darkly
+    theme: superhero
     css: styles.css
     toc: true
