@@ -10,6 +10,74 @@
   categories: []
   favourite: false
   abstract: ''
+- cite_key: al-hindawiContinuousNonInvasiveEye2021
+  authors: Al-Hindawi A, Vizcaychipi M, Demiris Y
+  title: Continuous Non-Invasive Eye Tracking In Intensive Care
+  journal: 2021 43rd Annual International Conference of the IEEE Engineering in Medicine
+    & Biology Society (EMBC)
+  year: 2021
+  doi: 10.1109/EMBC46164.2021.9630999
+  url: ''
+  url4title: http://doi.org/10.1109/EMBC46164.2021.9630999
+  categories:
+  - Biology
+  - Calibration
+  - Cameras
+  - Current measurement
+  - Gaze tracking
+  - Hospitals
+  - Laboratories
+  favourite: false
+  abstract: ''
+- cite_key: al-hindawiFasterBetterBlink2022
+  authors: Al-Hindawi A, Vizcaychipi M, Demiris Y
+  title: Faster, Better Blink Detection through Curriculum Learning by Augmentation
+  journal: 2022 Symposium on Eye Tracking Research and Applications
+  year: 2022
+  doi: 10.1145/3517031.3529617
+  url: https://doi.org/10.1145/3517031.3529617
+  url4title: http://doi.org/10.1145/3517031.3529617
+  categories:
+  - applications of machine learning
+  - blink detection
+  - curriculum learning
+  - data augmentation
+  favourite: false
+  abstract: ''
+- cite_key: al-hindawiWhatPatientLooking2022
+  authors: Al-Hindawi A, Vizcaychipi M, Demiris Y
+  title: What Is The Patient Looking At? Robust Gaze-Scene Intersection Under Free-Viewing
+    Conditions
+  journal: ICASSP 2022 - 2022 IEEE International Conference on Acoustics, Speech and
+    Signal Processing (ICASSP)
+  year: 2022
+  doi: 10.1109/ICASSP43922.2022.9746437
+  url: ''
+  url4title: http://doi.org/10.1109/ICASSP43922.2022.9746437
+  categories:
+  - Conferences
+  - Estimation
+  - Eye Tracking
+  - Gaze Cue estimation
+  - Heuristic algorithms
+  - Hospitals
+  - Instruments
+  - Point of Regard estimation
+  - recommended
+  - Signal processing
+  - Signal processing algorithms
+  favourite: true
+  abstract: "Locating the user\u2019s gaze in the scene, also known as Point of Regard\
+    \ (PoR) estimation, following gaze regression is important for many downstream\
+    \ tasks. Current techniques either require the user to wear and calibrate instruments,\
+    \ require significant pre-processing of the scene information, or place restrictions\
+    \ on user\u2019s head movements.We propose a geometrically inspired algorithm\
+    \ that, despite its simplicity, provides high accuracy and O(J) performance under\
+    \ a variety of challenging situations including sparse depth maps, high noise,\
+    \ and high dynamic parallax between the user and the scene camera. We demonstrate\
+    \ the utility of the proposed algorithm in regressing the PoR from scenes captured\
+    \ in the Intensive Care Unit (ICU) at Chelsea & Westminster Hospital NHS Foundation\
+    \ Trusta."
 - cite_key: arulkumaranUncontrolledInterventionsPandemics2020b
   authors: Arulkumaran N, Wright T, Harris S, Singer M
   title: 'Uncontrolled interventions during pandemics: a missed learning opportunity?'
@@ -56,18 +124,9 @@
   doi: 10.1016/S0140-6736(20)30854-0
   url: https://linkinghub.elsevier.com/retrieve/pii/S0140673620308540
   url4title: http://doi.org/10.1016/S0140-6736(20)30854-0
-  categories:
-  - recommended
-  favourite: true
-  abstract: Background The medical, societal, and economic impact of the coronavirus
-    disease 2019 (COVID-19) pandemic has unknown effects on overall population mortality.
-    Previous models of population mortality are based on death over days among infected
-    people, nearly all of whom thus far have underlying conditions. Models have not
-    incorporated information on high-risk conditions or their longer-term baseline
-    (pre-COVID-19) mortality. We estimated the excess number of deaths over 1 year
-    under different COVID-19 incidence scenarios based on varying levels of transmission
-    suppression and differing mortality impacts based on different relative risks
-    for the disease.
+  categories: []
+  favourite: false
+  abstract: ''
 - cite_key: barnesSystematicReviewConsensus2019b
   authors: "Barnes J, Hunter J, Harris S, Shankar-Hari M, Diouf E, Jammer I, Kalkman\
     \ C, Klein A, Corcoran T, Dieleman S, Grocott M, Mythen M, Myles P, Gan T, Kurz\
@@ -127,6 +186,19 @@
   categories: []
   favourite: false
   abstract: ''
+- cite_key: datastudygroupteamDataStudyGroup2022
+  authors: 'Data Study Group Team '
+  title: 'Data Study Group Final Report: University of Birmingham'
+  journal: ''
+  year: 2022
+  doi: 10.5281/ZENODO.6799096
+  url: https://zenodo.org/record/6799096
+  url4title: http://doi.org/10.5281/ZENODO.6799096
+  categories:
+  - Data Study Group
+  - University of Birmingham
+  favourite: false
+  abstract: ''
 - cite_key: domiziRelationshipNorepinephrineDose2020b
   authors: Domizi R, Calcinaro S, Harris S, Beilstein C, Boerma C, Chiche J, D'Egidio
     A, Damiani E, Donati A, Koetsier P, Madden M, McAuley D, Morelli A, Pelaia P,
@@ -184,6 +256,33 @@
   url4title: http://doi.org/10.1001/jamanetworkopen.2018.7704
   categories:
   - causal-inference
+  favourite: false
+  abstract: ''
+- cite_key: gurdasaniVaccinatingAdolescentsSARSCoV22021
+  authors: Gurdasani D, Bhatt S, Costello A, Denaxas S, Flaxman S, Greenhalgh T, Griffin
+    S, Hyde Z, Katzourakis A, McKee M, Michie S, Ratmann O, Reicher S, Scally G, Tomlinson
+    C, Yates C, Ziauddeen H, Pagel C
+  title: "Vaccinating adolescents against SARS-CoV-2 in England: a risk\u2013benefit\
+    \ analysis"
+  journal: Journal of the Royal Society of Medicine
+  year: 2021
+  doi: 10.1177/01410768211052589
+  url: http://journals.sagepub.com/doi/10.1177/01410768211052589
+  url4title: http://doi.org/10.1177/01410768211052589
+  categories: []
+  favourite: false
+  abstract: ''
+- cite_key: handyNationwideDeepLearning2021
+  authors: Handy A, Wood A, Sudlow C, Tomlinson C, Kee F, Thygesen J, Mamouei M, Sofat
+    R, Dobson R, Ip S, Denaxas S
+  title: A nationwide deep learning pipeline to predict stroke and COVID-19 death
+    in atrial fibrillation
+  journal: ''
+  year: 2021
+  doi: 10.1101/2021.12.20.21268113
+  url: http://medrxiv.org/lookup/doi/10.1101/2021.12.20.21268113
+  url4title: http://doi.org/10.1101/2021.12.20.21268113
+  categories: []
   favourite: false
   abstract: ''
 - cite_key: harrisClinicalDeploymentEnvironments2022b
@@ -379,6 +478,77 @@
     \ We discuss how we surmounted challenges of designing and implementing models\
     \ for real-time use, including temporal framing, data preparation, and changing\
     \ operational conditions."
+- cite_key: knightAssociationCOVID19Major2022
+  authors: 'Knight R, Walker V, Ip S, Cooper J, Bolton T, Keene S, Denholm R, Akbari
+    A, Abbasizanjani H, Torabi F, Omigie E, Hollings S, North T, Toms R, Jiang X,
+    Angelantonio E, Denaxas S, Thygesen J, Tomlinson C, Bray B, Smith C, Barber M,
+    Khunti K, Davey Smith G, Chaturvedi N, Sudlow C, Whiteley W, Wood A, Sterne J,  '
+  title: 'Association of COVID-19 With Major Arterial and Venous Thrombotic Diseases:
+    A Population-Wide Cohort Study of 48 Million Adults in England and Wales'
+  journal: Circulation
+  year: 2022
+  doi: 10.1161/CIRCULATIONAHA.122.060785
+  url: https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.122.060785
+  url4title: http://doi.org/10.1161/CIRCULATIONAHA.122.060785
+  categories: []
+  favourite: false
+  abstract: ''
+- cite_key: kohlerCanNetworkScience2020
+  authors: Kohler K, Ercole A
+  title: Can network science reveal structure in a complex healthcare system? A network
+    analysis using data from emergency surgical services
+  journal: BMJ Open
+  year: 2020
+  doi: 10.1136/bmjopen-2019-034265
+  url: https://bmjopen.bmj.com/lookup/doi/10.1136/bmjopen-2019-034265
+  url4title: http://doi.org/10.1136/bmjopen-2019-034265
+  categories: []
+  favourite: false
+  abstract: ''
+- cite_key: kohlerSystemsApproachImproving2022
+  authors: Kohler K, Nwe Myint P, Wynn S, Komashie A, Winters R, Thu M, Naing M, Hlaing
+    T, Burnstein R, Wai Soe Z, Clarkson J, Menon D, Hutchinson P, Bashford T
+  title: 'Systems approach to improving traumatic brain injury care in Myanmar: a
+    mixed-methods study from lived experience to discrete event simulation'
+  journal: BMJ Open
+  year: 2022
+  doi: 10.1136/bmjopen-2021-059935
+  url: https://bmjopen.bmj.com/lookup/doi/10.1136/bmjopen-2021-059935
+  url4title: http://doi.org/10.1136/bmjopen-2021-059935
+  categories:
+  - recommended
+  favourite: true
+  abstract: "Objectives\n              Traumatic brain injury (TBI) is a global health\
+    \ problem, whose management in low-resource settings is hampered by fragile health\
+    \ systems and lack of access to specialist services. Improvement is complex, given\
+    \ the interaction of multiple people, processes and institutions. We aimed to\
+    \ develop a mixed-method approach to understand the TBI pathway based on the lived\
+    \ experience of local people, supported by quantitative methodologies and to determine\
+    \ potential improvement targets.\n            \n            \n              Design\n\
+    \              We describe a systems approach based on narrative exploration,\
+    \ participatory diagramming, data collection and discrete event simulation (DES),\
+    \ conducted by an international research collaborative.\n            \n      \
+    \      \n              Setting\n              The study is set in the tertiary\
+    \ neurotrauma centre in Yangon General Hospital, Myanmar, in 2019\u20132020 (prior\
+    \ to the SARS-CoV2 pandemic).\n            \n            \n              Participants\n\
+    \              The qualitative work involved 40 workshop participants and 64 interviewees\
+    \ to explore the views of a wide range of stakeholders including staff, patients\
+    \ and relatives. The 1-month retrospective admission snapshot covered 85 surgical\
+    \ neurotrauma admissions.\n            \n            \n              Results\n\
+    \              The TBI pathway was outlined, with system boundaries defined around\
+    \ the management of TBI once admitted to the neurosurgical unit. Retrospective\
+    \ data showed 18% mortality, 71% discharge to home and an 11% referral rate. DES\
+    \ was used to investigate the system, showing its vulnerability to small surges\
+    \ in patient numbers, with critical points being CT scanning and observation ward\
+    \ beds. This explorative model indicated that a modest expansion of observation\
+    \ ward beds to 30 would remove the flow-limitations and indicated possible consequences\
+    \ of changes.\n            \n            \n              Conclusions\n       \
+    \       A systems approach to improving TBI care in resource-poor settings may\
+    \ be supported by simulation and informed by qualitative work to ground it in\
+    \ the direct experience of those involved. Narrative interviews, participatory\
+    \ diagramming and DES represent one possible suite of methods deliverable within\
+    \ an international partnership. Findings can support targeted improvement investments\
+    \ despite coexisting resource limitations while indicating concomitant risks."
 - cite_key: krishnamoorthyCausalInferencePerioperative2020d
   authors: Krishnamoorthy V, Wong D, Wilson M, Raghunathan K, Ohnuma T, McLean D,
     Moonesinghe S, Harris S
@@ -521,6 +691,83 @@
   categories: []
   favourite: false
   abstract: ''
+- cite_key: pineda-moncusiDigitalEthnicityData2022
+  authors: "Pineda-Moncus\xED M, Allery F, Delmestri A, Bolton T, Nolan J, Thygesen\
+    \ J, Handy A, Banerjee A, Denaxas S, Tomlinson C, Denniston A, Sudlow C, Akbari\
+    \ A, Wood A, Collins G, Petersen I, Khunti K, Prieto-Alhambra D, Khalid S"
+  title: 'Digital ethnicity data in population-wide electronic health records in England:
+    a description of completeness, coverage, and granularity of diversity'
+  journal: ''
+  year: 2022
+  doi: 10.1101/2022.11.11.22282217
+  url: http://medrxiv.org/lookup/doi/10.1101/2022.11.11.22282217
+  url4title: http://doi.org/10.1101/2022.11.11.22282217
+  categories:
+  - recommended
+  favourite: true
+  abstract: "Abstract\n          \n            Background\n            The link between\
+    \ ethnicity and healthcare inequity, and the urgency for better data is well-recognised.\
+    \ This study describes ethnicity data in nation-wide electronic health records\
+    \ in England, UK.\n          \n          \n            Methods\n            We\
+    \ conducted a retrospective cohort study using de-identified person-level records\
+    \ for the England population available in the National Health Service (NHS) Digital\
+    \ trusted research environment. Primary care records (GDPPR) were linked to hospital\
+    \ and national mortality records. We assessed completeness, consistency, and granularity\
+    \ of ethnicity records using all available SNOMED-CT concepts for ethnicity and\
+    \ NHS ethnicity categories.\n          \n          \n            Findings\n  \
+    \          From 61.8 million individuals registered with a primary care practice\
+    \ in England, 51.5 (83.3%) had at least one ethnicity record in GDPPR, increasing\
+    \ to 93\xB79% when linked with hospital records. Approximately 12\xB70% had at\
+    \ least two conflicting ethnicity codes in primary care records. Women were more\
+    \ likely to have ethnicity recorded than men. Ethnicity was missing most frequently\
+    \ in individuals from 18 to 39 years old and in the southern regions of England.\
+    \ Individuals with an ethnicity record had more comorbidities recorded than those\
+    \ without. Of 489 SNOMED-CT ethnicity concepts available, 255 were used in primary\
+    \ care records. Discrepancies between SNOMED-CT and NHS ethnicity categories were\
+    \ observed, specifically within \u201COther-\u201D ethnicity groups.\n       \
+    \   \n          \n            Interpretation\n            More than 250 ethnicity\
+    \ sub-groups may be found in health records for the English population, although\
+    \ commonly categorised into \u201CWhite\u201D, \u201CBlack\u201D, \u201CAsian\u201D\
+    , \u201CMixed\u201D, and \u201COther\u201D. One in ten individuals do not have\
+    \ ethnicity information recorded in primary care or hospital records. SNOMED-CT\
+    \ codes represent more diversity in ethnicity groups than the NHS ethnicity classification.\
+    \ Improved recording of self-reported ethnicity at first point-of-care and consistency\
+    \ in ethnicity classification across healthcare settings can potentially improve\
+    \ the accuracy of ethnicity in research and ultimately care for all ethnicities.\n\
+    \          \n          \n            Funding\n            British Heart Foundation\
+    \ Data Science Centre led by Health Data Research UK.\n          \n          \n\
+    \            Research in context\n            \n              Evidence before\
+    \ this study\n              \n                Ethnicity has been highlighted as\
+    \ a significant factor in the disproportionate impact of SARS-CoV-2 infection\
+    \ and mortality. Better knowledge of ethnicity data recorded in real clinical\
+    \ practice is required to improve health research and ultimately healthcare. We\
+    \ searched PubMed from database inception to 14\n                th\n        \
+    \        July 2022 for publications using the search terms \u201Cethnicity\u201D\
+    \ and \u201Celectronic health records\u201D or \u201CEHR,\u201D without language\
+    \ restrictions. 228 publications in 2019, before the COVID-19 pandemic, and 304\
+    \ publications between 2020 and 2022 were identified. However, none of these publications\
+    \ used or reported any of over 400 available SNOMED-CT concepts for ethnicity\
+    \ to account for more granularity and diversity than captured by traditional high-level\
+    \ classification limited to 5 to 9 ethnicity groups.\n              \n       \
+    \     \n            \n              Added value of this study\n              We\
+    \ provide a comprehensive study of the largest collection of ethnicity records\
+    \ from a national-level electronic health records trusted research environment,\
+    \ exploring completeness, consistency, and granularity. This work can serve as\
+    \ a data resource profile of ethnicity from routinely-collected EHR in England.\n\
+    \            \n            \n              Implications of all the available evidence\n\
+    \              To achieve equity in healthcare, we need to understand the differences\
+    \ between individuals, as well as the influence of ethnicity both on health status\
+    \ and on health interventions, including variation in the behaviour of tests and\
+    \ therapies. Thus, there is a need for measurements, thresholds, and risk estimates\
+    \ to be tailored to different ethnic groups. This study presents the different\
+    \ medical concepts describing ethnicity in routinely collected data that are readily\
+    \ available to researchers and highlights key elements for improving their accuracy\
+    \ in research. We aim to encourage researchers to use more granular ethnicity\
+    \ than the than typical approaches which aggregate ethnicity into a limited number\
+    \ of categories, failing to reflect the diversity of underlying populations. Accurate\
+    \ ethnicity data will lead to a better understanding of individual diversity,\
+    \ which will help to address disparities and influence policy recommendations\
+    \ that can translate into better, fairer health for all."
 - cite_key: postOxygenationCriticallyIll2020b
   authors: Post B, Palmer E, Harris S, Singer M, Martin D
   title: 'Oxygenation of the critically ill in selected intensive care units in the
@@ -576,6 +823,58 @@
   url4title: http://doi.org/10.1016/S0140-6736(03)12893-0
   categories:
   - case-report
+  favourite: false
+  abstract: ''
+- cite_key: thygesenCOVID19Trajectories572022
+  authors: "Thygesen J, Tomlinson C, Hollings S, Mizani M, Handy A, Akbari A, Banerjee\
+    \ A, Cooper J, Lai A, Li K, Mateen B, Sattar N, Sofat R, Torralbo A, Wu H, Wood\
+    \ A, Sterne J, Pagel C, Whiteley W, Sudlow C, Hemingway H, Denaxas S, Abbasizanjani\
+    \ H, Ahmed N, Ahmed B, Akbari A, Akinoso-Imran A, Allara E, Allery F, Angelantonio\
+    \ E, Ashworth M, Ayyar-Gupta V, Babu-Narayan S, Bacon S, Ball S, Banerjee A, Barber\
+    \ M, Barrett J, Bennie M, Berry C, Beveridge J, Birney E, Bojani\u0107 L, Bolton\
+    \ T, Bone A, Boyle J, Braithwaite T, Bray B, Briffa N, Brind D, Brown K, Buch\
+    \ M, Canoy D, Caputo M, Carragher R, Carson A, Cezard G, Chang J, Cheema K, Chin\
+    \ R, Chudasama Y, Cooper J, Copland E, Crallan R, Cripps R, Cromwell D, Curcin\
+    \ V, Curry G, Dale C, Danesh J, Das-Munshi J, Dashtban A, Davies A, Davies J,\
+    \ Davies G, Davies N, Day J, Delmestri A, Denaxas S, Denholm R, Dennis J, Denniston\
+    \ A, Deo S, Dhillon B, Docherty A, Dong T, Douiri A, Downs J, Dregan A, Ellins\
+    \ E, Elwenspoek M, Falck F, Falter F, Fan Y, Firth J, Fraser L, Friebel R, Gavrieli\
+    \ A, Gerstung M, Gilbert R, Gillies C, Glickman M, Goldacre B, Goldacre R, Greaves\
+    \ F, Green M, Grieco L, Griffiths R, Gurdasani D, Halcox J, Hall N, Hama T, Handy\
+    \ A, Hansell A, Hardelid P, Hardy F, Harris D, Harrison C, Harron K, Hassaine\
+    \ A, Hassan L, Healey R, Hemingway H, Henderson A, Herz N, Heyl J, Hidajat M,\
+    \ Higginson I, Hinchliffe R, Hippisley-Cox J, Ho F, Hocaoglu M, Hollings S, Horne\
+    \ E, Hughes D, Humberstone B, Inouye M, Ip S, Islam N, Jackson C, Jenkins D, Jiang\
+    \ X, Johnson S, Kadam U, Kallis C, Karim Z, Kasan J, Katsoulis M, Kavanagh K,\
+    \ Kee F, Keene S, Kent S, Khalid S, Khawaja A, Khunti K, Killick R, Kinnear D,\
+    \ Knight R, Kolamunnage-Dona R, Kontopantelis E, Kurdi A, Lacey B, Lai A, Lambarth\
+    \ A, Larzjan M, Lawler D, Lawrence T, Lawson C, Li Q, Li K, Llinares M, Lorgelly\
+    \ P, Lowe D, Lyons J, Lyons R, Machado P, Macleod M, Macleod J, Malgapo E, Mamas\
+    \ M, Mamouei M, Manohar S, Mapeta R, Martelli J, Martos D, Mateen B, McCarthy\
+    \ A, Melville C, Milton R, Mizani M, Moncusi M, Morales D, Mordi I, Morrice L,\
+    \ Morris C, Morris E, Mu Y, Mueller T, Murdock L, Nafilyan V, Nicholson G, Nikiphorou\
+    \ E, Nolan J, Norris T, Norris R, North L, North T, O'Connell D, Oliver D, Oluyase\
+    \ A, Olvera-Barrios A, Omigie E, Onida S, Padmanabhan S, Palmer T, Pasea L, Patel\
+    \ R, Payne R, Pell J, Petitjean C, Pherwani A, Pickrell O, Pierotti L, Pirmohamed\
+    \ M, Priedon R, Prieto-Alhambra D, Proudfoot A, Quinn T, Quint J, Raffetti E,\
+    \ Rahimi K, Rao S, Razieh C, Roberts B, Rogers C, Rossdale J, Salim S, Samani\
+    \ N, Sattar N, Schnier C, Schwartz R, Selby D, Seminog O, Shabnam S, Shah A, Shelton\
+    \ J, Sheppard J, Sinha S, Skrypak M, Slapkova M, Sleeman K, Smith C, Sofat R,\
+    \ Sosenko F, Sperrin M, Steeg S, Sterne J, Stoica S, Sudell M, Sudlow C, Sun L,\
+    \ Suseeladevi A, Sweeting M, Sydes M, Takhar R, Tang H, Thygesen J, Tilston G,\
+    \ Tochel C, Toit C, Tomlinson C, Toms R, Torabi F, Torralbo A, Townson J, Tufail\
+    \ A, Tungamirai T, Varma S, Vollmer S, Walker V, Wang T, Wang H, Warwick A, Watkinson\
+    \ R, Watson H, Whiteley W, Whittaker H, Wilde H, Wilkinson T, Williams G, Williams\
+    \ M, Williams R, Withnell E, Wolfe C, Wood A, Wright L, Wu H, Wu J, Wu J, Yates\
+    \ T, Zaccardi F, Zhang H, Zhang H, Zuccolo L"
+  title: 'COVID-19 trajectories among 57 million adults in England: a cohort study
+    using electronic health records'
+  journal: The Lancet Digital Health
+  year: 2022
+  doi: 10.1016/S2589-7500(22)00091-7
+  url: https://linkinghub.elsevier.com/retrieve/pii/S2589750022000917
+  url4title: http://doi.org/10.1016/S2589-7500(22)00091-7
+  categories: []
   favourite: false
   abstract: ''
 - cite_key: tissotNaturalLanguageProcessing2020b

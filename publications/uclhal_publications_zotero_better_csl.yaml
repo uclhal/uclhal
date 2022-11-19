@@ -70,6 +70,186 @@ references:
   URL: https://linkinghub.elsevier.com/retrieve/pii/S0007091217334025
   volume: '105'
 
+- id: al-hindawiContinuousNonInvasiveEye2021
+  abstract: >-
+    Delirium, an acute confusional state, is a common occurrence in Intensive
+    Care Units (ICUs). Patients who develop delirium have globally worse
+    outcomes than those who do not and thus the diagnosis of delirium is of
+    importance. Current diagnostic methods have several limitations leading to
+    the suggestion of eye-tracking for its diagnosis through in-attention. To
+    ascertain the requirements for an eye-tracking system in an adult ICU,
+    measurements were carried out at Chelsea & Westminster Hospital NHS
+    Foundation Trust. Clinical criteria guided empirical requirements of
+    invasiveness and calibration methods while accuracy and precision were
+    measured. A non-invasive system was then developed utilising a
+    patient-facing RGB camera and a scene-facing RGBD camera. The system’s
+    performance was measured in a replicated laboratory environment with healthy
+    volunteers revealing an accuracy and precision that outperforms what is
+    required while simultaneously being non-invasive and calibration-free The
+    system was then deployed as part of CONfuSED, a clinical feasibility study
+    where we report aggregated data from 5 patients as well as the acceptability
+    of the system to bedside nursing staff. To the best of our knowledge, the
+    system is the first eye-tracking systems to be deployed in an ICU for
+    delirium monitoring.
+  author:
+    - family: Al-Hindawi
+      given: Ahmed
+    - family: Vizcaychipi
+      given: Marcela P
+    - family: Demiris
+      given: Yiannis
+  citation-key: al-hindawiContinuousNonInvasiveEye2021
+  container-title: >-
+    2021 43rd Annual International Conference of the IEEE Engineering in
+    Medicine & Biology Society (EMBC)
+  container-title-short: 2021 43rd Annu. Int. Conf. IEEE Eng. Med. Biol. Soc. EMBC
+  DOI: 10.1109/EMBC46164.2021.9630999
+  event-title: >-
+    2021 43rd Annual International Conference of the IEEE Engineering in
+    Medicine & Biology Society (EMBC)
+  ISSN: 2694-0604
+  issued:
+    - year: 2021
+      month: 11
+  keyword:
+    - tag: Biology
+      type: 1
+    - tag: Calibration
+      type: 1
+    - tag: Cameras
+      type: 1
+    - tag: Current measurement
+      type: 1
+    - tag: Gaze tracking
+      type: 1
+    - tag: Hospitals
+      type: 1
+    - tag: Laboratories
+      type: 1
+  page: 1869-1873
+  source: IEEE Xplore
+  title: Continuous Non-Invasive Eye Tracking In Intensive Care
+  type: paper-conference
+
+- id: al-hindawiFasterBetterBlink2022
+  abstract: >-
+    Blinking is a useful biological signal that can gate gaze regression models
+    to avoid the use of incorrect data in downstream tasks. Existing datasets
+    are imbalanced both in frequency of class but also in intra-class difficulty
+    which we demonstrate is a barrier for curriculum learning. We thus propose a
+    novel curriculum augmentation scheme that aims to address frequency and
+    difficulty imbalances implicitly which are are terming Curriculum Learning
+    by Augmentation (CLbA). Using Curriculum Learning by Augmentation (CLbA), we
+    achieve a state-of-the-art performance of mean Average Precision (mAP) 0.971
+    using ResNet-18 up from the previous state-of-the-art of mean Average
+    Precision (mAP) of 0.757 using DenseNet-121 whilst outcompeting Curriculum
+    Learning by Bootstrapping (CLbB) by a significant margin with improved
+    calibration. This new training scheme thus allows the use of smaller and
+    more performant Convolutional Neural Network (CNN) backbones fulfilling
+    Nyquist criteria to achieve a sampling frequency of 102.3Hz. This paves the
+    way for inference of blinking in real-time applications.
+  accessed:
+    - year: 2022
+      month: 11
+      day: 19
+  author:
+    - family: Al-Hindawi
+      given: Ahmed
+    - family: Vizcaychipi
+      given: Marcela
+    - family: Demiris
+      given: Yiannis
+  citation-key: al-hindawiFasterBetterBlink2022
+  collection-title: ETRA '22
+  container-title: 2022 Symposium on Eye Tracking Research and Applications
+  container-title-short: 2022 Symp. Eye Track. Res. Appl.
+  DOI: 10.1145/3517031.3529617
+  event-place: New York, NY, USA
+  ISBN: 978-1-4503-9252-5
+  issued:
+    - year: 2022
+      month: 6
+      day: 8
+  keyword:
+    - tag: applications of machine learning
+      type: 1
+    - tag: blink detection
+      type: 1
+    - tag: curriculum learning
+      type: 1
+    - tag: data augmentation
+      type: 1
+  page: 1–7
+  publisher: Association for Computing Machinery
+  publisher-place: New York, NY, USA
+  source: ACM Digital Library
+  title: Faster, Better Blink Detection through Curriculum Learning by Augmentation
+  type: paper-conference
+  URL: https://doi.org/10.1145/3517031.3529617
+
+- id: al-hindawiWhatPatientLooking2022
+  abstract: >-
+    Locating the user’s gaze in the scene, also known as Point of Regard (PoR)
+    estimation, following gaze regression is important for many downstream
+    tasks. Current techniques either require the user to wear and calibrate
+    instruments, require significant pre-processing of the scene information, or
+    place restrictions on user’s head movements.We propose a geometrically
+    inspired algorithm that, despite its simplicity, provides high accuracy and
+    O(J) performance under a variety of challenging situations including sparse
+    depth maps, high noise, and high dynamic parallax between the user and the
+    scene camera. We demonstrate the utility of the proposed algorithm in
+    regressing the PoR from scenes captured in the Intensive Care Unit (ICU) at
+    Chelsea & Westminster Hospital NHS Foundation Trusta.
+  author:
+    - family: Al-Hindawi
+      given: Ahmed
+    - family: Vizcaychipi
+      given: Marcela P
+    - family: Demiris
+      given: Yiannis
+  citation-key: al-hindawiWhatPatientLooking2022
+  container-title: >-
+    ICASSP 2022 - 2022 IEEE International Conference on Acoustics, Speech and
+    Signal Processing (ICASSP)
+  container-title-short: ICASSP 2022 - 2022 IEEE Int. Conf. Acoust. Speech Signal Process. ICASSP
+  DOI: 10.1109/ICASSP43922.2022.9746437
+  event-title: >-
+    ICASSP 2022 - 2022 IEEE International Conference on Acoustics, Speech and
+    Signal Processing (ICASSP)
+  ISSN: 2379-190X
+  issued:
+    - year: 2022
+      month: 5
+  keyword:
+    - tag: Conferences
+      type: 1
+    - tag: Estimation
+      type: 1
+    - tag: Eye Tracking
+      type: 1
+    - tag: Gaze Cue estimation
+      type: 1
+    - tag: Heuristic algorithms
+      type: 1
+    - tag: Hospitals
+      type: 1
+    - tag: Instruments
+      type: 1
+    - tag: Point of Regard estimation
+      type: 1
+    - tag: recommended
+    - tag: Signal processing
+      type: 1
+    - tag: Signal processing algorithms
+      type: 1
+  page: 2430-2434
+  source: IEEE Xplore
+  title: >-
+    What Is The Patient Looking At? Robust Gaze-Scene Intersection Under
+    Free-Viewing Conditions
+  title-short: What Is The Patient Looking At?
+  type: paper-conference
+
 - id: arulkumaranUncontrolledInterventionsPandemics2020b
   accessed:
     - year: 2022
@@ -272,8 +452,7 @@ references:
   issued:
     - year: 2020
       month: 5
-  keyword:
-    - tag: recommended
+  keyword: []
   language: en
   page: 1715-1725
   source: DOI.org (Crossref)
@@ -756,6 +935,60 @@ references:
   URL: https://ccforum.biomedcentral.com/articles/10.1186/s13054-020-03321-7
   volume: '24'
 
+- id: datastudygroupteamDataStudyGroup2022
+  abstract: >-
+    Data Study Groups are week-long events at The Alan Turing Institute bringing
+    together some of the country’s top talent from data science, artificial
+    intelligence, and wider fields, to analyse real-world data science
+    challenges. <strong>Automating perfusion assessment of sublingual
+    microcirculation in critical illness</strong> Achieving and maintaining
+    normal sub-lingual blood flow in small ( 20m) vessels, termed as
+    microcirculation, is essential for critically ill intensive care patients
+    since this is where the delivery of blood and oxygen to tissues occurs.
+    However, historically, most clinical trials &amp; treatments have focused on
+    blood flow in the larger blood vessels (macrocirculation) \[20, 21, 14],
+    largely due to the greater ease with which this can be practically measured.
+    Technological advances have enabled video recordings of the sub-lingual
+    microcirculation (i.e. from under the tongue) to be obtained using darkfield
+    microscopy (DFM). However, the difficulties in analysing these videos has
+    hindered the uptake and utilisation of this imaging modality. Currently,
+    these short video sequences are analysed mostly by hand, to quantify the
+    vessel density and flow within vessels within the field of view. The manual
+    analysis and vessel segmentation is an extremely labour intensive procedure,
+    which can take up to one hour to score a single video \[12]. This challenge
+    aimed to establish whether a single validated measure of microcirculatory
+    perfusion (microcirculatory flow index) can be predicted directly from a DFM
+    video sequence, without intermediate manual analysis steps. Automatic
+    analysis that can be carried out in (near) real-time would facilitate the
+    incorporation of microcirulatory targets into clinical trials by enabling
+    the impact of interventions to be quantified and enacted upon with the aim
+    of optimising the microcirculation and improving patient outcomes.
+  accessed:
+    - year: 2022
+      month: 11
+      day: 19
+  author:
+    - family: Data Study Group Team
+      given: ''
+  citation-key: datastudygroupteamDataStudyGroup2022
+  DOI: 10.5281/ZENODO.6799096
+  issued:
+    - year: 2022
+      month: 7
+      day: 5
+  keyword:
+    - tag: Data Study Group
+      type: 1
+    - tag: University of Birmingham
+      type: 1
+  language: en
+  publisher: Zenodo
+  source: DOI.org (Datacite)
+  title: 'Data Study Group Final Report: University of Birmingham'
+  title-short: Data Study Group Final Report
+  type: report
+  URL: https://zenodo.org/record/6799096
+
 - id: domiziRelationshipNorepinephrineDose2020b
   abstract: >-
     Purpose: Septic shock is associated with massive release of endogenous
@@ -1078,6 +1311,153 @@ references:
   URL: >-
     http://jamanetworkopen.jamanetwork.com/article.aspx?doi=10.1001/jamanetworkopen.2018.7704
   volume: '2'
+
+- id: gurdasaniVaccinatingAdolescentsSARSCoV22021
+  abstract: |-
+    Objective
+                  To offer a quantitative risk–benefit analysis of two doses of SARS-CoV-2 vaccination among adolescents in England.
+                
+                
+                  Setting
+                  England.
+                
+                
+                  Design
+                  Following the risk–benefit analysis methodology carried out by the US Centers for Disease Control, we calculated historical rates of hospital admission, Intensive Care Unit admission and death for ascertained SARS-CoV-2 cases in children aged 12–17 in England. We then used these rates alongside a range of estimates for incidence of long COVID, vaccine efficacy and vaccine-induced myocarditis, to estimate hospital and Intensive Care Unit admissions, deaths and cases of long COVID over a period of 16 weeks under assumptions of high and low case incidence.
+                
+                
+                  Participants
+                  All 12–17 year olds with a record of confirmed SARS-CoV-2 infection in England between 1 July 2020 and 31 March 2021 using national linked electronic health records, accessed through the British Heart Foundation Data Science Centre.
+                
+                
+                  Main outcome measures
+                  Hospitalisations, Intensive Care Unit admissions, deaths and cases of long COVID averted by vaccinating all 12–17 year olds in England over a 16-week period under different estimates of future case incidence.
+                
+                
+                  Results
+                  At high future case incidence of 1000/100,000 population/week over 16 weeks, vaccination could avert 4430 hospital admissions and 36 deaths over 16 weeks. At the low incidence of 50/100,000/week, vaccination could avert 70 hospital admissions and two deaths over 16 weeks. The benefit of vaccination in terms of hospitalisations in adolescents outweighs risks unless case rates are sustainably very low (below 30/100,000 teenagers/week). Benefit of vaccination exists at any case rate for the outcomes of death and long COVID, since neither have been associated with vaccination to date.
+                
+                
+                  Conclusions
+                  Given the current (as at 15 September 2021) high case rates (680/100,000 population/week in 10–19 year olds) in England, our findings support vaccination of adolescents against SARS-CoV2.
+  accessed:
+    - year: 2022
+      month: 11
+      day: 19
+  author:
+    - family: Gurdasani
+      given: Deepti
+    - family: Bhatt
+      given: Samir
+    - family: Costello
+      given: Anthony
+    - family: Denaxas
+      given: Spiros
+    - family: Flaxman
+      given: Seth
+    - family: Greenhalgh
+      given: Trisha
+    - family: Griffin
+      given: Stephen
+    - family: Hyde
+      given: Zoë
+    - family: Katzourakis
+      given: Aris
+    - family: McKee
+      given: Martin
+    - family: Michie
+      given: Susan
+    - family: Ratmann
+      given: Oliver
+    - family: Reicher
+      given: Stephen
+    - family: Scally
+      given: Gabriel
+    - family: Tomlinson
+      given: Christopher
+    - family: Yates
+      given: Christian
+    - family: Ziauddeen
+      given: Hisham
+    - family: Pagel
+      given: Christina
+  citation-key: gurdasaniVaccinatingAdolescentsSARSCoV22021
+  container-title: Journal of the Royal Society of Medicine
+  container-title-short: J R Soc Med
+  DOI: 10.1177/01410768211052589
+  ISSN: 0141-0768, 1758-1095
+  issue: '11'
+  issued:
+    - year: 2021
+      month: 11
+  keyword: []
+  language: en
+  page: 513-524
+  source: DOI.org (Crossref)
+  title: >-
+    Vaccinating adolescents against SARS-CoV-2 in England: a risk–benefit
+    analysis
+  title-short: Vaccinating adolescents against SARS-CoV-2 in England
+  type: article-journal
+  URL: http://journals.sagepub.com/doi/10.1177/01410768211052589
+  volume: '114'
+
+- id: handyNationwideDeepLearning2021
+  abstract: |-
+    ABSTRACT
+              
+                Deep learning (DL) and machine learning (ML) models trained on long-term patient trajectories held as medical codes in electronic health records (EHR) have the potential to improve disease prediction. Anticoagulant prescribing decisions in atrial fibrillation (AF) offer a use case where the benchmark stroke risk prediction tool (CHA
+                2
+                DS
+                2
+                -VASc) could be meaningfully improved by including more information from a patient’s medical history. In this study, we design and build the first DL and ML pipeline that uses the routinely updated, linked EHR data for 56 million people in England accessed via NHS Digital to predict first ischaemic stroke in people with AF, and as a secondary outcome, COVID-19 death. Our pipeline improves first stroke prediction in AF by 17% compared to CHA
+                2
+                DS
+                2
+                -VASc (0.61 (0.57-0.65) vs 0.52 (0.52-0.52) area under the receiver operating characteristics curves, 95% confidence interval) and provides a generalisable, opensource framework that other researchers and developers can build on.
+  accessed:
+    - year: 2022
+      month: 11
+      day: 19
+  author:
+    - family: Handy
+      given: Alex
+    - family: Wood
+      given: Angela
+    - family: Sudlow
+      given: Cathie
+    - family: Tomlinson
+      given: Christopher
+    - family: Kee
+      given: Frank
+    - family: Thygesen
+      given: Johan H
+    - family: Mamouei
+      given: Mohammad
+    - family: Sofat
+      given: Reecha
+    - family: Dobson
+      given: Richard
+    - family: Ip
+      given: Samantha
+    - family: Denaxas
+      given: Spiros
+  citation-key: handyNationwideDeepLearning2021
+  DOI: 10.1101/2021.12.20.21268113
+  genre: preprint
+  issued:
+    - year: 2021
+      month: 12
+      day: 21
+  keyword: []
+  language: en
+  publisher: Cardiovascular Medicine
+  source: DOI.org (Crossref)
+  title: >-
+    A nationwide deep learning pipeline to predict stroke and COVID-19 death in
+    atrial fibrillation
+  type: report
+  URL: http://medrxiv.org/lookup/doi/10.1101/2021.12.20.21268113
 
 - id: harrisClinicalDeploymentEnvironments2022b
   abstract: >-
@@ -1706,6 +2086,251 @@ references:
   type: article-journal
   URL: https://doi.org/10.1038/s41746-022-00649-y
   volume: '5'
+
+- id: knightAssociationCOVID19Major2022
+  abstract: |-
+    Background:
+                  Infection with severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) induces a prothrombotic state, but long-term effects of COVID-19 on incidence of vascular diseases are unclear.
+                
+                
+                  Methods:
+                  We studied vascular diseases after COVID-19 diagnosis in population-wide anonymized linked English and Welsh electronic health records from January 1 to December 7, 2020. We estimated adjusted hazard ratios comparing the incidence of arterial thromboses and venous thromboembolic events (VTEs) after diagnosis of COVID-19 with the incidence in people without a COVID-19 diagnosis. We conducted subgroup analyses by COVID-19 severity, demographic characteristics, and previous history.
+                
+                
+                  Results:
+                  Among 48 million adults, 125 985 were hospitalized and 1 319 789 were not hospitalized within 28 days of COVID-19 diagnosis. In England, there were 260 279 first arterial thromboses and 59 421 first VTEs during 41.6 million person-years of follow-up. Adjusted hazard ratios for first arterial thrombosis after COVID-19 diagnosis compared with no COVID-19 diagnosis declined from 21.7 (95% CI, 21.0–22.4) in week 1 after COVID-19 diagnosis to 1.34 (95% CI, 1.21–1.48) during weeks 27 to 49. Adjusted hazard ratios for first VTE after COVID-19 diagnosis declined from 33.2 (95% CI, 31.3–35.2) in week 1 to 1.80 (95% CI, 1.50–2.17) during weeks 27 to 49. Adjusted hazard ratios were higher, for longer after diagnosis, after hospitalized versus nonhospitalized COVID-19, among Black or Asian versus White people, and among people without versus with a previous event. The estimated whole-population increases in risk of arterial thromboses and VTEs 49 weeks after COVID-19 diagnosis were 0.5% and 0.25%, respectively, corresponding to 7200 and 3500 additional events, respectively, after 1.4 million COVID-19 diagnoses.
+                
+                
+                  Conclusions:
+                  High relative incidence of vascular events soon after COVID-19 diagnosis declines more rapidly for arterial thromboses than VTEs. However, incidence remains elevated up to 49 weeks after COVID-19 diagnosis. These results support policies to prevent severe COVID-19 by means of COVID-19 vaccines, early review after discharge, risk factor control, and use of secondary preventive agents in high-risk patients.
+  accessed:
+    - year: 2022
+      month: 11
+      day: 19
+  author:
+    - family: Knight
+      given: Rochelle
+    - family: Walker
+      given: Venexia
+    - family: Ip
+      given: Samantha
+    - family: Cooper
+      given: Jennifer A.
+    - family: Bolton
+      given: Thomas
+    - family: Keene
+      given: Spencer
+    - family: Denholm
+      given: Rachel
+    - family: Akbari
+      given: Ashley
+    - family: Abbasizanjani
+      given: Hoda
+    - family: Torabi
+      given: Fatemeh
+    - family: Omigie
+      given: Efosa
+    - family: Hollings
+      given: Sam
+    - family: North
+      given: Teri-Louise
+    - family: Toms
+      given: Renin
+    - family: Jiang
+      given: Xiyun
+    - family: Angelantonio
+      given: Emanuele Di
+    - family: Denaxas
+      given: Spiros
+    - family: Thygesen
+      given: Johan H.
+    - family: Tomlinson
+      given: Christopher
+    - family: Bray
+      given: Ben
+    - family: Smith
+      given: Craig J.
+    - family: Barber
+      given: Mark
+    - family: Khunti
+      given: Kamlesh
+    - family: Davey Smith
+      given: George
+    - family: Chaturvedi
+      given: Nishi
+    - family: Sudlow
+      given: Cathie
+    - family: Whiteley
+      given: William N.
+    - family: Wood
+      given: Angela M.
+    - family: Sterne
+      given: Jonathan A.C.
+    - literal: >-
+        for the CVD-COVID-UK/COVID-IMPACT Consortium and the Longitudinal Health
+        and Wellbeing COVID-19 National Core Study
+  citation-key: knightAssociationCOVID19Major2022
+  container-title: Circulation
+  container-title-short: Circulation
+  DOI: 10.1161/CIRCULATIONAHA.122.060785
+  ISSN: 0009-7322, 1524-4539
+  issue: '12'
+  issued:
+    - year: 2022
+      month: 9
+      day: 20
+  keyword: []
+  language: en
+  page: 892-906
+  source: DOI.org (Crossref)
+  title: >-
+    Association of COVID-19 With Major Arterial and Venous Thrombotic Diseases:
+    A Population-Wide Cohort Study of 48 Million Adults in England and Wales
+  title-short: Association of COVID-19 With Major Arterial and Venous Thrombotic Diseases
+  type: article-journal
+  URL: https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.122.060785
+  volume: '146'
+
+- id: kohlerCanNetworkScience2020
+  abstract: |-
+    Introduction
+                  Hospitals are complex systems and optimising their function is critical to the provision of high quality, cost effective healthcare. Metrics of performance have to date focused on the performance of individual elements rather than the whole system. Manipulation of individual elements of a complex system without an integrative understanding of its function is undesirable and may lead to counterintuitive outcomes and a holistic metric of hospital function might help design more efficient services.
+                
+                
+                  Objectives
+                  We aimed to use network analysis to characterise the structure of the system of perioperative care for emergency surgical admissions in our tertiary care hospital.
+                
+                
+                  Design
+                  We constructed a weighted directional network representation of the emergency surgical services using patient location data from electronic health records.
+                
+                
+                  Setting
+                  A single-centre tertiary care hospital in the UK.
+                
+                
+                  Participants
+                  We selected data from the retrospective electronic health record data of all unplanned admissions with a surgical intervention during their stay during a 3.5-year period, which resulted in a set of 16 500 individual admissions.
+                
+                
+                  Methods
+                  We then constructed and analysed the structure of this network using established methods from network science such as degree distribution, betweenness centrality and small-world characteristics.
+                
+                
+                  Results
+                  The analysis showed the service to be a complex system with scale-free, small-world network properties. We also identified such potential hubs and bottlenecks in the system.
+                
+                
+                  Conclusions
+                  Our holistic, system-wide description of a hospital service may provide tools to inform service improvement initiatives and gives us insights into the architecture of a complex system of care. The implications for the structure and resilience of the service is that while being robust in general, the system may be vulnerable to outages at specific key nodes.
+  accessed:
+    - year: 2022
+      month: 11
+      day: 19
+  author:
+    - family: Kohler
+      given: Katharina
+    - family: Ercole
+      given: Ari
+  citation-key: kohlerCanNetworkScience2020
+  container-title: BMJ Open
+  container-title-short: BMJ Open
+  DOI: 10.1136/bmjopen-2019-034265
+  ISSN: 2044-6055, 2044-6055
+  issue: '2'
+  issued:
+    - year: 2020
+      month: 2
+  keyword: []
+  language: en
+  page: e034265
+  source: DOI.org (Crossref)
+  title: >-
+    Can network science reveal structure in a complex healthcare system? A
+    network analysis using data from emergency surgical services
+  title-short: Can network science reveal structure in a complex healthcare system?
+  type: article-journal
+  URL: https://bmjopen.bmj.com/lookup/doi/10.1136/bmjopen-2019-034265
+  volume: '10'
+
+- id: kohlerSystemsApproachImproving2022
+  abstract: |-
+    Objectives
+                  Traumatic brain injury (TBI) is a global health problem, whose management in low-resource settings is hampered by fragile health systems and lack of access to specialist services. Improvement is complex, given the interaction of multiple people, processes and institutions. We aimed to develop a mixed-method approach to understand the TBI pathway based on the lived experience of local people, supported by quantitative methodologies and to determine potential improvement targets.
+                
+                
+                  Design
+                  We describe a systems approach based on narrative exploration, participatory diagramming, data collection and discrete event simulation (DES), conducted by an international research collaborative.
+                
+                
+                  Setting
+                  The study is set in the tertiary neurotrauma centre in Yangon General Hospital, Myanmar, in 2019–2020 (prior to the SARS-CoV2 pandemic).
+                
+                
+                  Participants
+                  The qualitative work involved 40 workshop participants and 64 interviewees to explore the views of a wide range of stakeholders including staff, patients and relatives. The 1-month retrospective admission snapshot covered 85 surgical neurotrauma admissions.
+                
+                
+                  Results
+                  The TBI pathway was outlined, with system boundaries defined around the management of TBI once admitted to the neurosurgical unit. Retrospective data showed 18% mortality, 71% discharge to home and an 11% referral rate. DES was used to investigate the system, showing its vulnerability to small surges in patient numbers, with critical points being CT scanning and observation ward beds. This explorative model indicated that a modest expansion of observation ward beds to 30 would remove the flow-limitations and indicated possible consequences of changes.
+                
+                
+                  Conclusions
+                  A systems approach to improving TBI care in resource-poor settings may be supported by simulation and informed by qualitative work to ground it in the direct experience of those involved. Narrative interviews, participatory diagramming and DES represent one possible suite of methods deliverable within an international partnership. Findings can support targeted improvement investments despite coexisting resource limitations while indicating concomitant risks.
+  accessed:
+    - year: 2022
+      month: 11
+      day: 19
+  author:
+    - family: Kohler
+      given: Katharina
+    - family: Nwe Myint
+      given: Phyu Phyu
+    - family: Wynn
+      given: Sein
+    - family: Komashie
+      given: Alexander
+    - family: Winters
+      given: Robyn
+    - family: Thu
+      given: Myat
+    - family: Naing
+      given: Mu Mu
+    - family: Hlaing
+      given: Thinn
+    - family: Burnstein
+      given: Rowan
+    - family: Wai Soe
+      given: Zaw
+    - family: Clarkson
+      given: John
+    - family: Menon
+      given: David
+    - family: Hutchinson
+      given: Peter John
+    - family: Bashford
+      given: Tom
+  citation-key: kohlerSystemsApproachImproving2022
+  container-title: BMJ Open
+  container-title-short: BMJ Open
+  DOI: 10.1136/bmjopen-2021-059935
+  ISSN: 2044-6055, 2044-6055
+  issue: '5'
+  issued:
+    - year: 2022
+      month: 5
+  keyword:
+    - tag: recommended
+  language: en
+  page: e059935
+  source: DOI.org (Crossref)
+  title: >-
+    Systems approach to improving traumatic brain injury care in Myanmar: a
+    mixed-methods study from lived experience to discrete event simulation
+  title-short: Systems approach to improving traumatic brain injury care in Myanmar
+  type: article-journal
+  URL: https://bmjopen.bmj.com/lookup/doi/10.1136/bmjopen-2021-059935
+  volume: '12'
 
 - id: krishnamoorthyCausalInferencePerioperative2020d
   abstract: >-
@@ -2373,6 +2998,111 @@ references:
   type: article-journal
   volume: '79'
 
+- id: pineda-moncusiDigitalEthnicityData2022
+  abstract: |-
+    Abstract
+              
+                Background
+                The link between ethnicity and healthcare inequity, and the urgency for better data is well-recognised. This study describes ethnicity data in nation-wide electronic health records in England, UK.
+              
+              
+                Methods
+                We conducted a retrospective cohort study using de-identified person-level records for the England population available in the National Health Service (NHS) Digital trusted research environment. Primary care records (GDPPR) were linked to hospital and national mortality records. We assessed completeness, consistency, and granularity of ethnicity records using all available SNOMED-CT concepts for ethnicity and NHS ethnicity categories.
+              
+              
+                Findings
+                From 61.8 million individuals registered with a primary care practice in England, 51.5 (83.3%) had at least one ethnicity record in GDPPR, increasing to 93·9% when linked with hospital records. Approximately 12·0% had at least two conflicting ethnicity codes in primary care records. Women were more likely to have ethnicity recorded than men. Ethnicity was missing most frequently in individuals from 18 to 39 years old and in the southern regions of England. Individuals with an ethnicity record had more comorbidities recorded than those without. Of 489 SNOMED-CT ethnicity concepts available, 255 were used in primary care records. Discrepancies between SNOMED-CT and NHS ethnicity categories were observed, specifically within “Other-” ethnicity groups.
+              
+              
+                Interpretation
+                More than 250 ethnicity sub-groups may be found in health records for the English population, although commonly categorised into “White”, “Black”, “Asian”, “Mixed”, and “Other”. One in ten individuals do not have ethnicity information recorded in primary care or hospital records. SNOMED-CT codes represent more diversity in ethnicity groups than the NHS ethnicity classification. Improved recording of self-reported ethnicity at first point-of-care and consistency in ethnicity classification across healthcare settings can potentially improve the accuracy of ethnicity in research and ultimately care for all ethnicities.
+              
+              
+                Funding
+                British Heart Foundation Data Science Centre led by Health Data Research UK.
+              
+              
+                Research in context
+                
+                  Evidence before this study
+                  
+                    Ethnicity has been highlighted as a significant factor in the disproportionate impact of SARS-CoV-2 infection and mortality. Better knowledge of ethnicity data recorded in real clinical practice is required to improve health research and ultimately healthcare. We searched PubMed from database inception to 14
+                    th
+                    July 2022 for publications using the search terms “ethnicity” and “electronic health records” or “EHR,” without language restrictions. 228 publications in 2019, before the COVID-19 pandemic, and 304 publications between 2020 and 2022 were identified. However, none of these publications used or reported any of over 400 available SNOMED-CT concepts for ethnicity to account for more granularity and diversity than captured by traditional high-level classification limited to 5 to 9 ethnicity groups.
+                  
+                
+                
+                  Added value of this study
+                  We provide a comprehensive study of the largest collection of ethnicity records from a national-level electronic health records trusted research environment, exploring completeness, consistency, and granularity. This work can serve as a data resource profile of ethnicity from routinely-collected EHR in England.
+                
+                
+                  Implications of all the available evidence
+                  To achieve equity in healthcare, we need to understand the differences between individuals, as well as the influence of ethnicity both on health status and on health interventions, including variation in the behaviour of tests and therapies. Thus, there is a need for measurements, thresholds, and risk estimates to be tailored to different ethnic groups. This study presents the different medical concepts describing ethnicity in routinely collected data that are readily available to researchers and highlights key elements for improving their accuracy in research. We aim to encourage researchers to use more granular ethnicity than the than typical approaches which aggregate ethnicity into a limited number of categories, failing to reflect the diversity of underlying populations. Accurate ethnicity data will lead to a better understanding of individual diversity, which will help to address disparities and influence policy recommendations that can translate into better, fairer health for all.
+  accessed:
+    - year: 2022
+      month: 11
+      day: 19
+  author:
+    - family: Pineda-Moncusí
+      given: Marta
+    - family: Allery
+      given: Freya
+    - family: Delmestri
+      given: Antonella
+    - family: Bolton
+      given: Thomas
+    - family: Nolan
+      given: John
+    - family: Thygesen
+      given: Johan
+    - family: Handy
+      given: Alex
+    - family: Banerjee
+      given: Amitava
+    - family: Denaxas
+      given: Spiros
+    - family: Tomlinson
+      given: Christopher
+    - family: Denniston
+      given: Alastair K
+    - family: Sudlow
+      given: Cathie
+    - family: Akbari
+      given: Ashley
+    - family: Wood
+      given: Angela
+    - family: Collins
+      given: Gary S
+    - family: Petersen
+      given: Irene
+    - family: Khunti
+      given: Kamlesh
+    - family: Prieto-Alhambra
+      given: Daniel
+    - family: Khalid
+      given: Sara
+  citation-key: pineda-moncusiDigitalEthnicityData2022
+  DOI: 10.1101/2022.11.11.22282217
+  genre: preprint
+  issued:
+    - year: 2022
+      month: 11
+      day: 11
+  keyword:
+    - tag: recommended
+  language: en
+  publisher: Epidemiology
+  source: DOI.org (Crossref)
+  title: >-
+    Digital ethnicity data in population-wide electronic health records in
+    England: a description of completeness, coverage, and granularity of
+    diversity
+  title-short: >-
+    Digital ethnicity data in population-wide electronic health records in
+    England
+  type: report
+  URL: http://medrxiv.org/lookup/doi/10.1101/2022.11.11.22282217
+
 - id: postOxygenationCriticallyIll2020b
   accessed:
     - year: 2022
@@ -2572,6 +3302,642 @@ references:
   URL: >-
     https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(03)12893-0/fulltext
   volume: '361'
+
+- id: thygesenCOVID19Trajectories572022
+  accessed:
+    - year: 2022
+      month: 11
+      day: 19
+  author:
+    - family: Thygesen
+      given: Johan H
+    - family: Tomlinson
+      given: Christopher
+    - family: Hollings
+      given: Sam
+    - family: Mizani
+      given: Mehrdad A
+    - family: Handy
+      given: Alex
+    - family: Akbari
+      given: Ashley
+    - family: Banerjee
+      given: Amitava
+    - family: Cooper
+      given: Jennifer
+    - family: Lai
+      given: Alvina G
+    - family: Li
+      given: Kezhi
+    - family: Mateen
+      given: Bilal A
+    - family: Sattar
+      given: Naveed
+    - family: Sofat
+      given: Reecha
+    - family: Torralbo
+      given: Ana
+    - family: Wu
+      given: Honghan
+    - family: Wood
+      given: Angela
+    - family: Sterne
+      given: Jonathan A C
+    - family: Pagel
+      given: Christina
+    - family: Whiteley
+      given: William N
+    - family: Sudlow
+      given: Cathie
+    - family: Hemingway
+      given: Harry
+    - family: Denaxas
+      given: Spiros
+    - family: Abbasizanjani
+      given: Hoda
+    - family: Ahmed
+      given: Nida
+    - family: Ahmed
+      given: Badar
+    - family: Akbari
+      given: Ashley
+    - family: Akinoso-Imran
+      given: Abdul Qadr
+    - family: Allara
+      given: Elias
+    - family: Allery
+      given: Freya
+    - family: Angelantonio
+      given: Emanuele Di
+    - family: Ashworth
+      given: Mark
+    - family: Ayyar-Gupta
+      given: Vandana
+    - family: Babu-Narayan
+      given: Sonya
+    - family: Bacon
+      given: Seb
+    - family: Ball
+      given: Steve
+    - family: Banerjee
+      given: Ami
+    - family: Barber
+      given: Mark
+    - family: Barrett
+      given: Jessica
+    - family: Bennie
+      given: Marion
+    - family: Berry
+      given: Colin
+    - family: Beveridge
+      given: Jennifer
+    - family: Birney
+      given: Ewan
+    - family: Bojanić
+      given: Lana
+    - family: Bolton
+      given: Thomas
+    - family: Bone
+      given: Anna
+    - family: Boyle
+      given: Jon
+    - family: Braithwaite
+      given: Tasanee
+    - family: Bray
+      given: Ben
+    - family: Briffa
+      given: Norman
+    - family: Brind
+      given: David
+    - family: Brown
+      given: Katherine
+    - family: Buch
+      given: Maya
+    - family: Canoy
+      given: Dexter
+    - family: Caputo
+      given: Massimo
+    - family: Carragher
+      given: Raymond
+    - family: Carson
+      given: Alan
+    - family: Cezard
+      given: Genevieve
+    - family: Chang
+      given: Jen-Yu Amy
+    - family: Cheema
+      given: Kate
+    - family: Chin
+      given: Richard
+    - family: Chudasama
+      given: Yogini
+    - family: Cooper
+      given: Jennifer
+    - family: Copland
+      given: Emma
+    - family: Crallan
+      given: Rebecca
+    - family: Cripps
+      given: Rachel
+    - family: Cromwell
+      given: David
+    - family: Curcin
+      given: Vasa
+    - family: Curry
+      given: Gwenetta
+    - family: Dale
+      given: Caroline
+    - family: Danesh
+      given: John
+    - family: Das-Munshi
+      given: Jayati
+    - family: Dashtban
+      given: Ashkan
+    - family: Davies
+      given: Alun
+    - family: Davies
+      given: Joanna
+    - family: Davies
+      given: Gareth
+    - family: Davies
+      given: Neil
+    - family: Day
+      given: Joshua
+    - family: Delmestri
+      given: Antonella
+    - family: Denaxas
+      given: Spiros
+    - family: Denholm
+      given: Rachel
+    - family: Dennis
+      given: John
+    - family: Denniston
+      given: Alastair
+    - family: Deo
+      given: Salil
+    - family: Dhillon
+      given: Baljean
+    - family: Docherty
+      given: Annemarie
+    - family: Dong
+      given: Tim
+    - family: Douiri
+      given: Abdel
+    - family: Downs
+      given: Johnny
+    - family: Dregan
+      given: Alexandru
+    - family: Ellins
+      given: Elizabeth A
+    - family: Elwenspoek
+      given: Martha
+    - family: Falck
+      given: Fabian
+    - family: Falter
+      given: Florian
+    - family: Fan
+      given: Yat Yi
+    - family: Firth
+      given: Joseph
+    - family: Fraser
+      given: Lorna
+    - family: Friebel
+      given: Rocco
+    - family: Gavrieli
+      given: Amir
+    - family: Gerstung
+      given: Moritz
+    - family: Gilbert
+      given: Ruth
+    - family: Gillies
+      given: Clare
+    - family: Glickman
+      given: Myer
+    - family: Goldacre
+      given: Ben
+    - family: Goldacre
+      given: Raph
+    - family: Greaves
+      given: Felix
+    - family: Green
+      given: Mark
+    - family: Grieco
+      given: Luca
+    - family: Griffiths
+      given: Rowena
+    - family: Gurdasani
+      given: Deepti
+    - family: Halcox
+      given: Julian
+    - family: Hall
+      given: Nick
+    - family: Hama
+      given: Tuankasfee
+    - family: Handy
+      given: Alex
+    - family: Hansell
+      given: Anna
+    - family: Hardelid
+      given: Pia
+    - family: Hardy
+      given: Flavien
+    - family: Harris
+      given: Daniel
+    - family: Harrison
+      given: Camille
+    - family: Harron
+      given: Katie
+    - family: Hassaine
+      given: Abdelaali
+    - family: Hassan
+      given: Lamiece
+    - family: Healey
+      given: Russell
+    - family: Hemingway
+      given: Harry
+    - family: Henderson
+      given: Angela
+    - family: Herz
+      given: Naomi
+    - family: Heyl
+      given: Johannes
+    - family: Hidajat
+      given: Mira
+    - family: Higginson
+      given: Irene
+    - family: Hinchliffe
+      given: Rosie
+    - family: Hippisley-Cox
+      given: Julia
+    - family: Ho
+      given: Frederick
+    - family: Hocaoglu
+      given: Mevhibe
+    - family: Hollings
+      given: Sam
+    - family: Horne
+      given: Elsie
+    - family: Hughes
+      given: David
+    - family: Humberstone
+      given: Ben
+    - family: Inouye
+      given: Mike
+    - family: Ip
+      given: Samantha
+    - family: Islam
+      given: Nazrul
+    - family: Jackson
+      given: Caroline
+    - family: Jenkins
+      given: David
+    - family: Jiang
+      given: Xiyun
+    - family: Johnson
+      given: Shane
+    - family: Kadam
+      given: Umesh
+    - family: Kallis
+      given: Costas
+    - family: Karim
+      given: Zainab
+    - family: Kasan
+      given: Jake
+    - family: Katsoulis
+      given: Michalis
+    - family: Kavanagh
+      given: Kim
+    - family: Kee
+      given: Frank
+    - family: Keene
+      given: Spencer
+    - family: Kent
+      given: Seamus
+    - family: Khalid
+      given: Sara
+    - family: Khawaja
+      given: Anthony
+    - family: Khunti
+      given: Kamlesh
+    - family: Killick
+      given: Richard
+    - family: Kinnear
+      given: Deborah
+    - family: Knight
+      given: Rochelle
+    - family: Kolamunnage-Dona
+      given: Ruwanthi
+    - family: Kontopantelis
+      given: Evan
+    - family: Kurdi
+      given: Amanj
+    - family: Lacey
+      given: Ben
+    - family: Lai
+      given: Alvina
+    - family: Lambarth
+      given: Andrew
+    - family: Larzjan
+      given: Milad Nazarzadeh
+    - family: Lawler
+      given: Deborah
+    - family: Lawrence
+      given: Thomas
+    - family: Lawson
+      given: Claire
+    - family: Li
+      given: Qiuju
+    - family: Li
+      given: Ken
+    - family: Llinares
+      given: Miguel Bernabeu
+    - family: Lorgelly
+      given: Paula
+    - family: Lowe
+      given: Deborah
+    - family: Lyons
+      given: Jane
+    - family: Lyons
+      given: Ronan
+    - family: Machado
+      given: Pedro
+    - family: Macleod
+      given: Mary Joan
+    - family: Macleod
+      given: John
+    - family: Malgapo
+      given: Evaleen
+    - family: Mamas
+      given: Mamas
+    - family: Mamouei
+      given: Mohammad
+    - family: Manohar
+      given: Sinduja
+    - family: Mapeta
+      given: Rutendo
+    - family: Martelli
+      given: Javiera Leniz
+    - family: Martos
+      given: David Moreno
+    - family: Mateen
+      given: Bilal
+    - family: McCarthy
+      given: Aoife
+    - family: Melville
+      given: Craig
+    - family: Milton
+      given: Rebecca
+    - family: Mizani
+      given: Mehrdad
+    - family: Moncusi
+      given: Marta Pineda
+    - family: Morales
+      given: Daniel
+    - family: Mordi
+      given: Ify
+    - family: Morrice
+      given: Lynn
+    - family: Morris
+      given: Carole
+    - family: Morris
+      given: Eva
+    - family: Mu
+      given: Yi
+    - family: Mueller
+      given: Tanja
+    - family: Murdock
+      given: Lars
+    - family: Nafilyan
+      given: Vahé
+    - family: Nicholson
+      given: George
+    - family: Nikiphorou
+      given: Elena
+    - family: Nolan
+      given: John
+    - family: Norris
+      given: Tom
+    - family: Norris
+      given: Ruth
+    - family: North
+      given: Laura
+    - family: North
+      given: Teri-Louise
+    - family: O'Connell
+      given: Dan
+    - family: Oliver
+      given: Dominic
+    - family: Oluyase
+      given: Adejoke
+    - family: Olvera-Barrios
+      given: Abraham
+    - family: Omigie
+      given: Efosa
+    - family: Onida
+      given: Sarah
+    - family: Padmanabhan
+      given: Sandosh
+    - family: Palmer
+      given: Tom
+    - family: Pasea
+      given: Laura
+    - family: Patel
+      given: Riyaz
+    - family: Payne
+      given: Rupert
+    - family: Pell
+      given: Jill
+    - family: Petitjean
+      given: Carmen
+    - family: Pherwani
+      given: Arun
+    - family: Pickrell
+      given: Owen
+    - family: Pierotti
+      given: Livia
+    - family: Pirmohamed
+      given: Munir
+    - family: Priedon
+      given: Rouven
+    - family: Prieto-Alhambra
+      given: Dani
+    - family: Proudfoot
+      given: Alastair
+    - family: Quinn
+      given: Terry
+    - family: Quint
+      given: Jennifer
+    - family: Raffetti
+      given: Elena
+    - family: Rahimi
+      given: Kazem
+    - family: Rao
+      given: Shishir
+    - family: Razieh
+      given: Cameron
+    - family: Roberts
+      given: Brian
+    - family: Rogers
+      given: Caroline
+    - family: Rossdale
+      given: Jennifer
+    - family: Salim
+      given: Safa
+    - family: Samani
+      given: Nilesh
+    - family: Sattar
+      given: Naveed
+    - family: Schnier
+      given: Christian
+    - family: Schwartz
+      given: Roy
+    - family: Selby
+      given: David
+    - family: Seminog
+      given: Olena
+    - family: Shabnam
+      given: Sharmin
+    - family: Shah
+      given: Ajay
+    - family: Shelton
+      given: Jon
+    - family: Sheppard
+      given: James
+    - family: Sinha
+      given: Shubhra
+    - family: Skrypak
+      given: Mirek
+    - family: Slapkova
+      given: Martina
+    - family: Sleeman
+      given: Katherine
+    - family: Smith
+      given: Craig
+    - family: Sofat
+      given: Reecha
+    - family: Sosenko
+      given: Filip
+    - family: Sperrin
+      given: Matthew
+    - family: Steeg
+      given: Sarah
+    - family: Sterne
+      given: Jonathan
+    - family: Stoica
+      given: Serban
+    - family: Sudell
+      given: Maria
+    - family: Sudlow
+      given: Cathie
+    - family: Sun
+      given: Luanluan
+    - family: Suseeladevi
+      given: Arun Karthikeyan
+    - family: Sweeting
+      given: Michael
+    - family: Sydes
+      given: Matt
+    - family: Takhar
+      given: Rohan
+    - family: Tang
+      given: Howard
+    - family: Thygesen
+      given: Johan
+    - family: Tilston
+      given: George
+    - family: Tochel
+      given: Claire
+    - family: Toit
+      given: Clea
+      dropping-particle: du
+    - family: Tomlinson
+      given: Christopher
+    - family: Toms
+      given: Renin
+    - family: Torabi
+      given: Fatemeh
+    - family: Torralbo
+      given: Ana
+    - family: Townson
+      given: Julia
+    - family: Tufail
+      given: Adnan
+    - family: Tungamirai
+      given: Tapiwa
+    - family: Varma
+      given: Susheel
+    - family: Vollmer
+      given: Sebastian
+    - family: Walker
+      given: Venexia
+    - family: Wang
+      given: Tianxiao
+    - family: Wang
+      given: Huan
+    - family: Warwick
+      given: Alasdair
+    - family: Watkinson
+      given: Ruth
+    - family: Watson
+      given: Harry
+    - family: Whiteley
+      given: William
+    - family: Whittaker
+      given: Hannah
+    - family: Wilde
+      given: Harry
+    - family: Wilkinson
+      given: Tim
+    - family: Williams
+      given: Gareth
+    - family: Williams
+      given: Michelle
+    - family: Williams
+      given: Richard
+    - family: Withnell
+      given: Eloise
+    - family: Wolfe
+      given: Charles
+    - family: Wood
+      given: Angela
+    - family: Wright
+      given: Lucy
+    - family: Wu
+      given: Honghan
+    - family: Wu
+      given: Jinge
+    - family: Wu
+      given: Jianhua
+    - family: Yates
+      given: Tom
+    - family: Zaccardi
+      given: Francesco
+    - family: Zhang
+      given: Haoting
+    - family: Zhang
+      given: Huayu
+    - family: Zuccolo
+      given: Luisa
+  citation-key: thygesenCOVID19Trajectories572022
+  container-title: The Lancet Digital Health
+  container-title-short: The Lancet Digital Health
+  DOI: 10.1016/S2589-7500(22)00091-7
+  ISSN: '25897500'
+  issue: '7'
+  issued:
+    - year: 2022
+      month: 7
+  keyword: []
+  language: en
+  page: e542-e557
+  source: DOI.org (Crossref)
+  title: >-
+    COVID-19 trajectories among 57 million adults in England: a cohort study
+    using electronic health records
+  title-short: COVID-19 trajectories among 57 million adults in England
+  type: article-journal
+  URL: https://linkinghub.elsevier.com/retrieve/pii/S2589750022000917
+  volume: '4'
 
 - id: tissotNaturalLanguageProcessing2020b
   abstract: >-
