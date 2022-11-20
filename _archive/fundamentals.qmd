@@ -1,0 +1,10 @@
+---
+title: "Fundamentals"
+description: "How to get set up!"
+date: 2022-11-16
+categories:
+  - onboarding
+---
+
+If you're here, you're likely about to start work with the UCL Health Algorithms Laboratory. 
+

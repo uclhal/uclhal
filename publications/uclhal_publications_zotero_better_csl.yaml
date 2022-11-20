@@ -828,6 +828,654 @@ references:
   URL: https://academic.oup.com/eurheartj/article/43/13/1296/6525340
   volume: '43'
 
+- id: conwaymorrisCoinfectionICUacquiredInfection2022
+  abstract: >-
+    The COVID-19 pandemic presented major challenges for critical care
+    facilities worldwide. Infections which develop alongside or subsequent to
+    viral pneumonitis are a challenge under sporadic and pandemic conditions;
+    however, data have suggested that patterns of these differ between COVID-19
+    and other viral pneumonitides. This secondary analysis aimed to explore
+    patterns of co-infection and intensive care unit-acquired infections
+    (ICU-AI) and the relationship to use of corticosteroids in a large,
+    international cohort of critically ill COVID-19 patients.
+  accessed:
+    - year: 2022
+      month: 11
+      day: 20
+  author:
+    - family: Conway Morris
+      given: Andrew
+    - family: Kohler
+      given: Katharina
+    - family: De Corte
+      given: Thomas
+    - family: Ercole
+      given: Ari
+    - family: De Grooth
+      given: Harm-Jan
+    - family: Elbers
+      given: Paul W. G.
+    - family: Povoa
+      given: Pedro
+    - family: Morais
+      given: Rui
+    - family: Koulenti
+      given: Despoina
+    - family: Jog
+      given: Sameer
+    - family: Nielsen
+      given: Nathan
+    - family: Jubb
+      given: Alasdair
+    - family: Cecconi
+      given: Maurizio
+    - family: De Waele
+      given: Jan
+    - family: Bezzi
+      given: Marco
+    - family: Gira
+      given: Alicia
+    - family: Eller
+      given: Philipp
+    - family: Hamid
+      given: Tarikul
+    - family: Haque
+      given: Injamam Ull
+    - family: De Buyser
+      given: Wim
+    - family: Cudia
+      given: Antonella
+    - family: De Backer
+      given: Daniel
+    - family: Foulon
+      given: Pierre
+    - family: Collin
+      given: Vincent
+    - family: De Waele
+      given: Jan
+    - family: Van Hecke
+      given: Jolien
+    - family: De Waele
+      given: Elisabeth
+    - family: Van Malderen
+      given: Claire
+    - family: Mesland
+      given: Jean-Baptiste
+    - family: Piagnerelli
+      given: Michael
+    - family: Haentjens
+      given: Lionel
+    - family: De Schryver
+      given: Nicolas
+    - family: Van Leemput
+      given: Jan
+    - family: Vanhove
+      given: Philippe
+    - family: Bulpa
+      given: Pierre
+    - family: Ilieva
+      given: Viktoria
+    - family: Katz
+      given: David
+    - family: Geagea
+      given: Anna
+    - family: Binnie
+      given: Alexandra
+    - family: Tirapegui
+      given: Fernando
+    - family: Lago
+      given: Gustavo
+    - family: Graf
+      given: Jerónimo
+    - family: Perez-Araos
+      given: Rodrigo
+    - family: Vargas
+      given: Patricio
+    - family: Martinez
+      given: Felipe
+    - family: Labarca
+      given: Eduardo
+    - family: Franco
+      given: Daniel Molano
+    - family: Parra-Tanoux
+      given: Daniela
+    - family: Reyes
+      given: Luis Felipe
+    - family: Yepes
+      given: David
+    - family: Periš
+      given: Filip
+    - family: Stipić
+      given: Sanda Stojanović
+    - family: Burgos
+      given: Cynthia Vanessa Campozano
+    - family: Boada
+      given: Paulo Roberto Navas
+    - family: Brun
+      given: Jose Luis Barberan
+    - family: Ballesteros
+      given: Juan Pablo Paredes
+    - family: Hammouda
+      given: Ahmed
+    - family: Elmandouh
+      given: Omar
+    - family: Azzam
+      given: Ahmed
+    - family: Hussein
+      given: Aliae Mohamed
+    - family: Galal
+      given: Islam
+    - family: Awad
+      given: Ahmed K.
+    - family: Azab
+      given: Mohammed A.
+    - family: Abdalla
+      given: Maged
+    - family: Assal
+      given: Hebatallah
+    - family: Alfishawy
+      given: Mostafa
+    - family: Ghozy
+      given: Sherief
+    - family: Tharwat
+      given: Samar
+    - family: Eldaly
+      given: Abdullah
+    - family: Reinhard
+      given: Veronika
+    - family: Chrisment
+      given: Anne
+    - family: Poyat
+      given: Chrystelle
+    - family: Badie
+      given: Julio
+    - family: Ferrari
+      given: Fernando Berdaguer
+    - family: Weiss
+      given: Björn
+    - family: Kuhn
+      given: Karl Friedrich
+    - family: Grunow
+      given: Julius J.
+    - family: Lorenz
+      given: Marco
+    - family: Schaller
+      given: Stefan
+    - family: Spieth
+      given: Peter
+    - family: Bota
+      given: Marc
+    - family: Fichtner
+      given: Falk
+    - family: Fuest
+      given: Kristina
+    - family: Lahmer
+      given: Tobias
+    - family: Herrmann
+      given: Johannes
+    - family: Meybohm
+      given: Patrick
+    - family: Markou
+      given: Nikolaos
+    - family: Vasileiadou
+      given: Georgia
+    - family: Chrysanthopoulou
+      given: Evangelia
+    - family: Papamichalis
+      given: Panagiotis
+    - family: Soultati
+      given: Ioanna
+    - family: Jog
+      given: Sameer
+    - family: Kalvit
+      given: Kushal
+    - family: Myatra
+      given: Sheila Nainan
+    - family: Krupa
+      given: Ivan
+    - family: Tharwat
+      given: Aisa
+    - family: Nichol
+      given: Alistair
+    - family: McCarthy
+      given: Aine
+    - family: Mahmoodpoor
+      given: Ata
+    - family: Tonetti
+      given: Tommaso
+    - family: Isoni
+      given: Paolo
+    - family: Spadaro
+      given: Savino
+    - family: Volta
+      given: Carlo Alberto
+    - family: Mirabella
+      given: Lucia
+    - family: Noto
+      given: Alberto
+    - family: Florio
+      given: Gaetano
+    - family: Guzzardella
+      given: Amedeo
+    - family: Paleari
+      given: Chiara
+    - family: Baccanelli
+      given: Federica
+    - family: Savi
+      given: Marzia
+    - family: Antonelli
+      given: Massimo
+    - family: Vaccarini
+      given: Barbara
+    - family: Montrucchio
+      given: Giorgia
+    - family: Sales
+      given: Gabriele
+    - family: Donadello
+      given: Katia
+    - family: Gottin
+      given: Leonardo
+    - family: Polati
+      given: Enrico
+    - family: De Rosa
+      given: Silvia
+    - family: Sulemanji
+      given: Demet
+    - family: Abusalama
+      given: Abdurraouf
+    - family: Elhadi
+      given: Muhammed
+    - family: De Jesus
+      given: Montelongo Felipe
+    - family: Gonzalez
+      given: Daniel Rodriguez
+    - family: Canedo
+      given: Nancy
+    - family: Chavez
+      given: Alejandro Esquivel
+    - family: Dendane
+      given: Tarek
+    - family: Grady
+      given: Bart
+    - family: Jong
+      given: Ben
+      non-dropping-particle: de
+    - family: Heiden
+      given: Eveline
+      non-dropping-particle: van der
+    - family: Thoral
+      given: Patrick
+    - family: Bogaard
+      given: Bas
+      non-dropping-particle: van den
+    - family: Spronk
+      given: Peter E.
+    - family: Achterberg
+      given: Sefanja
+    - family: Groeneveld
+      given: Melanie
+    - family: So
+      given: Ralph K. L.
+    - family: Wijs
+      given: Calvin
+      non-dropping-particle: de
+    - family: Scholten
+      given: Harm
+    - family: Beishuizen
+      given: Albertus
+    - family: Cornet
+      given: Alexander D.
+    - family: Reidinga
+      given: Auke C.
+    - family: Kranen
+      given: Hetty
+    - family: Mensink
+      given: Roos
+    - family: Boer
+      given: Sylvia
+      dropping-particle: den
+    - family: Groot
+      given: Marcel
+      non-dropping-particle: de
+    - family: Beck
+      given: Oliver
+    - family: Bethlehem
+      given: Carina
+    - family: Bussel
+      given: Bas
+      non-dropping-particle: van
+    - family: Frenzel
+      given: Tim
+    - family: Jong
+      given: Celestine
+      non-dropping-particle: de
+    - family: Wilting
+      given: Rob
+    - family: Kesecioglu
+      given: Jozef
+    - family: Mehagnoul-Schipper
+      given: Jannet
+    - family: Alasia
+      given: Datonye
+    - family: Kumar
+      given: Ashok
+    - family: Qayyum
+      given: Ahad
+    - family: Rana
+      given: Muhammad
+    - family: Jayyab
+      given: Mustafa Abu
+    - family: Sierra
+      given: Rosario Quispe
+    - family: Hernandez
+      given: Aaron Mark
+    - family: Taborda
+      given: Lúcia
+    - family: Ramires
+      given: Tiago
+    - family: Silva
+      given: Catarina
+    - family: Roriz
+      given: Carolina
+    - family: Póvoa
+      given: Pedro
+    - family: Patricio
+      given: Patricia
+    - family: Santos
+      given: Maria Lurdes
+    - family: Costa
+      given: Vasco
+    - family: Cunha
+      given: Pedro
+    - family: Gonçalves
+      given: Celina
+    - family: Nunes
+      given: Sandra
+    - family: Camões
+      given: João
+    - family: Adrião
+      given: Diana
+    - family: Oliveira
+      given: Ana
+    - family: Omrani
+      given: Ali
+    - family: Al Maslamani
+      given: Muna
+    - family: elbuzidi
+      given: Abdurrahmaan Suei
+    - family: Al qudah
+      given: Bara Mahmoud
+    - family: Akkari
+      given: Abdel Rauof
+    - family: Alkhatteb
+      given: Mohamed
+    - family: Baiou
+      given: Anas
+    - family: Husain
+      given: Ahmed
+    - family: Alwraidat
+      given: Mohamed
+    - family: Saif
+      given: Ibrahim Abdulsalam
+    - family: Bakdach
+      given: Dana
+    - family: Ahmed
+      given: Amna
+    - family: Aleef
+      given: Mohamed
+    - family: Bintaher
+      given: Awadh
+    - family: Petrisor
+      given: Cristina
+    - family: Popov
+      given: Evgeniy
+    - family: Popova
+      given: Ksenia
+    - family: Dementienko
+      given: Mariia
+    - family: Teplykh
+      given: Boris
+    - family: Pyregov
+      given: Alexey
+    - family: Davydova
+      given: Liubov
+    - family: Vladislav
+      given: Belskii
+    - family: Neporada
+      given: Elena
+    - family: Zverev
+      given: Ivan
+    - family: Meshchaninova
+      given: Svetlana
+    - family: Sokolov
+      given: Dmitry
+    - family: Gavrilova
+      given: Elena
+    - family: Shlyk
+      given: Irena
+    - family: Poliakov
+      given: Igor
+    - family: Bлacoвa
+      given: Mapинa
+    - family: Aljuhani
+      given: Ohoud
+    - family: Alkhalaf
+      given: Amina
+    - family: Humaid
+      given: Felwa Bin
+    - family: Arabi
+      given: Yaseen
+    - family: Kuhail
+      given: Ahmed
+    - family: Elrabi
+      given: Omar
+    - family: Alghnam
+      given: Madihah
+    - family: Kansal
+      given: Amit
+    - family: Ho
+      given: Vui Kian
+    - family: Ng
+      given: Jensen
+    - family: García
+      given: Raquel Rodrígez
+    - family: Fraga
+      given: Xiana Taboada
+    - family: Pilar García-Bonillo
+      given: Mª
+      non-dropping-particle: del
+    - family: Padilla-Serrano
+      given: Antonio
+    - family: Cuadrado
+      given: Marta Martin
+    - family: Ferrando
+      given: Carlos
+    - family: Catalan-Monzon
+      given: Ignacio
+    - family: Galarza
+      given: Laura
+    - family: Frutos-Vivar
+      given: Fernando
+    - family: Jimenez
+      given: Jorge
+    - family: Rodríguez-Solis
+      given: Carmen
+    - family: Franquesa-Gonzalez
+      given: Enric
+    - family: Acosta
+      given: Guillermo Pérez
+    - family: Cabrera
+      given: Luciano Santana
+    - family: Parra
+      given: Juan Pablo Aviles
+    - family: Gonzalez
+      given: Francisco Muñoyerro
+    - family: Carmen Lorente Conesa
+      given: Maria
+      non-dropping-particle: del
+    - family: Varela
+      given: Ignacio Yago Martinez
+    - family: Pravia
+      given: Orville Victoriano Baez
+    - family: Delgado
+      given: Maria Cruz Martin
+    - family: Cabo
+      given: Carlos Munoz
+      non-dropping-particle: de
+    - family: Ioan
+      given: Ana-Maria
+    - family: Perez-Calvo
+      given: Cesar
+    - family: Santos
+      given: Arnoldo
+    - family: Abad-Motos
+      given: Ane
+    - family: Ripolles-Melchor
+      given: Javier
+    - family: Martin
+      given: Belén Civantos
+    - family: Teruel
+      given: Santiago Yus
+    - family: Lucas
+      given: Juan Higuera
+    - family: Ortiz
+      given: Aaron Blandino
+    - family: Pablo Sánchez
+      given: Raúl
+      non-dropping-particle: de
+    - family: Barrueco-Francioni
+      given: Jesús Emilio
+    - family: Espina
+      given: Lorena Forcelledo
+    - family: Bonell-Goytisolo
+      given: José M.
+    - family: Salaverria
+      given: Iñigo
+    - family: Mir
+      given: Antonia Socias
+    - family: Rodriguez-Ruiz
+      given: Emilio
+    - family: Valverde
+      given: Virginia Hidalgo
+    - family: Cubero
+      given: Patricia Jimeno
+    - family: Linde
+      given: Francisca Arbol
+    - family: Leganes
+      given: Nieves Cruza
+    - family: Romeu
+      given: Juan Maria
+    - family: Concha
+      given: Pablo
+    - family: Berezo-Garcia
+      given: José Angel
+    - family: Fraile
+      given: Virginia
+    - family: Cuenca-Rubio
+      given: Cristina
+    - family: Perez-Torres
+      given: David
+    - family: Serrano
+      given: Ainhoa
+    - family: Valero
+      given: Clara Martínez
+    - family: Suner
+      given: Andrea Ortiz
+    - family: Larrañaga
+      given: Leire
+    - family: Legaristi
+      given: Noemi
+    - family: Ferrigno
+      given: Gerardo
+    - family: Khlafalla
+      given: Safa
+    - family: Bihariesingh-Sanchit
+      given: Rosita
+    - family: Zoerner
+      given: Frank
+    - family: Grip
+      given: Jonathan
+    - family: Kilsand
+      given: Kristina
+    - family: Österlind
+      given: Jonas
+    - family: Seth
+      given: Magnus
+      non-dropping-particle: von
+    - family: Berkius
+      given: Johan
+    - family: Ceruti
+      given: Samuele
+    - family: Glotta
+      given: Andrea
+    - family: Izdes
+      given: Seval
+    - family: Turan
+      given: Işıl Özkoçak
+    - family: Cosar
+      given: Ahmet
+    - family: Halacli
+      given: Burcin
+    - family: Dereli
+      given: Necla
+    - family: Yilmaz
+      given: Mehmet
+    - family: Akbas
+      given: Türkay
+    - family: Elay
+      given: Gülseren
+    - family: Eyüpoğlu
+      given: Selin
+    - family: Bílír
+      given: Yelíz
+    - family: Saraçoğlu
+      given: Kemal Tolga
+    - family: Kaya
+      given: Ebru
+    - family: Sahin
+      given: Ayca Sultan
+    - family: Ekren
+      given: Pervin Korkmaz
+    - family: Mengi
+      given: Tuğçe
+    - family: Suner
+      given: Kezban Ozmen
+    - family: Tomak
+      given: Yakup
+    - family: Eroglu
+      given: Ahmet
+    - family: Alsabbah
+      given: Asad
+    - family: Hanlon
+      given: Katie
+    - family: Gervin
+      given: Kevin
+    - family: McMahon
+      given: Sean
+    - family: Hagan
+      given: Samantha
+    - literal: for the ESICM UNITE COVID investigators
+  citation-key: conwaymorrisCoinfectionICUacquiredInfection2022
+  container-title: Critical Care
+  container-title-short: Critical Care
+  DOI: 10.1186/s13054-022-04108-8
+  ISSN: 1364-8535
+  issue: '1'
+  issued:
+    - year: 2022
+      month: 8
+      day: 3
+  keyword: []
+  page: '236'
+  source: BioMed Central
+  title: >-
+    Co-infection and ICU-acquired infection in COVID-19 ICU patients: a
+    secondary analysis of the UNITE-COVID data set
+  title-short: Co-infection and ICU-acquired infection in COVID-19 ICU patients
+  type: article-journal
+  URL: https://doi.org/10.1186/s13054-022-04108-8
+  volume: '26'
+
 - id: critcareasiaEstablishingCriticalCare2020b
   accessed:
     - year: 2022
@@ -2249,6 +2897,156 @@ references:
   URL: https://bmjopen.bmj.com/lookup/doi/10.1136/bmjopen-2019-034265
   volume: '10'
 
+- id: kohlerCanNetworkScience2020a
+  abstract: >-
+    Introduction Hospitals are complex systems and optimising their function is
+    critical to the provision of high quality, cost effective healthcare.
+    Metrics of performance have to date focused on the performance of individual
+    elements rather than the whole system. Manipulation of individual elements
+    of a complex system without an integrative understanding of its function is
+    undesirable and may lead to counterintuitive outcomes and a holistic metric
+    of hospital function might help design more efficient services.
+
+    Objectives We aimed to use network analysis to characterise the structure of
+    the system of perioperative care for emergency surgical admissions in our
+    tertiary care hospital.
+
+    Design We constructed a weighted directional network representation of the
+    emergency surgical services using patient location data from electronic
+    health records.
+
+    Setting A single-centre tertiary care hospital in the UK.
+
+    Participants We selected data from the retrospective electronic health
+    record data of all unplanned admissions with a surgical intervention during
+    their stay during a 3.5-year period, which resulted in a set of 16 500
+    individual admissions.
+
+    Methods We then constructed and analysed the structure of this network using
+    established methods from network science such as degree distribution,
+    betweenness centrality and small-world characteristics.
+
+    Results The analysis showed the service to be a complex system with
+    scale-free, small-world network properties. We also identified such
+    potential hubs and bottlenecks in the system.
+
+    Conclusions Our holistic, system-wide description of a hospital service may
+    provide tools to inform service improvement initiatives and gives us
+    insights into the architecture of a complex system of care. The implications
+    for the structure and resilience of the service is that while being robust
+    in general, the system may be vulnerable to outages at specific key nodes.
+  accessed:
+    - year: 2022
+      month: 11
+      day: 20
+  author:
+    - family: Kohler
+      given: Katharina
+    - family: Ercole
+      given: Ari
+  citation-key: kohlerCanNetworkScience2020a
+  container-title: BMJ Open
+  DOI: 10.1136/bmjopen-2019-034265
+  ISSN: 2044-6055, 2044-6055
+  issue: '2'
+  issued:
+    - year: 2020
+      month: 2
+      day: 1
+  keyword:
+    - tag: adult anaesthesia
+      type: 1
+    - tag: adult intensive & critical care
+      type: 1
+    - tag: health informatics
+      type: 1
+    - tag: health services administration & management
+      type: 1
+    - tag: organisation of health services
+      type: 1
+  language: en
+  page: e034265
+  PMID: '32041860'
+  publisher: British Medical Journal Publishing Group
+  section: Anaesthesia
+  source: bmjopen.bmj.com
+  title: >-
+    Can network science reveal structure in a complex healthcare system? A
+    network analysis using data from emergency surgical services
+  title-short: Can network science reveal structure in a complex healthcare system?
+  type: article-journal
+  URL: https://bmjopen.bmj.com/content/10/2/e034265
+  volume: '10'
+
+- id: kohlerSilicoModelCritical2019
+  abstract: >-
+    Cerebral oxygen delivery is central to the modern intensive care of patients
+    with severe traumatic brain injury. Low brain tissue oxygen tension (PbtO2)
+    results from microvascular collapse and diffusion limitation and is
+    associated with adverse outcome. A number of therapies to improve oxygen
+    delivery are known to be effective in improving PbtO2. Their relative
+    effectiveness and microscopic regions of hypoxia, however, may exist/persist
+    even in the presence of normal PbtO2. Unfortunately, there are no methods
+    currently for assessing this quantitatively. We used an in silico
+    (computational) simulation approach to understand the effect of common
+    interventions on the microscopic distribution of brain tissue oxygen
+    tension. We constructed a non-linear mathematical model of cerebral oxygen
+    supply, diffusion, and consumption for a simplified geometry. Model
+    parameters were chosen to agree with clinical parameters. We found that it
+    was possible to create a plausible diffusion-limited scenario with a
+    significant hypoxic fraction by increasing the mean diffusion distance.
+
+
+    We found that increasing cerebral blood flow/blood oxygen content or
+    suppressing the cerebral metabolic rate were most effective at improving
+    PbtO2 and reduced the hypoxic fraction. Within the limitations of our
+    modeling assumptions, increasing the arterial oxygen partial pressure was
+    less effective and only improved PbtO2 by creating a region of hyperoxic
+    tissue with no improvement in hypoxic fraction. The in silico simulations
+    can be useful in understanding the likely physiological effect of complex
+    treatments for which measurement techniques do not exist.
+  accessed:
+    - year: 2022
+      month: 11
+      day: 20
+  author:
+    - family: Kohler
+      given: Katharina
+    - family: Nallapareddy
+      given: Sri
+    - family: Ercole
+      given: Ari
+  citation-key: kohlerSilicoModelCritical2019
+  container-title: Journal of Neurotrauma
+  container-title-short: J. Neurotrauma
+  DOI: 10.1089/neu.2018.6187
+  ISSN: 0897-7151
+  issue: '13'
+  issued:
+    - year: 2019
+      month: 7
+  keyword:
+    - tag: adult brain injury
+      type: 1
+    - tag: blood flow
+      type: 1
+    - tag: head trauma
+      type: 1
+    - tag: traumatic brain injury
+      type: 1
+  page: 2109-2116
+  publisher: Mary Ann Liebert, Inc., publishers
+  source: liebertpub.com (Atypon)
+  title: >-
+    In Silico Model of Critical Cerebral Oxygenation after Traumatic Brain
+    Injury: Implications for Rescuing Hypoxic Tissue
+  title-short: >-
+    In Silico Model of Critical Cerebral Oxygenation after Traumatic Brain
+    Injury
+  type: article-journal
+  URL: https://www.liebertpub.com/doi/10.1089/neu.2018.6187
+  volume: '36'
+
 - id: kohlerSystemsApproachImproving2022
   abstract: |-
     Objectives
@@ -2326,6 +3124,182 @@ references:
   title-short: Systems approach to improving traumatic brain injury care in Myanmar
   type: article-journal
   URL: https://bmjopen.bmj.com/lookup/doi/10.1136/bmjopen-2021-059935
+  volume: '12'
+
+- id: kohlerSystemsApproachImproving2022a
+  abstract: >-
+    Objectives Traumatic brain injury (TBI) is a global health problem, whose
+    management in low-resource settings is hampered by fragile health systems
+    and lack of access to specialist services. Improvement is complex, given the
+    interaction of multiple people, processes and institutions. We aimed to
+    develop a mixed-method approach to understand the TBI pathway based on the
+    lived experience of local people, supported by quantitative methodologies
+    and to determine potential improvement targets.
+
+    Design We describe a systems approach based on narrative exploration,
+    participatory diagramming, data collection and discrete event simulation
+    (DES), conducted by an international research collaborative.
+
+    Setting The study is set in the tertiary neurotrauma centre in Yangon
+    General Hospital, Myanmar, in 2019–2020 (prior to the SARS-CoV2 pandemic).
+
+    Participants The qualitative work involved 40 workshop participants and 64
+    interviewees to explore the views of a wide range of stakeholders including
+    staff, patients and relatives. The 1-month retrospective admission snapshot
+    covered 85 surgical neurotrauma admissions.
+
+    Results The TBI pathway was outlined, with system boundaries defined around
+    the management of TBI once admitted to the neurosurgical unit. Retrospective
+    data showed 18% mortality, 71% discharge to home and an 11% referral rate.
+    DES was used to investigate the system, showing its vulnerability to small
+    surges in patient numbers, with critical points being CT scanning and
+    observation ward beds. This explorative model indicated that a modest
+    expansion of observation ward beds to 30 would remove the flow-limitations
+    and indicated possible consequences of changes.
+
+    Conclusions A systems approach to improving TBI care in resource-poor
+    settings may be supported by simulation and informed by qualitative work to
+    ground it in the direct experience of those involved. Narrative interviews,
+    participatory diagramming and DES represent one possible suite of methods
+    deliverable within an international partnership. Findings can support
+    targeted improvement investments despite coexisting resource limitations
+    while indicating concomitant risks.
+  accessed:
+    - year: 2022
+      month: 11
+      day: 20
+  author:
+    - family: Kohler
+      given: Katharina
+    - family: Myint
+      given: Phyu Phyu Nwe
+    - family: Wynn
+      given: Sein
+    - family: Komashie
+      given: Alexander
+    - family: Winters
+      given: Robyn
+    - family: Thu
+      given: Myat
+    - family: Naing
+      given: Mu Mu
+    - family: Hlaing
+      given: Thinn
+    - family: Burnstein
+      given: Rowan
+    - family: Soe
+      given: Zaw Wai
+    - family: Clarkson
+      given: John
+    - family: Menon
+      given: David
+    - family: Hutchinson
+      given: Peter John
+    - family: Bashford
+      given: Tom
+  citation-key: kohlerSystemsApproachImproving2022a
+  container-title: BMJ Open
+  DOI: 10.1136/bmjopen-2021-059935
+  ISSN: 2044-6055, 2044-6055
+  issue: '5'
+  issued:
+    - year: 2022
+      month: 5
+      day: 1
+  keyword:
+    - tag: health services administration & management
+      type: 1
+    - tag: neurosurgery
+      type: 1
+    - tag: organisation of health services
+      type: 1
+    - tag: statistics & research methods
+      type: 1
+    - tag: trauma management
+      type: 1
+  language: en
+  page: e059935
+  PMID: '35534061'
+  publisher: British Medical Journal Publishing Group
+  section: Global health
+  source: bmjopen.bmj.com
+  title: >-
+    Systems approach to improving traumatic brain injury care in Myanmar: a
+    mixed-methods study from lived experience to discrete event simulation
+  title-short: Systems approach to improving traumatic brain injury care in Myanmar
+  type: article-journal
+  URL: https://bmjopen.bmj.com/content/12/5/e059935
+  volume: '12'
+
+- id: kohlerUsingNetworkAnalysis2022
+  abstract: >-
+    Consolidation of healthcare in the US has resulted in integrated
+    organizations, encompassing large geographic areas, with varying services
+    and complex patient flows. Profound changes in patient volumes and behavior
+    have occurred during the SARS Cov2 pandemic, but understanding these across
+    organizations is challenging. Network analysis provides a novel approach to
+    address this. We retrospectively evaluated hospital-based encounters with an
+    index emergency department visit in a healthcare system comprising 18
+    hospitals, using patient transfer as a marker of unmet clinical need. We
+    developed quantitative models of transfers using network analysis
+    incorporating the level of care provided (ward, progressive care, intensive
+    care) during pre-pandemic (May 25, 2018 to March 16, 2020) and mid-pandemic
+    (March 17, 2020 to March 8, 2021) time periods. 829,455 encounters were
+    evaluated. The system functioned as a non-small-world, non-scale-free,
+    dissociative network. Our models reflected transfer destination
+    diversification and variations in volume between the two time points –
+    results of intentional efforts during the pandemic. Known hub-spoke
+    architecture correlated with quantitative analysis. Applying network
+    analysis in an integrated US healthcare organization demonstrates changing
+    patterns of care and the emergence of bottlenecks in response to the SARS
+    Cov2 pandemic, consistent with clinical experience, providing a degree of
+    face validity. The modelling of multiple influences can identify
+    susceptibility to stress and opportunities to strengthen the system where
+    patient movement is common and voluminous. The technique provides a
+    mechanism to analyze the effects of intentional and contextual changes on
+    system behavior.
+  accessed:
+    - year: 2022
+      month: 11
+      day: 20
+  author:
+    - family: Kohler
+      given: Katharina
+    - family: Jankowski
+      given: Matthew D.
+    - family: Bashford
+      given: Tom
+    - family: Goyal
+      given: Deepi G.
+    - family: Habermann
+      given: Elizabeth B.
+    - family: Walker
+      given: Laura E.
+  citation-key: kohlerUsingNetworkAnalysis2022
+  container-title: Scientific Reports
+  container-title-short: Sci Rep
+  DOI: 10.1038/s41598-022-14261-3
+  ISSN: 2045-2322
+  issue: '1'
+  issued:
+    - year: 2022
+      month: 6
+      day: 16
+  keyword:
+    - tag: Health care
+      type: 1
+    - tag: Health services
+      type: 1
+  language: en
+  number: '1'
+  page: '10050'
+  publisher: Nature Publishing Group
+  source: www.nature.com
+  title: >-
+    Using network analysis to model the effects of the SARS Cov2 pandemic on
+    acute patient care within a healthcare system
+  type: article-journal
+  URL: https://www.nature.com/articles/s41598-022-14261-3
   volume: '12'
 
 - id: krishnamoorthyCausalInferencePerioperative2020d

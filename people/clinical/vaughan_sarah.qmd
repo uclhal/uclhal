@@ -5,27 +5,13 @@ subtitle: "Clinical Fellow in Data Science & Critical Care"
 image: vaughan_sarah.JPG
 started: "August 2022"
 toc: false
-# resources: 
-#   - "your_cv.pdf"
 about:
-  id: person-profile
-  template: jolla
+    template: solana
+    image-shape: rounded
+    image-width: 200px
   
 ---
 
-```{=html}
-<nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
-    <li class="breadcrumb-item"><a href="../../people.html">People</a></li>
-    <!-- <li class="breadcrumb-item active">Clinical Members</li> -->
-    <li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li>
-  </ol>
-</nav>
-```
-
-:::{#person-profile}
-:::
 
 ## Biography
 

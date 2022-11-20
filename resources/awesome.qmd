@@ -1,5 +1,6 @@
 ---
-pagetitle: "Resources | Awesome"
+title: "Recommendations"
+pagetitle: "Resources | External"
 toc: false
 listing:
   - id: linklist
@@ -14,15 +15,6 @@ listing:
     filter-ui: [title, description, year]
     page-size: 50
 ---
-
-```{=html}
-<nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-    <li class="breadcrumb-item active" aria-current="page">Awesome</li>
-  </ol>
-</nav>
-```
 
 A curated list of *awesome* resources recommended by our lab group.
 

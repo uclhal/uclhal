@@ -8,44 +8,32 @@ toc: false
 # resources: 
 #   - "your_cv.pdf"
 about:
-  id: person-profile
-  template: jolla
-  links:
-    # Note fas & ai packs use -text: instead of - icon:
-    # See: https://github.com/quarto-ext/fontawesome/issues/6#issuecomment-1188620081
-    - icon: globe
-      text: Personal Website
-      href: https://www.ctomlinson.net/
-    - icon: twitter
-      text: Twitter
-      href: https://www.twitter.com/tomlincr
-    - text: "{{< ai researchgate >}} ResearchGate"
-      href: https://www.researchgate.net/profile/Christopher-Tomlinson
-    - text: "{{< ai google-scholar >}} Google Scholar"
-      href: https://scholar.google.co.uk/citations?hl=en&authuser=3&user=NcKe1aEAAAAJ
-    - icon: github
-      text: GitHub
-      href: https://github.com/tomlincr
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/tomlincr
-    - text: "{{< ai archive >}} UCL"
-      href: https://iris.ucl.ac.uk/iris/browse/profile?upi=CTOML04 
+    template: solana
+    image-shape: rounded
+    image-width: 200px
+    links:
+      # Note fas & ai packs use -text: instead of - icon:
+      # See: https://github.com/quarto-ext/fontawesome/issues/6#issuecomment-1188620081
+      - icon: globe
+        text: Personal Website
+        href: https://www.ctomlinson.net/
+      - icon: twitter
+        text: Twitter
+        href: https://www.twitter.com/tomlincr
+      - text: "{{< ai researchgate >}} ResearchGate"
+        href: https://www.researchgate.net/profile/Christopher-Tomlinson
+      - text: "{{< ai google-scholar >}} Google Scholar"
+        href: https://scholar.google.co.uk/citations?hl=en&authuser=3&user=NcKe1aEAAAAJ
+      - icon: github
+        text: GitHub
+        href: https://github.com/tomlincr
+      - icon: linkedin
+        text: LinkedIn
+        href: https://www.linkedin.com/in/tomlincr
+      - text: "{{< ai archive >}} UCL"
+        href: https://iris.ucl.ac.uk/iris/browse/profile?upi=CTOML04 
 ---
 
-```{=html}
-<nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
-    <li class="breadcrumb-item"><a href="../../people.html">People</a></li>
-    <!-- <li class="breadcrumb-item active">Academic Members</li> -->
-    <li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li>
-  </ol>
-</nav>
-```
-
-:::{#person-profile}
-:::
 
 ## Biography
 

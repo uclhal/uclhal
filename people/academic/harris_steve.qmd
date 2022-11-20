@@ -5,39 +5,24 @@ subtitle: "Group Leader"
 image: harris_steve.jpg
 started: "2015"
 toc: false
-# resources: 
-#   - "your_cv.pdf"
 about:
-  id: person-profile
-  template: jolla
-  links:
-    - icon: github
-      text: github
-      href: https://github.com/docsteveharris
-    - icon: twitter
-      text: twitter
-      href: https://www.twitter.com/drstevok
-    - text: "{{< ai researchgate >}} ResearchGate"
-      href: https://www.researchgate.net/profile/Steve-Harris-5
-    - text: "{{< ai google-scholar >}} Google Scholar"
-      href: https://scholar.google.com/citations?user=_vGtYVgAAAAJ&hl=en
-    - text: "{{< ai archive >}} UCL"
-      href: https://iris.ucl.ac.uk/iris/browse/profile?upi=HARRI92
+    template: solana
+    image-shape: rounded
+    image-width: 200px
+    links:
+      - icon: github
+        text: github
+        href: https://github.com/docsteveharris
+      - icon: twitter
+        text: twitter
+        href: https://www.twitter.com/drstevok
+      - text: "{{< ai researchgate >}} ResearchGate"
+        href: https://www.researchgate.net/profile/Steve-Harris-5
+      - text: "{{< ai google-scholar >}} Google Scholar"
+        href: https://scholar.google.com/citations?user=_vGtYVgAAAAJ&hl=en
+      - text: "{{< ai archive >}} UCL"
+        href: https://iris.ucl.ac.uk/iris/browse/profile?upi=HARRI92
 ---
-
-```{=html}
-<nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
-    <li class="breadcrumb-item"><a href="../../people.html">People</a></li>
-    <!-- <li class="breadcrumb-item active">Academic Members</li> -->
-    <li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li>
-  </ol>
-</nav>
-```
-
-:::{#person-profile}
-:::
 
 ## Biography
 Steve Harris is an Critical Care Consultant at [UCLH](https://www.uclh.nhs.uk/our-services/find-consultant/dr-steve-harris), and Principal Research Fellow in Translational Data Science at UCL [Institute of Health Informatics](https://www.ucl.ac.uk/health-informatics/). He has held fellowships from Wellcome, and the Health Foundation, and won more than £5m in grant funding (UCLH Charity, EPSRC, NIHR/NHS-X) in the last 5 years. He is a co-investigator in [CHIMERA](https://www.ucl.ac.uk/chimera/),  the [Wellcome Innovation Flagship Critical Care Asia](https://wellcome.org/what-we-do/our-work/innovations-flagships/funded-projects#innovation-in-low--and-middle-income-countries--d06a), and co-leads the [NIHR Health Informatics Collaborative for Critical Care](https://hic.nihr.ac.uk/critical+care). At UCLH, he led the implementation of the [Experimental Medicine Application Platform (EMAP)](https://www.uclhospitals.brc.nihr.ac.uk/clinical-research-informatics-unit/data-infrastructure) that is bringing machine learning back to the bedside leading to [commendations](https://www.hdruk.org/case-studies/emap-experimental-medicine-application-platform/) from HDR-UK for its role in the pandemic response.  He co-directs the data science training programme for UCLH.

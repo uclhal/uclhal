@@ -8,7 +8,9 @@ citation-location: margin
 description: "Working with health data; the 'Five Safes'"
 categories: 
   - onboarding
-  - data_science
+  - 5 Safes
+  - Information Governance
+  - Anonymisation
 ---
 
 # Working with health data 

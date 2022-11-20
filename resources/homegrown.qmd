@@ -1,6 +1,8 @@
 ---
-pagetitle: "Resources | UCL Health Algorithm Lab"
-toc: false
+title: "Home grown"
+pagetitle: "Homegrown | UCLHAL"
+page-layout: full
+toc: true
 listing:
   type: table
   contents: 
@@ -14,14 +16,6 @@ listing:
   fields: [title, description, categories]
 ---
 
-```{=html}
-<nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-    <li class="breadcrumb-item active" aria-current="page">Home grown</li>
-  </ol>
-</nav>
-```
 
 Home grown tools, data, and other resources.
 

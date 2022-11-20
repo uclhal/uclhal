@@ -6,30 +6,17 @@ image: campbell_ruaraidh.jpg
 started: "August 2022"
 toc: false
 about:
-  id: person-profile
-  template: jolla
-  links:
-    - icon: github
-      text: Github
-      href: https://github.com/RASCampbell
-    - text: "{{< ai orcid >}} ORCID"
-      href: https://orcid.org/0000-0002-7457-9065
+    template: solana
+    image-shape: rounded
+    image-width: 200px
+    links:
+      - icon: github
+        text: Github
+        href: https://github.com/RASCampbell
+      - text: "{{< ai orcid >}} ORCID"
+        href: https://orcid.org/0000-0002-7457-9065
 
 ---
-
-```{=html}
-<nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
-    <li class="breadcrumb-item"><a href="../../people.html">People</a></li>
-    <!-- <li class="breadcrumb-item active">Clinical Members</li> -->
-    <li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li>
-  </ol>
-</nav>
-```
-
-:::{#person-profile}
-:::
 
 ## Biography
 

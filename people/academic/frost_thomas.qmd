@@ -5,44 +5,27 @@ subtitle: "PhD Student"
 image: frost_thomas.jpg
 started: "September 2022"
 toc: false
-# resources: 
-#   - "your_cv.pdf"
 about:
-  id: person-profile
-  template: jolla
-  links:
-    # Note fas & ai packs use -text: instead of - icon:
-    # See: https://github.com/quarto-ext/fontawesome/issues/6#issuecomment-1188620081
-    - icon: globe
-      text: Personal Website
-    - icon: twitter
-      text: Twitter
-      href: https://www.twitter.com/thomasfrost_ai
-    - text: "{{< ai researchgate >}} ResearchGate"
-      href: https://www.researchgate.net/profile/Thomas-Frost-7
-    - text: "{{< ai google-scholar >}} Google Scholar"
-      href: https://scholar.google.co.uk/citations?view_op=list_works&hl=en&user=v7sjR-IAAAAJ&gmla=AJsN-F5BDDcoCD1zlloYsAcXuV3GyKxV6zmvF_tyzwDEPOI4TYyAHJSoFSuCxRxHMw52t4NstBuFhEyXu7SsnIHI9ke5xCCdKRxs4oyM-my-DPByufA81sTEmVRG_hJagK8tKUImvqvF
-    - icon: github
-      text: GitHub
-      href: https://github.com/tdgfrost
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/drthomasfrost
+    template: solana
+    image-shape: rounded
+    image-width: 200px
+    links:
+      - icon: globe
+        text: Personal Website
+      - icon: twitter
+        text: Twitter
+        href: https://www.twitter.com/thomasfrost_ai
+      - text: "{{< ai researchgate >}} ResearchGate"
+        href: https://www.researchgate.net/profile/Thomas-Frost-7
+      - text: "{{< ai google-scholar >}} Google Scholar"
+        href: https://scholar.google.co.uk/citations?view_op=list_works&hl=en&user=v7sjR-IAAAAJ&gmla=AJsN-F5BDDcoCD1zlloYsAcXuV3GyKxV6zmvF_tyzwDEPOI4TYyAHJSoFSuCxRxHMw52t4NstBuFhEyXu7SsnIHI9ke5xCCdKRxs4oyM-my-DPByufA81sTEmVRG_hJagK8tKUImvqvF
+      - icon: github
+        text: GitHub
+        href: https://github.com/tdgfrost
+      - icon: linkedin
+        text: LinkedIn
+        href: https://www.linkedin.com/in/drthomasfrost
 ---
-
-```{=html}
-<nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
-    <li class="breadcrumb-item"><a href="../../people.html">People</a></li>
-    <!-- <li class="breadcrumb-item active">Academic Members</li> -->
-    <li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li>
-  </ol>
-</nav>
-```
-
-:::{#person-profile}
-:::
 
 ## Biography
 

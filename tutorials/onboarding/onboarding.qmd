@@ -1,16 +1,19 @@
 ---
-title: "Getting Started"
+title: "Getting started"
 description: "How to get set up!"
 date: 2022-11-16
+toc: true
 categories:
   - onboarding
 ---
 
-If you're here, you're likely about to start work with the UCL Health Algorithms Laboratory. 
+::: {.callout-warning}
+## Under construction!
 
-**Welcome!**
+We are currently building this page!
+:::
 
-This guide aims to explain or signpost everything you need to know to start analysing health data at UCLH. 
+If you're here, you're likely about to start work with the UCL Health Algorithms Laboratory. This guide aims to explain or signpost everything you need to know to start analysing health data at UCLH. 
 (general aims, translational data science, etc)
 
 ## How are health data stored at UCLH?
