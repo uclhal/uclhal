@@ -1,0 +1,21 @@
+---
+title: "inspectEHR"
+date: "2022-11-16"
+draft: false
+description: "Data Quality Evaluation tool for CCHIC"
+author: "Ed Palmer"
+date: 2022-11-16
+toc: false
+categories: 
+  - R package 
+  - CCHIC
+  - NHS
+---
+
+`inspectEHR` is a quality evaluation tool for CC-HIC. The goal of this package is to provide a core set of functions to detect erroneous or otherwise questionable data within CC-HIC, so that the end researcher can handle this information explicitly.
+
+The design ethos of inspectEHR is to apply a comprehensive interpretation of the Khan data quality evaluation framework.
+
+The full default evaluation is largely automated, and can be performed by use of the perform_evaluation() function. The output from this function is stored in the CC-HIC database as metadata, so that downstream research can use a consistent set of rules when faced with erroneous data patterns.
+
+Helper functions for extracting and wrangling data have also been developed. These live in the sister package wranglEHR, which must be installed for inspectEHR to function correctly.

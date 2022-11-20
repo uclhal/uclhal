@@ -49,6 +49,7 @@ website:
         - tutorials.qmd
         - tutorials/onboarding/onboarding.qmd
         - tutorials/five-safes/five-safes.qmd
+        - tutorials/emap/emap-star-intro.ipynb
 
     - title: "Resources"
       contents:

@@ -1,0 +1,23 @@
+---
+title: "cleanEHR"
+draft: false
+description: "Real world data from NHS Critical Care Units"
+author: "Steve Harris"
+date: 2022-11-16
+toc: false
+categories: 
+  - R package 
+  - CCHIC
+  - NHS
+  - legacy
+---
+
+**LEGACY: No longer maintained**
+
+The security put in place to ensure the safety of this resource inevitably creates challenges for the researchers. We have therefore created a three sided tool to make CCHIC research ready.
+
+- this shared code library
+- an anonymised development data set
+- a virtual machine for simulating work within the safe haven
+
+You request access to the anonymised toy dataset from here
