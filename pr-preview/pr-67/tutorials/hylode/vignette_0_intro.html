@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.269">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>UCL Health Algorithms Laboratory – vignette_0_intro</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../img/noun-patient-3907718.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-sidebar docked nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">UCL Health Algorithms Laboratory</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../news.html">
+ <span class="menu-text">News</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../people.html">
+ <span class="menu-text">People</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../publications.html">
+ <span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../resources.html">
+ <span class="menu-text">Resources</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../../tutorials.html" aria-current="page">
+ <span class="menu-text">Tutorials</span></a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title"></h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../tutorials.html" class="sidebar-item-text sidebar-link">Tutorials</a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Onboarding</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../tutorials/onboarding/onboarding.html" class="sidebar-item-text sidebar-link">Getting started</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../tutorials/onboarding/onboarding-1.html" class="sidebar-item-text sidebar-link">Onboarding 1</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../tutorials/onboarding/onboarding-2.html" class="sidebar-item-text sidebar-link">Onboarding 2</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../tutorials/five-safes/five-safes.html" class="sidebar-item-text sidebar-link">Safe data</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../tutorials/emap/emap-star-intro.html" class="sidebar-item-text sidebar-link">Introduction to EMAP star</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">HYLODE</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../tutorials/hylode/hylode.html" class="sidebar-item-text sidebar-link">HYLODE documentation</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../tutorials/hylode/HyMind-Lab-example.html" class="sidebar-item-text sidebar-link">HyMind Lab Example</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../tutorials/hylode/HyMind-ML-example.html" class="sidebar-item-text sidebar-link">HyMind Machine Learning</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../tutorials/hylode/HyCastle-Lens.html" class="sidebar-item-text sidebar-link">HyCastle Lens Example</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../tutorials/hylode/vignette_0__README.html" class="sidebar-item-text sidebar-link">Hi <em>(Hy?)</em> there…</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../tutorials/hylode/vignette_0_intro.html" class="sidebar-item-text sidebar-link active">Exemplar</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../tutorials/hylode/vignette_1_training.html" class="sidebar-item-text sidebar-link">Training data</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../tutorials/hylode/vignette_2_modelling.html" class="sidebar-item-text sidebar-link">Modelling</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../tutorials/hylode/vignette_3_data_flow.html" class="sidebar-item-text sidebar-link">Under the hood</a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#exemplar" id="toc-exemplar" class="nav-link active" data-scroll-target="#exemplar">Exemplar</a></li>
+  <li><a href="#retrospective-training-set.-extraction-pre-processing" id="toc-retrospective-training-set.-extraction-pre-processing" class="nav-link" data-scroll-target="#retrospective-training-set.-extraction-pre-processing">Retrospective training set. Extraction &amp; pre-processing</a></li>
+  <li><a href="#training-storing-a-model" id="toc-training-storing-a-model" class="nav-link" data-scroll-target="#training-storing-a-model">Training &amp; storing a model</a></li>
+  <li><a href="#loading-and-deploying-a-model" id="toc-loading-and-deploying-a-model" class="nav-link" data-scroll-target="#loading-and-deploying-a-model">Loading and deploying a model</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.dev/uclhal/uclhal/blob/main/tutorials/hylode/vignette_0_intro.ipynb" class="toc-action">Edit this page</a></p><p><a href="https://github.com/uclhal/uclhal/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+
+<section id="exemplar" class="level1">
+<h1>Exemplar</h1>
+<p>Let’s begin an end-to-end modelling exemplar. The whole pipeline in c.&nbsp;20 lines. In the previous section, we made some grand claims about Hylode addressing:</p>
+<pre><code>~ train-deploy split
+~ feature provision
+~ time-series modelling
+~ model management
+~ transition to deployment</code></pre>
+<p>Let’s see a concrete example of how this looks.</p>
+</section>
+<section id="retrospective-training-set.-extraction-pre-processing" class="level1">
+<h1>Retrospective training set. Extraction &amp; pre-processing</h1>
+<p>For the sake of these notebooks, we’re going to consider the problem of modelling ICU discharge at 48 hours.</p>
+<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:07:16.912138Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:07:16.911996Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:08:11.378895Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:08:11.378741Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:07:16.912074Z&quot;}" data-tags="[]">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># First off, Hylode immediately gives us the features we need to train a time series model</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> hycastle.icu_store.retro <span class="im">import</span> retro_dataset</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>train_df <span class="op">=</span> retro_dataset(<span class="st">'T03'</span>)</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>train_df.shape</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>This single piece of code has done a lot of work behind the scenes.</p>
+<p>It has pulled data from EMAP, processed it where necessary to create features and then cut those features up so we have one row per hour for each patient – setting us up to make live predictions every hour for each patient on the unit.</p>
+<p>Let’s have a look at which features we have:</p>
+<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:08:15.776388Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:08:15.776261Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:08:15.778672Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:08:15.778554Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:08:15.776330Z&quot;}" data-tags="[]">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>train_df.columns</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>This is great, but we still have some categorical variables etc. laced in there. What happens if I want to do some pre-processing?</p>
+<p>The answer lies in our <code>lens</code> abstraction, let’s have a look at one I prepared earlier:</p>
+<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:08:23.584075Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:08:23.583943Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:08:29.393657Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:08:29.393532Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:08:23.584017Z&quot;}" data-tags="[]">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> hycastle.lens.icu <span class="im">import</span> BournvilleICUSitRepLens</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>lens <span class="op">=</span> BournvilleICUSitRepLens()</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>X_train <span class="op">=</span> lens.fit_transform(train_df)</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>X_train.columns</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>We can see we’ve just done some useful things. The lens’s <code>fit_transform</code> method has inserted missingness values for ethnicity, and we have broken out each patient’s admissions time into separate features as we think that will improve our model.</p>
+<p>We also define a label:</p>
+<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:08:32.778180Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:08:32.778042Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:08:32.780344Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:08:32.780205Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:08:32.778117Z&quot;}" data-tags="[]">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>y_train <span class="op">=</span> train_df[<span class="st">'discharged_in_48hr'</span>].astype(<span class="bu">int</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="training-storing-a-model" class="level1">
+<h1>Training &amp; storing a model</h1>
+<p>With this “heavy” lifting done, we should now already be in a position to train a model. Let’s have a go:</p>
+<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:08:35.969056Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:08:35.968925Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:08:39.569991Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:08:39.569845Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:08:35.968998Z&quot;}" data-tags="[]">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.ensemble <span class="im">import</span> RandomForestClassifier</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>m <span class="op">=</span> RandomForestClassifier(n_jobs<span class="op">=-</span><span class="dv">1</span>)</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>m.fit(X_train.values, y_train.values.ravel())</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Everything seems to be working. Let’s imagine we’re happy with what we’ve done. Let’s log the model in our model repo, so it’s primed and ready to deploy…</p>
+<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:08:44.636314Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:08:44.636182Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:08:45.394900Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:08:45.394688Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:08:44.636256Z&quot;}" data-tags="[]">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> mlflow</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>mlflow_server <span class="op">=</span> os.getenv(<span class="st">'HYMIND_REPO_TRACKING_URI'</span>)</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>mlflow.set_tracking_uri(mlflow_server)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:08:46.224059Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:08:46.223930Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:08:47.267340Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:08:47.267194Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:08:46.224000Z&quot;}" data-tags="[]">
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> datetime <span class="im">import</span> datetime</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> random</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> string</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Generate a unique experiment name</span></span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>exp_name <span class="op">=</span> <span class="st">"vignette_0-"</span> <span class="op">+</span> <span class="st">""</span>.join( random.sample(string.ascii_lowercase, k<span class="op">=</span><span class="dv">8</span>)) <span class="op">+</span> <span class="bu">str</span>(datetime.now().timestamp())</span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>os.environ[<span class="st">"MLFLOW_EXPERIMENT_NAME"</span>] <span class="op">=</span> exp_name</span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>experiment_id <span class="op">=</span> mlflow.create_experiment(exp_name)</span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a>experiment_id</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:08:54.792505Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:08:54.792369Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:09:02.566229Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:09:02.565985Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:08:54.792444Z&quot;}" data-tags="[]">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> mlflow.start_run():</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>    mlflow.sklearn.log_model(m, <span class="st">'model'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>This <a href="MLFlow_screenshot.PNG">screenshot</a> shows what it looks like for the model to land safely in MLFlow (which you should be able to see for yourself if you follow the link <a href="http://uclvlddpragae08:5008/">here</a> – look for a new experiment at the very bottom of the list on the left hand side)</p>
+</section>
+<section id="loading-and-deploying-a-model" class="level1">
+<h1>Loading and deploying a model</h1>
+<p>Now let’s switch hats and imagine they were are trying to deploy the model in silent mode for the patients currently on the ICU. This is now pretty straightforward:</p>
+<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:11:00.987762Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:11:00.987611Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:11:01.362810Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:11:01.360850Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:11:00.987700Z&quot;}" data-tags="[]">
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> hycastle.icu_store.live <span class="im">import</span> live_dataset</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>live_df <span class="op">=</span> live_dataset(<span class="st">'T03'</span>)</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>live_df.shape</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:11:02.129790Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:11:02.129615Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:11:02.132538Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:11:02.132419Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:11:02.129712Z&quot;}" data-tags="[]">
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>live_df.columns</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:11:06.115838Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:11:06.115617Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:11:06.163557Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:11:06.163304Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:11:06.115728Z&quot;}" data-tags="[]">
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>X_df <span class="op">=</span> lens.transform(live_df)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:11:10.579490Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:11:10.577280Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:11:10.912630Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:11:10.911140Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:11:10.57862Z&quot;}" data-tags="[]">
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>runs <span class="op">=</span> mlflow.search_runs(experiment_ids<span class="op">=</span>[experiment_id])</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>run_id <span class="op">=</span> runs.iloc[<span class="dv">0</span>].run_id</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>run_id</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:11:11.165160Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:11:11.165008Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:11:11.278185Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:11:11.277958Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:11:11.165098Z&quot;}" data-tags="[]">
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>logged_model <span class="op">=</span> <span class="ss">f'runs:/</span><span class="sc">{</span>run_id<span class="sc">}</span><span class="ss">/model'</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>loaded_model <span class="op">=</span> mlflow.sklearn.load_model(logged_model)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:11:12.776559Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:11:12.776409Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:11:12.826045Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:11:12.825860Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:11:12.776500Z&quot;}" data-tags="[]">
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>predictions <span class="op">=</span> loaded_model.predict_proba(X_df.values)</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>live_df[<span class="st">'prediction'</span>] <span class="op">=</span> predictions[:, <span class="dv">1</span>]</span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>live_df.loc[:, [<span class="st">'bed_code'</span>, <span class="st">'prediction'</span>]].head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+      <div class="nav-footer-center">Copyright 2022 © Steve Harris</div>
+  </div>
+</footer>
+
+
+
+</body></html>
