@@ -1,0 +1,21 @@
+---
+title: "UCL Health Data Science MSc"
+description: " 1 year full-time taught MSc, part-time options available"
+author: "Chris Tomlinson"
+date: "2022-11-17"
+draft: false
+
+categories:
+  - academic
+  - MSc
+  - UCL
+---
+
+The [UCL Health Data Science MSc programme](https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/health-data-science-msc) covers computational and statistical methods applied to large and complex biomedical data in order to improve health and healthcare through medical research. As part of this programme, you will gain an understanding of techniques that are transforming medical research and creating exciting new commercial opportunities.  
+
+Previous students have joined the lab group to undertake dissertation projects or as visiting members.  
+
+MSc dissertation projects offered by the lab group:  
+* 2022: Machine learning to quantify the impact of the COVID-19 pandemic on ICU admissions: an interrupted time-series analysis. (Supervisor: Chris Tomlinson)  
+* 2022: Supervised machine learning for outcome prediction in routinely-collected Welsh ICU data. (Supervisor: Chris Tomlinson)  
+* 2022: Unsupervised machine learning for clustering patient subgroups in routinely-collected Welsh ICU data. (Supervisor: Chris Tomlinson)  

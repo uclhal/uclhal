@@ -1,6 +1,6 @@
 ---
 title: "Recommendations"
-pagetitle: "Resources | External"
+pagetitle: "Resources | Recommendations"
 toc: false
 listing:
   - id: linklist
@@ -16,7 +16,7 @@ listing:
     page-size: 50
 ---
 
-A curated list of *awesome* resources recommended by our lab group.
+A curated list of [*awesome*]{.fw-bolder} resources recommended by our lab group.
 
 :::{#linklist}
 :::
