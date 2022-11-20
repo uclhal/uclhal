@@ -1,7 +1,7 @@
 ---
 title: "Research overview"
 pagetitle: "Research | UCLHAL"
-page-layout: full
+# page-layout: full
 toc: true
 ---
 
