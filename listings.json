@@ -33,7 +33,12 @@
     "listing": "/resources/homegrown.html",
     "items": [
       "/resources/homegrown/msc_health_data_science.html",
-      "/resources/homegrown/phd_cdt_ai.html"
+      "/resources/homegrown/phd_cdt_ai.html",
+      "/resources/homegrown/CCHIC.html",
+      "/resources/homegrown/cleanehr.html",
+      "/resources/homegrown/data-clinic-for-fellows.html",
+      "/resources/homegrown/data-clinic-for-general.html",
+      "/resources/homegrown/inspectehr.html"
     ]
   },
   {
