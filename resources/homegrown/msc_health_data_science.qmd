@@ -2,7 +2,7 @@
 title: "UCL Health Data Science MSc"
 description: " 1 year full-time taught MSc, part-time options available"
 author: "Chris Tomlinson"
-date: "2022-11-17"
+date: 2022-11-17
 draft: false
 
 categories:
