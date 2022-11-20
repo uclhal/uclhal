@@ -1,6 +1,6 @@
 ---
 title: "Tutorials"
-description: "How to get set up!"
+# description: "How to get set up!"
 date: 2022-11-16
 categories:
   - onboarding
