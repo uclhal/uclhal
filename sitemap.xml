@@ -1,199 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://uclhal.org/featured.html</loc>
-    <lastmod>2022-11-19T16:37:28.667Z</lastmod>
-  </url>
-  <url>
     <loc>https://uclhal.org/log.html</loc>
-    <lastmod>2022-11-19T16:37:29.739Z</lastmod>
-  </url>
-  <url>
-    <loc>https://uclhal.org/publications/reports/tomlinson2022.html</loc>
-    <lastmod>2022-11-19T16:37:30.107Z</lastmod>
-  </url>
-  <url>
-    <loc>https://uclhal.org/publications/proceedings/samanta2017.html</loc>
-    <lastmod>2022-11-19T16:37:30.543Z</lastmod>
-  </url>
-  <url>
-    <loc>https://uclhal.org/publications/preprints/handy2021.html</loc>
-    <lastmod>2022-11-19T16:37:30.923Z</lastmod>
-  </url>
-  <url>
-    <loc>https://uclhal.org/publications/preprints/pineda-moncusi2022.html</loc>
-    <lastmod>2022-11-19T16:37:31.331Z</lastmod>
-  </url>
-  <url>
-    <loc>https://uclhal.org/publications/articles/wilson2022b.html</loc>
-    <lastmod>2022-11-19T16:37:31.707Z</lastmod>
-  </url>
-  <url>
-    <loc>https://uclhal.org/publications/articles/alhindawi_2022b.html</loc>
-    <lastmod>2022-11-19T16:37:32.107Z</lastmod>
-  </url>
-  <url>
-    <loc>https://uclhal.org/publications/articles/kohlera2020.html</loc>
-    <lastmod>2022-11-19T16:37:32.479Z</lastmod>
-  </url>
-  <url>
-    <loc>https://uclhal.org/publications/articles/gurdasani2021.html</loc>
-    <lastmod>2022-11-19T16:37:32.883Z</lastmod>
-  </url>
-  <url>
-    <loc>https://uclhal.org/publications/articles/wilson2022.html</loc>
-    <lastmod>2022-11-19T16:37:33.279Z</lastmod>
-  </url>
-  <url>
-    <loc>https://uclhal.org/publications/articles/alhindawi_2021a.html</loc>
-    <lastmod>2022-11-19T16:37:33.643Z</lastmod>
-  </url>
-  <url>
-    <loc>https://uclhal.org/publications/articles/wilson2020.html</loc>
-    <lastmod>2022-11-19T16:37:33.991Z</lastmod>
-  </url>
-  <url>
-    <loc>https://uclhal.org/publications/articles/kohler2022.html</loc>
-    <lastmod>2022-11-19T16:37:34.443Z</lastmod>
-  </url>
-  <url>
-    <loc>https://uclhal.org/publications/articles/thygesen2022.html</loc>
-    <lastmod>2022-11-19T16:37:34.851Z</lastmod>
-  </url>
-  <url>
-    <loc>https://uclhal.org/publications/articles/alhindawi_2022a.html</loc>
-    <lastmod>2022-11-19T16:37:35.239Z</lastmod>
-  </url>
-  <url>
-    <loc>https://uclhal.org/publications/articles/knight2022.html</loc>
-    <lastmod>2022-11-19T16:37:35.631Z</lastmod>
-  </url>
-  <url>
-    <loc>https://uclhal.org/posts/hdruk-award-2021/index.html</loc>
-    <lastmod>2022-11-19T16:37:36.003Z</lastmod>
+    <lastmod>2022-11-20T10:45:00.146Z</lastmod>
   </url>
   <url>
     <loc>https://uclhal.org/people/academic/alhindawi_ahmed.html</loc>
-    <lastmod>2022-11-19T16:37:36.395Z</lastmod>
+    <lastmod>2022-11-20T10:45:00.878Z</lastmod>
   </url>
   <url>
     <loc>https://uclhal.org/people/academic/catling_finn.html</loc>
-    <lastmod>2022-11-19T16:37:36.763Z</lastmod>
-  </url>
-  <url>
-    <loc>https://uclhal.org/people/academic/thomasfrostpage.html</loc>
-    <lastmod>2022-11-19T16:37:37.123Z</lastmod>
-  </url>
-  <url>
-    <loc>https://uclhal.org/people/academic/claire_black.html</loc>
-    <lastmod>2022-11-19T16:37:37.483Z</lastmod>
+    <lastmod>2022-11-20T10:45:01.278Z</lastmod>
   </url>
   <url>
     <loc>https://uclhal.org/people/academic/tomlinson_chris.html</loc>
-    <lastmod>2022-11-19T16:37:37.863Z</lastmod>
+    <lastmod>2022-11-20T10:45:01.654Z</lastmod>
   </url>
   <url>
     <loc>https://uclhal.org/people/academic/wilson_matt.html</loc>
-    <lastmod>2022-11-19T16:37:38.239Z</lastmod>
+    <lastmod>2022-11-20T10:45:01.978Z</lastmod>
+  </url>
+  <url>
+    <loc>https://uclhal.org/people/academic/frost_thomas.html</loc>
+    <lastmod>2022-11-20T10:45:02.322Z</lastmod>
   </url>
   <url>
     <loc>https://uclhal.org/people/academic/kohler_katharina.html</loc>
-    <lastmod>2022-11-19T16:37:38.635Z</lastmod>
+    <lastmod>2022-11-20T10:45:02.682Z</lastmod>
+  </url>
+  <url>
+    <loc>https://uclhal.org/people/academic/black_claire.html</loc>
+    <lastmod>2022-11-20T10:45:03.018Z</lastmod>
   </url>
   <url>
     <loc>https://uclhal.org/people/academic/rashan_aasiyah.html</loc>
-    <lastmod>2022-11-19T16:37:38.987Z</lastmod>
+    <lastmod>2022-11-20T10:45:03.374Z</lastmod>
   </url>
   <url>
     <loc>https://uclhal.org/people/academic/harris_steve.html</loc>
-    <lastmod>2022-11-19T16:37:39.339Z</lastmod>
+    <lastmod>2022-11-20T10:45:03.722Z</lastmod>
   </url>
   <url>
     <loc>https://uclhal.org/people/associate/daniel_hanlon.html</loc>
-    <lastmod>2022-11-19T16:37:39.671Z</lastmod>
+    <lastmod>2022-11-20T10:45:04.046Z</lastmod>
   </url>
   <url>
     <loc>https://uclhal.org/people/clinical/vaughan_sarah.html</loc>
-    <lastmod>2022-11-19T16:37:40.047Z</lastmod>
+    <lastmod>2022-11-20T10:45:04.378Z</lastmod>
+  </url>
+  <url>
+    <loc>https://uclhal.org/people/clinical/hla_teddy.html</loc>
+    <lastmod>2022-11-20T10:45:04.762Z</lastmod>
+  </url>
+  <url>
+    <loc>https://uclhal.org/people/clinical/campbell_ruaraidh.html</loc>
+    <lastmod>2022-11-20T10:45:05.134Z</lastmod>
   </url>
   <url>
     <loc>https://uclhal.org/people/clinical/hrishee_vaidya.html</loc>
-    <lastmod>2022-11-19T16:37:40.395Z</lastmod>
-  </url>
-  <url>
-    <loc>https://uclhal.org/people/clinical/ruaraidh_campbell.html</loc>
-    <lastmod>2022-11-19T16:37:40.759Z</lastmod>
-  </url>
-  <url>
-    <loc>https://uclhal.org/people/clinical/teddyhla.html</loc>
-    <lastmod>2022-11-19T16:37:41.123Z</lastmod>
+    <lastmod>2022-11-20T10:45:05.494Z</lastmod>
   </url>
   <url>
     <loc>https://uclhal.org/people/alumni/wong_danny.html</loc>
-    <lastmod>2022-11-19T16:37:41.496Z</lastmod>
+    <lastmod>2022-11-20T10:45:05.814Z</lastmod>
   </url>
   <url>
     <loc>https://uclhal.org/index.html</loc>
-    <lastmod>2022-11-19T16:37:41.836Z</lastmod>
+    <lastmod>2022-11-20T10:45:06.130Z</lastmod>
   </url>
   <url>
     <loc>https://uclhal.org/news.html</loc>
-    <lastmod>2022-11-19T16:37:42.208Z</lastmod>
+    <lastmod>2022-11-20T10:45:06.506Z</lastmod>
   </url>
   <url>
     <loc>https://uclhal.org/people.html</loc>
-    <lastmod>2022-11-19T16:37:42.808Z</lastmod>
+    <lastmod>2022-11-20T10:45:07.074Z</lastmod>
+  </url>
+  <url>
+    <loc>https://uclhal.org/tutorials.html</loc>
+    <lastmod>2022-11-20T10:45:07.378Z</lastmod>
+  </url>
+  <url>
+    <loc>https://uclhal.org/tutorials/five-safes/five-safes.html</loc>
+    <lastmod>2022-11-20T10:45:08.170Z</lastmod>
+  </url>
+  <url>
+    <loc>https://uclhal.org/tutorials/onboarding/onboarding.html</loc>
+    <lastmod>2022-11-20T10:45:08.890Z</lastmod>
   </url>
   <url>
     <loc>https://uclhal.org/publications.html</loc>
-    <lastmod>2022-11-19T16:37:43.244Z</lastmod>
+    <lastmod>2022-11-20T10:45:09.278Z</lastmod>
   </url>
   <url>
-    <loc>https://uclhal.org/resources/academic/HDS_MSc.html</loc>
-    <lastmod>2022-11-19T16:37:43.600Z</lastmod>
-  </url>
-  <url>
-    <loc>https://uclhal.org/resources/academic/CDT.html</loc>
-    <lastmod>2022-11-19T16:37:43.964Z</lastmod>
-  </url>
-  <url>
-    <loc>https://uclhal.org/resources/external_resources/Healthyr.html</loc>
-    <lastmod>2022-11-19T16:37:44.336Z</lastmod>
-  </url>
-  <url>
-    <loc>https://uclhal.org/resources/onboarding/start.html</loc>
-    <lastmod>2022-11-19T16:37:44.764Z</lastmod>
-  </url>
-  <url>
-    <loc>https://uclhal.org/resources/onboarding/safe-data-tips.html</loc>
-    <lastmod>2022-11-19T16:37:45.564Z</lastmod>
-  </url>
-  <url>
-    <loc>https://uclhal.org/resources/datasets/CCHIC.html</loc>
-    <lastmod>2022-11-19T16:37:46.348Z</lastmod>
-  </url>
-  <url>
-    <loc>https://uclhal.org/resources/data_clinic/data-clinic-for-fellows.html</loc>
-    <lastmod>2022-11-19T16:37:46.824Z</lastmod>
-  </url>
-  <url>
-    <loc>https://uclhal.org/resources/data_clinic/data-clinic-for-general.html</loc>
-    <lastmod>2022-11-19T16:37:47.196Z</lastmod>
+    <loc>https://uclhal.org/resources/awesome.html</loc>
+    <lastmod>2022-11-20T10:45:09.606Z</lastmod>
   </url>
   <url>
     <loc>https://uclhal.org/resources.html</loc>
-    <lastmod>2022-11-19T16:37:47.620Z</lastmod>
+    <lastmod>2022-11-20T10:45:09.950Z</lastmod>
   </url>
   <url>
-    <loc>https://uclhal.org/opportunities.html</loc>
-    <lastmod>2022-11-19T16:37:48.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://uclhal.org/research.html</loc>
-    <lastmod>2022-11-19T16:37:48.348Z</lastmod>
-  </url>
-  <url>
-    <loc>https://uclhal.org/contact.html</loc>
-    <lastmod>2022-11-19T16:37:48.680Z</lastmod>
+    <loc>https://uclhal.org/news/hdruk-award-2021/index.html</loc>
+    <lastmod>2022-11-20T10:45:10.286Z</lastmod>
   </url>
 </urlset>

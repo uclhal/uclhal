@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2022-11-16">
+<meta name="description" content="How to get set up!">
 
-<title>UCL Health Algorithms Laboratory - Daniel Hanlon</title>
+<title>UCL Health Algorithms Laboratory - Getting started</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -34,6 +36,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
@@ -63,7 +66,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -100,7 +103,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../tutorials.html">
+    <a class="nav-link active" href="../../tutorials.html" aria-current="page">
  <span class="menu-text">Tutorials</span></a>
   </li>  
 </ul>
@@ -108,39 +111,168 @@ ul.task-list li input[type="checkbox"] {
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">Getting started</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-<!-- margin-sidebar -->
-    
-<!-- main -->
-<div class="quarto-about-solana column-body">
-  <div class="about-entity">
-    <div class="entity-contents">
-      <header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Daniel Hanlon</h1>
-<p class="subtitle lead">2022-</p>
-</div>
-<div class="quarto-title-meta">
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../tutorials.html" class="sidebar-item-text sidebar-link">Tutorials</a>
   </div>
-</header> <div class="about-links">
-  <a href="https://github.com/dan-hanlon" class="about-link">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">github</span>
-  </a>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../tutorials/onboarding/onboarding.html" class="sidebar-item-text sidebar-link active">Getting started</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../tutorials/five-safes/five-safes.html" class="sidebar-item-text sidebar-link">Safe data</a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#how-are-health-data-stored-at-uclh" id="toc-how-are-health-data-stored-at-uclh" class="nav-link active" data-scroll-target="#how-are-health-data-stored-at-uclh">How are health data stored at UCLH?</a>
+  <ul class="collapse">
+  <li><a href="#working-with-epic" id="toc-working-with-epic" class="nav-link" data-scroll-target="#working-with-epic">Working with EPIC</a></li>
+  <li><a href="#working-with-emap" id="toc-working-with-emap" class="nav-link" data-scroll-target="#working-with-emap">Working with EMAP</a></li>
+  </ul></li>
+  <li><a href="#how-are-health-data-analysed" id="toc-how-are-health-data-analysed" class="nav-link" data-scroll-target="#how-are-health-data-analysed">How are health data analysed?</a>
+  <ul class="collapse">
+  <li><a href="#working-safely-with-health-data" id="toc-working-safely-with-health-data" class="nav-link" data-scroll-target="#working-safely-with-health-data">Working safely with health data</a></li>
+  <li><a href="#resources-to-learn-stats-ml-sql-python" id="toc-resources-to-learn-stats-ml-sql-python" class="nav-link" data-scroll-target="#resources-to-learn-stats-ml-sql-python">Resources to learn {stats / ML / SQL / python}</a></li>
+  <li><a href="#hylode" id="toc-hylode" class="nav-link" data-scroll-target="#hylode">HYLODE</a></li>
+  </ul></li>
+  <li><a href="#what-do-i-need-to-get-started" id="toc-what-do-i-need-to-get-started" class="nav-link" data-scroll-target="#what-do-i-need-to-get-started">What do I need to get started?</a>
+  <ul class="collapse">
+  <li><a href="#setting-up-your-computer" id="toc-setting-up-your-computer" class="nav-link" data-scroll-target="#setting-up-your-computer">Setting up your computer</a></li>
+  <li><a href="#uclh-access-required" id="toc-uclh-access-required" class="nav-link" data-scroll-target="#uclh-access-required">UCLH access required</a></li>
+  </ul></li>
+  <li><a href="#what-is-the-data-clinic" id="toc-what-is-the-data-clinic" class="nav-link" data-scroll-target="#what-is-the-data-clinic">What is the Data Clinic?</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/uclhal/uclhal/edit/main/tutorials/onboarding/onboarding.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/uclhal/uclhal/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block">Getting started</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">onboarding</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    How to get set up!
+  </div>
 </div>
-      <div class="about-contents"><main class="content" id="quarto-document-content">
-<p>Visiting student</p>
-<p>Medical student. Once upon a time software engineer. MSc AI in Medicine.</p>
 
 
-</main></div>
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">November 16, 2022</p>
     </div>
   </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<div class="callout-warning callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
- <!-- /main -->
+<div class="callout-caption-container flex-fill">
+Under construction!
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>We are currently building this page!</p>
+</div>
+</div>
+<p>If you’re here, you’re likely about to start work with the UCL Health Algorithms Laboratory. This guide aims to explain or signpost everything you need to know to start analysing health data at UCLH. (general aims, translational data science, etc)</p>
+<section id="how-are-health-data-stored-at-uclh" class="level2">
+<h2 class="anchored" data-anchor-id="how-are-health-data-stored-at-uclh">How are health data stored at UCLH?</h2>
+<p>(the importance of live and recent data, etc)</p>
+<section id="working-with-epic" class="level3">
+<h3 class="anchored" data-anchor-id="working-with-epic">Working with EPIC</h3>
+<p>(link to page on further details on EPIC)</p>
+</section>
+<section id="working-with-emap" class="level3">
+<h3 class="anchored" data-anchor-id="working-with-emap">Working with EMAP</h3>
+<p>(link to EMAP page)</p>
+</section>
+</section>
+<section id="how-are-health-data-analysed" class="level2">
+<h2 class="anchored" data-anchor-id="how-are-health-data-analysed">How are health data analysed?</h2>
+<section id="working-safely-with-health-data" class="level3">
+<h3 class="anchored" data-anchor-id="working-safely-with-health-data">Working safely with health data</h3>
+<p>five safes etc</p>
+</section>
+<section id="resources-to-learn-stats-ml-sql-python" class="level3">
+<h3 class="anchored" data-anchor-id="resources-to-learn-stats-ml-sql-python">Resources to learn {stats / ML / SQL / python}</h3>
+<p>(link to Resources tab?) - Link to Data Science for Docs material?</p>
+</section>
+<section id="hylode" class="level3">
+<h3 class="anchored" data-anchor-id="hylode">HYLODE</h3>
+<p>(link to the full explanation page) (HySys diagrams, FlowEHR, etc)</p>
+</section>
+</section>
+<section id="what-do-i-need-to-get-started" class="level2">
+<h2 class="anchored" data-anchor-id="what-do-i-need-to-get-started">What do I need to get started?</h2>
+<section id="setting-up-your-computer" class="level3">
+<h3 class="anchored" data-anchor-id="setting-up-your-computer">Setting up your computer</h3>
+<ul>
+<li>python</li>
+<li>git</li>
+<li>R</li>
+<li>(onboarding page for adding a User page to this website etc too)</li>
+</ul>
+</section>
+<section id="uclh-access-required" class="level3">
+<h3 class="anchored" data-anchor-id="uclh-access-required">UCLH access required</h3>
+<ul>
+<li>names of people to get involved with</li>
+</ul>
+</section>
+</section>
+<section id="what-is-the-data-clinic" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-the-data-clinic">What is the Data Clinic?</h2>
+<ul>
+<li>links</li>
+</ul>
+
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -161,6 +293,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const clipboard = new window.ClipboardJS('.code-copy-button', {
     target: function(trigger) {
       return trigger.previousElementSibling;
