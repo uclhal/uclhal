@@ -7,6 +7,8 @@ draft: false
 
 categories:
   - academic
+  - MSc
+  - UCL
 ---
 
 The [UCL Health Data Science MSc programme](https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/health-data-science-msc) covers computational and statistical methods applied to large and complex biomedical data in order to improve health and healthcare through medical research. As part of this programme, you will gain an understanding of techniques that are transforming medical research and creating exciting new commercial opportunities.  

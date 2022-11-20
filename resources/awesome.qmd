@@ -1,0 +1,22 @@
+---
+title: "Recommendations"
+pagetitle: "Resources | External"
+toc: false
+listing:
+  - id: linklist
+    contents:
+      - "awesome.yaml"
+    template: ../ejs/awesome.ejs
+    categories: true
+    sort:
+      - "year desc"
+      - "title"
+    sort-ui: [year]
+    filter-ui: [title, description, year]
+    page-size: 50
+---
+
+A curated list of *awesome* resources recommended by our lab group.
+
+:::{#linklist}
+:::

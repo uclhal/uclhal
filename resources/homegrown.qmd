@@ -1,0 +1,23 @@
+---
+title: "Home grown"
+pagetitle: "Homegrown | UCLHAL"
+page-layout: full
+toc: true
+listing:
+  type: table
+  contents: 
+    - academic
+    - training
+    - data
+    - onboarding
+    - tools
+  sort: "date desc"
+  categories: true
+  fields: [title, description, categories]
+---
+
+
+Home grown tools, data, and other resources.
+
+:::{#resources}
+:::

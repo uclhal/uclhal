@@ -2,39 +2,26 @@
 title: "Hrisheekesh Vaidya"
 sortby: "Vaidya, Hrisheekesh"
 subtitle: "Clinical Fellow in Data Science & Critical Care"
-image: hrishee_vaidya.jpg
+image: vaidya_hrishee.jpg
 started: "August 2022"
 toc: false
 about:
-  id: person-profile
-  template: jolla
-  links:
-    - icon: globe
-      text: Personal Website
-      href: https://site.hrish.ee
-    - icon: twitter
-      text: Twitter
-      href: https://www.twitter.com/hqva
-    - text: "{{< ai orcid >}} ORCID"
-      href: https://hrish.ee/orcid
-    - icon: github
-      text: GitHub
-      href: https://github.com/hqva
+    template: solana
+    image-shape: rounded
+    image-width: 200px
+    links:
+      - icon: globe
+        text: Personal Website
+        href: https://site.hrish.ee
+      - icon: twitter
+        text: Twitter
+        href: https://www.twitter.com/hqva
+      - text: "{{< ai orcid >}} ORCID"
+        href: https://hrish.ee/orcid
+      - icon: github
+        text: GitHub
+        href: https://github.com/hqva
 ---
-
-```{=html}
-<nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
-    <li class="breadcrumb-item"><a href="../../people.html">People</a></li>
-    <!-- <li class="breadcrumb-item active">Clinical Members</li> -->
-    <li class="breadcrumb-item active" aria-current="page">{{< meta title >}}</li>
-  </ol>
-</nav>
-```
-
-:::{#person-profile}
-:::
 
 ## Biography
 

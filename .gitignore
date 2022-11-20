@@ -3,6 +3,7 @@
 /.quarto/
 docs/
 _site/
+_archive/
 
 # My ignores
 # ==========

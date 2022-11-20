@@ -1,18 +1,11 @@
 ---
 pagetitle: "News | UCL Health Algorithms Laboratory"
 toc: false
+page-layout: full
 listing:
-  contents: posts
+  contents: news
   sort: "date desc"
   type: default
   categories: true
 ---
 
-```{=html}
-<nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-    <li class="breadcrumb-item active" aria-current="page">News</li>
-  </ol>
-</nav>
-```

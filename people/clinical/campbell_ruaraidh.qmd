@@ -1,0 +1,26 @@
+---
+title: "Ruaraidh Campbell"
+sortby: "Campbell, Ruaraidh"
+subtitle: "Clinical Fellow in Data Science & Critical Care"
+image: campbell_ruaraidh.jpg
+started: "August 2022"
+toc: false
+about:
+    template: solana
+    image-shape: rounded
+    image-width: 200px
+    links:
+      - icon: github
+        text: Github
+        href: https://github.com/RASCampbell
+      - text: "{{< ai orcid >}} ORCID"
+        href: https://orcid.org/0000-0002-7457-9065
+
+---
+
+## Biography
+
+I am a FY3-level junior doctor currently working as a Clinical Fellow in Data Science and Critical Care at UCLH. I have a clinical interest in Intensive Care Medicine, while my research interests lie within epidemiology and data science. Currently working on the Data Clinic, an initiative to improve access to electronic health record data for frontline healthcare staff.
+
+Scottish at heart and in appearance, but enjoying the better weather down South! 
+

@@ -1,0 +1,36 @@
+---
+title: "Thomas Frost"
+sortby: "Frost, Thomas"
+subtitle: "PhD Student"
+image: frost_thomas.jpg
+started: "September 2022"
+toc: false
+about:
+    template: solana
+    image-shape: rounded
+    image-width: 200px
+    links:
+      - icon: globe
+        text: Personal Website
+      - icon: twitter
+        text: Twitter
+        href: https://www.twitter.com/thomasfrost_ai
+      - text: "{{< ai researchgate >}} ResearchGate"
+        href: https://www.researchgate.net/profile/Thomas-Frost-7
+      - text: "{{< ai google-scholar >}} Google Scholar"
+        href: https://scholar.google.co.uk/citations?view_op=list_works&hl=en&user=v7sjR-IAAAAJ&gmla=AJsN-F5BDDcoCD1zlloYsAcXuV3GyKxV6zmvF_tyzwDEPOI4TYyAHJSoFSuCxRxHMw52t4NstBuFhEyXu7SsnIHI9ke5xCCdKRxs4oyM-my-DPByufA81sTEmVRG_hJagK8tKUImvqvF
+      - icon: github
+        text: GitHub
+        href: https://github.com/tdgfrost
+      - icon: linkedin
+        text: LinkedIn
+        href: https://www.linkedin.com/in/drthomasfrost
+---
+
+## Biography
+
+Dr. Thomas Frost is a clinical doctor currently studying for his PhD with the [UKRI UCL Centre for Doctoral Training in AI-enabled Healthcare Systems](https://www.ucl.ac.uk/aihealth-cdt/). 
+
+His interests in AI and machine learning were first piqued by the wave of deep reinforcement learning work that came out in the mid-2010s. It wasn't long before he found himself searching for opportunities to apply AI to healthcare, and the CDT provided the perfect opportunity to learn the skills to achieve this.
+
+His current work is looking at applying RL algorithms to optimise IV infusions in Critical Care at UCLH. Prior to this, he completed his Master of Research thesis in 2022, which focused on identifying temporal ventilatory phenotypes in patients with COVID-19-related ARDS using Hidden Markov Models.

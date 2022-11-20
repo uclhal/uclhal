@@ -1,12 +1,13 @@
 ---
 pagetitle: "People | UCL Health Algorithms Laboratory"
+page-layout: full
 toc: false
 listing:
   - id: academic
     contents: "people/academic/*.qmd"
     type: grid
-    image-height: 225px
-    grid-columns: 3
+    image-height: 320px
+    grid-columns: 4
     fields: [image, title, subtitle]
     grid-item-align: center
     sort: sortby
@@ -15,8 +16,8 @@ listing:
   - id: clinical
     contents: "people/clinical/*.qmd"
     type: grid
-    image-height: 225px
-    grid-columns: 3
+    image-height: 320px
+    grid-columns: 4
     sort: sortby
     fields: [image, title, subtitle, started]
     field-display-names: 
@@ -25,8 +26,8 @@ listing:
   - id: associate
     contents: "people/associate/*.qmd"
     type: grid
-    image-height: 225px
-    grid-columns: 3
+    image-height: 320px
+    grid-columns: 4
     sort: sortby
     fields: [image, title, subtitle, started]
     field-display-names: 
@@ -45,16 +46,6 @@ listing:
       started: "Started"
       ended: "Ended"
 ---
-
-```{=html}
-<nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-    <li class="breadcrumb-item active" aria-current="page">People</li>
-  </ol>
-</nav>
-```
-
 
 ## Academic members
 

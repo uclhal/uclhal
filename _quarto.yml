@@ -2,40 +2,59 @@ project:
   type: website
   resources:
     - CNAME
-  output-dir: docs
 
 execute:
   freeze: auto
 
+format:
+  html:
+    # theme: 
+    #   light: flatly
+    #   dark: darkly
+    css: styles.css
+
 website:
   title: "UCL Health Algorithms Laboratory"
-  navbar:
-    pinned: true
-    right:
-      - href: people.qmd
-        text: People
-      - href: news.qmd
-        text: News
-      # - href: research.qmd
-      #   text: Research
-      - text: Research
-        menu:
-          - href: featured.qmd
-            text: Featured
-          - href: publications.qmd
-            text: Publications
-      - href: resources.qmd
-        text: Resources
-      # - href: opportunities.qmd
-      #   text: Opportunities
-      - href: contact.qmd
-        text: Contact
+  favicon: img/noun-patient-3907718.png
   page-footer: "Copyright 2022 &copy; Steve Harris"
   site-url: https://uclhal.org
   repo-url: https://github.com/uclhal/uclhal
+  repo-actions: [edit, issue]
+  search:
+    location: navbar
+    type: textbox
 
-format:
-  html:
-    theme: superhero
-    css: styles.css
-    toc: true
+  navbar:
+    background: primary
+    search: true
+    left:
+      - text: "Home"
+        file: index.qmd
+      - text: "News"
+        file: news.qmd
+      - text: "People"
+        file: people.qmd
+      - text: "Publications"
+        file: publications.qmd
+      - text: "Resources"
+        file: resources.qmd
+      - text: "Tutorials"
+        file: tutorials.qmd
+
+  sidebar:
+    - title: "Tutorials"
+      style: "docked"
+      background: light
+      contents:
+        - tutorials.qmd
+        - tutorials/onboarding/onboarding.qmd
+        - tutorials/five-safes/five-safes.qmd
+
+    - title: "Resources"
+      contents:
+        - resources.qmd
+        - resources/homegrown.qmd
+        - resources/awesome.qmd
+        # navigation items
+    
+

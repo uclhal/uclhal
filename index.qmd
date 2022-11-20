@@ -1,7 +1,7 @@
 ---
 pagetitle: "UCL HAL"
 title: "UCL Health Algorithm Laboratory"
-# page-layout: full
+page-layout: full
 toc: false
 ---
 
@@ -11,10 +11,27 @@ toc: false
 
 <!-- ![](./img/showcase.svg){.hero} -->
 
-<!-- ::: {.callout-note}
+::: {.callout-note}
 ## We are currently recruiting!
 
-If you are interested in joining the lab as a Psychology PhD student, please consider applying.<br />
-You can find more information about this recruitment cycle at [this blog post](./posts/recruitment2023) (or under News).
+If you are interested in joining the lab as a Data Scientist, please get in touch.<br />
+<!-- You can find more information about this recruitment cycle at [this blog post](./posts/recruitment2023) (or under News). -->
 :::
+
+
+<!-- ## Email Us
+
+hello@uclhal.org
  -->
+## Visit Us
+
+The UCL Health Algorithm Laboratory is based at **Institute of Health Informatics** at University College London.
+
+> **Street Address:** 222 Euston Road, London, NW1 2DA
+
+```{=html}
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.3081696623235!2d-0.137801584241075!3d51.52590731717089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b260446fa31%3A0xc97a5981bb924a0d!2sUCL%20Institute%20Of%20Health%20Informatics!5e0!3m2!1sen!2suk!4v1668376825965!5m2!1sen!2suk" width="50%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+```
+
+
+
