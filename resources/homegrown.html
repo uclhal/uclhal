@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Research | UCLHAL</title>
+<title>Homegrown | UCLHAL</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,23 +23,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./img/noun-patient-3907718.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../img/noun-patient-3907718.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -59,9 +61,39 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-homegrown .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
-<link rel="stylesheet" href="styles.css">
+    const options = {
+      valueNames: ['listing-title','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-homegrown'] = new List('listing-homegrown', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-sidebar docked nav-fixed">
@@ -71,7 +103,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">UCL Health Algorithms Laboratory</span>
     </a>
   </div>
@@ -81,27 +113,27 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html">
+    <a class="nav-link" href="../index.html">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./news.html">
+    <a class="nav-link" href="../news.html">
  <span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./people.html">
+    <a class="nav-link" href="../people.html">
  <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publications.html">
+    <a class="nav-link" href="../publications.html">
  <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./resources.html" aria-current="page">
+    <a class="nav-link active" href="../resources.html" aria-current="page">
  <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./tutorials.html">
+    <a class="nav-link" href="../tutorials.html">
  <span class="menu-text">Tutorials</span></a>
   </li>  
 </ul>
@@ -111,7 +143,7 @@ ul.task-list li input[type="checkbox"] {
     </nav>
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Research overview</h1>
+      <h1 class="quarto-secondary-nav-title">Home grown</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -119,24 +151,24 @@ ul.task-list li input[type="checkbox"] {
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./resources.html" class="sidebar-item-text sidebar-link active">Research overview</a>
+  <a href="../resources.html" class="sidebar-item-text sidebar-link">Research overview</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./resources/homegrown.html" class="sidebar-item-text sidebar-link">Home grown</a>
+  <a href="../resources/homegrown.html" class="sidebar-item-text sidebar-link active">Home grown</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./resources/awesome.html" class="sidebar-item-text sidebar-link">Recommendations</a>
+  <a href="../resources/awesome.html" class="sidebar-item-text sidebar-link">Recommendations</a>
   </div>
 </li>
     </ul>
@@ -144,26 +176,14 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#clinical-topics" id="toc-clinical-topics" class="nav-link active" data-scroll-target="#clinical-topics">Clinical Topics</a></li>
-  <li><a href="#methodological-topics" id="toc-methodological-topics" class="nav-link" data-scroll-target="#methodological-topics">Methodological Topics</a></li>
-  <li><a href="#research-funding" id="toc-research-funding" class="nav-link" data-scroll-target="#research-funding">Research Funding</a>
-  <ul class="collapse">
-  <li><a href="#current-funding" id="toc-current-funding" class="nav-link" data-scroll-target="#current-funding">Current Funding</a></li>
-  <li><a href="#completed-funding" id="toc-completed-funding" class="nav-link" data-scroll-target="#completed-funding">Completed Funding</a></li>
-  </ul></li>
-  </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/uclhal/uclhal/edit/main/resources.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/uclhal/uclhal/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
-    </div>
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="MSc">MSc <span class="quarto-category-count">(1)</span></div><div class="category" data-category="PhD">PhD <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UCL">UCL <span class="quarto-category-count">(2)</span></div><div class="category" data-category="academic">academic <span class="quarto-category-count">(2)</span></div></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-body" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Research overview</h1>
+<h1 class="title d-none d-lg-block">Home grown</h1>
 </div>
 
 
@@ -178,48 +198,72 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="clinical-topics" class="level2">
-<h2 class="anchored" data-anchor-id="clinical-topics">Clinical Topics</h2>
-<ul>
-<li><strong>Timely delivery of critical care</strong> – We are interested in methodologically rigorous methods of evaluating the impact of delay to treatment.</li>
-</ul>
-</section>
-<section id="methodological-topics" class="level2">
-<h2 class="anchored" data-anchor-id="methodological-topics">Methodological Topics</h2>
-<ul>
-<li><p><strong>Causal Inference</strong> – We are interested in … (see BJA series and ICM paper)</p></li>
-<li><p><strong>Data science teaching</strong></p></li>
-</ul>
-</section>
-<section id="research-funding" class="level2">
-<h2 class="anchored" data-anchor-id="research-funding">Research Funding</h2>
-<section id="current-funding" class="level3">
-<h3 class="anchored" data-anchor-id="current-funding">Current Funding</h3>
-<ul>
-<li><em>“Collaborative Healthcare Innovation through Mathematics, EngineeRing and AI”</em>
-<ul>
-<li>EPSRC</li>
-<li><strong>Harris</strong> (Co-Investigator)</li>
-<li>2020-</li>
-</ul></li>
-</ul>
-</section>
-<section id="completed-funding" class="level3">
-<h3 class="anchored" data-anchor-id="completed-funding">Completed Funding</h3>
-<ul>
-<li><em>“Collaborative Healthcare Innovation through Mathematics, EngineeRing and AI”</em>
-<ul>
-<li>University College London Hospital Charity</li>
-<li>Brealey D, <em>Harris S</em>, MacCallum N (Co-Principal Investigators):</li>
-<li>2017-2020</li>
-</ul></li>
-</ul>
-<!-- ### Pending Funding -->
-<p>–&gt;</p>
+<p>Home grown tools, data, and other resources.</p>
+<div id="listing-homegrown" class="quarto-listing quarto-listing-container-table">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-homegrown-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-homegrown'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title-sort" data-direction="asc">
+          Title
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
+</th>
+<th>
+Description
+</th>
+<th>
+Categories
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-categories="academic,MSc,UCL" data-listing-date-sort="1668643200000" data-listing-file-modified-sort="1668948041915" data-listing-reading-time-sort="0.685" data-listing-title-sort="UCL Health Data Science MSc" data-listing-filename-sort="msc_health_data_science.qmd">
+<td class="listing-title">
+<a href="../resources/homegrown/msc_health_data_science.html" class="title">UCL Health Data Science MSc</a>
+</td>
+<td class="listing-description">
+1 year full-time taught MSc, part-time options available
+</td>
+<td class="listing-categories">
+academic,MSc,UCL
+</td>
+</tr>
+<tr data-index="1" data-categories="academic,PhD,UCL" data-listing-date-sort="1668643200000" data-listing-file-modified-sort="1668948041915" data-listing-reading-time-sort="0.855" data-listing-title-sort="UCL CDT in AI-enabled Healthcare Systems" data-listing-filename-sort="phd_cdt_ai.qmd">
+<td class="listing-title">
+<a href="../resources/homegrown/phd_cdt_ai.html" class="title">UCL CDT in AI-enabled Healthcare Systems</a>
+</td>
+<td class="listing-description">
+4 year MRes+PhD programme
+</td>
+<td class="listing-categories">
+academic,PhD,UCL
+</td>
+</tr>
+</tbody>
+
+</table>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
 
 
-</section>
-</section>
+
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

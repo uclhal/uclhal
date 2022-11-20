@@ -30,6 +30,13 @@
     "items": []
   },
   {
+    "listing": "/resources/homegrown.html",
+    "items": [
+      "/resources/homegrown/msc_health_data_science.html",
+      "/resources/homegrown/phd_cdt_ai.html"
+    ]
+  },
+  {
     "listing": "/resources/awesome.html",
     "items": []
   }
