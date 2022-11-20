@@ -12,6 +12,7 @@ format:
     #   light: flatly
     #   dark: darkly
     css: styles.css
+    toc: true
 
 website:
   title: "UCL Health Algorithms Laboratory"
@@ -47,9 +48,24 @@ website:
       background: light
       contents:
         - tutorials.qmd
-        - tutorials/onboarding/onboarding.qmd
-        - tutorials/five-safes/five-safes.qmd
-        - tutorials/emap/emap-star-intro.ipynb
+        - section: "Onboarding"
+          contents:
+            - tutorials/onboarding/onboarding.qmd
+            - tutorials/onboarding/onboarding-1.qmd
+            - tutorials/onboarding/onboarding-2.qmd
+            - tutorials/five-safes/five-safes.qmd
+            - tutorials/emap/emap-star-intro.qmd
+        - section: "HYLODE"
+          contents:
+            - tutorials/hylode/hylode.qmd
+            - tutorials/hylode/HyMind-Lab-example.ipynb
+            - tutorials/hylode/HyMind-ML-example.ipynb
+            - tutorials/hylode/HyCastle-Lens.ipynb
+            - tutorials/hylode/vignette_0__README.ipynb
+            - tutorials/hylode/vignette_0_intro.ipynb
+            - tutorials/hylode/vignette_1_training.ipynb
+            - tutorials/hylode/vignette_2_modelling.ipynb
+            - tutorials/hylode/vignette_3_data_flow.ipynb
 
     - title: "Resources"
       contents:
