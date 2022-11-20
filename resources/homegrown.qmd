@@ -9,7 +9,6 @@ listing:
     - academic
     - training
     - data
-    - onboarding
     - tools
   sort: "date desc"
   categories: true
