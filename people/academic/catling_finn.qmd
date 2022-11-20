@@ -35,6 +35,10 @@ about:
 
 I am an academic Anaesthetic and Critical Care doctor, and a Wellcome Trust 4i Clinical PhD Fellow at Imperial College London.
 
-My research aims at early diagnosis and improved treatment of critical illness, using methods from Bayesian statistics and machine learning. I am particularly interested in merging these methods with physiological models to provide bedside decision support, in disease heterogeneity, and in the role of uncertainty in clinical decision-making.
+My research focuses on early diagnosis and improved treatment of critical illness, using methods from Bayesian statistics and machine learning. I am particularly interested in merging these methods with physiological models to provide bedside decision support, in disease heterogeneity, and in the role of uncertainty in clinical decision-making.
 
-My recent work includes uncertainty-aware mortality risk prediction for patients undergoing emergency laparotomy, representing ICU patients’ status using time-series data to predict clinical events, using structured knowledge for automated clinical coding and phenotyping ventilator-associated pneumonia in electronic health records.
+My recent work includes:
+
+- [Uncertainty-aware mortality risk prediction](https://www.nature.com/articles/s41746-022-00616-7) for patients undergoing emergency laparotomy. Our prediction model is available as a [web app and API](https://laparotomy-risk.com/).
+- [Representing patients’ status using time-series data](https://pubmed.ncbi.nlm.nih.gov/31858114/) to better anticipate clinical deterioration in the Intensive Care Unit.
+- Exploiting structure in medical knowledge to [improve rare disease recognition](https://pubmed.ncbi.nlm.nih.gov/30409346/) during automated clinical coding.
