@@ -66,6 +66,9 @@ website:
             - tutorials/hylode/vignette_1_training.ipynb
             - tutorials/hylode/vignette_2_modelling.ipynb
             - tutorials/hylode/vignette_3_data_flow.ipynb
+        - section: "Data Clinic"
+          contents:
+            - tutorials/data-clinic/data-clinic-for-fellows.qmd
 
     - title: "Resources"
       contents:
