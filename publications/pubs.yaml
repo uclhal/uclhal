@@ -1,0 +1,1881 @@
+---
+nocite: "[@*]"
+references:
+- abstract: AbstractAtrial fibrillation is a frequently encountered
+    condition in critical illness and causes adverse effects including
+    haemodynamic decompensation, stroke and prolonged hospital stay. It
+    is a common practice in critical care to supplement serum magnesium
+    for the purpose of preventing episodes of atrial fibrillation.
+    However, no randomised studies support this practice in the
+    non-cardiac surgery critical care population, and the effectiveness
+    of magnesium supplementation is unclear. We sought to investigate
+    the effectiveness of magnesium supplementation in preventing the
+    onset of atrial fibrillation in a mixed critical care population. We
+    conducted a single centre retrospective observational study of adult
+    critical care patients. We utilised a natural experiment design,
+    using the supplementation preference of the bedside critical care
+    nurse as an instrumental variable. Using routinely collected
+    electronic patient data, magnesium supplementation opportunities
+    were defined and linked to the bedside nurse. Nurse preference for
+    administering magnesium was obtained using multilevel modelling. The
+    results were used to define \"liberal\" and \"restrictive\"
+    supplementation groups, which were inputted into an instrumental
+    variable regression to obtain an estimate of the effect of magnesium
+    supplementation. 9114 magnesium supplementation opportunities were
+    analysed, representing 2137 critical care admissions for 1914
+    patients. There was significant variation in magnesium
+    supplementation practices attributable to the individual nurse,
+    after accounting for covariates. The instrumental variable analysis
+    showed magnesium supplementation was associated with a 3% decreased
+    relative risk of experiencing an atrial fibrillation event (95%
+    CI − 0.06 to − 0.004, p  = 0.03). This study supports the strategy
+    of routine supplementation, but further work is required to identify
+    optimal serum magnesium targets for atrial fibrillation prophylaxis.
+  accessed: 2022-10-20
+  author:
+  - family: Wilson
+    given: Matthew G.
+  - family: Rashan
+    given: Aasiyah
+  - family: Klapaukh
+    given: Roman
+  - family: Asselbergs
+    given: Folkert W.
+  - family: Harris
+    given: Steve K.
+  container-title: Scientific Reports
+  doi: 10.1038/s41598-022-21286-1
+  id: wilson_clinician_2022
+  issn: 2045-2322
+  issue: 1
+  issued: 2022-10
+  keyword: causal-inference
+  note: 0 citations (Crossref) \[2022-10-20\]
+  page: 17433
+  title: Clinician preference instrumental variable analysis of the
+    effectiveness of magnesium supplementation for atrial fibrillation
+    prophylaxis in critical care
+  type: article-journal
+  url: "https://www.nature.com/articles/s41598-022-21286-1"
+  volume: 12
+- abstract: "Introduction Many routinely administered treatments lack
+    evidence as to their effectiveness. When treatments lack evidence,
+    patients receive varying care based on the preferences of
+    clinicians. Standard randomised controlled trials are unsuited to
+    comparisons of different routine treatment strategies, and there
+    remains little economic incentive for change. Integrating clinical
+    trial infrastructure into electronic health record systems offers
+    the potential for routine treatment comparisons at scale, through
+    reduced trial costs. To date, embedded trials have automated data
+    collection, participant identification and eligibility screening,
+    but randomisation and consent remain manual and therefore costly
+    tasks. This study will investigate the feasibility of using computer
+    prompts to allow flexible randomisation at the point of clinical
+    decision making. It will compare the effectiveness of two prompt
+    designs through the lens of a candidate research
+    question---comparing liberal or restrictive magnesium
+    supplementation practices for critical care patients. It will also
+    explore the acceptability of two consent models for conducting
+    comparative effectiveness research.Methods and analysis We will
+    conduct a single centre, mixed-methods feasibility study, aiming to
+    recruit 50 patients undergoing elective surgery requiring
+    postoperative critical care admission. Participants will be
+    randomised to either 'Nudge'Nudge or 'Preference'Preference designs
+    of electronic point-of-care randomisation prompt, and liberal or
+    restrictive magnesium supplementation. We will judge feasibility
+    through a combination of study outcomes. The primary outcome will be
+    the proportion of prompts displayed resulting in successful
+    randomisation events (compliance with the allocated magnesium
+    strategy). Secondary outcomes will evaluate the acceptability of
+    both prompt designs to clinicians and ascertain the acceptability of
+    pre-emptive and opt-out consent models to patients.Ethics and
+    dissemination This study was approved by Riverside Research Ethics
+    Committee (Ref: 21/LO/0785) and will be published on
+    completion.Trial registration numberNCT05149820 ."
+  accessed: 2022-09-20
+  author:
+  - family: Wilson
+    given: Matthew G
+  - family: Asselbergs
+    given: Folkert W
+  - family: Miguel
+    given: Ruben
+  - family: Brealey
+    given: David
+  - family: Harris
+    given: Steve K
+  container-title: BMJ Open
+  doi: 10.1136/bmjopen-2021-059995
+  id: wilson_embedded_2022
+  issn: 2044-6055, 2044-6055
+  issue: 9
+  issued: 2022-09
+  keyword: nudge-trials
+  note: 0 citations (Crossref) \[2022-09-20\]
+  page: e059995
+  title: "Embedded point of care randomisation for evaluating
+    comparative effectiveness questions: PROSPECTOR-critical care
+    feasibility study protocol"
+  title-short: Embedded point of care randomisation for evaluating
+    comparative effectiveness questions
+  type: article-journal
+  url: "https://bmjopen.bmj.com/lookup/doi/10.1136/bmjopen-2021-059995"
+  volume: 12
+- abstract: "OBJECTIVES: To describe the epidemiology of sepsis in
+    critical care by applying the Sepsis-3 criteria to electronic health
+    records. DESIGN: Retrospective cohort study using electronic health
+    records. SETTING: Ten ICUs from four U.K. National Health Service
+    hospital trusts contributing to the National Institute for Health
+    Research Critical Care Health Informatics Collaborative. PATIENTS: A
+    total of 28,456 critical care admissions (14,332 emergency medical,
+    4,585 emergency surgical, and 9,539 elective surgical). MEASUREMENTS
+    AND MAIN RESULTS: Twenty-nine thousand three hundred forty-three
+    episodes of clinical deterioration were identified with a rise in
+    Sequential Organ Failure Assessment score of at least 2 points, of
+    which 14,869 (50.7%) were associated with antibiotic escalation and
+    thereby met the Sepsis-3 criteria for sepsis. A total of 4,100
+    episodes of sepsis (27.6%) were associated with vasopressor use and
+    lactate greater than 2.0 mmol/L, and therefore met the Sepsis-3
+    criteria for septic shock. ICU mortality by source of sepsis was
+    highest for ICU-acquired sepsis (23.7%; 95% CI, 21.9--25.6%),
+    followed by hospitalacquired sepsis (18.6%; 95% CI, 17.5--19.9%),
+    and community-acquired sepsis (12.9%; 95% CI, 12.1--13.6%) (p for
+    comparison less than 0.0001). CONCLUSIONS: We successfully
+    operationalized the Sepsis-3 criteria to an electronic health record
+    dataset to describe the characteristics of critical care patients
+    with sepsis. This may facilitate sepsis research using electronic
+    health record data at scale without relying on human coding."
+  accessed: 2022-07-17
+  author:
+  - family: Shah
+    given: Anoop D.
+  - family: MacCallum
+    given: Niall S.
+  - family: Harris
+    given: Steve
+  - family: Brealey
+    given: David A.
+  - family: Palmer
+    given: Edward
+  - family: Hetherington
+    given: James
+  - family: Shi
+    given: Sinan
+  - family: Perez-Suarez
+    given: David
+  - family: Ercole
+    given: Ari
+  - family: Watkinson
+    given: Peter J.
+  - family: Jones
+    given: Andrew
+  - family: Ashworth
+    given: Simon
+  - family: Beale
+    given: Richard
+  - family: Brett
+    given: Stephen J.
+  - family: Singer
+    given: Mervyn
+  container-title: Critical Care Medicine
+  doi: 10.1097/CCM.0000000000005169
+  id: shah_descriptors_2021
+  issn: 0090-3493
+  issue: 11
+  issued: 2021-11
+  keyword: cchic, health-informatics-collaborative
+  page: 1883-1894
+  title: "Descriptors of Sepsis Using the Sepsis-3 Criteria: A Cohort
+    Study in Critical Care Units Within the U.K. National Institute for
+    Health Research Critical Care Health Informatics Collaborative\\*"
+  title-short: Descriptors of Sepsis Using the Sepsis-3 Criteria
+  type: article-journal
+  url: "https://journals.lww.com/10.1097/CCM.0000000000005169"
+  volume: 49
+- abstract: Improved outcomes for acutely unwell patients are predicated
+    on early identification of deterioration, accelerating the time to
+    accurate diagnosis of the underlying condition, selection and
+    titration of treatments that target biological phenotypes, and
+    personalised endpoints to achieve optimal benefit yet minimise
+    iatrogenic harm. Technological developments entering routine
+    clinical practice over the next decade will deliver a sea change in
+    patient management. Enhanced point of care diagnostics, more
+    sophisticated physiological and biochemical monitoring with superior
+    analytics and computeraided support tools will all add considerable
+    artificial intelligence to complement clinical skills. Experts in
+    different fields of emergency and critical care medicine offer their
+    perspectives as to which research developments could make a big
+    difference within the next decade.
+  accessed: 2022-07-17
+  author:
+  - family: Newcombe
+    given: Virginia
+  - family: Coats
+    given: Timothy
+  - family: Dark
+    given: Paul
+  - family: Gordon
+    given: Anthony
+  - family: Harris
+    given: Steve
+  - family: McAuley
+    given: Danny F
+  - family: Menon
+    given: David K
+  - family: Price
+    given: Susanna
+  - family: Puthucheary
+    given: Zudin
+  - family: Singer
+    given: Mervyn
+  container-title: Future Healthcare Journal
+  doi: 10.7861/fhj.2021-0097
+  id: newcombe_future_2021
+  issn: 2514-6645, 2514-6653
+  issue: 2
+  issued: 2021-07
+  page: e230-e236
+  title: The future of acute and emergency care
+  type: article-journal
+  url: "https://www.rcpjournals.org/lookup/doi/10.7861/fhj.2021-0097"
+  volume: 8
+- abstract: Background Children aged younger than 3 years were excluded
+    from the ELIANA phase 2 trial of tisagenlecleucel in children with
+    acute lymphoblastic leukaemia. The feasibility, safety, and activity
+    of tisagenlecleucel have not been defined in this group, the
+    majority of whom have high-risk (KMT2A-rearranged) infant acute
+    lymphoblastic leukaemia and historically poor outcomes despite
+    intensification of chemotherapy, and for whom novel therapies are
+    urgently needed. We aimed to provide real-world outcome analysis of
+    the feasibility, activity, and safety of tisagenlecleucel in younger
+    children and infants with acute lymphoblastic leukaemia. Methods We
+    did an international, multicentre, retrospective cohort study at 15
+    hospitals across ten countries in Europe. Eligible patients were
+    children aged younger than 3 years at screening between Sept 1,
+    2018, and Sept 1, 2021, who were screened for tisagenlecleucel
+    therapy for relapsed or refractory B-cell precursor acute
+    lymphoblastic leukaemia according to licensed indications. Patients
+    received a single intravenous infusion of tisagenlecleucel. We
+    tracked chimeric antigen receptor T-cell therapy outcomes using a
+    standardised data reporting form. Overall survival, event-free
+    survival, stringent event-free survival, B-cell aplasia, and
+    toxicity were assessed in all patients who received a
+    tisagenlecleucel infusion. Findings 38 eligible patients were
+    screened, of whom 35 (92%) received a tisagenlecleucel infusion. 29
+    (76%) of 38 patients had KMT2A-rearranged acute lymphoblastic
+    leukaemia, and 25 (66%) had relapsed after previous allogeneic
+    haematopoietic stem-cell transplantation (HSCT). Patients had
+    previously received a median of 2 lines (IQR 2--3) of (non-HSCT)
+    therapy. Seven (18%) of 38 patients had received inotuzumab and 14
+    (37%) had received blinatumomab. After a median of 14 months (IQR
+    9--21) of follow-up, overall survival at 12 months after
+    tisagenlecleucel infusion was 84% (64--93; five patients had died),
+    event-free survival was 69% (47--83; nine events), and stringent
+    event-free survival was 41% (23--58; 18 events). The probability of
+    ongoing B-cell aplasia was 70% (95% CI 46--84; seven events) at 12
+    months. Adverse events included cytokine release syndrome, which
+    occurred at any grade in 21 (60%) of 35 patients and at grade 3 or
+    worse in five (14%), and neurotoxicity at any grade in nine (26%),
+    none of which were severe. Measurable residual disease-negative
+    complete response with or without haematological recovery occurred
+    in 24 (86%) of 28 patients who had measurable disease.
+    Interpretation These data suggest that tisagenlecleucel has
+    antitumour activity and has an acceptable safety profile for young
+    children and infants with B-cell precursor acute lymphoblastic
+    leukaemia. Funding None.
+  accessed: 2022-09-07
+  author:
+  - family: Ghorashian
+    given: Sara
+  - family: Jacoby
+    given: Elad
+  - family: De Moerloose
+    given: Barbara
+  - family: Rives
+    given: Susana
+  - family: Bonney
+    given: Denise
+  - family: Shenton
+    given: Geoff
+  - family: Bader
+    given: Peter
+  - family: Bodmer
+    given: Nicole
+  - family: Quintana
+    given: Agueda Molinos
+  - family: Herrero
+    given: Blanca
+  - family: Algeri
+    given: Mattia
+  - family: Locatelli
+    given: Franco
+  - family: Vettenranta
+    given: Kim
+  - family: Gonzalez
+    given: Berta
+  - family: Attarbaschi
+    given: Andishe
+  - family: Harris
+    given: Stephen
+  - family: Bourquin
+    given: Jean Pierre
+  - family: Baruchel
+    given: André
+  container-title: The Lancet Haematology
+  doi: 10.1016/S2352-3026(22)00225-3
+  id: ghorashian_tisagenlecleucel_2022
+  issn: 2352-3026
+  issued: 2022-09
+  note: 1 citations (Crossref) \[2022-09-07\]
+  title: "Tisagenlecleucel therapy for relapsed or refractory B-cell
+    acute lymphoblastic leukaemia in infants and children younger than 3
+    years of age at screening: An international, multicentre,
+    retrospective cohort study"
+  title-short: Tisagenlecleucel therapy for relapsed or refractory
+    B-cell acute lymphoblastic leukaemia in infants and children younger
+    than 3 years of age at screening
+  type: article-journal
+  url: "https://www.sciencedirect.com/science/article/pii/S2352302622002253"
+- abstract: "Abstract The increasing volume and richness of healthcare
+    data collected during routine clinical practice have not yet
+    translated into significant numbers of actionable insights that have
+    systematically improved patient outcomes. An evidence-practice gap
+    continues to exist in healthcare. We contest that this gap can be
+    reduced by assessing the use of nudge theory as part of clinical
+    decision support systems (CDSS). Deploying nudges to modify
+    clinician behaviour and improve adherence to guideline-directed
+    therapy represents an underused tool in bridging the
+    evidence-practice gap. In conjunction with electronic health records
+    (EHRs) and newer devices including artificial intelligence
+    algorithms that are increasingly integrated within learning health
+    systems, nudges such as CDSS alerts should be iteratively tested for
+    all stakeholders involved in health decision-making: clinicians,
+    researchers, and patients alike. Not only could they improve the
+    implementation of known evidence, but the true value of nudging
+    could lie in areas where traditional randomized controlled trials
+    are lacking, and where clinical equipoise and variation dominate.
+    The opportunity to test CDSS nudge alerts and their ability to
+    standardize behaviour in the face of uncertainty may generate novel
+    insights and improve patient outcomes in areas of clinical practice
+    currently without a robust evidence base."
+  accessed: 2022-07-17
+  author:
+  - family: Chen
+    given: Yang
+  - family: Harris
+    given: Steve
+  - family: Rogers
+    given: Yvonne
+  - family: Ahmad
+    given: Tariq
+  - family: Asselbergs
+    given: Folkert W.
+  container-title: European Heart Journal
+  doi: 10.1093/eurheartj/ehac030
+  id: chen_nudging_2022
+  issn: 0195-668X, 1522-9645
+  issue: 13
+  issued: 2022-03
+  keyword: nudge-trials
+  page: 1296-1306
+  title: "Nudging within learning health systems: Next generation
+    decision support to improve cardiovascular care"
+  title-short: Nudging within learning health systems
+  type: article-journal
+  url: "https://academic.oup.com/eurheartj/article/43/13/1296/6525340"
+  volume: 43
+- accessed: 2022-07-17
+  author:
+  - family: Harris
+    given: Steve
+  container-title: American Journal of Respiratory and Critical Care
+    Medicine
+  doi: 10.1164/rccm.202102-0459ED
+  id: harris_i\_2021
+  issn: 1073-449X, 1535-4970
+  issue: 1
+  issued: 2021-07
+  page: 4-5
+  title: "I Don't Want My Algorithm to Die in a Paper: Detecting
+    Deteriorating Patients Early"
+  title-short: I Don't Want My Algorithm to Die in a Paper
+  type: article-journal
+  url: "https://www.atsjournals.org/doi/10.1164/rccm.202102-0459ED"
+  volume: 204
+- abstract: "Background:  An Informatics Consult has been proposed in
+    which clinicians request novel evidence from large scale health data
+    resources, tailored to the treatment of a specific patient. However,
+    the availability of such consultations is lacking. We seek to
+    provide an Informatics Consult for a situation where a treatment
+    indication and contraindication coexist in the same patient, i.e.,
+    anti-coagulation use for stroke prevention in a patient with both
+    atrial fibrillation (AF) and liver cirrhosis. Methods:  We examined
+    four sources of evidence for the effect of warfarin on stroke risk
+    or all-cause mortality from: (1) randomised controlled trials
+    (RCTs), (2) meta-analysis of prior observational studies, (3) trial
+    emulation (using population electronic health records
+    (N = 3,854,710) and (4) genetic evidence (Mendelian randomisation).
+    We developed prototype forms to request an Informatics Consult and
+    return of results in electronic health record systems. Results:  We
+    found 0 RCT reports and 0 trials recruiting for patients with AF and
+    cirrhosis. We found broad concordance across the three new sources
+    of evidence we generated. Meta-analysis of prior observational
+    studies showed that warfarin use was associated with lower stroke
+    risk (hazard ratio \\[HR\\] = 0.71, CI 0.39--1.29). In a target trial
+    emulation, warfarin was associated with lower all-cause mortality
+    (HR = 0.61, CI 0.49--0.76) and ischaemic stroke (HR = 0.27, CI
+    0.08--0.91). Mendelian randomisation served as a drug target
+    validation where we found that lower levels of vitamin K1 (warfarin
+    is a vitamin K1 antagonist) are associated with lower stroke risk. A
+    pilot survey with an independent sample of 34 clinicians revealed
+    that 85% of clinicians found information on prognosis useful and
+    that 79% thought that they should have access to the Informatics
+    Consult as a service within their healthcare systems. We identified
+    candidate steps for automation to scale evidence generation and to
+    accelerate the return of results. Conclusion:  We performed a
+    proof-of-concept Informatics Consult for evidence generation, which
+    may inform treatment decisions in situations where there is dearth
+    of randomised trials. Patients are surprised to know that their"
+  accessed: 2022-07-17
+  author:
+  - family: Lai
+    given: Alvina G.
+  - family: Chang
+    given: Wai Hoong
+  - family: Parisinos
+    given: Constantinos A.
+  - family: Katsoulis
+    given: Michail
+  - family: Blackburn
+    given: Ruth M.
+  - family: Shah
+    given: Anoop D.
+  - family: Nguyen
+    given: Vincent
+  - family: Denaxas
+    given: Spiros
+  - family: Davey Smith
+    given: George
+  - family: Gaunt
+    given: Tom R.
+  - family: Nirantharakumar
+    given: Krishnarajah
+  - family: Cox
+    given: Murray P.
+  - family: Forde
+    given: Donall
+  - family: Asselbergs
+    given: Folkert W.
+  - family: Harris
+    given: Steve
+  - family: Richardson
+    given: Sylvia
+  - family: Sofat
+    given: Reecha
+  - family: Dobson
+    given: Richard J. B.
+  - family: Hingorani
+    given: Aroon
+  - family: Patel
+    given: Riyaz
+  - family: Sterne
+    given: Jonathan
+  - family: Banerjee
+    given: Amitava
+  - family: Denniston
+    given: Alastair K.
+  - family: Ball
+    given: Simon
+  - family: Sebire
+    given: Neil J.
+  - family: Shah
+    given: Nigam H.
+  - family: Foster
+    given: Graham R.
+  - family: Williams
+    given: Bryan
+  - family: Hemingway
+    given: Harry
+  container-title: BMC Medical Informatics and Decision Making
+  doi: 10.1186/s12911-021-01638-z
+  id: lai_informatics_2021
+  issn: 1472-6947
+  issue: 1
+  issued: 2021-12
+  page: 281
+  title: An informatics consult approach for generating clinical
+    evidence for treatment decisions
+  type: article-journal
+  url: "https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-021-01638-z"
+  volume: 21
+- abstract: "Postoperative critical care is a ﬁnite resource that is
+    recommended for high-risk patients. Despite national recommendations
+    specifying that such patients should receive postoperative critical
+    care, there is evidence that these recommendations are not
+    universally followed. We performed a national survey aiming to
+    better understand how patients are risk-stratiﬁed in practice;
+    elucidate clinicians' opinions about how patients should be selected
+    for critical care; and determine factors which affect the actual
+    provision of postoperative critical care. As part of the second
+    Sprint National Anaesthesia Project, epidemiology of critical care
+    after surgery study, we distributed a paper survey to anaesthetists,
+    surgeons and intensivists providing peri-operative care during a
+    single week in March 2017. We collected data on respondent
+    characteristics, and their opinions of postoperative critical care
+    provision, potential beneﬁts and real-world challenges. We undertook
+    both quantitative and qualitative analyses to interpret the
+    responses. We received 10,383 survey responses from 237 hospitals
+    across the UK. Consultants used a lower threshold for critical care
+    admission than other career grades, indicating potentially more
+    risk-averse behaviour. The majority of respondents reported that
+    critical care provision was inadequate, and cited the value of
+    critical care as being predominantly due to higher nurse: patient
+    ratios. Use of objective risk assessment tools was poor, and
+    patients were commonly selected for critical care based on
+    procedure-speciﬁc pathways rather than individualised risk
+    assessment. Challenges were highlighted in the delivery of
+    peri-operative critical care services, such as an overall lack of
+    capacity, competition for beds with non-surgical cases and poor ﬂow
+    through the hospital leading to bed 'blockages'. Critical care is
+    perceived to provide beneﬁt to high-risk surgical patients, but
+    there is variation in practice about the deﬁnition and determination
+    of risk, how patients are referred and how to deal with the lack of
+    critical care resources. Future work should focus on evaluating
+    'enhanced care' units for postoperative patients, how to better
+    implement individualised risk assessment in practice, and how to
+    improve patient ﬂow through hospitals."
+  accessed: 2022-07-17
+  author:
+  - family: Hashim
+    given: S.
+  - family: Wong
+    given: D. J. N.
+  - family: Farmer
+    given: L.
+  - family: Harris
+    given: S. K.
+  - family: Moonesinghe
+    given: S. R.
+  container-title: Anaesthesia
+  doi: 10.1111/anae.15302
+  id: hashim_perceptions_2021
+  issn: 0003-2409, 1365-2044
+  issue: 3
+  issued: 2021-03
+  keyword: snap-2
+  page: 336-345
+  title: Perceptions of UK clinicians towards postoperative critical
+    care
+  type: article-journal
+  url: "https://onlinelibrary.wiley.com/doi/10.1111/anae.15302"
+  volume: 76
+- accessed: 2022-07-17
+  author:
+  - family: Harris
+    given: Steve
+  - family: Palmer
+    given: Ed
+  - family: Fong
+    given: Kevin
+  container-title: British Journal of Anaesthesia
+  doi: 10.1016/j.bja.2020.10.008
+  id: harris_trials_2021
+  issn: 00070912
+  issue: 1
+  issued: 2021-01
+  page: e42-e44
+  title: "Trials in pandemics: Here we go again?"
+  title-short: Trials in pandemics
+  type: article-journal
+  url: "https://linkinghub.elsevier.com/retrieve/pii/S0007091220308400"
+  volume: 126
+- abstract: A 40-year-old man with no cardiac history presented with
+    central chest pain 8 days after receiving the ChAdOx1 nCov-19
+    vaccine against COVID-19. Initial blood tests demonstrated a
+    thrombocytopaenia (24×109 μg/L) and a raised d-dimer (\>110 000
+    μg/L), and he was urgently transferred to our tertiary referral
+    central for suspected vaccine-induced immune thrombocytopaenia and
+    thrombosis (VITT). He developed dynamic ischaemic
+    electrocardiographic changes with ST elevation, a troponin of 3185
+    ng/L, and regional wall motion abnormalities. An occlusion of his
+    left anterior descending coronary artery was seen on CT coronary
+    angiography. His platelet factor-4 (PF-4) antibody returned strongly
+    positive. He was urgently treated for presumed VITT with intravenous
+    immunoglobulin, methylprednisolone and plasma exchange, but remained
+    thrombocytopaenic and was initiated on rituximab. Argatroban was
+    used for anticoagulation for his myocardial infarction while he
+    remained thrombocytopaenic. After 6 days, his platelet count
+    improved, and his PF-4 antibody level, troponin and d-dimer fell. He
+    was successfully discharged after 14 days.
+  accessed: 2022-08-29
+  author:
+  - family: Flower
+    given: Luke
+  - family: Bares
+    given: Zdenek
+  - family: Santiapillai
+    given: Georgina
+  - family: Harris
+    given: Stephen
+  container-title: BMJ Case Reports CP
+  doi: 10.1136/bcr-2021-245218
+  id: flower_acute_2021
+  issn: 1757-790X
+  issue: 9
+  issued: 2021-09
+  keyword: COVID-19, adult intensive care, case-report, haematology
+    (including blood transfusion), ischaemic heart disease
+  note: "Publisher: BMJ Specialist Journals Section: Case report"
+  page: e245218
+  pmid: 34580132
+  title: Acute ST-segment elevation myocardial infarction secondary to
+    vaccine-induced immune thrombosis with thrombocytopaenia (VITT)
+  type: article-journal
+  url: "https://casereports.bmj.com/content/14/9/e245218"
+  volume: 14
+- abstract: Graphical models have emerged as a tool to map out the
+    interplay between multiple measured and unmeasured variables, and
+    can help strengthen the case for a causal association between
+    exposures and outcomes in observational studies. In Part 1 of this
+    methods series, we will introduce the reader to graphical models for
+    causal inference in perioperative medicine, and set the framework
+    for Part 2 of the series involving advanced methods for causal
+    inference.
+  accessed: 2022-07-17
+  author:
+  - family: Krishnamoorthy
+    given: Vijay
+  - family: Wong
+    given: Danny J. N.
+  - family: Wilson
+    given: Matt
+  - family: Raghunathan
+    given: Karthik
+  - family: Ohnuma
+    given: Tetsu
+  - family: McLean
+    given: Duncan
+  - family: Moonesinghe
+    given: S. Ramani
+  - family: Harris
+    given: Steve K.
+  container-title: British Journal of Anaesthesia
+  doi: 10.1016/j.bja.2020.03.031
+  id: krishnamoorthy_causal_2020
+  issn: 00070912
+  issue: 3
+  issued: 2020-09
+  keyword: causal-inference
+  page: 393-397
+  title: "Causal inference in perioperative medicine observational
+    research: Part 1, a graphical introduction"
+  title-short: Causal inference in perioperative medicine observational
+    research
+  type: article-journal
+  url: "https://linkinghub.elsevier.com/retrieve/pii/S0007091220302932"
+  volume: 125
+- abstract: "Although RCTs represent the gold standard in clinical
+    research, most clinical questions cannot be answered using this
+    technique, because of ethical considerations, time, and cost. The
+    goal of observational research in clinical medicine is to gain
+    insight into the relationship between a clinical exposure and
+    patient outcome, in the absence of evidence from RCTs. Observational
+    research offers additional beneﬁt when compared with data from RCTs:
+    the conclusions are often more generalisable to a heterogenous
+    population, which may be of greater value to everyday clinical
+    practice. In Part 2 of this methods series, we will introduce the
+    reader to several advanced methods for supporting the case for
+    causality between an exposure and outcome, including: mediation
+    analysis, natural experiments, and joint effects methods."
+  accessed: 2022-07-17
+  author:
+  - family: Krishnamoorthy
+    given: Vijay
+  - family: McLean
+    given: Duncan
+  - family: Ohnuma
+    given: Tetsu
+  - family: Harris
+    given: Steve K.
+  - family: Wong
+    given: Danny J. N.
+  - family: Wilson
+    given: Matt
+  - family: Moonesinghe
+    given: Ramani
+  - family: Raghunathan
+    given: Karthik
+  container-title: British Journal of Anaesthesia
+  doi: 10.1016/j.bja.2020.03.032
+  id: krishnamoorthy_causal_2020-1
+  issn: 00070912
+  issue: 3
+  issued: 2020-09
+  keyword: causal-inference
+  page: 398-405
+  title: "Causal inference in perioperative medicine observational
+    research: Part 2, advanced methods"
+  title-short: Causal inference in perioperative medicine observational
+    research
+  type: article-journal
+  url: "https://linkinghub.elsevier.com/retrieve/pii/S0007091220303020"
+  volume: 125
+- abstract: Instrumental variable methods, subject to appropriate
+    identiﬁcation assumptions, enable consistent estimation of causal
+    effects in the presence of unobserved confounding. Near--far
+    matching has been proposed as one analytic method to improve
+    inference by strengthening the effect of the instrument on the
+    exposure and balancing observable characteristics between groups of
+    subjects with low and high values of the instrument. However, in
+    settings with hierarchical data (e.g. patients nested within
+    hospitals), or where several covariate interactions must be
+    balanced, conventional near--far matching algorithms may fail to
+    achieve the requisite covariate balance. We develop a new matching
+    algorithm, that combines near--far matching with reﬁned covariate
+    balance, to balance large numbers of nominal covariates while also
+    strengthening the instrumental variable. This extension of near--far
+    matching is motivated by a case-study that aims to identify the
+    causal effect of prompt admission to an intensive care unit on 7-day
+    and 28-day mortality.
+  accessed: 2022-07-17
+  author:
+  - family: Keele
+    given: Luke
+  - family: Harris
+    given: Steve
+  - family: Pimentel
+    given: Samuel D.
+  - family: Grieve
+    given: Richard
+  container-title: "Journal of the Royal Statistical Society: Series A
+    (Statistics in Society)"
+  doi: 10.1111/rssa.12437
+  id: keele_stronger_2020
+  issn: 0964-1998, 1467-985X
+  issue: 4
+  issued: 2020-10
+  page: 1501-1521
+  title: Stronger instruments and refined covariate balance in an
+    observational study of the effectiveness of prompt admission to
+    intensive care units
+  type: article-journal
+  url: "https://onlinelibrary.wiley.com/doi/10.1111/rssa.12437"
+  volume: 183
+- abstract: "Purpose: Septic shock is associated with massive release of
+    endogenous catecholamines. Adrenergic agents may exacerbate
+    catecholamine toxicity and contribute to poor outcomes. We sought to
+    determine whether an association existed between tachycardia and
+    mortality in septic shock patients requiring norepinephrine for more
+    than 6 h despite adequate volume resuscitation. Materials and
+    methods: Multicentre retrospective observational study on 730 adult
+    patients in septic shock consecutively admitted to eight European
+    ICUs between 2011 and 2013. Three timepoints were selected: T1 (ﬁrst
+    hour of infusion of norepinephrine), Tpeak (time of highest dose
+    during the ﬁrst 24 h of treatment), and T24 (24-h post-T1). Binary
+    logistic regression models were constructed for the three
+    time-points. Results: Overall ICU mortality was 38.4%. Mortality was
+    higher in those requiring high-dose (≥0.3 mcg/kg/min) versus
+    low-dose (b0.3 mcg/kg/min) norepinephrine at T1 (53.4% vs 30.6%; p b
+    0.001) and T24 (61.4% vs 20.4%; p b 0.0001). Patients requiring
+    high-dose with concurrent tachycardia had higher mortality at T1; in
+    the lowdose group tachycardia was not associated with mortality.
+    Resolving tachycardia (from T1 to T24) was associated with lower
+    mortality compared to patients where tachycardia persisted (27.8% vs
+    46.4%; p = 0.001). Conclusions: Use of high-dose norepinephrine and
+    concurrent tachycardia are associated with poor outcomes in septic
+    shock."
+  accessed: 2022-07-17
+  author:
+  - family: Domizi
+    given: Roberta
+  - family: Calcinaro
+    given: Sara
+  - family: Harris
+    given: Steve
+  - family: Beilstein
+    given: Christian
+  - family: Boerma
+    given: Christiaan
+  - family: Chiche
+    given: Jean-Daniel
+  - family: D'Egidio
+    given: Annalia
+  - family: Damiani
+    given: Elisa
+  - family: Donati
+    given: Abele
+  - family: Koetsier
+    given: Peter M.
+  - family: Madden
+    given: Mary P.
+  - family: McAuley
+    given: Daniel F.
+  - family: Morelli
+    given: Andrea
+  - family: Pelaia
+    given: Paolo
+  - family: Royer
+    given: Patrick
+  - family: Shankar-Hari
+    given: Manu
+  - family: Wickboldt
+    given: Nadine
+  - family: Zolfaghari
+    given: Parjam
+  - family: Singer
+    given: Mervyn
+  container-title: Journal of Critical Care
+  doi: 10.1016/j.jcrc.2020.02.014
+  id: domizi_relationship_2020
+  issn: 08839441
+  issued: 2020-06
+  page: 185-190
+  title: "Relationship between norepinephrine dose, tachycardia and
+    outcome in septic shock: A multicentre evaluation"
+  title-short: Relationship between norepinephrine dose, tachycardia and
+    outcome in septic shock
+  type: article-journal
+  url: "https://linkinghub.elsevier.com/retrieve/pii/S0883944119313590"
+  volume: 57
+- accessed: 2022-07-17
+  author:
+  - literal: CRIT CARE ASIA
+  - family: Beane
+    given: Abi
+  - family: Dondorp
+    given: Arjen M.
+  - family: Taqi
+    given: Arshad
+  - family: Ahsan
+    given: A. S. M. Areef
+  - family: Vijayaraghavan
+    given: Bharath Kumar Tirupakuzhi
+  - family: Permpikul
+    given: Chairrat
+  - family: Pell
+    given: Christopher
+  - family: Gandy
+    given: David
+  - family: Priyadarshani
+    given: Dilanthi
+  - family: Aryal
+    given: Diptesh
+  - family: Khiem
+    given: Dong Phu
+  - family: Thuy
+    given: Duong Bich
+  - family: Thwaites
+    given: Guy
+  - family: Kayastha
+    given: Gyan
+  - family: Udayanga
+    given: Ishara
+  - family: Salluh
+    given: Jorge
+  - family: Detleuxay
+    given: Khamsay
+  - family: Ranganathan
+    given: Lakshmi
+  - family: Yen
+    given: Lam Minh
+  - family: Har
+    given: Lim Chew
+  - family: Thwaites
+    given: Louise
+  - family: Hashmi
+    given: Madiha
+  - family: Schultz
+    given: Marcus J.
+  - family: Mukaka
+    given: Mavuto
+  - family: Leaver
+    given: Meghan
+  - family: Nor
+    given: Mohd Basri Mat
+  - family: Hayat
+    given: Muhammad
+  - family: Day
+    given: Nick
+  - family: Moonesinghe
+    given: Ramani
+  - family: Haniffa
+    given: Rashan
+  - family: Champunot
+    given: Ratapum
+  - family: Inglis
+    given: Rebecca
+  - family: Sultana
+    given: Rozina
+  - family: Yacoub
+    given: Sophie
+  - family: Harris
+    given: Steve
+  - family: Acharya
+    given: Subhash Prasad
+  - family: Tripathy
+    given: Swagata
+  - family: Ali
+    given: Syed Muneeb
+  - family: Kadhiravan
+    given: Tamilarasu
+  - family: Lubell
+    given: Yoel
+  container-title: Critical Care
+  doi: 10.1186/s13054-020-03321-7
+  id: crit_care_asia_establishing_2020
+  issn: 1364-8535
+  issue: 1
+  issued: 2020-12
+  page: 608, s13054-020-03321-7
+  title: Establishing a critical care network in Asia to improve care
+    for critically ill patients in low- and middle-income countries
+  type: article-journal
+  url: "https://ccforum.biomedcentral.com/articles/10.1186/s13054-020-03321-7"
+  volume: 24
+- abstract: "Rationale: There is conﬂicting evidence on harm related to
+    exposure to supraphysiologic PaO2 (hyperoxemia) in critically ill
+    patients."
+  accessed: 2022-07-17
+  author:
+  - family: Palmer
+    given: Edward
+  - family: Post
+    given: Benjamin
+  - family: Klapaukh
+    given: Roman
+  - family: Marra
+    given: Giampiero
+  - family: MacCallum
+    given: Niall S.
+  - family: Brealey
+    given: David
+  - family: Ercole
+    given: Ari
+  - family: Jones
+    given: Andrew
+  - family: Ashworth
+    given: Simon
+  - family: Watkinson
+    given: Peter
+  - family: Beale
+    given: Richard
+  - family: Brett
+    given: Stephen J.
+  - family: Young
+    given: J. Duncan
+  - family: Black
+    given: Claire
+  - family: Rashan
+    given: Aasiyah
+  - family: Martin
+    given: Daniel
+  - family: Singer
+    given: Mervyn
+  - family: Harris
+    given: Steve
+  container-title: American Journal of Respiratory and Critical Care
+    Medicine
+  doi: 10.1164/rccm.201904-0849OC
+  id: palmer_association_2019
+  issn: 1073-449X, 1535-4970
+  issue: 11
+  issued: 2019-12
+  page: 1373-1380
+  title: The Association between Supraphysiologic Arterial Oxygen Levels
+    and Mortality in Critically Ill Patients. A Multicenter
+    Observational Cohort Study
+  type: article-journal
+  url: "https://www.atsjournals.org/doi/10.1164/rccm.201904-0849OC"
+  volume: 200
+- accessed: 2022-07-17
+  author:
+  - family: Palmer
+    given: Edward
+  - family: Klapaukh
+    given: Roman
+  - family: Harris
+    given: Steve
+  - family: Singer
+    given: Mervyn
+  container-title: Critical Care
+  doi: 10.1186/s13054-019-2424-7
+  id: palmer_intelligently_2019
+  issn: 1364-8535
+  issue: 1
+  issued: 2019-12
+  page: 136, s13054-019-2424-7
+  title: Intelligently learning from data
+  type: article-journal
+  url: "https://ccforum.biomedcentral.com/articles/10.1186/s13054-019-2424-7"
+  volume: 23
+- accessed: 2022-07-17
+  author:
+  - family: Arulkumaran
+    given: N.
+  - family: Wright
+    given: T.
+  - family: Harris
+    given: S.
+  - family: Singer
+    given: M.
+  container-title: Intensive Care Medicine
+  doi: 10.1007/s00134-020-06180-6
+  id: arulkumaran_uncontrolled_2020
+  issn: 0342-4642, 1432-1238
+  issue: 10
+  issued: 2020-10
+  page: 1930-1931
+  title: "Uncontrolled interventions during pandemics: A missed learning
+    opportunity?"
+  title-short: Uncontrolled interventions during pandemics
+  type: article-journal
+  url: "https://link.springer.com/10.1007/s00134-020-06180-6"
+  volume: 46
+- abstract: "Background: Decisions to admit high-risk postoperative
+    patients to critical care may be affected by resource availability.
+    We aimed to quantify adult ICU/high-dependency unit (ICU/HDU)
+    capacity in hospitals from the UK, Australia, and New Zealand (NZ),
+    and to identify and describe additional 'high-acuity' beds capable
+    of managing high-risk patients outside the ICU/HDU environment."
+  accessed: 2022-07-17
+  author:
+  - family: Wong
+    given: Danny Jon Nian
+  - family: Popham
+    given: Scott
+  - family: Wilson
+    given: Andrew Marshall
+  - family: Barneto
+    given: Lisa M.
+  - family: Lindsay
+    given: Helen A.
+  - family: Farmer
+    given: Laura
+  - family: Saunders
+    given: David
+  - family: Wallace
+    given: Sophie
+  - family: Campbell
+    given: Douglas
+  - family: Myles
+    given: Paul S.
+  - family: Harris
+    given: Steve Kendrick
+  - family: Moonesinghe
+    given: Suneetha Ramani
+  - family: Grocott
+    given: Mike P. W.
+  - family: Sneyd
+    given: Robert
+  - family: Batchelor
+    given: Anna
+  - family: Brett
+    given: Stephen
+  - family: Plowright
+    given: Catherine
+  - family: Shrestha
+    given: Suman
+  - family: Shawyer
+    given: Richard
+  - family: Ahmed
+    given: Shafi
+  - family: Khondoker
+    given: Mizan
+  - family: Nathanson
+    given: Mike
+  - family: Sathe
+    given: Sonia
+  - family: Rawat
+    given: Shilpa
+  - family: Range
+    given: Christine
+  - family: Moloney
+    given: Dermot
+  - family: Hee
+    given: Wendy Lum
+  - family: Tozer
+    given: James
+  - family: Hamlyn
+    given: Vincent
+  - family: MacGregor
+    given: Mark
+  - family: Qadri
+    given: Shabir
+  - family: Chaurasia
+    given: Sunil kumar
+  - family: Torrance
+    given: Hew
+  - family: Raj
+    given: Ashok
+  - family: Ross-Anderson
+    given: Davina
+  - family: Anwar
+    given: Sibtain
+  - family: Armanious
+    given: Samuel
+  - family: Knowlden
+    given: Peter
+  - family: McCourt
+    given: Killian
+  - family: Pugh
+    given: Richard
+  - family: Clements
+    given: Stephan
+  - family: Littler
+    given: Christopher
+  - family: Whapples
+    given: Annabelle
+  - family: Cupitt
+    given: Jason
+  - family: Balasubramaniam
+    given: Madhushankar
+  - family: Spencer
+    given: Robert
+  - family: White
+    given: Stuart
+  - family: Drake
+    given: Jeremy
+  - family: Ramhewa
+    given: Tendai
+  - family: Hill
+    given: Stephen
+  - family: Patil
+    given: Vishal
+  - family: Goodwin
+    given: Naomi
+  - family: Bansal
+    given: Sujesh
+  - family: Greenwood
+    given: Nick
+  - family: Sutton
+    given: Rebecca
+  - family: Hanison
+    given: James
+  - family: Same
+    given: Melinda
+  - family: Matson
+    given: Alexandra
+  - family: Spittle
+    given: Nick
+  - family: Slorach
+    given: Marc
+  - family: McLoughlin
+    given: Liam
+  - family: Wilson
+    given: Lawrence
+  - family: Melsom
+    given: Helen
+  - family: Rafi
+    given: M. Amir
+  - family: Limb
+    given: James
+  - family: Saibaba
+    given: Ravishankar Jakkala
+  - family: Lynch
+    given: Ceri
+  - family: Pemberton
+    given: Omar
+  - family: Sange
+    given: Mansoor
+  - family: Rogerson
+    given: David
+  - family: Dobson
+    given: Richard
+  - family: Chambers
+    given: Jonathan
+  - family: Bramall
+    given: Jon
+  - family: Gorman
+    given: Andrew
+  - family: Joanna
+    given: Moore
+  - family: Kapoor
+    given: Ritoo
+  - family: Natarajan
+    given: Nagendra
+  - family: Chukkambotla
+    given: Srikanth
+  - family: Marshall
+    given: Philippa
+  - family: Thorning
+    given: Geoff
+  - family: Csabi
+    given: Peter
+  - family: Woods
+    given: Justin
+  - family: Ritzema
+    given: Jenny
+  - family: Orme
+    given: Robert
+  - family: Koh
+    given: Sock Huang
+  - family: Gary
+    given: Baigel
+  - family: Zucco
+    given: Liana
+  - family: Bromhead
+    given: Helen
+  - family: Partridge
+    given: Richard
+  - family: Kant
+    given: Abhinav
+  - family: Yeung
+    given: Joyce
+  - family: Ignatov
+    given: Dancho
+  - family: Talati
+    given: Chiraag
+  - family: Gratrix
+    given: Andrew
+  - family: Ghosh
+    given: Subhamay
+  - family: Ignatova
+    given: Zhana
+  - family: Gill
+    given: Stuart
+  - family: Agarwal
+    given: Sunita
+  - family: Nagaratnam
+    given: Vidhya
+  - family: Kirby
+    given: Susan
+  - family: Brett
+    given: Stephen
+  - family: Bell
+    given: Stephanie
+  - family: Debreceni
+    given: Gabor
+  - family: Bothma
+    given: Pieter
+  - family: Jakkampudi
+    given: Satyanarayana
+  - family: Botfield
+    given: Claire
+  - family: Kok
+    given: Waisun
+  - family: Maharaj
+    given: Ritesh
+  - family: Puranik
+    given: Sarang
+  - family: Laha
+    given: Shondipon
+  - family: Whiteley
+    given: Simon
+  - family: Shephard
+    given: Buzz
+  - family: Agarwal
+    given: Manju
+  - family: McNamara
+    given: Helen
+  - family: Fitzgerald
+    given: Thomas
+  - family: Zaidi
+    given: Suhail
+  - family: Blackie
+    given: Philip
+  - family: Mukherjee
+    given: Kirtida
+  - family: Price
+    given: Nicolas
+  - family: Pennington
+    given: James
+  - family: Varma
+    given: Sandeep
+  - family: Stewart
+    given: Richard
+  - family: O'Brien
+    given: Peter
+  - family: Mitchell
+    given: Joellene
+  - family: Aldridge
+    given: Jonathan
+  - family: Edwards
+    given: Vivien
+  - family: Hunter
+    given: Catherine
+  - family: Allen
+    given: Laurin
+  - family: Service
+    given: Jennifer
+  - family: Pettigrew
+    given: Tom
+  - family: Campbell
+    given: Robert
+  - family: Varveris
+    given: Daphne
+  - family: Young
+    given: Simon
+  - family: Harten
+    given: Johann
+  - family: Brett
+    given: Michael
+  - family: Howes
+    given: Jacqueline
+  - family: Robinson
+    given: David
+  - family: Chapman
+    given: Roddy
+  - family: Rattray
+    given: Austin
+  - family: Razouk
+    given: Khaled
+  - family: McLellan
+    given: Stuart
+  - family: Alston
+    given: Robin
+  - family: Geddes
+    given: Murray
+  - family: Schraag
+    given: Stefan
+  - family: Cooper
+    given: Paul
+  - family: Barr
+    given: Catriona
+  - family: Sim
+    given: Stephanie
+  - family: Hilton-Christie
+    given: Sharon
+  - family: Reavley
+    given: Caroline
+  - family: Jenkins
+    given: Kathryn
+  - family: Smith
+    given: Tim
+  - family: Graham
+    given: Fiona
+  - family: Ezihe-Ejiofor
+    given: J. A.
+  - family: Pritchard
+    given: David
+  - family: Williams
+    given: Lynne
+  - family: Kakodkar
+    given: Prashant
+  - family: Henry
+    given: Garry
+  - family: Nutt
+    given: Christopher
+  - family: Wright
+    given: Geoff
+  - family: Mitra
+    given: Atideb
+  - family: Garg
+    given: Sanjeev
+  - family: Taylor
+    given: Adrian
+  - family: Moppett
+    given: Iain
+  - family: Clark
+    given: Sam
+  - family: Ford
+    given: Eleanor
+  - family: Bond-Smith
+    given: Giles
+  - family: Siviter
+    given: Richard
+  - family: Webb
+    given: Stephen
+  - family: Humphreys
+    given: Joanne
+  - family: Brammar
+    given: Andrew
+  - family: Weisz
+    given: Michael
+  - family: Minto
+    given: Gary
+  - family: Girgis
+    given: Michael
+  - family: Bain
+    given: James
+  - family: Giles
+    given: Julian
+  - family: John
+    given: John
+  - family: Dill-Russell
+    given: Patrick
+  - family: Fogg
+    given: Katheryn
+  - family: Berry
+    given: Julian
+  - family: Matthews
+    given: Cathryn
+  - family: Hooker
+    given: Nicolas
+  - family: Kidel
+    given: Carlos
+  - family: Jha
+    given: Rajeev
+  - family: Williams
+    given: Colin
+  - family: Gunning
+    given: Malcolm
+  - family: Dickinson
+    given: Matthew
+  - family: Cook
+    given: Tim
+  - family: Bailey
+    given: Kate
+  - family: Williams
+    given: Simon
+  - family: Rambhatla
+    given: Mrutyunjaya Rao
+  - family: Kannan
+    given: Santhana
+  - family: Wrench
+    given: Ian
+  - family: Jones
+    given: Paul
+  - family: Wright
+    given: Jane
+  - family: Foley
+    given: Paul
+  - family: Henning
+    given: Jeremy
+  - family: Frey
+    given: Christian
+  - family: White
+    given: Emert
+  - family: Goddard
+    given: Chris
+  - family: Shah
+    given: Nirav
+  - family: Goel
+    given: Vandana
+  - family: Thomas
+    given: Elizabeth
+  - literal: atyas Andorka
+  - family: Kulkarni
+    given: Anand
+  - family: Hine
+    given: Abigail
+  - family: Nariani
+    given: Jaya
+  - family: Sonksen
+    given: Julian
+  - family: Papageorgiou
+    given: Con
+  - family: Kotur
+    given: Karuna
+  - family: Saunders
+    given: David
+  - family: Hamilton
+    given: Kevin
+  - family: Gent
+    given: Emma
+  - family: Hormis
+    given: Anil
+  - family: Craig
+    given: James
+  - family: Juneja
+    given: Rohit
+  - family: Siddaiah
+    given: Narendra
+  - family: Claxton
+    given: Andrew
+  - family: Hargreaves
+    given: Chris
+  - family: Montgomery
+    given: Jane
+  - family: Kakkar
+    given: Manish
+  - family: Joachim
+    given: Suganthi
+  - family: Orr
+    given: John
+  - family: Ferguson
+    given: Catriona
+  - family: Stewart
+    given: Adrienne
+  - family: Tasker
+    given: Laura
+  - family: Washington
+    given: Stephen
+  - family: Al-Rawi
+    given: Samar
+  - family: Wakatsuki
+    given: Mai
+  - family: Wharton
+    given: Nicholas
+  - family: Bradbury
+    given: Carol
+  - family: Lau
+    given: Gary
+  - family: McArthur
+    given: Carol
+  - family: Markham
+    given: Rachel
+  - family: Merron
+    given: Stephen
+  - family: Shanbhag
+    given: Sumant
+  - family: Jumani
+    given: Deepa
+  - family: Charters
+    given: Seema
+  - family: Page
+    given: Valerie
+  - family: Gopal
+    given: Vijayakumar
+  - family: Latif
+    given: Muhammad
+  - family: Mcivor
+    given: Vinanti Cherian
+  - family: Kennedy
+    given: Richard
+  - family: Dana
+    given: Emily
+  - family: Hosdurga
+    given: Gurunath
+  - family: Singaravelu
+    given: Suresh
+  - family: Persad
+    given: Cindy
+  - family: Burtenshaw
+    given: Andrew
+  - family: Clements
+    given: Paul
+  - family: Troth
+    given: Laura
+  - family: Kubisz-Pudelko
+    given: Agnieszka
+  - family: Chandler
+    given: Ben
+  - family: Jonathan T Wilson
+    given: R.
+  - family: Moss
+    given: Janette
+  - family: Rowe
+    given: Paul
+  - family: Kumar
+    given: Pallavi
+  - family: Gillespie
+    given: David
+  - family: Cheung
+    given: Winston
+  - family: Dwyer
+    given: Laurie
+  - family: Anderson
+    given: James R.
+  - family: Hicks
+    given: Chelsea
+  - family: Bowden
+    given: Chris
+  - family: Popham
+    given: Scott
+  - family: Roberts
+    given: Helen
+  - family: Diczbalis
+    given: Monica
+  - family: Dawson
+    given: Rob
+  - family: Wonders
+    given: Robert
+  - family: Teisseyre
+    given: Dominik
+  - family: Robinson
+    given: Andrew
+  - family: Tan
+    given: Khong
+  - family: Posselt
+    given: Bronwyn
+  - family: Coventry
+    given: Lillian
+  - family: Shan
+    given: David
+  - family: Highton
+    given: David
+  - family: Miller-Greenman
+    given: Tony
+  - family: Kooner
+    given: Tehal
+  - family: Guy
+    given: Louis
+  - family: Spain
+    given: Brian
+  - family: Naidoo
+    given: Vasheya
+  - family: Hennessy
+    given: Brien
+  - family: Scott
+    given: David A.
+  - family: Prassas
+    given: Georgina
+  - family: Matthews
+    given: Joel
+  - family: Kakos
+    given: Alan
+  - family: Smith
+    given: Robert
+  - family: Williams
+    given: Daryl L.
+  - family: Le
+    given: Nam
+  - family: Jones
+    given: Andrew
+  - family: Patel
+    given: Nikhil
+  - family: Campbell
+    given: Doug
+  - family: Lindsay
+    given: Helen
+  - family: Wilson
+    given: Andrew M.
+  - family: Allen
+    given: Charles
+  - dropping-particle: van
+    family: Oudenaaren
+    given: Sophie
+  - family: Frankpitt
+    given: Alexandra
+  - family: Ongley
+    given: Dick
+  - family: Barneto
+    given: Lisa M.
+  - family: Garden
+    given: Alexander
+  - family: Yam
+    given: Sai Tim
+  - family: Welch
+    given: Mark
+  - family: Freebairn
+    given: Ross
+  - family: Bhattacharya
+    given: Dhir
+  - family: Truong
+    given: Han
+  - family: Kwan
+    given: Laura
+  - family: Panckhurst
+    given: Jonathan
+  - family: Henry
+    given: Jenny
+  - family: Perrin
+    given: Samuel
+  - family: Campbell
+    given: Kate
+  - family: Singh
+    given: Vikramjit
+  - family: Birioukov
+    given: Victor
+  - family: Ireland
+    given: Claire
+  - family: Shanmuganathan
+    given: Priya
+  - family: Brown
+    given: Duncan
+  - family: Gormack
+    given: Sophie
+  - family: Jackson
+    given: Alison
+  - family: Sharma
+    given: Swarna
+  - family: Dale-Gandar
+    given: Julius
+  container-title: British Journal of Anaesthesia
+  doi: 10.1016/j.bja.2018.12.026
+  id: wong_postoperative_2019
+  issn: 00070912
+  issue: 4
+  issued: 2019-04
+  keyword: snap-2
+  page: 460-469
+  title: Postoperative critical care and high-acuity care provision in
+    the United Kingdom, Australia, and New Zealand
+  type: article-journal
+  url: "https://linkinghub.elsevier.com/retrieve/pii/S000709121930011X"
+  volume: 122
+- abstract: Pretreatment selection or censoring ("selection on
+    treatment") can occur when two treatment levels are compared
+    ignoring the third option of neither treatment, in "censoring by
+    death" settings where treatment is only defined for those who
+    survive long enough to receive it, or in general in studies where
+    the treatment is only defined for a subset of the population.
+    Unfortunately, the standard instrumental variable (IV) estimand is
+    not defined in the presence of such selection, so we consider
+    estimating a new survivor-complier causal effect. Although this
+    effect is generally not identified under standard IV assumptions, it
+    is possible to construct sharp bounds. We derive these bounds and
+    give a corresponding data-driven sensitivity analysis, along with
+    nonparametric yet efficient estimation methods. Importantly, our
+    approach allows for high-dimensional confounding adjustment, and
+    valid inference even after employing machine learning. Incorporating
+    covariates can tighten bounds dramatically, especially when they are
+    strong predictors of the selection process. We apply the methods in
+    a UK cohort study of critical care patients to examine the mortality
+    effects of prompt admission to the intensive care unit, using ICU
+    bed availability as an instrument. Supplementary materials for this
+    article are available online.
+  accessed: 2022-07-17
+  author:
+  - family: Kennedy
+    given: Edward H.
+  - family: Harris
+    given: Steve
+  - family: Keele
+    given: Luke J.
+  container-title: Journal of the American Statistical Association
+  doi: 10.1080/01621459.2018.1469990
+  id: kennedy_survivor-complier_2019
+  issn: 0162-1459, 1537-274X
+  issue: 525
+  issued: 2019-01
+  keyword: causal-inference
+  page: 93-104
+  title: Survivor-Complier Effects in the Presence of Selection on
+    Treatment, With Application to a Study of Prompt ICU Admission
+  type: article-journal
+  url: "https://www.tandfonline.com/doi/full/10.1080/01621459.2018.1469990"
+  volume: 114
+- abstract: "Background: Instrumental variable (IV) analysis can
+    estimate treatment effects in the presence of residual or unmeasured
+    confounding. In settings wherein measures of baseline risk severity
+    are unavailable, IV designs are, therefore, particularly appealing,
+    but, where established measures of risk severity are available, it
+    is unclear whether IV methods are preferable. Objective: We compared
+    regression with an IV design to estimate the effect of intensive
+    care unit (ICU) transfer on mortality in a study with
+    well-established measures of risk severity. Research Design: We use
+    ICU bed availability at the time of assessment for ICU transfer as
+    an instrument. Bed availability increases the chance of ICU
+    admission, contains little information about patient
+    characteristics, and it is unlikely that bed availability has any
+    direct effect on in-hospital mortality. Subjects: We used a cohort
+    study of deteriorating ward patients assessed for critical care unit
+    admission, in 49 UK National Health Service hospitals between
+    November 1, 2010, and December 31, 2011. Measures: Detailed
+    demographic, physiological, and comorbidity data were collected for
+    all patients. Results: The risk adjustment methods reported that,
+    after controlling for all measured covariates including measures of
+    risk severity, ICU transfer was associated with higher 28-day
+    mortality, with a risk difference of 7.2% (95% conﬁdence interval =
+    5.3%--9.1%). The IV estimate of ICU transfer was −5.4% (95%
+    conﬁdence interval = −47.1% to 36.3%) and applies to the subsample
+    of patients whose transfer was \"encouraged\" by bed availability.
+    Conclusions: IV estimates indicate that ICU care is beneﬁcial but
+    are imprecisely estimated. Risk-adjusted estimates are more precise"
+  accessed: 2022-07-17
+  author:
+  - family: Keele
+    given: Luke
+  - family: Harris
+    given: Steve
+  - family: Grieve
+    given: Richard
+  container-title: Medical Care
+  doi: 10.1097/MLR.0000000000001093
+  id: keele_does_2019
+  issn: 0025-7079
+  issue: 11
+  issued: 2019-11
+  page: e73-e79
+  title: Does Transfer to Intensive Care Units Reduce Mortality? A
+    Comparison of an Instrumental Variables Design to Risk Adjustment
+  title-short: Does Transfer to Intensive Care Units Reduce Mortality?
+  type: article-journal
+  url: "https://journals.lww.com/10.1097/MLR.0000000000001093"
+  volume: 57
+- accessed: 2022-07-17
+  author:
+  - family: Wong
+    given: D. J. N.
+  - family: Sahni
+    given: A.
+  - family: Bedford
+    given: J. R.
+  - family: Harris
+    given: S. K.
+  - family: Moonesinghe
+    given: S. R.
+  container-title: British Journal of Anaesthesia
+  doi: 10.1016/j.bja.2018.05.037
+  id: wong_man_2018
+  issn: 00070912
+  issue: 2
+  issued: 2018-08
+  keyword: snap-2
+  page: e28-e29
+  title: "Man vs machine: How good are clinicians at predicting
+    perioperative risk?"
+  title-short: Man vs machine
+  type: article-journal
+  url: "https://linkinghub.elsevier.com/retrieve/pii/S0007091218304288"
+  volume: 121
+- abstract: "Background: Cancellation of planned surgery impacts
+    substantially on patients and health systems. This study describes
+    the incidence and reasons for cancellation of inpatient surgery in
+    the UK NHS. Methods: We conducted a prospective observational cohort
+    study over 7 consecutive days in March 2017 in 245 NHS hospitals.
+    Occurrences and reasons for previous surgical cancellations were
+    recorded. Using multilevel logistic regression, we identiﬁed
+    patient- and hospital-level factors associated with cancellation due
+    to inadequate bed capacity. Results: We analysed data from 14 936
+    patients undergoing planned surgery. A total of 1499 patients
+    (10.0%) reported previous cancellation for the same procedure;
+    contemporaneous hospital census data indicated that 13.9% patients
+    attending inpatient operations were cancelled on the day of surgery.
+    Non-clinical reasons, predominantly inadequate bed capacity,
+    accounted for a large proportion of previous cancellations.
+    Independent risk factors for cancellation due to inadequate bed
+    capacity included requirement for postoperative critical care \\[odds
+    ratio (OR)¼2.92; 95% conﬁdence interval (CI), 2.12e4.02; P\\<0.001\\]
+    and the presence of an emergency department in the treating hospital
+    (OR¼4.18; 95% CI, 2.22e7.89; P\\<0.001). Patients undergoing cancer
+    surgery (OR¼0.32; 95% CI, 0.22e0.46; P\\<0.001), obstetric procedures
+    (OR¼0.17; 95% CI, 0.08e0.32; P\\<0.001), and expedited surgery
+    (OR¼0.39; 95% CI, 0.27e0.56; P\\<0.001) were less likely to be
+    cancelled."
+  accessed: 2022-07-17
+  author:
+  - family: Wong
+    given: D. J. N.
+  - family: Harris
+    given: S. K.
+  - family: Moonesinghe
+    given: S. R.
+  container-title: British Journal of Anaesthesia
+  doi: 10.1016/j.bja.2018.07.002
+  id: wong_cancelled_2018
+  issn: 00070912
+  issue: 4
+  issued: 2018-10
+  keyword: snap-2
+  page: 730-738
+  title: "Cancelled operations: A 7-day cohort study of planned adult
+    inpatient surgery in 245 UK National Health Service hospitals"
+  title-short: Cancelled operations
+  type: article-journal
+  url: "https://linkinghub.elsevier.com/retrieve/pii/S0007091218305658"
+  volume: 121
+- abstract: IMPORTANCE It is unknown which deteriorating ward patients
+    benefit from intensive care unit (ICU) transfer.
+  accessed: 2022-07-17
+  author:
+  - family: Grieve
+    given: Richard
+  - family: O'Neill
+    given: Stephen
+  - family: Basu
+    given: Anirban
+  - family: Keele
+    given: Luke
+  - family: Rowan
+    given: Kathryn M.
+  - family: Harris
+    given: Steve
+  container-title: JAMA Network Open
+  doi: 10.1001/jamanetworkopen.2018.7704
+  id: grieve_analysis_2019
+  issn: 2574-3805
+  issue: 2
+  issued: 2019-02
+  keyword: causal-inference
+  page: e187704
+  title: "Analysis of Benefit of Intensive Care Unit Transfer for
+    Deteriorating Ward Patients: A Patient-Centered Approach to Clinical
+    Evaluation"
+  title-short: Analysis of Benefit of Intensive Care Unit Transfer for
+    Deteriorating Ward Patients
+  type: article-journal
+  url: "http://jamanetworkopen.jamanetwork.com/article.aspx?doi=10.1001/jamanetworkopen.2018.7704"
+  volume: 2
+---
