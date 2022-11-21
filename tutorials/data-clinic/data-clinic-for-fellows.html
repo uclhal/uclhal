@@ -6,10 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Ruaraidh Campbell">
 <meta name="dcterms.date" content="2022-11-16">
-<meta name="description" content="How to get set up!">
+<meta name="description" content="An in-depth explanation of the Data Clinic, made for future data science fellows.">
 
-<title>UCL Health Algorithms Laboratory - Getting started</title>
+<title>UCL Health Algorithms Laboratory - Data Clinic: Onboarding for Data Fellows</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -61,6 +62,9 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script src="../../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="../../styles.css">
@@ -113,7 +117,7 @@ ul.task-list li input[type="checkbox"] {
     </nav>
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Getting started</h1>
+      <h1 class="quarto-secondary-nav-title">Data Clinic: Onboarding for Data Fellows</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -141,7 +145,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../tutorials/onboarding/onboarding.html" class="sidebar-item-text sidebar-link active">Getting started</a>
+  <a href="../../tutorials/onboarding/onboarding.html" class="sidebar-item-text sidebar-link">Getting started</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -231,7 +235,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../tutorials/data-clinic/data-clinic-for-fellows.html" class="sidebar-item-text sidebar-link">Data Clinic: Onboarding for Data Fellows</a>
+  <a href="../../tutorials/data-clinic/data-clinic-for-fellows.html" class="sidebar-item-text sidebar-link active">Data Clinic: Onboarding for Data Fellows</a>
   </div>
 </li>
       </ul>
@@ -245,46 +249,49 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#how-are-health-data-stored-at-uclh" id="toc-how-are-health-data-stored-at-uclh" class="nav-link active" data-scroll-target="#how-are-health-data-stored-at-uclh">How are health data stored at UCLH?</a>
+  <li><a href="#what-is-the-data-clinic" id="toc-what-is-the-data-clinic" class="nav-link active" data-scroll-target="#what-is-the-data-clinic">What is the ‘Data Clinic’?</a></li>
+  <li><a href="#what-are-the-issues-that-the-data-clinic-is-trying-to-solve" id="toc-what-are-the-issues-that-the-data-clinic-is-trying-to-solve" class="nav-link" data-scroll-target="#what-are-the-issues-that-the-data-clinic-is-trying-to-solve">What are the issues that the Data Clinic is trying to solve?</a></li>
+  <li><a href="#current-structure-of-the-data-clinic" id="toc-current-structure-of-the-data-clinic" class="nav-link" data-scroll-target="#current-structure-of-the-data-clinic">(Current) Structure of the Data Clinic</a></li>
+  <li><a href="#relevant-people" id="toc-relevant-people" class="nav-link" data-scroll-target="#relevant-people">Relevant People</a>
   <ul class="collapse">
-  <li><a href="#working-with-epic" id="toc-working-with-epic" class="nav-link" data-scroll-target="#working-with-epic">Working with EPIC</a></li>
-  <li><a href="#working-with-emap" id="toc-working-with-emap" class="nav-link" data-scroll-target="#working-with-emap">Working with EMAP</a></li>
+  <li><a href="#data-clinic" id="toc-data-clinic" class="nav-link" data-scroll-target="#data-clinic">Data Clinic</a></li>
+  <li><a href="#bi-team" id="toc-bi-team" class="nav-link" data-scroll-target="#bi-team">BI team</a></li>
+  <li><a href="#auditqi-team" id="toc-auditqi-team" class="nav-link" data-scroll-target="#auditqi-team">Audit/QI team</a></li>
+  <li><a href="#methodology-team" id="toc-methodology-team" class="nav-link" data-scroll-target="#methodology-team">Methodology team</a></li>
   </ul></li>
-  <li><a href="#how-are-health-data-analysed" id="toc-how-are-health-data-analysed" class="nav-link" data-scroll-target="#how-are-health-data-analysed">How are health data analysed?</a>
-  <ul class="collapse">
-  <li><a href="#working-safely-with-health-data" id="toc-working-safely-with-health-data" class="nav-link" data-scroll-target="#working-safely-with-health-data">Working safely with health data</a></li>
-  <li><a href="#resources-to-learn-stats-ml-sql-python" id="toc-resources-to-learn-stats-ml-sql-python" class="nav-link" data-scroll-target="#resources-to-learn-stats-ml-sql-python">Resources to learn {stats / ML / SQL / python}</a></li>
-  <li><a href="#hylode" id="toc-hylode" class="nav-link" data-scroll-target="#hylode">HYLODE</a></li>
-  </ul></li>
-  <li><a href="#what-do-i-need-to-get-started" id="toc-what-do-i-need-to-get-started" class="nav-link" data-scroll-target="#what-do-i-need-to-get-started">What do I need to get started?</a>
-  <ul class="collapse">
-  <li><a href="#setting-up-your-computer" id="toc-setting-up-your-computer" class="nav-link" data-scroll-target="#setting-up-your-computer">Setting up your computer</a></li>
-  <li><a href="#uclh-access-required" id="toc-uclh-access-required" class="nav-link" data-scroll-target="#uclh-access-required">UCLH access required</a></li>
-  </ul></li>
-  <li><a href="#what-is-the-data-clinic" id="toc-what-is-the-data-clinic" class="nav-link" data-scroll-target="#what-is-the-data-clinic">What is the Data Clinic?</a></li>
+  <li><a href="#onboarding-information" id="toc-onboarding-information" class="nav-link" data-scroll-target="#onboarding-information">Onboarding information</a></li>
+  <li><a href="#current-progress-of-project" id="toc-current-progress-of-project" class="nav-link" data-scroll-target="#current-progress-of-project">Current Progress of Project</a></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/uclhal/uclhal/edit/main/tutorials/onboarding/onboarding.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/uclhal/uclhal/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/uclhal/uclhal/edit/main/tutorials/data-clinic/data-clinic-for-fellows.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/uclhal/uclhal/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Getting started</h1>
+<h1 class="title d-none d-lg-block">Data Clinic: Onboarding for Data Fellows</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">onboarding</div>
+    <div class="quarto-category">Data Clinic</div>
+    <div class="quarto-category">Noobie</div>
+    <div class="quarto-category">UCLH</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    How to get set up!
+    An in-depth explanation of the Data Clinic, made for future data science fellows.
   </div>
 </div>
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Ruaraidh Campbell </p>
+          </div>
+  </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
@@ -299,70 +306,183 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<div class="callout-warning callout callout-style-default callout-captioned">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-caption-container flex-fill">
-Under construction!
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>We are currently building this page!</p>
-</div>
-</div>
-<p>If you’re here, you’re likely about to start work with the UCL Health Algorithms Laboratory. This guide aims to explain or signpost everything you need to know to start analysing health data at UCLH. (general aims, translational data science, etc)</p>
-<section id="how-are-health-data-stored-at-uclh" class="level2">
-<h2 class="anchored" data-anchor-id="how-are-health-data-stored-at-uclh">How are health data stored at UCLH?</h2>
-<p>(the importance of live and recent data, etc)</p>
-<section id="working-with-epic" class="level3">
-<h3 class="anchored" data-anchor-id="working-with-epic">Working with EPIC</h3>
-<p>(link to page on further details on EPIC)</p>
+<section id="what-is-the-data-clinic" class="level1">
+<h1>What is the ‘Data Clinic’?</h1>
+<p>The Data Clinic is a Quality Improvement initiative to help frontline healthcare workers in Critical Care get data from EPIC.</p>
+<p>This is to improve the ease and speed of audits, QIPs and service evaluations we perform in Critical Care.</p>
 </section>
-<section id="working-with-emap" class="level3">
-<h3 class="anchored" data-anchor-id="working-with-emap">Working with EMAP</h3>
-<p>(link to EMAP page)</p>
-</section>
-</section>
-<section id="how-are-health-data-analysed" class="level2">
-<h2 class="anchored" data-anchor-id="how-are-health-data-analysed">How are health data analysed?</h2>
-<section id="working-safely-with-health-data" class="level3">
-<h3 class="anchored" data-anchor-id="working-safely-with-health-data">Working safely with health data</h3>
-<p>five safes etc</p>
-</section>
-<section id="resources-to-learn-stats-ml-sql-python" class="level3">
-<h3 class="anchored" data-anchor-id="resources-to-learn-stats-ml-sql-python">Resources to learn {stats / ML / SQL / python}</h3>
-<p>(link to Resources tab?) - Link to Data Science for Docs material?</p>
-</section>
-<section id="hylode" class="level3">
-<h3 class="anchored" data-anchor-id="hylode">HYLODE</h3>
-<p>(link to the full explanation page) (HySys diagrams, FlowEHR, etc)</p>
-</section>
-</section>
-<section id="what-do-i-need-to-get-started" class="level2">
-<h2 class="anchored" data-anchor-id="what-do-i-need-to-get-started">What do I need to get started?</h2>
-<section id="setting-up-your-computer" class="level3">
-<h3 class="anchored" data-anchor-id="setting-up-your-computer">Setting up your computer</h3>
+<section id="what-are-the-issues-that-the-data-clinic-is-trying-to-solve" class="level1">
+<h1>What are the issues that the Data Clinic is trying to solve?</h1>
+<p>UCLH has invested millons of pounds to obtain an fully electronic health record system (EHRS) in the form of EPIC since 2019. It aims to be a leader in the field of technologically-enabled healthcare.</p>
+<p>The current method for obtaining data from EPIC is through contacting the Buisness Intelligence (BI) team, whose role it is to monitor performance data in their department and service data requests. This has a number of issues:</p>
+<blockquote class="blockquote">
 <ul>
-<li>python</li>
-<li>git</li>
-<li>R</li>
-<li>(onboarding page for adding a User page to this website etc too)</li>
+<li>Many clinical staff are unaware of who the BI team are or what they do</li>
+<li>The current process of requesting data often takes the form of numerous back-and-forth emails between clinical staff and the BI team, clarifying what data is required vs what is possible to extract. This process is often time-consuming and frustrating for both the clinical staff and BI team.</li>
+<li>Although the BI team have a good understanding of how to find data in Epic and manage it, sometimes they lack the clinical understanding and direction to provide learning from it.</li>
 </ul>
+</blockquote>
+<p>The Data Clinic aims to improve the process of providing data to clinical staff using two approaches:</p>
+<blockquote class="blockquote">
+<ol type="1">
+<li>We aim to understand the clinical question the requestor is trying to answer and, with our knowledge of the data that is available, clarify exactly what data is required for their project.</li>
+<li>Then we work with the BI team to provide that data for the requestor as quickly as possible, in the form that the requestor needs.</li>
+</ol>
+</blockquote>
+<p>We hypothesise that this shall benefit both clinical staff and the BI team.</p>
+<blockquote class="blockquote">
+<p>Clinical staff:<br>
+- makes the process of getting data from EPIC clearer<br>
+- enhances understanding of the data that is available from EPIC<br>
+- help with analysis of data (if required)<br>
+- overall makes it easier to get the data needed to complete audit/QIP/service evaluations (thereby increasing the number of projects completed and improving patient care)</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>BI team:<br>
+- Saves time/frustration emailing back-and-forth with clinical staff<br>
+- Better understanding of clinical relevance of their work (through feedback on the results of QI projects)</p>
+</blockquote>
 </section>
-<section id="uclh-access-required" class="level3">
-<h3 class="anchored" data-anchor-id="uclh-access-required">UCLH access required</h3>
+<section id="current-structure-of-the-data-clinic" class="level1">
+<h1>(Current) Structure of the Data Clinic</h1>
+<p>Below is a brief, introductory overview of the current stucture of the Data Clinic. A more in-depth overview can be found in the Data Clinic Teams channel.</p>
+<p>Requests for data can currently come from 2 channels:</p>
+<ol type="1">
+<li>A referral from the Audit/QI clinic (where a project has indicated that they need EPIC data to complete their project)</li>
+<li>A direct email to the Data Clinic email address or one of the members of the Data Clinic team.</li>
+</ol>
+<p>As a rule of thumb, all audit/QIP should go through the Audit/QI clinic prior to being referred to the Data Clinic. This allows the Audit/QIP team to register the project, keep track of it and provide methodological support prior to the Data Clinic. Other data requests that are <em>not</em> audit/QI (e.g.&nbsp;service evaluation) are more likely to come through the second route.</p>
+<p>Once a request has been recieved, a Data Fellow meets with the requestor to discuss their project and the data requirements.</p>
+<p>Following this, the Data Fellow shall meet with the BI team to perform a 1st extraction of the data. This shall be shown to the requestor.</p>
+<p>If they are happy with this data, we then proceed to a full data extraction and delivery. If they are not satisfied, the extraction is revised and further meeting are arranged with the requestor until the data provided is adaquate (see the below flowchart for a graphical representation of this process)</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<p>
+</p><pre class="mermaid mermaid-js" data-tooltip-selector="#mermaid-tooltip-1">flowchart TD
+A(Data request recieved) --&gt; B(1st Meeting between requestor &amp; Data Fellow)
+B --&gt; C(Meeting between Data Fellow and BI team)
+C --&gt; D[1st extraction of data]
+D --&gt; F{2nd meeting between requestor &amp; Data Fellow}
+F --&gt; G[Happy with data]
+F --&gt; H[Revisions needed]
+G --&gt; I(Full extraction &amp; data delivered)
+H --&gt; J(Further revision to extraction)
+J --&gt; F
+
+linkStyle default stroke: black;
+</pre>
+<div id="mermaid-tooltip-1" class="mermaidTooltip">
+
+</div>
+<p></p>
+</div>
+</div>
+</div>
+<p>As the Data Clinic is being run as a QIP, this process is subject to change over time.</p>
+</section>
+<section id="relevant-people" class="level1">
+<h1>Relevant People</h1>
+<section id="data-clinic" class="level3">
+<h3 class="anchored" data-anchor-id="data-clinic">Data Clinic</h3>
+<p>Dr Tim Bonnici: Data Lead for Critical Care (t.bonnici@nhs.net)<br>
+Data Fellows: Change yearly, previous fellows are listed below</p>
+<blockquote class="blockquote">
+<p>2021/22: Conor Foley, Dan Stein<br>
+2022/23: Ruaraidh Campbell, Sarah Vaughan, Hrisheekesh Vaidya</p>
+</blockquote>
+</section>
+<section id="bi-team" class="level3">
+<h3 class="anchored" data-anchor-id="bi-team">BI team</h3>
+<p>Tracey Crissell: Critical BI team lead (traceycrissell@nhs.net)<br>
+Humayra Chowdhury: BI analyst (humayra.chowdhury@nhs.net)</p>
+<p><strong>The Data Clinic also works closely with the Audit/QI team and the Methodology Clinic team</strong></p>
+</section>
+<section id="auditqi-team" class="level3">
+<h3 class="anchored" data-anchor-id="auditqi-team">Audit/QI team</h3>
+<p>Veronica (‘Ronnie’) Marsh: Audit/QI lead (veronica.marsh1@nhs.net)</p>
+</section>
+<section id="methodology-team" class="level3">
+<h3 class="anchored" data-anchor-id="methodology-team">Methodology team</h3>
+<p>Siri Steinmo: Quality Improvement Lead (siri.steinmo@nhs.net)<br>
+Petra Voegele: PERRT nurse, Methodology clinic co-lead (petra.voegele@nhs.net)</p>
+</section>
+</section>
+<section id="onboarding-information" class="level1">
+<h1>Onboarding information</h1>
+<p>This page will have given you a good general oversight of the Data Clinic and the people involved.</p>
+<p>However, if you are going to be working with the Data Clinic team, then you shall require some further information/orientation.</p>
+<p>Below is a checklist of items to arrange to get up-and-running with the Data Clinic:</p>
+<ol type="1">
+<li>Obtain access to the Data Clinic Teams channel (contains more detailed information of structure of Data clinic, training on how to extract data from EPIC, a tracker for projects currently going through Data Clinic, records of previous projects)
+<ol type="i">
+<li>Email Tim Bonicci to obtain<br>
+</li>
+<li>Read through the comprehensive “Data Clinic Handover Document” &amp; watch the video tour of the Data Clinic Teams channel</li>
+</ol></li>
+<li>Obtain access to the Data Clinic GitHub repository (contains code for extracting data from EPIC)
+<ol type="i">
+<li>Email Tim Bonicci to obtain</li>
+</ol></li>
+<li>Obtain access to Caboodle (EPIC’s main reporting database). Allows you to extract EPIC data.
+<ol type="i">
+<li>Email David Thomson (Information Services Manager) to obtain (david.thompson19@nhs.net). You shall need to attend a mandatory training session with David before being given access</li>
+</ol></li>
+<li>Complete Caboodle training via EpicUserWeb
+<ol type="i">
+<li>To sign up for an EpicUserWeb account, visit https://userweb.epic.com/Account/Register<br>
+</li>
+<li>There is a lot of training resources for using EPIC on EpicUserWeb, most of which is not relevant to the Data Clinic. The key learning to look at can be found in the “Recommended Reading List.docx” file, within the EPIC training folder in the Data Clinic Teams channel</li>
+</ol></li>
+<li>Complete SQL learning (SQL is the coding language used for extracting data from reporting databases, such as Caboodle)
+<ol type="i">
+<li>There are a number of free vs paid learning reserouces for this.</li>
+<li>Previous Data Fellows have bought a subscription to DataCamp. This is paid for, however it is good for learning and also has other coding languages (e.g.&nbsp;python, R)<br>
+</li>
+<li>There are free learning resources in the “Data Science learning resources” folder within the Data Clinic Teams channel</li>
+</ol></li>
+<li>Introduce yourself to Ronnie, Siri &amp; Petra from the Audit/QI and Methodology teams
+<ol type="i">
+<li>You will work closely with them throughout the year. It is good to meet up with them so they can show you what they do in the Audit/QI &amp; Methodology clinics and how this relates to the Data Clinic</li>
+</ol></li>
+<li>Get access to the Data Clinic email inbox
+<ol type="i">
+<li>Email Tim Bonnici to obtain</li>
+</ol></li>
+</ol>
+</section>
+<section id="current-progress-of-project" class="level1">
+<h1>Current Progress of Project</h1>
+<p>2021/22</p>
+<blockquote class="blockquote">
 <ul>
-<li>names of people to get involved with</li>
+<li>Start of project<br>
+</li>
+<li>Background to project including issues we hoped to address laid out in project overview document (see Notion document on Teams channel)<br>
+</li>
+<li>Survey done on 33 staff members in Critical Care that identified barriers to using data to complete audit/QI projects<br>
+</li>
+<li>7/8 projects served through Data Clinic, including audit/QI/project feasibility projects.<br>
+</li>
+<li>Draft project tracker set up to record length of time taken to serve data for data requests<br>
+</li>
+<li>Informal qualitative feedback on the Data Clinic process gathered from joint meetings between Data lead/Data Fellows/BI team<br>
+</li>
+<li>Adjustments made to running of the Data Clinic from this feedback including identifying the need for Audit/Methodology support for some projects before they attend Data Clinic, to clarify the aims and scope of projects.<br>
+</li>
+<li>Overall, provided qualitative evidence that the Data Clinic initiative was feasible, beneficial to BI team and could help clinical staff.</li>
 </ul>
-</section>
-</section>
-<section id="what-is-the-data-clinic" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-the-data-clinic">What is the Data Clinic?</h2>
+</blockquote>
+<p>2022/23</p>
+<blockquote class="blockquote">
 <ul>
-<li>links</li>
+<li>Plan for the year was to formalise outcome/process/balancing measurements for the Data Clinic &amp; establish a reliable service.<br>
+</li>
+<li>Data Clinic email address and Teams channel set up, to create central repositiory for Data Clinic items. Github set up for code repository.<br>
+</li>
+<li>Audit/QI clinic &amp; Methodology clinic set up. Process of referring projects from these clinics to Data Clinic set up.</li>
 </ul>
+</blockquote>
 
 
 </section>
