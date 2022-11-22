@@ -18,6 +18,7 @@ jobs:
         uses: quarto-dev/quarto-actions/render@v2
 
       - name: Deploy PR Preview
-        uses: rossjrw/pr-preview-action@v1.2.0
+        uses: dan-hanlon/pr-preview-action@62f1f6206ef1e71283c58ced9a978c429e6140ec
         with:
           source-dir: ./_site/
+          custom-url: uclhal.org
