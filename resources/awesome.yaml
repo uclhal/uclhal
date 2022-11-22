@@ -1,3 +1,25 @@
+- title: "Causal Inference: What If?"
+  author: Steve Harris
+  date: 2022-11-22
+  url: https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/
+  description: I read drafts of this book during my Phd, and loved it. Miguel Hernan writes beautifully, and I found his reasoning and explanations very intuitive.
+  categories:
+    - causal causal
+    - reading
+    - book
+    - miguel hernan
+    - james robbins
+- title: "JAMA Guide to Statistics and Methods" 
+  author: Steve Harris
+  description: > 
+    I found this through this article [Why Test for Proportional Hazards?](https://doi.org/10.1001/jama.2020.1267) by the amazing Miguel Hernan (author of 'Causal Inference: What If')
+  date: 2022-11-22
+  url: https://jamanetwork.com/collections/44042/jama-guide-to-statistics-and-methods 
+  categories:
+    - Methods
+    - Teaching
+    - miguel hernan
+    - Statistics
 - title: "HealthyR: R for Health Data Science"
   author: Ruaraidh Campbell
   description: |

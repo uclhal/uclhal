@@ -3,12 +3,11 @@
 <% for (const item of items) { %>
   <li <%= metadataAttrs(item) %>>
     <a href="<%- item.url %>" class="listing-title"><%= item.title %></a>
-    <br/>
-    <span class="listing-description"> <%= item.description %> <span><br/>
-    <br/>
-
-    <span class="listing-author"><%= item.author %><span>, <span class="listing-date"><%= item.date %><span>
-
+    <p>
+      <strong><span class="listing-author"><%= item.author %><span> </strong> | <span class="listing-date"><%= item.date %><span> 
+      <br/>
+      <span class="listing-description"> <%= item.description %> <span><br/>
+    </p>
   </li>
 <% } %>
 </ul>
