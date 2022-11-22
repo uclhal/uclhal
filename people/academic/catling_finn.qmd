@@ -42,3 +42,4 @@ My recent work includes:
 - [Uncertainty-aware mortality risk prediction](https://www.nature.com/articles/s41746-022-00616-7) for patients undergoing emergency laparotomy. Our prediction model is available as a [web app and API](https://laparotomy-risk.com/).
 - [Representing patients’ status using time-series data](https://pubmed.ncbi.nlm.nih.gov/31858114/) to better anticipate clinical deterioration in the Intensive Care Unit.
 - Exploiting structure in medical knowledge to [improve rare disease recognition](https://pubmed.ncbi.nlm.nih.gov/30409346/) during automated clinical coding.
+- An open-source software library (in Python) for [preprocessing and analysis of physiological waveforms](https://pypi.org/project/medical-waveforms/).
