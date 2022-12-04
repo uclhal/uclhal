@@ -1,3 +1,11 @@
+- title: "Code with Engineering Playbook"
+  proposer: Steve Harris
+  date: 2022-12-04
+  url: https://microsoft.github.io/code-with-engineering-playbook/
+  description: "Recommendations from Microsoft's Consumer Software Engineering. This is full of awesomeness."
+  categories:
+    - software carpentry
+    - dev-ops
 - title: "The Art of the Command Line"
   proposer: Steve Harris
   date: 2022-11-25
