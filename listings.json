@@ -15,6 +15,12 @@
     "items": []
   },
   {
+    "listing": "/news.html",
+    "items": [
+      "/news/hdruk-award-2021/index.html"
+    ]
+  },
+  {
     "listing": "/people.html",
     "items": [
       "/people/academic/harris_steve.html",
@@ -32,12 +38,6 @@
       "/people/clinical/vaughan_sarah.html",
       "/people/associate/daniel_hanlon.html",
       "/people/alumni/wong_danny.html"
-    ]
-  },
-  {
-    "listing": "/news.html",
-    "items": [
-      "/news/hdruk-award-2021/index.html"
     ]
   },
   {
