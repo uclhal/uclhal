@@ -55,3 +55,14 @@
   categories:
     - R
     - Health Data Science
+- title: "daiquiri"
+  proposer: Steve Harris
+  description: |
+    The daiquiri package generates data quality reports that enable quick visual review of temporal shifts in record-level data.
+  date: 2022-12-05
+  url: https://ropensci.github.io/daiquiri/
+  categories:
+    - ehrs
+    - data quality
+    - data science
+    - R
