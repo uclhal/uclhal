@@ -18,6 +18,7 @@ log.md
 # Ahmed: for conda and VScode
 .vscode/
 .doit.*
+.idea/
 
 # as per Nikola recommendations for github deployment
 cache
@@ -155,5 +156,3 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-
-

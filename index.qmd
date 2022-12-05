@@ -6,7 +6,13 @@ toc: false
 ---
 
 ::: {.lead}
-  We work on translational data science for [critical care]{.fw-bolder} and related specialties. 
+  We work on translational data science for [critical care]{.fw-bolder} and related specialties. We bring together four interrelated disciplines within the lab:
+
+  1. Machines and Robots
+  2. Learning Healthcare Systems via nudge randomisation
+  3. Algorithm stewardship and real world / real time decision support
+  4. Collaborative data science and national level epidemiology
+
 :::
 
 <!-- ![](./img/showcase.svg){.hero} -->
@@ -40,6 +46,3 @@ The UCL Health Algorithm Laboratory is based at **Institute of Health Informatic
 ```{=html}
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.3081696623235!2d-0.137801584241075!3d51.52590731717089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b260446fa31%3A0xc97a5981bb924a0d!2sUCL%20Institute%20Of%20Health%20Informatics!5e0!3m2!1sen!2suk!4v1668376825965!5m2!1sen!2suk" width="50%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 ```
-
-
-
