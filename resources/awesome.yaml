@@ -66,3 +66,35 @@
     - data quality
     - data science
     - R
+- title: "ROS"
+  proposer: Ahmed AL-Hindawi
+  description: "The Robot Operating System (ROS) is a framework that has gained widespread adoption for asynchronous publisher-subscriber model aiming at making all things Robots easier."
+  date: 2022-12-14
+  url: https://www.ros.org
+  categories:
+    - Robotics
+    - Computer Vision
+    - Python
+    - C++
+    - tools
+- title: "Pytorch Lightning"
+  proposer: Ahmed Al-Hindawi
+  description: "An opinionated framework for developing models on-top of PyTorch. It handles moving tensors to the appropriate device, batching, and multi-GPU/TPU training and inference. Also comes with a set of metrics suitable for the assessment of the model out of the box"
+  date: 2022-12-14
+  url: https://www.pytorchlightning.ai/
+  categories:
+    - Python
+    - AI
+    - Neural Networks
+    - framework
+- title: "timm"
+  proposer: Ahmed Al-Hindawi
+  description: "Torch Image Models (TIMM) s a collection of computer vision models, layers, utilities, optimizers, schedulers, data-loaders, augmentations and also training/validating scripts with ability to reproduce ImageNet training results"
+  date: 2022-12-14
+  url: https://timm.fast.ai/
+  categories:
+    - computer vision
+    - python
+    - tool
+    - framework
+- 
