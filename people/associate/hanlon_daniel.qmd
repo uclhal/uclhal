@@ -1,0 +1,28 @@
+---
+title: "Daniel Hanlon"
+sortby: "Hanlon, Daniel"
+subtitle: "Medical Student"
+image: hanlon_daniel.jpg
+started: "June 2022"
+# ended: "2019"
+toc: false
+about:
+  template: solana
+  image-shape: rounded
+  image-width: 200px
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/daniel-hanlon/
+    - icon: twitter
+      text: Twitter   
+      href: https://twitter.com/danhanlon_
+    - icon: github
+      text: github
+      href: https://github.com/dan-hanlon
+---
+
+## Biography
+
+I am a graduate entry medical student in RCSI Dublin, Ireland. Before studying medicine I worked as a software engineer for Microsoft, completed an MSc Artificial Intelligence for Medicine & Medical Research and BSc Computer Science from University College Dublin. I am interested in translational research using electronic health records and critical care. Currently, I am working with other members of the lab to model 'ward strain' and how it relates to patient deterioration.
+
