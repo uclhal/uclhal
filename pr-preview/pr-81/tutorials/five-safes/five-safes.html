@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.280">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="Working with health data; the ‘Five Safes’">
+
+<title>UCL Health Algorithms Laboratory - Safe data</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../img/noun-patient-3907718.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-sidebar docked nav-fixed slimcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">UCL Health Algorithms Laboratory</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../news.html">
+ <span class="menu-text">News</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../people.html">
+ <span class="menu-text">People</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../publications.html">
+ <span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../resources.html">
+ <span class="menu-text">Resources</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../../tutorials.html" aria-current="page">
+ <span class="menu-text">Tutorials</span></a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">Safe data</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../tutorials.html" class="sidebar-item-text sidebar-link">Tutorials</a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Onboarding</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../tutorials/onboarding/onboarding.html" class="sidebar-item-text sidebar-link">Getting started</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../tutorials/onboarding/onboarding-1.html" class="sidebar-item-text sidebar-link">Onboarding 1</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../tutorials/onboarding/onboarding-2.html" class="sidebar-item-text sidebar-link">Onboarding 2</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../tutorials/five-safes/five-safes.html" class="sidebar-item-text sidebar-link active">Safe data</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../tutorials/emap/emap-star-intro.html" class="sidebar-item-text sidebar-link">Introduction to EMAP star</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">HYLODE</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../tutorials/hylode/hylode.html" class="sidebar-item-text sidebar-link">HYLODE documentation</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../tutorials/hylode/HyMind-Lab-example.html" class="sidebar-item-text sidebar-link">HyMind Lab Example</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../tutorials/hylode/HyMind-ML-example.html" class="sidebar-item-text sidebar-link">HyMind Machine Learning</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../tutorials/hylode/HyCastle-Lens.html" class="sidebar-item-text sidebar-link">HyCastle Lens Example</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../tutorials/hylode/vignette_0__README.html" class="sidebar-item-text sidebar-link">Hi <em>(Hy?)</em> there…</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../tutorials/hylode/vignette_0_intro.html" class="sidebar-item-text sidebar-link">Exemplar</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../tutorials/hylode/vignette_1_training.html" class="sidebar-item-text sidebar-link">Training data</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../tutorials/hylode/vignette_2_modelling.html" class="sidebar-item-text sidebar-link">Modelling</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../tutorials/hylode/vignette_3_data_flow.html" class="sidebar-item-text sidebar-link">Under the hood</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">Data Clinic</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../tutorials/data-clinic/data-clinic-for-fellows.html" class="sidebar-item-text sidebar-link">Data Clinic: Onboarding for Data Fellows</a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#working-with-health-data" id="toc-working-with-health-data" class="nav-link active" data-scroll-target="#working-with-health-data">Working with health data</a>
+  <ul class="collapse">
+  <li><a href="#five-safes" id="toc-five-safes" class="nav-link" data-scroll-target="#five-safes">Five Safes</a>
+  <ul class="collapse">
+  <li><a href="#safe-people" id="toc-safe-people" class="nav-link" data-scroll-target="#safe-people">Safe People</a></li>
+  <li><a href="#safe-projects" id="toc-safe-projects" class="nav-link" data-scroll-target="#safe-projects">Safe Projects</a></li>
+  <li><a href="#safe-settings" id="toc-safe-settings" class="nav-link" data-scroll-target="#safe-settings">Safe Settings</a></li>
+  <li><a href="#safe-outputs" id="toc-safe-outputs" class="nav-link" data-scroll-target="#safe-outputs">Safe Outputs</a></li>
+  <li><a href="#safe-data" id="toc-safe-data" class="nav-link" data-scroll-target="#safe-data">Safe Data</a></li>
+  </ul></li>
+  <li><a href="#five-safes-at-uclh" id="toc-five-safes-at-uclh" class="nav-link" data-scroll-target="#five-safes-at-uclh">Five safes at UCLH</a></li>
+  </ul></li>
+  <li><a href="#safe-data-without-the-other-4-safes" id="toc-safe-data-without-the-other-4-safes" class="nav-link" data-scroll-target="#safe-data-without-the-other-4-safes">Safe data without the other 4 safes</a>
+  <ul class="collapse">
+  <li><a href="#anonymisation-is-really-hard" id="toc-anonymisation-is-really-hard" class="nav-link" data-scroll-target="#anonymisation-is-really-hard">Anonymisation (is <em>really</em> hard)</a>
+  <ul class="collapse">
+  <li><a href="#statistical-disclosure-control" id="toc-statistical-disclosure-control" class="nav-link" data-scroll-target="#statistical-disclosure-control">Statistical Disclosure Control</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#safe-outputs-1" id="toc-safe-outputs-1" class="nav-link" data-scroll-target="#safe-outputs-1">Safe outputs</a>
+  <ul class="collapse">
+  <li><a href="#frequency-tables" id="toc-frequency-tables" class="nav-link" data-scroll-target="#frequency-tables">Frequency tables</a></li>
+  <li><a href="#graphs-and-figures" id="toc-graphs-and-figures" class="nav-link" data-scroll-target="#graphs-and-figures">Graphs and Figures</a></li>
+  <li><a href="#four-eyes-principle" id="toc-four-eyes-principle" class="nav-link" data-scroll-target="#four-eyes-principle">Four eyes principle</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/uclhal/uclhal/edit/main/tutorials/five-safes/five-safes.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/uclhal/uclhal/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+    </div>
+<!-- main -->
+<main class="content page-columns page-full" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block">Safe data</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">onboarding</div>
+    <div class="quarto-category">5 Safes</div>
+    <div class="quarto-category">Information Governance</div>
+    <div class="quarto-category">Anonymisation</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Working with health data; the ‘Five Safes’
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="working-with-health-data" class="level1 page-columns page-full">
+<h1>Working with health data</h1>
+<section id="five-safes" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="five-safes">Five Safes</h2>
+<p>We follow the <a href="http://www2.uwe.ac.uk/faculties/BBS/Documents/1601.pdf">‘Five Safes’</a> approach to managing data and information security. This means that we don’t rely on just the ‘safety’ of the data but also take into account the following:</p>
+<section id="safe-people" class="level3">
+<h3 class="anchored" data-anchor-id="safe-people">Safe People</h3>
+<ul>
+<li>all individuals have substantive contracts or educational relationships with higher education or NHS institutions</li>
+<li>those working need to have evidence of experience of working with such data (e.g.&nbsp;previous training, previous work with ONS, data safe havens etc.) or they need a supervisor who can has similar experience</li>
+<li>those working need to undergo training in information governance and issues with statistical disclosure control (SDC)</li>
+</ul>
+</section>
+<section id="safe-projects" class="level3">
+<h3 class="anchored" data-anchor-id="safe-projects">Safe Projects</h3>
+<ul>
+<li>projects must ‘serve the public good’</li>
+<li>projects must meet relevant HRA and UCLH research and ethics approvals</li>
+<li>service delivery work mandated as per usual trust processes</li>
+</ul>
+</section>
+<section id="safe-settings" class="level3">
+<h3 class="anchored" data-anchor-id="safe-settings">Safe Settings</h3>
+<ul>
+<li>working at UCLH in the NHS on approved infrastructure</li>
+<li>UCLH local and remote desktops</li>
+<li>UCLH Data Science Desktop</li>
+<li>Generic Application Development Environment (GADE)</li>
+</ul>
+</section>
+<section id="safe-outputs" class="level3">
+<h3 class="anchored" data-anchor-id="safe-outputs">Safe Outputs</h3>
+<ul>
+<li>outputs (e.g.&nbsp;reports, figures and tables) must be non-disclosing</li>
+<li>outputs should remain on NHS systems initially</li>
+<li>a copy of all outputs that are released externally (documents) should be stored in one central location so that there is visibility for all</li>
+</ul>
+</section>
+<section id="safe-data" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="safe-data">Safe Data</h3>
+<ul>
+<li>direct identifiers (hospital numbers, NHS numbers, names etc) should be masked unless there is an explicit justification for their use</li>
+<li>data releases are proportionate (e.g.&nbsp;limited by calendar periods, by patient cohort etc.)</li>
+<li>further work to obscure or mask the data is not necessary given the other safe guards (as per the recommendation by the UK data service)</li>
+</ul>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Mln9T52mwj0?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen="">
+</iframe>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p>The majority of this content is derived and adapted from the <a href="https://securedatagroup.org">Safe Data Access Professional’s Working group</a>, and we strongly recommend reviewing their <a href="https://doi.org/10.6084/m9.figshare.9958520">handbook</a>]</p>
+<p><img src="sdc-handbook-v1.0-pp1.png" class="img-fluid"></p>
+</div></div></section>
+</section>
+<section id="five-safes-at-uclh" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="five-safes-at-uclh">Five safes at UCLH</h2>
+<p>Practically although this means that we are judging your data safety on <em>more</em> than just the qualities of the data, we are able to work with data that would otherwise be considered unsafe. The plot below demonstrates this by comparing the effort we would have to expend on safety if we wanted to release data on the internet. This means that we lose all the other 4 safes.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="five-safes-uclh-radar.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption margin-caption">Safety through disclosure control alone is much harder than using the other 4 ‘safes’</figcaption><p></p>
+</figure>
+</div>
+</section>
+</section>
+<section id="safe-data-without-the-other-4-safes" class="level1 page-columns page-full">
+<h1>Safe data without the other 4 safes</h1>
+<ul>
+<li>Anonymisation</li>
+<li>Pseudonymisation</li>
+<li>De-identification</li>
+</ul>
+<section id="anonymisation-is-really-hard" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="anonymisation-is-really-hard">Anonymisation (is <em>really</em> hard)</h2>
+<p>Methods include Generalised Adversarial Networks, differentially-private Bayesian generative models, and Statistical Disclosure Control</p>
+<section id="statistical-disclosure-control" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="statistical-disclosure-control">Statistical Disclosure Control</h3>
+<p>Set thresholds for</p>
+<ul>
+<li><em>k-anonymity</em>: counts the number of individuals identified by the intersection of key variables</li>
+<li><em>l-diversity</em>: counts how varied other sensitive fields are within a k-anonymous group</li>
+</ul>
+<p>Then define</p>
+<ul>
+<li>direct identifiers</li>
+<li>key variables (indirect identifiers)</li>
+<li>sensitive fields</li>
+<li>non-identifying variables</li>
+</ul>
+<div id="fig-cchic-anon-1" class="quarto-figure quarto-figure-center anchored page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="cchic-anon-1.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption margin-caption">Figure&nbsp;1: Initial procedural steps to reduce re-identification risk and specifying <em>a priori</em> the statistical disclosure control thresholds.</figcaption><p></p>
+</figure>
+</div>
+<div id="fig-cchic-anon-2" class="quarto-figure quarto-figure-center anchored page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="cchic-anon-2.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption margin-caption">Figure&nbsp;2: Algorithim that iteratively examines the disclosure risk and applies noise or aggregates data until this meets the thresholds specified above</figcaption><p></p>
+</figure>
+</div>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Types of disclosure</p>
+<dl>
+<dt>Primary disclosure</dt>
+<dd>
+Inferring the identity, and/or information about, a data subject from a single source of data.
+</dd>
+<dt>Secondary disclosure (‘attribute’)</dt>
+<dd>
+Deriving the identity, and/or information of, a data subjecting by combining two or more sources of information together.
+</dd>
+</dl>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section id="safe-outputs-1" class="level1">
+<h1>Safe outputs</h1>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Approaches to defining safe outputs</p>
+<dl>
+<dt>Rules-based</dt>
+<dd>
+Users are given a set of fixed rules about what can and cannot be released, if the statistical output presented by the user meets the criteria it is released.
+</dd>
+<dt>Principles-based</dt>
+<dd>
+An assessment of risk takes place, and a decision is made as to whether the statistical output presented ‘safe’ to release or not? (in accordance with the Five Safes ‘Safe Output’ element).
+</dd>
+</dl>
+</div>
+</div>
+<section id="frequency-tables" class="level2">
+<h2 class="anchored" data-anchor-id="frequency-tables">Frequency tables</h2>
+<p>Rules-based - Minimum cell count - All counts should be unweighted</p>
+<p>Principles-based - Threshold is a ‘rule-of-thumb’ - The units and data being presented should be considered</p>
+<p>Frequencies can be presented in many different ways including tables, histograms, pie charts, bar charts. The guidance for frequency tables will also apply for these.</p>
+<p><img src="five-safes-freq-table-1.png" class="img-fluid"></p>
+<p><img src="five-safes-freq-table-2.png" class="img-fluid"></p>
+</section>
+<section id="graphs-and-figures" class="level2">
+<h2 class="anchored" data-anchor-id="graphs-and-figures">Graphs and Figures</h2>
+<p>Example issues include</p>
+<ul>
+<li>histograms: often low counts in the tails of the distribution, the maximum and minimum values may also be shown.</li>
+<li>scatter plots: by definition are plots of individuals (also residual plots); consider grouping</li>
+</ul>
+<p><img src="five-safes-freq-scatter-1.png" class="img-fluid"></p>
+<p><img src="five-safes-freq-scatter-2.png" class="img-fluid"></p>
+</section>
+<section id="four-eyes-principle" class="level2">
+<h2 class="anchored" data-anchor-id="four-eyes-principle">Four eyes principle</h2>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+      <div class="nav-footer-center">Copyright 2022 © Steve Harris</div>
+  </div>
+</footer>
+
+
+
+</body></html>
