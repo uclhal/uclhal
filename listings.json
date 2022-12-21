@@ -1,5 +1,9 @@
 [
   {
+    "listing": "/resources/awesome.html",
+    "items": []
+  },
+  {
     "listing": "/resources/homegrown.html",
     "items": [
       "/resources/homegrown/msc_health_data_science.html",
@@ -11,14 +15,14 @@
     ]
   },
   {
-    "listing": "/resources/awesome.html",
-    "items": []
-  },
-  {
     "listing": "/news.html",
     "items": [
       "/news/hdruk-award-2021/index.html"
     ]
+  },
+  {
+    "listing": "/publications.html",
+    "items": []
   },
   {
     "listing": "/people.html",
@@ -36,12 +40,8 @@
       "/people/clinical/hla_teddy.html",
       "/people/clinical/hrishee_vaidya.html",
       "/people/clinical/vaughan_sarah.html",
-      "/people/associate/daniel_hanlon.html",
+      "/people/associate/hanlon_daniel.html",
       "/people/alumni/wong_danny.html"
     ]
-  },
-  {
-    "listing": "/publications.html",
-    "items": []
   }
 ]
