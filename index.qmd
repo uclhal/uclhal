@@ -8,10 +8,10 @@ toc: false
 ::: {.lead}
   We work on translational data science for [critical care]{.fw-bolder} and related specialties. We bring together four interrelated disciplines within the lab:
 
-  1. Machines and Robots
-  2. Learning Healthcare Systems via nudge randomisation
-  3. Algorithm stewardship and real world / real time decision support
-  4. Collaborative data science and national level epidemiology
+  1. Learning Healthcare Systems via nudge randomisation
+  2. Algorithm stewardship and real world / real time decision support
+  3. Collaborative data science and national level epidemiology
+  4. Novel Non-Invasive Physiological Measurements and Assistance
 
 :::
 
