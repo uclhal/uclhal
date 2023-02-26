@@ -1,27 +1,8 @@
 [
   {
-    "listing": "/publications.html",
-    "items": []
-  },
-  {
     "listing": "/news.html",
     "items": [
       "/news/hdruk-award-2021/index.html"
-    ]
-  },
-  {
-    "listing": "/resources/awesome.html",
-    "items": []
-  },
-  {
-    "listing": "/resources/homegrown.html",
-    "items": [
-      "/resources/homegrown/msc_health_data_science.html",
-      "/resources/homegrown/phd_cdt_ai.html",
-      "/resources/homegrown/CCHIC.html",
-      "/resources/homegrown/cleanehr.html",
-      "/resources/homegrown/data-clinic-for-general.html",
-      "/resources/homegrown/inspectehr.html"
     ]
   },
   {
@@ -43,5 +24,24 @@
       "/people/associate/hanlon_daniel.html",
       "/people/alumni/wong_danny.html"
     ]
+  },
+  {
+    "listing": "/resources/homegrown.html",
+    "items": [
+      "/resources/homegrown/msc_health_data_science.html",
+      "/resources/homegrown/phd_cdt_ai.html",
+      "/resources/homegrown/CCHIC.html",
+      "/resources/homegrown/cleanehr.html",
+      "/resources/homegrown/data-clinic-for-general.html",
+      "/resources/homegrown/inspectehr.html"
+    ]
+  },
+  {
+    "listing": "/resources/awesome.html",
+    "items": []
+  },
+  {
+    "listing": "/publications.html",
+    "items": []
   }
 ]
