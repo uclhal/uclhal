@@ -1,5 +1,53 @@
+- title: "Code with Engineering Playbook"
+  proposer: Steve Harris
+  date: 2022-12-04
+  url: https://microsoft.github.io/code-with-engineering-playbook/
+  description: "Recommendations from Microsoft's Consumer Software Engineering. This is full of awesomeness."
+  categories:
+    - software carpentry
+    - dev-ops
+- title: "The Art of the Command Line"
+  proposer: Steve Harris
+  date: 2022-11-25
+  url: https://github.com/jlevy/the-art-of-command-line
+  description: "This is a selection of notes and tips on using the command-line that we've found useful when working on Linux. Some tips are elementary, and some are fairly specific, sophisticated, or obscure. This page is not long, but if you can use and recall all the items here, you know a lot."
+  categories:
+    - software carpentry
+    - linux
+    - command line
+- title: "DAGitty — draw and analyze causal diagrams"
+  proposer: Steve Harris
+  date: 2022-11-25
+  url: http://dagitty.net
+  description: "DAGitty is a browser-based environment for creating, editing, and analyzing causal diagrams (also known as directed acyclic graphs or causal Bayesian networks). The focus is on the use of causal diagrams for minimizing bias in empirical studies in epidemiology and other disciplines."
+  categories:
+    - causal inference
+    - tools
+    - dataviz
+- title: "Causal Inference: What If?"
+  proposer: Steve Harris
+  date: 2022-11-22
+  url: https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/
+  description: I read drafts of this book during my Phd, and loved it. Miguel Hernan writes beautifully, and I found his reasoning and explanations very intuitive.
+  categories:
+    - causal inference
+    - reading
+    - book
+    - miguel hernan
+    - james robbins
+- title: "JAMA Guide to Statistics and Methods" 
+  proposer: Steve Harris
+  description: > 
+    I found this through this article [Why Test for Proportional Hazards?](https://doi.org/10.1001/jama.2020.1267) by the amazing Miguel Hernan (proposer of 'Causal Inference: What If')
+  date: 2022-11-22
+  url: https://jamanetwork.com/collections/44042/jama-guide-to-statistics-and-methods 
+  categories:
+    - Methods
+    - Teaching
+    - miguel hernan
+    - Statistics
 - title: "HealthyR: R for Health Data Science"
-  author: Ruaraidh Campbell
+  proposer: Ruaraidh Campbell
   description: |
     A great free beginner introduction to R for healthcare professionals!  Created by Prof Ewan Harrison (a professor of Surgical & Data Science at Edinburgh University), this course takes you from an absolute beginner, with topics such as "what is R?" & "how to install it", through to running your own regression analyses and producing plots!
   date: 2022-11-19
@@ -7,3 +55,54 @@
   categories:
     - R
     - Health Data Science
+- title: "daiquiri"
+  proposer: Steve Harris
+  description: |
+    The daiquiri package generates data quality reports that enable quick visual review of temporal shifts in record-level data.
+  date: 2022-12-05
+  url: https://ropensci.github.io/daiquiri/
+  categories:
+    - ehrs
+    - data quality
+    - data science
+    - R
+- title: "ROS"
+  proposer: Ahmed Al-Hindawi
+  description: "The Robot Operating System (ROS) is a framework that has gained widespread adoption for asynchronous publisher-subscriber model aiming at making all things Robots easier."
+  date: 2022-12-14
+  url: https://www.ros.org
+  categories:
+    - Robotics
+    - Computer Vision
+    - Python
+    - C++
+    - tools
+- title: "Pytorch Lightning"
+  proposer: Ahmed Al-Hindawi
+  description: "An opinionated framework for developing models on-top of PyTorch. It handles moving tensors to the appropriate device, batching, and multi-GPU/TPU training and inference. Also comes with a set of metrics suitable for the assessment of the model out of the box"
+  date: 2022-12-14
+  url: https://www.pytorchlightning.ai/
+  categories:
+    - Python
+    - AI
+    - Neural Networks
+    - framework
+- title: "timm"
+  proposer: Ahmed Al-Hindawi
+  description: "Torch Image Models (TIMM) s a collection of computer vision models, layers, utilities, optimizers, schedulers, data-loaders, augmentations and also training/validating scripts with ability to reproduce ImageNet training results"
+  date: 2022-12-14
+  url: https://timm.fast.ai/
+  categories:
+    - computer vision
+    - python
+    - tool
+    - framework
+- title: "einops"
+  proposer: Ahmed Al-Hindawi
+  description: "A framework agnostic library that makes the task of reshaping, reducing, and repeating tensor shapes easy."
+  date: 2022-12-14
+  url: https://einops.rocks/
+  categories:
+    - python
+    - tool
+    - neural networks

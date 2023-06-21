@@ -2,7 +2,7 @@
 title: "Chris Tomlinson"
 sortby: "Tomlinson, Chris"
 subtitle: "PhD Student"
-# image: girard_jeffrey.jpg
+image: tomlinson_chris.jpg
 started: "September 2020"
 toc: false
 # resources: 
