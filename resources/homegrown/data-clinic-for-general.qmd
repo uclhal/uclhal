@@ -64,7 +64,7 @@ Clinical staff:
 
  - Makes the process of getting data from EHRS clearer    
  - Enhances understanding of the data that is available from EHRS & how it will be useful for their project aims  
- - Ensures the data provided is in a format that is useful to the Requestor and sensative to their data analytic skills (e.g. there is no point providing a 10,000 row spreadsheet to someone who struggles to use Excel)     
+ - Ensures the data provided is in a format that is useful to the Requestor and sensitive to their data analytic skills (e.g. there is no point providing a 10,000 row spreadsheet to someone who struggles to use Excel)     
  - Overall makes it easier to get the data needed to complete audit/QIP/service evaluations (thereby increasing the number of projects completed, departmental performance and eventually improving patient care)    
 
 BI team:  
@@ -125,9 +125,9 @@ Below is a brief, introductory overview of the current structure of the Data Cli
 Data Fellow: critical care practitioner (e.g. Doctor, nurse) who has knowledge of the day-to-day working of the Critical Care unit.  
   - So far this has been an SHO-level doctor with some data science acumen who has a 1/3rd to 2/3rd split job role between Data Clinic and clinical work in ICU. However this could reasonably done by any medical professional with time/interest.   
 
- Data Analyst: a data scientist (or similar) who has experince and knowledge of the EHRS system and how to extract data from it. Clinical knowledge is not necessary as it should be provided by the Data Fellow.   
+ Data Analyst: a data scientist (or similar) who has experince and knowledge of the EHRS system and how to extract data from it. Clinical knowledge is not necessary as that should be provided by the Data Fellow.   
 
- Project supervisor: a senior departmental figure (e.g. consultant) who is able to provide guidance/direction to the project, but is perhapos not involved in the day t day running. Benefits from some knowledge of data/Audit/QI.   
+ Project supervisor: a senior departmental figure (e.g. consultant) who is able to provide guidance/direction to the project, but is perhaps not involved in the day t day running. Benefits from some knowledge of data/Audit/QI.   
 
 ### How are requests for data recieved? 
 
@@ -172,7 +172,7 @@ Following this meeting, the Data Clinic team will prepare the data extraction (o
 
 Once this is done, the Data Clinic team meet again with the Requestor to show them the data extraction.   
 -  If the Requestor is happy with this data, the Data Clinic team then proceed to a full data extraction and deliver it to the Requestor.   
--  If the Requestor are not satisfied, the extraction is revised according to the feedback received. Further meetings are then arranged with after each round of extraction until the Requestor until the data provided is adequate.  
+-  If the Requestor are not satisfied, the extraction is revised according to the feedback received. Further meetings are then arranged with the Requestor after each round of extraction, until the data provided is adequate.
 
 (see the below flowchart for a graphical representation of this process) 
 
@@ -253,6 +253,16 @@ However, it does have the downside of increasing workload, so perhaps caution is
 
 If you have questions on the above, or would like to discuss further, please email one of the individuals below (Dr Campbell will be the 1st point of call for most items). 
 
-Dr Ruaraidh Campbell: Lead Data Fellow (ruaraidh.campbell@nhs.net)  
+Dr Ruaraidh Campbell: Lead Data Fellow for Data Clinic (ruaraidh.campbell@nhs.net)  
 Humayra Chowdhury: BI analyst (humayra.chowdhury@nhs.net)   
 Dr Tim Bonnici: Data Lead for Critical Care (t.bonnici@nhs.net)    
+
+
+# Acknowledgements
+
+
+The Data Clinic has only been possible due to the contribution of numerous indivduals in addition to those listed above. We would like to acknowledge the time and effort that have put into this project. 
+
+Data Fellows (Past and Present): Dr Conor Foley [Lead Fellow for Data Clinic 2021/2022], Dr Dan Stein, Dr Hrisheekesh Vaidya, Dr Sarah Vaughan
+Business Intelligence Partners (Past and Present): Tracey Crissell, David Egan
+
