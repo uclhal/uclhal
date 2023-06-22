@@ -1,5 +1,9 @@
 [
   {
+    "listing": "/publications.html",
+    "items": []
+  },
+  {
     "listing": "/people.html",
     "items": [
       "/people/academic/harris_steve.html",
@@ -20,6 +24,10 @@
     ]
   },
   {
+    "listing": "/resources/awesome.html",
+    "items": []
+  },
+  {
     "listing": "/resources/homegrown.html",
     "items": [
       "/resources/homegrown/data-clinic-for-general.html",
@@ -31,17 +39,9 @@
     ]
   },
   {
-    "listing": "/resources/awesome.html",
-    "items": []
-  },
-  {
     "listing": "/news.html",
     "items": [
       "/news/hdruk-award-2021/index.html"
     ]
-  },
-  {
-    "listing": "/publications.html",
-    "items": []
   }
 ]
