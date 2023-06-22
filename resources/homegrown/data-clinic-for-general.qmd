@@ -91,18 +91,18 @@ Our two main recommendations from our experience are:
     
 Listed below is our strategy for measuring the impact of the Data Clinic & the reasons behind this approach. This can be copied directly, or adapted to your local environment. We chose 6 key measurements to focus on collecting to avoid overburdening the team. In reality, it may be possible to collect more than this. 
 
-Outcome measures:  
+**Outcome measures:**  
 
 1. Requestor satisfaction with the data delivered  
 2. Requestor satisfaction with the Data Clinic process   
 
-Process measures:
+**Process measures:**
 
 3. Time taken to deliver the data   
 4. Complexity of the data delivered (e.g. in terms of size of data provided, variety of data, detail of data)  
 5. Qualitative feedback on the Data Clinic experience   
 
-Balancing measures  
+**Balancing measures:**  
 
 6. Feedback from the Data Clinic team on their experience  
 
@@ -200,14 +200,14 @@ linkStyle default stroke: black;
 
 To collect the data on the Outcome/Process/Balancing measures above, we used the following techniques: 
 
-1) Feedback surveys sent to Requestors
+**1) Feedback surveys sent to Requestors**
 
 >  2 surveys were used:  
 >  1. "Immediate" feedback survey. This was sent to Requestors immediately after the request had been served. This focused on their experience of coming through the Data Clinic - and if they were satisfied with the process.   
->  2. "Delayed" feedback survey. This was sent to Requestors weeks-to-months later, after the Requestors have had time to use the data for their project. This focused on their satisfaction with the data delivered - as by then they have had the experience of using the data towards their project goals, so can make a judgement on its true usefulness.   
+>  2. "Delayed" feedback survey. This was sent to Requestors weeks-to-months later, after the Requestors have had time to use the data for their project. This focused on their satisfaction with the data delivered. By this point they will have had the opportunity to use the data for the purposes of their project, so can make a judgement on its true usefulness.   
 >    These feedback surveys also contain questions on other metrics our team are interested in (e.g. what barriers to using data did the Data Clinic help overcome)
 
-2) After-Action Review meetings between Data Clinic team members
+**2) After-Action Review meetings between Data Clinic team members**
 
 >    These meetings are performed approximately every 3 months. We sit together and review the completed projects during that time.   
 >    We start by reviewing the quantitative metrics for the projects (e.g. how long did it take).  
@@ -222,17 +222,19 @@ Templates for the feedback surveys and the After-Action Review meetings can be a
 
 Since its inception, the Data Clinic has been a process of constant learning and development. We have shared below some of the lessons we have learnt, which may be relevant to your implementation. 
 
-1. Help with project methodology 
+**1. Help with project methodology** 
 
 The process of coming through Data Clinic often reveals that projects are not are thoroughly considered as they first appear (and this applies for all grades/seniority of Requestors!) or that the realities of the data available leads to significant reformulation of the project aims/methodology. 
 
-It is therefore been of enormous help to us to partner with Audit/QI/Methodology leads and experts within our department. We can now "refer" projects to these individuals if they need extra methodology support. Once they have been through this process, they come back to us with much clearer aims and reasoned data requests. 
+One of the strengths of the Data Clinic has been the opportunity for the Requestor to meet face-to-face with the Data Clinic team to discuss their project before starting the data extraction. This meeting often reveals issues with the project's inclusion criteria or methodology - something the Data Fellow is often able to spot using their clinical experience. Often these issues can be resolved in this first meeting which makes the subsequent data extraction more straightforward for the data analyst. 
 
-2. Types of requests accepted 
+However, there are occasions where it is obvious the project needs further consideration before progressing. It has therefore been enormous helpful for us to partner with Audit/QI/Methodology leads and experts within our department. We can now "refer" projects to these individuals if they need extra methodology support. Once they have been through this process, they come back to us with much clearer aims and considered data requests. 
+
+**2. Types of requests accepted** 
 
 We initially limited the scope of the Data Clinic to just serving requests for Audit or QI projects. 
 
-This served useful for limiting our workload while we developed our service. However, it quickly became apparent that many requests for projects that had clear potential benefits for the department did not fall into the category of Audit/QI. 
+This proved useful for limiting our workload while we developed our service. However, it quickly became apparent that many requests for projects that had clear potential benefits for the department did not fall into the category of Audit/QI. 
 
 As a result, we expended the scope of the projects we serve to:  
 - Audits  
@@ -248,21 +250,30 @@ This has increased the numbers of projects we serve and has certainly increased 
 However, it does have the downside of increasing workload, so perhaps caution is warranted when first starting. 
 
 
+**3. Inbalances between the requested data and the data that is useful** 
+
+One of the strengths of electronic health records is the ability to easily collect large volumes of data. However, we have found this can present unexpected challenges for clinical staff completing projects. 
+
+Requestors can often ask for more data than they need or can handle. This can be requesting superfluous variables which are not relevant to the project's aims or analyses. Alternatively, the volume of data produced can be overwhelming for Requestors who are used to smaller, manually collected datasets - especially for those with limited data science skills. 
+
+It is therefore important to establish early on what variables are truly important for the project and to try to limit the extraction to these. It is usually straightforward to add variables to existing requests if it later becomes apparent that extra data is needed. This ensures that the datasets produced are relevant to their purpose - limiting information overload for the Requestors and misuse of the valuable data analyst's time in extracting unnecessary data. 
+
+
 # Contact details for the UCLH Data Clinic
 
 
 If you have questions on the above, or would like to discuss further, please email one of the individuals below (Dr Campbell will be the 1st point of call for most items). 
 
-Dr Ruaraidh Campbell: Lead Data Fellow for Data Clinic (ruaraidh.campbell@nhs.net)  
-Humayra Chowdhury: BI analyst (humayra.chowdhury@nhs.net)   
-Dr Tim Bonnici: Data Lead for Critical Care (t.bonnici@nhs.net)    
+**Dr Ruaraidh Campbell**: Lead Data Fellow for Data Clinic (ruaraidh.campbell@nhs.net)  
+**Humayra Chowdhury**: BI analyst (humayra.chowdhury@nhs.net)   
+**Dr Tim Bonnici**: Data Lead for Critical Care (t.bonnici@nhs.net)    
 
 
 # Acknowledgements
 
 
-The Data Clinic has only been possible due to the contribution of numerous indivduals in addition to those listed above. We would like to acknowledge the time and effort that have put into this project. 
+The Data Clinic has only been possible due to the contribution of numerous indivduals in addition to those listed above. We would like to acknowledge the time and effort that have put into this project.   
 
-Data Fellows (Past and Present): Dr Conor Foley [Lead Fellow for Data Clinic 2021/2022], Dr Dan Stein, Dr Hrisheekesh Vaidya, Dr Sarah Vaughan
-Business Intelligence Partners (Past and Present): Tracey Crissell, David Egan
+**Data Fellows (Past and Present)**: Dr Conor Foley [Lead Fellow for Data Clinic 2021/2022], Dr Dan Stein, Dr Hrisheekesh Vaidya, Dr Sarah Vaughan   
+**Business Intelligence Partners** (Past and Present): Tracey Crissell, David Egan
 
