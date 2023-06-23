@@ -1,8 +1,8 @@
 ---
-title: "Data Clinic"
-description: "An introduction to the data clinic"
-author: "Ruaraidh Campbell"
-date: 2022-11-16
+title: "Data Clinic: A 'How to' Template"
+description: "An overview of the Data Clinic methodology, to provide interested parties with a template for setting up their own Data Clinic"
+author: "Dr Ruaraidh Campbell, Clinical Fellow in Data Science & Critical Care"
+date: 2023-06-14
 toc: true
 categories: 
      - Data Clinic
@@ -10,67 +10,270 @@ categories:
      - UCLH
 --- 
 
+# Overview
+
+
+This document aims to provide an overview of the Data Clinic methodology, to provide interested parties with a template for setting up their own Data Clinic. 
+
+The information contained here is purposefully brief, as the methodology will need to be adapted to your local environment. However, the general structure aims to be flexible and thus transferable between different environments.  
+
+
 # What is the 'Data Clinic'? 
 
-The Data Clinic is a Quality Improvement initiative to help frontline healthcare workers (e.g. doctors, nursing staff, allied health professionals, etc) in Critical Care get data from EPIC.  
 
-This is to improve the ease and speed of audits, QIPs and service evaluations we perform in Critical Care. 
+The Data Clinic is a Quality Improvement initiative to help frontline healthcare workers in Critical Care get useful, relevant data from Electronic Health Record Systems.  
+
+This is to improve the ease and speed of audits, QIPs, service evaluations and other projects performed in Critical Care. 
+
+Please note: although we serve limited data for research feasibility projects, we do not serve data for full research projects. This is because this requires further information governance and ethical approvals. We only serve projects that fall under the information governance approvals for use of data for departmental audit and governance. 
+
 
 # What are the issues that the Data Clinic is trying to solve? 
 
-UCLH has invested millons of pounds to obtain an fully electronic health record system (EHRS) in the form of EPIC since 2019. It aims to be a leader in the field of technologically-enabled healthcare.
 
-The previous method for obtaining data from EPIC was through contacting the Business Intelligence (BI) team, whose role it is to monitor performance data in the Critical Care department and service data requests. However this had a number of issues: 
+We know that data-driven organisation are more effective, whether in business or healthcare. 
 
-     - Many clinical staff are unaware of who the BI team are or what they do 
-     - The process of requesting data often took the form of numerous back-and-forth emails between clinical staff and the BI team, clarifying what data is required vs what is possible to extract. This process was often time-consuming and frustrating for both the clinical staff and BI team. 
-     - Although the BI team have a good understanding of how to find data in Epic and manage it, sometimes they lack the clinical understanding and direction to provide learning from it. 
+To this end, in 2019 UCLH invested millions of pounds to obtain an fully electronic health record system (EHRS) in the form of EPIC with the aim of becoming a leader in the field of technologically-enabled healthcare. Other trusts around the UK are following suit, with increasing adoption of EHRS.
 
-The Data Clinic aims to improve the process of providing data to clinical staff using two approaches:
+Prior to the Data Clinic, the method for obtaining data from EPIC was through contacting the Business Intelligence (BI) team. This is a team of Data analysts employed by the Trust whose role it is to monitor performance data in their department and service data requests. It is likely that trusts who use EHRS will have similar teams.
 
-     1. We aim to understand the clinical question the requestor is trying to answer and, with our knowledge of the data that is available, clarify exactly what data is required for their project.
-     2. Then we work with the BI team to provide that data for the requestor as quickly as possible, in the form that the requestor needs.
+This process had a number of issues: 
 
-We hypothesise that this shall benefit both clinical staff and the BI team. 
+ - There was little day-to-day contact between clinical staff and the BI team. As a result, many clinical staff are unaware of who the BI team are, what they do & how to contact them.   
+ - When clinical staff did manage to get in contact with the BI team, the process of requesting data usually took the form of numerous back-and-forth emails between clinical staff and the BI team: clarifying what data was required vs what is possible to extract from the EHRS. This process was often time-consuming and frustrating for both the clinical staff and BI team for the following reasons:  
+>  - Clinical staff often have a poor understanding of the nuances of data from EHRS including what data is available and how it will actually be useful for the project's aims. They often had unrealistic expectations of what data could be provided and in what time frame.   
+>  - Although the BI team have a good understanding of how to find data in EPIC and manage it, they may lack the clinical understanding and direction to extract the correct data and to provide learning from it.   
 
-     Clinical staff: 
-     - makes the process of getting data from EPIC clearer
-     - enhances understanding of the data that is available from EPIC 
-     - help with analysis of data (if required)
-     - easier to get the data needed to complete audit/QIP/service evaluations (thereby increasing the number of projects completed and improving patient care)
 
-     BI team:
-     - Saves time/frustration emailing back-and-forth with clinical staff   
-     - Better understanding of clinical relevance of their work (through feedback on the results of QI projects)
+# How does the Data Clinic address these issues?
 
-# How does the Data Clinic work? 
 
-After we recieve your request, a member of our team will contact you to arrange a meeting to discuss your project and the data you require (+/- any statistical help required).   
+The Data Clinic aims to improve the process of providing data to clinical staff by combining the knowledge of EHRS data and data analytic skills of the BI team with the clinical knowledge and acumen of a "Data Fellow". This "Data Fellow" is a critical care practitioner (e.g. Doctor, nurse) who has knowledge of the day-to-day working of the Critical Care unit (and usually has an interest in data science/Audit/QI) and can act as a "translator" between the clinical staff and BI team. This core Data Clinic team is supervised by a senior figure in the department - usually a consultant with an interest if data/Audit/QI - who is able to provide direction for the service and help manage contentious issues.   
 
-Following this meeting, we shall extract a 1st draft of the data with the BI team.  
+We make the process of contacting this team apparent. Once contacted, the clinical staff requiring data for a project have the opportunity to meet with the team face-to-face to discuss their project and its data requirements.  
 
-We shall then arrange a second meeting with you to show you the data. If you are happy, we shall then extract the full dataset you need. If you are not satisfied, we shall arrange further extractions and meetings until the data fits your requirements. 
+Through this combination, the Data Clinic aims:  
 
-The length of this process can be variable, but we aim to deliver at least the 1st extract of the data within 1 month. 
+1. To better understand the clinical question the Requestor is trying to answer.   
+2. Using our knowledge of the data that is available, clarify exactly what data is required to achieve the project's aims.  
+3. Provide that data for the Requestor as quickly as possible, in the form that the Requestor can use.  
 
-We try to be flexible with arranging meetings as we realise you are busy! 
+We hypothesise that this benefits both clinical staff requesting the data and the BI team. 
 
-# How do I access the Data Clinic? 
+Clinical staff:   
 
-There are 2 main ways of contacting the Data Clinic, depending on the nature of your request. 
+ - Makes the process of getting data from EHRS clearer    
+ - Enhances understanding of the data that is available from EHRS & how it will be useful for their project aims  
+ - Ensures the data provided is in a format that is useful to the Requestor and sensitive to their data analytic skills (e.g. there is no point providing a 10,000 row spreadsheet to someone who struggles to use Excel)     
+ - Overall makes it easier to get the data needed to complete audit/QIP/service evaluations (thereby increasing the number of projects completed, departmental performance and eventually improving patient care)    
 
-If you are doing an Audit/QI project that requires EPIC data, please register your project with the Audit/QI team. A member of the team will then get in contact with you to discuss your project. When the time is right, they will then pass your details on to the Data Clinic, when we shall then get in touch! 
+BI team:  
 
-If your project is not Audit/QI, please email us at: uclh.critical.data@nhs.net
+  - Ensures the data requests being recieved are realistic and relevant to achieving the aims of projects   
+  - Through the Data Fellow, provides a "go-to" individual for questions about clinical queries  
+  - Better understanding of clinical relevance of their work  
+  - Saves time/frustration emailing back-and-forth with clinical staff  
 
-For any other questions/requests, please feel free to drop us an email or speak to any of the Data Fellows or Tim Bonicci in person! 
 
-# Relevant contacts 
+# How do you measure the success of the Data Clinic? 
 
-Dr Tim Bonnici: Data Lead for Critical Care (t.bonnici@nhs.net)    
 
-Data Fellows: Change yearly, the fellows for 2022/23 are listed below  
+There are multiple metrics that can be used to define "success". What you choose may reflect your department's goals. Examples include: speed of delivery of data, number of projects completed, complexity or projects completed, etc.   
 
-- Dr Ruaraidh Campbell (ruaraidh.campbell@nhs.net)
-- Dr Sarah Vaughan (s.vaughan5@nhs.net)
-- Dr Hrisheekesh Vaidya (h.vaidya@nhs.net)
+Our two main recommendations from our experience are:  
+
+1. Use a mixed methods approach, collecting both quantitative and qualitative data.     
+    i) The full impact of the service is unlikely to be captured by a single metric - or by just qualitative vs quantitative feedback. Using a mixed methods approach has allowed us to capture a more complete picture of the Data Clinic's impact.   
+2. Collect Outcome, Process and Balancing measures. Similarly to the above, it shall allow you gather a more complete picture of the Data Clinic's impact.  
+    i) Outcome measures capture the Data Clinic's impact on your main aims of the project (i.e. How do you define success?)   
+    ii) Process measures capture the impact of the processes that you are using to try to achieve your goals (i.e. How are you achieving our success?)  
+    iii) Balancing measures capture any unintended consequences of your project, which may offset the benefits it is bringing (e.g. You may be delivering data quickly, but is it of sufficient quality? Are the BI team overworked?)  
+    
+Listed below is our strategy for measuring the impact of the Data Clinic & the reasons behind this approach. This can be copied directly, or adapted to your local environment. We chose 6 key measurements to focus on collecting to avoid overburdening the team. In reality, it may be possible to collect more than this. 
+
+**Outcome measures:**  
+
+1. Requestor satisfaction with the data delivered  
+2. Requestor satisfaction with the Data Clinic process   
+
+**Process measures:**
+
+3. Time taken to deliver the data   
+4. Complexity of the data delivered (e.g. in terms of size of data provided, variety of data, detail of data)  
+5. Qualitative feedback on the Data Clinic experience   
+
+**Balancing measures:**  
+
+6. Feedback from the Data Clinic team on their experience  
+
+We chose Requestor satisfaction with the data delivered and the Data Clinic process as our main outcome metrics. We chose this as we felt that this captured the benefit of the data requesting process more holistically and was adaptable to the different types of projects served.   
+
+We reasoned that measures such as "Time taken to deliver data" or "Complexity of data delivered" were better suited as Process measures as they are mediators - but not guarantees - of overall satisfaction. In general, one would expect satisfaction to go up as data is delivered faster and with more detail. However, if data is delivered fast at the expense of quality or is not sensitive to the Requestors needs, then satisfaction may not high.   
+
+We also collected qualitative feedback from the Requestors and the Data Clinic team on the Data Clinic experience. This allowed us to identify particular areas of success/areas to be improved from both the Requestor and Data Clinic team viewpoints.   
+
+
+# (Current) Structure of the Data Clinic
+
+
+Below is a brief, introductory overview of the current structure of the Data Clinic. As we run this as a Quality Improvement initiative, we are continually updating our structure/processes in response to feedback.   
+
+
+### Data Clinic core team
+
+
+Data Fellow: critical care practitioner (e.g. Doctor, nurse) who has knowledge of the day-to-day working of the Critical Care unit.  
+  - So far this has been an SHO-level doctor with some data science acumen who has a 1/3rd to 2/3rd split job role between Data Clinic and clinical work in ICU. However this could reasonably done by any medical professional with time/interest.   
+
+ Data Analyst: a data scientist (or similar) who has experince and knowledge of the EHRS system and how to extract data from it. Clinical knowledge is not necessary as that should be provided by the Data Fellow.   
+
+ Project supervisor: a senior departmental figure (e.g. consultant) who is able to provide guidance/direction to the project, but is perhaps not involved in the day t day running. Benefits from some knowledge of data/Audit/QI.   
+
+### How are requests for data recieved? 
+
+
+How requests for data are received will depend what works best for your local situation.   
+
+We currently accept requests using a dedicated Data Clinic email address which Requestors can send requests to. This email address is also used to communicate with Requestors throughout the project. We have found this to be a useful single point of contact for Requestors.   
+
+
+### Process once a request is recieved
+
+
+Once a request has been received, it shall be screened by a member of the Data Clinic team. It will then be allocated to follow one of two pathways:  
+
+1. The request can be served by an existing report or we have a data extraction script already prepared that serves the purpose 
+   - Example 1: A Requestor wants a list of all patients discharged from ICU in last month. This can be be served by an existing discharge from ICU report on EPIC.   
+   - Example 2: A Requestor is performing the second cycle of a QIP and would like to re-collect data to assess the impact of their change. If the Data Clinic performed the 1st cycle data extraction, we may be able to reuse the existing data extraction script (with updated dates) to re-collect the data they need post-intervention.   
+   
+   
+In this case, the data request can often be quickly and easily served by the Data analyst without the need for a meeting.   
+   
+
+2. The request cannot be served by an existing report/data extraction script   
+   - Example 1: A Requestor is conducting a new QIP and would like data on blood gas results performed throughout a patient's ICU stay. This is not covered by existing reports (e.g. ICNARC report) and as it is a new project, we do not have an existing script to perform the data extraction.    
+   
+   
+In this case, it will be necessary for the Requestor to meet with the Data Clinic team to discuss their project and its data requirements. 
+
+
+
+If a request is allocated to pathway "2", then a meeting is arranged between the Requestor and the Data Clinic team. 
+
+At this meeting, we discuss:  
+- The project aims  
+- The data requirements including inclusion/exclusion criteria for patients  
+- How the data will help answer the project aims  
+- What data is actually available on EHRS and how this may affect the project aims/scope  
+- What format the Requestor requires the data to be in (e.g. do they need an excel spreadsheet with raw data, or do they need the data processed into summary tables/graphs/etc)  
+
+
+Following this meeting, the Data Clinic team will prepare the data extraction (or a limited subset of the full extraction).  
+
+Once this is done, the Data Clinic team meet again with the Requestor to show them the data extraction.   
+-  If the Requestor is happy with this data, the Data Clinic team then proceed to a full data extraction and deliver it to the Requestor.   
+-  If the Requestor are not satisfied, the extraction is revised according to the feedback received. Further meetings are then arranged with the Requestor after each round of extraction, until the data provided is adequate.
+
+(see the below flowchart for a graphical representation of this process) 
+
+
+```{mermaid}
+flowchart TD
+A(Data request received) --> B(Screened by Data Clinic team)
+B --> C(Meeting with Data Clinic team)
+B --> K(Can be served by existing report)
+C --> D[1st extraction of data]
+D --> F{2nd meeting between requestor & Data Clinic team}
+F --> G[Happy with data]
+F --> H[Revisions needed]
+G --> I(Full extraction & data delivered)
+H --> J(Further revision to extraction)
+J --> F
+K --> L(Data delivered)
+
+linkStyle default stroke: black;
+```
+
+
+# Measurement techniques
+
+
+To collect the data on the Outcome/Process/Balancing measures above, we used the following techniques: 
+
+**1) Feedback surveys sent to Requestors**
+
+>  2 surveys were used:  
+>  1. "Immediate" feedback survey. This was sent to Requestors immediately after the request had been served. This focused on their experience of coming through the Data Clinic - and if they were satisfied with the process.   
+>  2. "Delayed" feedback survey. This was sent to Requestors weeks-to-months later, after the Requestors have had time to use the data for their project. This focused on their satisfaction with the data delivered. By this point they will have had the opportunity to use the data for the purposes of their project, so can make a judgement on its true usefulness.   
+>    These feedback surveys also contain questions on other metrics our team are interested in (e.g. what barriers to using data did the Data Clinic help overcome)
+
+**2) After-Action Review meetings between Data Clinic team members**
+
+>    These meetings are performed approximately every 3 months. We sit together and review the completed projects during that time.   
+>    We start by reviewing the quantitative metrics for the projects (e.g. how long did it take).  
+>    We then collect the thoughts of the Data Clinic team members on the project and how it went. We use an formal After-Action Review template to structure this discussion and identify areas for improvement.   
+>    As well as identifing areas that went well, these meetings provide a forum for Data Clinic team members to raise any issues they have identified (i.e. Balancing measures).   
+
+Templates for the feedback surveys and the After-Action Review meetings can be accessed by emailing one of the UCLH Data Clinic team members (see below). 
+
+
+# Words of wisdom & lessons learnt
+
+
+Since its inception, the Data Clinic has been a process of constant learning and development. We have shared below some of the lessons we have learnt, which may be relevant to your implementation. 
+
+**1. Help with project methodology** 
+
+The process of coming through Data Clinic often reveals that projects are not are thoroughly considered as they first appear (and this applies for all grades/seniority of Requestors!) or that the realities of the data available leads to significant reformulation of the project aims/methodology. 
+
+One of the strengths of the Data Clinic has been the opportunity for the Requestor to meet face-to-face with the Data Clinic team to discuss their project before starting the data extraction. This meeting often reveals issues with the project's inclusion criteria or methodology - something the Data Fellow is often able to spot using their clinical experience. Often these issues can be resolved in this first meeting which makes the subsequent data extraction more straightforward for the data analyst. 
+
+However, there are occasions where it is obvious the project needs further consideration before progressing. It has therefore been enormous helpful for us to partner with Audit/QI/Methodology leads and experts within our department. We can now "refer" projects to these individuals if they need extra methodology support. Once they have been through this process, they come back to us with much clearer aims and considered data requests. 
+
+**2. Types of requests accepted** 
+
+We initially limited the scope of the Data Clinic to just serving requests for Audit or QI projects. 
+
+This proved useful for limiting our workload while we developed our service. However, it quickly became apparent that many requests for projects that had clear potential benefits for the department did not fall into the category of Audit/QI. 
+
+As a result, we expended the scope of the projects we serve to:  
+- Audits  
+- QI  
+- Service evaluations  
+- Data for business cases  
+- Research feasibility projects  
+- Help with simple data analysis for existing datasets  
+- Others (at the discretion of whether the Data Clinic team feels it is reasonable)  
+
+This has increased the numbers of projects we serve and has certainly increased the usefulness of the Data Clinic to the department.
+
+However, it does have the downside of increasing workload, so perhaps caution is warranted when first starting. 
+
+
+**3. Inbalances between the requested data and the data that is useful** 
+
+One of the strengths of electronic health records is the ability to easily collect large volumes of data. However, we have found this can present unexpected challenges for clinical staff completing projects. 
+
+Requestors can often ask for more data than they need or can handle. This can be requesting superfluous variables which are not relevant to the project's aims or analyses. Alternatively, the volume of data produced can be overwhelming for Requestors who are used to smaller, manually collected datasets - especially for those with limited data science skills. 
+
+It is therefore important to establish early on what variables are truly important for the project and to try to limit the extraction to these. It is usually straightforward to add variables to existing requests if it later becomes apparent that extra data is needed. This ensures that the datasets produced are relevant to their purpose - limiting information overload for the Requestors and misuse of the valuable data analyst's time in extracting unnecessary data. 
+
+
+# Contact details for the UCLH Data Clinic
+
+
+If you have questions on the above, or would like to discuss further, please email one of the individuals below (Dr Campbell will be the 1st point of call for most items). 
+
+**Dr Ruaraidh Campbell**: Lead Data Fellow for Data Clinic (ruaraidh.campbell@nhs.net)  
+**Humayra Chowdhury**: BI analyst (humayra.chowdhury@nhs.net)   
+**Dr Tim Bonnici**: Data Lead for Critical Care (t.bonnici@nhs.net)    
+
+
+# Acknowledgements
+
+
+The Data Clinic has only been possible due to the contribution of numerous indivduals in addition to those listed above. We would like to acknowledge the time and effort that have put into this project.   
+
+**Data Fellows (Past and Present)**: Dr Conor Foley [Lead Fellow for Data Clinic 2021/2022], Dr Dan Stein, Dr Hrisheekesh Vaidya, Dr Sarah Vaughan   
+**Business Intelligence Partners** (Past and Present): Tracey Crissell, David Egan
+

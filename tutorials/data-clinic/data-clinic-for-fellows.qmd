@@ -62,15 +62,17 @@ If they are happy with this data, we then proceed to a full data extraction and 
 
 ```{mermaid}
 flowchart TD
-A(Data request recieved) --> B(1st Meeting between requestor & Data Fellow)
-B --> C(Meeting between Data Fellow and BI team)
+A(Data request recieved) --> B(Screened by Data Clinic team)
+B --> C(Meeting with Data Clinic team)
+B --> K(Can be served by existing report)
 C --> D[1st extraction of data]
-D --> F{2nd meeting between requestor & Data Fellow}
+D --> F{2nd meeting between requestor & Data Clinic team}
 F --> G[Happy with data]
 F --> H[Revisions needed]
 G --> I(Full extraction & data delivered)
 H --> J(Further revision to extraction)
 J --> F
+K --> L(Data delivered)
 
 linkStyle default stroke: black;
 ```
