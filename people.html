@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.335">
+<meta name="generator" content="quarto-1.3.361">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -58,7 +58,8 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <script>
@@ -176,6 +177,7 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <script defer="" data-domain="uclhal.org" src="https://plausible.io/js/script.js"></script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
@@ -192,37 +194,39 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">UCL Health Algorithms Laboratory</span>
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html">
+    <a class="nav-link" href="./index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./news.html">
+    <a class="nav-link" href="./news.html" rel="" target="">
  <span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./people.html" aria-current="page">
+    <a class="nav-link active" href="./people.html" rel="" target="" aria-current="page">
  <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publications.html">
+    <a class="nav-link" href="./publications.html" rel="" target="">
  <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./resources.html">
+    <a class="nav-link" href="./resources.html" rel="" target="">
  <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./tutorials.html">
+    <a class="nav-link" href="./tutorials.html" rel="" target="">
  <span class="menu-text">Tutorials</span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools ms-auto">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -241,7 +245,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="academic-members">Academic members</h2>
 <div id="listing-academic" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-4">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1677452177783" data-listing-reading-time-sort="0.59">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1687507896031" data-listing-reading-time-sort="1">
 <a href="./people/academic/harris_steve.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -258,7 +262,7 @@ Group Leader
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1677452177779" data-listing-reading-time-sort="0.37">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1687507896027" data-listing-reading-time-sort="1">
 <a href="./people/academic/alhindawi_ahmed.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -275,7 +279,7 @@ Post-Doctoral Researcher
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1677452177779" data-listing-reading-time-sort="0.02">
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1687507896027" data-listing-reading-time-sort="1">
 <a href="./people/academic/black_claire.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -292,7 +296,7 @@ Post Doctoral Researcher
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1677452177779" data-listing-reading-time-sort="0.67">
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1687507896027" data-listing-reading-time-sort="1">
 <a href="./people/academic/catling_finn.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -309,7 +313,7 @@ Clinical PhD Fellow
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1677452177783" data-listing-reading-time-sort="0.61">
+<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1687507896031" data-listing-reading-time-sort="1">
 <a href="./people/academic/frost_thomas.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -326,7 +330,7 @@ PhD Student
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1677452177787" data-listing-reading-time-sort="1.355">
+<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1687507896035" data-listing-reading-time-sort="2">
 <a href="./people/academic/kohler_katharina.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -343,12 +347,10 @@ Post-doctoral Researcher
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="6" data-listing-file-modified-sort="1677452177787" data-listing-reading-time-sort="0.475">
+<div class="g-col-1" data-index="6" data-listing-file-modified-sort="1687507896035" data-listing-reading-time-sort="1">
 <a href="./people/academic/rashan_aasiyah.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
-<div class="card-img-bg" style="height: 320px;">
-&nbsp;
-</div>
+<div class="listing-item-img-placeholder card-img-top" style="height: 320px;">&nbsp;</div>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Aasiyah Rashan
@@ -360,7 +362,7 @@ PhD Student
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="7" data-listing-file-modified-sort="1677452177787" data-listing-reading-time-sort="0.595">
+<div class="g-col-1" data-index="7" data-listing-file-modified-sort="1687507896035" data-listing-reading-time-sort="1">
 <a href="./people/academic/tomlinson_chris.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -377,7 +379,7 @@ PhD Student
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="8" data-listing-file-modified-sort="1677452177799" data-listing-reading-time-sort="0.535">
+<div class="g-col-1" data-index="8" data-listing-file-modified-sort="1687507896051" data-listing-reading-time-sort="1">
 <a href="./people/academic/wilson_matt.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -404,7 +406,7 @@ No matching items
 <h2 class="anchored" data-anchor-id="clinical-members">Clinical members</h2>
 <div id="listing-clinical" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-4">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1677452177807" data-listing-reading-time-sort="0.36">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1687507896059" data-listing-reading-time-sort="1">
 <a href="./people/clinical/campbell_ruaraidh.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -433,7 +435,7 @@ August 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1677452177807" data-listing-reading-time-sort="0.53">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1687507896059" data-listing-reading-time-sort="1">
 <a href="./people/clinical/hla_teddy.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -462,7 +464,7 @@ February 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1677452177807" data-listing-reading-time-sort="0.46">
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1687507896059" data-listing-reading-time-sort="1">
 <a href="./people/clinical/hrishee_vaidya.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -491,7 +493,7 @@ August 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1677452177815" data-listing-reading-time-sort="0.47">
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1687507896067" data-listing-reading-time-sort="1">
 <a href="./people/clinical/vaughan_sarah.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -530,7 +532,7 @@ No matching items
 <h2 class="anchored" data-anchor-id="associate-members">Associate members</h2>
 <div id="listing-associate" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-4">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1677452177807" data-listing-reading-time-sort="0.37">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1687507896055" data-listing-reading-time-sort="1">
 <a href="./people/associate/hanlon_daniel.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -612,18 +614,18 @@ No matching items
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-listing-file-modified-sort="1677452177799" data-listing-reading-time-sort="0.145" data-listing-title-sort="Danny Wong" data-listing-filename-sort="wong_danny.qmd">
-<td class="listing-title">
-<a href="./people/alumni/wong_danny.html" class="title">Danny Wong</a>
+<tr data-index="0" data-listing-file-modified-sort="1687507896051" data-listing-reading-time-sort="1" data-listing-title-sort="Danny Wong" data-listing-filename-sort="wong_danny.qmd">
+<td>
+<a href="./people/alumni/wong_danny.html" class="title listing-title">Danny Wong</a>
 </td>
-<td class="listing-subtitle">
-2015-2019
+<td>
+<span class="listing-subtitle">2015-2019</span>
 </td>
-<td class="listing-started">
-2015
+<td>
+<span class="listing-started">2015</span>
 </td>
-<td class="listing-ended">
-2019
+<td>
+<span class="listing-ended">2019</span>
 </td>
 </tr>
 </tbody>
@@ -666,9 +668,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -733,6 +749,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -775,7 +877,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-      <div class="nav-footer-center">Copyright 2022 © Steve Harris</div>
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">Copyright 2022 © Steve Harris<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/uclhal/uclhal/edit/main/people.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/uclhal/uclhal/issues/new" class="toc-action">Report an issue</a></p></div></div></div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
   </div>
 </footer>
 

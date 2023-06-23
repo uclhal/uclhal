@@ -2,15 +2,15 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.335">
+<meta name="generator" content="quarto-1.3.361">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Ruaraidh Campbell">
-<meta name="dcterms.date" content="2022-11-16">
-<meta name="description" content="An introduction to the data clinic">
+<meta name="author" content="Dr Ruaraidh Campbell, Clinical Fellow in Data Science &amp; Critical Care">
+<meta name="dcterms.date" content="2023-06-14">
+<meta name="description" content="An overview of the Data Clinic methodology, to provide interested parties with a template for setting up their own Data Clinic">
 
-<title>UCL Health Algorithms Laboratory - Data Clinic</title>
+<title>UCL Health Algorithms Laboratory - Data Clinic: A ‘How to’ Template</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,7 +20,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -59,9 +59,13 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
+<script src="../../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 <script defer="" data-domain="uclhal.org" src="https://plausible.io/js/script.js"></script>
 
 
@@ -79,37 +83,39 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">UCL Health Algorithms Laboratory</span>
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html">
+    <a class="nav-link" href="../../index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../news.html">
+    <a class="nav-link" href="../../news.html" rel="" target="">
  <span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../people.html">
+    <a class="nav-link" href="../../people.html" rel="" target="">
  <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../publications.html">
+    <a class="nav-link" href="../../publications.html" rel="" target="">
  <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../resources.html">
+    <a class="nav-link" href="../../resources.html" rel="" target="">
  <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../tutorials.html">
+    <a class="nav-link" href="../../tutorials.html" rel="" target="">
  <span class="menu-text">Tutorials</span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools ms-auto">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -123,11 +129,21 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#what-is-the-data-clinic" id="toc-what-is-the-data-clinic" class="nav-link active" data-scroll-target="#what-is-the-data-clinic">What is the ‘Data Clinic’?</a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#what-is-the-data-clinic" id="toc-what-is-the-data-clinic" class="nav-link" data-scroll-target="#what-is-the-data-clinic">What is the ‘Data Clinic’?</a></li>
   <li><a href="#what-are-the-issues-that-the-data-clinic-is-trying-to-solve" id="toc-what-are-the-issues-that-the-data-clinic-is-trying-to-solve" class="nav-link" data-scroll-target="#what-are-the-issues-that-the-data-clinic-is-trying-to-solve">What are the issues that the Data Clinic is trying to solve?</a></li>
-  <li><a href="#how-does-the-data-clinic-work" id="toc-how-does-the-data-clinic-work" class="nav-link" data-scroll-target="#how-does-the-data-clinic-work">How does the Data Clinic work?</a></li>
-  <li><a href="#how-do-i-access-the-data-clinic" id="toc-how-do-i-access-the-data-clinic" class="nav-link" data-scroll-target="#how-do-i-access-the-data-clinic">How do I access the Data Clinic?</a></li>
-  <li><a href="#relevant-contacts" id="toc-relevant-contacts" class="nav-link" data-scroll-target="#relevant-contacts">Relevant contacts</a></li>
+  <li><a href="#how-does-the-data-clinic-address-these-issues" id="toc-how-does-the-data-clinic-address-these-issues" class="nav-link" data-scroll-target="#how-does-the-data-clinic-address-these-issues">How does the Data Clinic address these issues?</a></li>
+  <li><a href="#how-do-you-measure-the-success-of-the-data-clinic" id="toc-how-do-you-measure-the-success-of-the-data-clinic" class="nav-link" data-scroll-target="#how-do-you-measure-the-success-of-the-data-clinic">How do you measure the success of the Data Clinic?</a></li>
+  <li><a href="#current-structure-of-the-data-clinic" id="toc-current-structure-of-the-data-clinic" class="nav-link" data-scroll-target="#current-structure-of-the-data-clinic">(Current) Structure of the Data Clinic</a>
+  <ul class="collapse">
+  <li><a href="#data-clinic-core-team" id="toc-data-clinic-core-team" class="nav-link" data-scroll-target="#data-clinic-core-team">Data Clinic core team</a></li>
+  <li><a href="#how-are-requests-for-data-recieved" id="toc-how-are-requests-for-data-recieved" class="nav-link" data-scroll-target="#how-are-requests-for-data-recieved">How are requests for data recieved?</a></li>
+  <li><a href="#process-once-a-request-is-recieved" id="toc-process-once-a-request-is-recieved" class="nav-link" data-scroll-target="#process-once-a-request-is-recieved">Process once a request is recieved</a></li>
+  </ul></li>
+  <li><a href="#measurement-techniques" id="toc-measurement-techniques" class="nav-link" data-scroll-target="#measurement-techniques">Measurement techniques</a></li>
+  <li><a href="#words-of-wisdom-lessons-learnt" id="toc-words-of-wisdom-lessons-learnt" class="nav-link" data-scroll-target="#words-of-wisdom-lessons-learnt">Words of wisdom &amp; lessons learnt</a></li>
+  <li><a href="#contact-details-for-the-uclh-data-clinic" id="toc-contact-details-for-the-uclh-data-clinic" class="nav-link" data-scroll-target="#contact-details-for-the-uclh-data-clinic">Contact details for the UCLH Data Clinic</a></li>
+  <li><a href="#acknowledgements" id="toc-acknowledgements" class="nav-link" data-scroll-target="#acknowledgements">Acknowledgements</a></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/uclhal/uclhal/edit/main/resources/homegrown/data-clinic-for-general.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/uclhal/uclhal/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
@@ -136,7 +152,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Data Clinic</h1>
+<h1 class="title">Data Clinic: A ‘How to’ Template</h1>
   <div class="quarto-categories">
     <div class="quarto-category">Data Clinic</div>
     <div class="quarto-category">Noobie</div>
@@ -146,7 +162,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div>
   <div class="description">
-    An introduction to the data clinic
+    An overview of the Data Clinic methodology, to provide interested parties with a template for setting up their own Data Clinic
   </div>
 </div>
 
@@ -156,14 +172,14 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Ruaraidh Campbell </p>
+             <p>Dr Ruaraidh Campbell, Clinical Fellow in Data Science &amp; Critical Care </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">November 16, 2022</p>
+      <p class="date">June 14, 2023</p>
     </div>
   </div>
   
@@ -173,56 +189,234 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<section id="overview" class="level1">
+<h1>Overview</h1>
+<p>This document aims to provide an overview of the Data Clinic methodology, to provide interested parties with a template for setting up their own Data Clinic.</p>
+<p>The information contained here is purposefully brief, as the methodology will need to be adapted to your local environment. However, the general structure aims to be flexible and thus transferable between different environments.</p>
+</section>
 <section id="what-is-the-data-clinic" class="level1">
 <h1>What is the ‘Data Clinic’?</h1>
-<p>The Data Clinic is a Quality Improvement initiative to help frontline healthcare workers (e.g.&nbsp;doctors, nursing staff, allied health professionals, etc) in Critical Care get data from EPIC.</p>
-<p>This is to improve the ease and speed of audits, QIPs and service evaluations we perform in Critical Care.</p>
+<p>The Data Clinic is a Quality Improvement initiative to help frontline healthcare workers in Critical Care get useful, relevant data from Electronic Health Record Systems.</p>
+<p>This is to improve the ease and speed of audits, QIPs, service evaluations and other projects performed in Critical Care.</p>
+<p>Please note: although we serve limited data for research feasibility projects, we do not serve data for full research projects. This is because this requires further information governance and ethical approvals. We only serve projects that fall under the information governance approvals for use of data for departmental audit and governance.</p>
 </section>
 <section id="what-are-the-issues-that-the-data-clinic-is-trying-to-solve" class="level1">
 <h1>What are the issues that the Data Clinic is trying to solve?</h1>
-<p>UCLH has invested millons of pounds to obtain an fully electronic health record system (EHRS) in the form of EPIC since 2019. It aims to be a leader in the field of technologically-enabled healthcare.</p>
-<p>The previous method for obtaining data from EPIC was through contacting the Business Intelligence (BI) team, whose role it is to monitor performance data in the Critical Care department and service data requests. However this had a number of issues:</p>
-<pre><code> - Many clinical staff are unaware of who the BI team are or what they do 
- - The process of requesting data often took the form of numerous back-and-forth emails between clinical staff and the BI team, clarifying what data is required vs what is possible to extract. This process was often time-consuming and frustrating for both the clinical staff and BI team. 
- - Although the BI team have a good understanding of how to find data in Epic and manage it, sometimes they lack the clinical understanding and direction to provide learning from it. </code></pre>
-<p>The Data Clinic aims to improve the process of providing data to clinical staff using two approaches:</p>
-<pre><code> 1. We aim to understand the clinical question the requestor is trying to answer and, with our knowledge of the data that is available, clarify exactly what data is required for their project.
- 2. Then we work with the BI team to provide that data for the requestor as quickly as possible, in the form that the requestor needs.</code></pre>
-<p>We hypothesise that this shall benefit both clinical staff and the BI team.</p>
-<pre><code> Clinical staff: 
- - makes the process of getting data from EPIC clearer
- - enhances understanding of the data that is available from EPIC 
- - help with analysis of data (if required)
- - easier to get the data needed to complete audit/QIP/service evaluations (thereby increasing the number of projects completed and improving patient care)
-
- BI team:
- - Saves time/frustration emailing back-and-forth with clinical staff   
- - Better understanding of clinical relevance of their work (through feedback on the results of QI projects)</code></pre>
-</section>
-<section id="how-does-the-data-clinic-work" class="level1">
-<h1>How does the Data Clinic work?</h1>
-<p>After we recieve your request, a member of our team will contact you to arrange a meeting to discuss your project and the data you require (+/- any statistical help required).</p>
-<p>Following this meeting, we shall extract a 1st draft of the data with the BI team.</p>
-<p>We shall then arrange a second meeting with you to show you the data. If you are happy, we shall then extract the full dataset you need. If you are not satisfied, we shall arrange further extractions and meetings until the data fits your requirements.</p>
-<p>The length of this process can be variable, but we aim to deliver at least the 1st extract of the data within 1 month.</p>
-<p>We try to be flexible with arranging meetings as we realise you are busy!</p>
-</section>
-<section id="how-do-i-access-the-data-clinic" class="level1">
-<h1>How do I access the Data Clinic?</h1>
-<p>There are 2 main ways of contacting the Data Clinic, depending on the nature of your request.</p>
-<p>If you are doing an Audit/QI project that requires EPIC data, please register your project with the Audit/QI team. A member of the team will then get in contact with you to discuss your project. When the time is right, they will then pass your details on to the Data Clinic, when we shall then get in touch!</p>
-<p>If your project is not Audit/QI, please email us at: uclh.critical.data@nhs.net</p>
-<p>For any other questions/requests, please feel free to drop us an email or speak to any of the Data Fellows or Tim Bonicci in person!</p>
-</section>
-<section id="relevant-contacts" class="level1">
-<h1>Relevant contacts</h1>
-<p>Dr Tim Bonnici: Data Lead for Critical Care (t.bonnici@nhs.net)</p>
-<p>Data Fellows: Change yearly, the fellows for 2022/23 are listed below</p>
+<p>We know that data-driven organisation are more effective, whether in business or healthcare.</p>
+<p>To this end, in 2019 UCLH invested millions of pounds to obtain an fully electronic health record system (EHRS) in the form of EPIC with the aim of becoming a leader in the field of technologically-enabled healthcare. Other trusts around the UK are following suit, with increasing adoption of EHRS.</p>
+<p>Prior to the Data Clinic, the method for obtaining data from EPIC was through contacting the Business Intelligence (BI) team. This is a team of Data analysts employed by the Trust whose role it is to monitor performance data in their department and service data requests. It is likely that trusts who use EHRS will have similar teams.</p>
+<p>This process had a number of issues:</p>
 <ul>
-<li>Dr Ruaraidh Campbell (ruaraidh.campbell@nhs.net)</li>
-<li>Dr Sarah Vaughan (s.vaughan5@nhs.net)</li>
-<li>Dr Hrisheekesh Vaidya (h.vaidya@nhs.net)</li>
+<li>There was little day-to-day contact between clinical staff and the BI team. As a result, many clinical staff are unaware of who the BI team are, what they do &amp; how to contact them.<br>
+</li>
+<li>When clinical staff did manage to get in contact with the BI team, the process of requesting data usually took the form of numerous back-and-forth emails between clinical staff and the BI team: clarifying what data was required vs what is possible to extract from the EHRS. This process was often time-consuming and frustrating for both the clinical staff and BI team for the following reasons:<br>
+&gt; - Clinical staff often have a poor understanding of the nuances of data from EHRS including what data is available and how it will actually be useful for the project’s aims. They often had unrealistic expectations of what data could be provided and in what time frame.<br>
+&gt; - Although the BI team have a good understanding of how to find data in EPIC and manage it, they may lack the clinical understanding and direction to extract the correct data and to provide learning from it.</li>
 </ul>
+</section>
+<section id="how-does-the-data-clinic-address-these-issues" class="level1">
+<h1>How does the Data Clinic address these issues?</h1>
+<p>The Data Clinic aims to improve the process of providing data to clinical staff by combining the knowledge of EHRS data and data analytic skills of the BI team with the clinical knowledge and acumen of a “Data Fellow”. This “Data Fellow” is a critical care practitioner (e.g.&nbsp;Doctor, nurse) who has knowledge of the day-to-day working of the Critical Care unit (and usually has an interest in data science/Audit/QI) and can act as a “translator” between the clinical staff and BI team. This core Data Clinic team is supervised by a senior figure in the department - usually a consultant with an interest if data/Audit/QI - who is able to provide direction for the service and help manage contentious issues.</p>
+<p>We make the process of contacting this team apparent. Once contacted, the clinical staff requiring data for a project have the opportunity to meet with the team face-to-face to discuss their project and its data requirements.</p>
+<p>Through this combination, the Data Clinic aims:</p>
+<ol type="1">
+<li>To better understand the clinical question the Requestor is trying to answer.<br>
+</li>
+<li>Using our knowledge of the data that is available, clarify exactly what data is required to achieve the project’s aims.<br>
+</li>
+<li>Provide that data for the Requestor as quickly as possible, in the form that the Requestor can use.</li>
+</ol>
+<p>We hypothesise that this benefits both clinical staff requesting the data and the BI team.</p>
+<p>Clinical staff:</p>
+<ul>
+<li>Makes the process of getting data from EHRS clearer<br>
+</li>
+<li>Enhances understanding of the data that is available from EHRS &amp; how it will be useful for their project aims<br>
+</li>
+<li>Ensures the data provided is in a format that is useful to the Requestor and sensitive to their data analytic skills (e.g.&nbsp;there is no point providing a 10,000 row spreadsheet to someone who struggles to use Excel)<br>
+</li>
+<li>Overall makes it easier to get the data needed to complete audit/QIP/service evaluations (thereby increasing the number of projects completed, departmental performance and eventually improving patient care)</li>
+</ul>
+<p>BI team:</p>
+<ul>
+<li>Ensures the data requests being recieved are realistic and relevant to achieving the aims of projects<br>
+</li>
+<li>Through the Data Fellow, provides a “go-to” individual for questions about clinical queries<br>
+</li>
+<li>Better understanding of clinical relevance of their work<br>
+</li>
+<li>Saves time/frustration emailing back-and-forth with clinical staff</li>
+</ul>
+</section>
+<section id="how-do-you-measure-the-success-of-the-data-clinic" class="level1">
+<h1>How do you measure the success of the Data Clinic?</h1>
+<p>There are multiple metrics that can be used to define “success”. What you choose may reflect your department’s goals. Examples include: speed of delivery of data, number of projects completed, complexity or projects completed, etc.</p>
+<p>Our two main recommendations from our experience are:</p>
+<ol type="1">
+<li>Use a mixed methods approach, collecting both quantitative and qualitative data.
+<ol type="i">
+<li>The full impact of the service is unlikely to be captured by a single metric - or by just qualitative vs quantitative feedback. Using a mixed methods approach has allowed us to capture a more complete picture of the Data Clinic’s impact.<br>
+</li>
+</ol></li>
+<li>Collect Outcome, Process and Balancing measures. Similarly to the above, it shall allow you gather a more complete picture of the Data Clinic’s impact.
+<ol type="i">
+<li>Outcome measures capture the Data Clinic’s impact on your main aims of the project (i.e.&nbsp;How do you define success?)<br>
+</li>
+<li>Process measures capture the impact of the processes that you are using to try to achieve your goals (i.e.&nbsp;How are you achieving our success?)<br>
+</li>
+<li>Balancing measures capture any unintended consequences of your project, which may offset the benefits it is bringing (e.g.&nbsp;You may be delivering data quickly, but is it of sufficient quality? Are the BI team overworked?)</li>
+</ol></li>
+</ol>
+<p>Listed below is our strategy for measuring the impact of the Data Clinic &amp; the reasons behind this approach. This can be copied directly, or adapted to your local environment. We chose 6 key measurements to focus on collecting to avoid overburdening the team. In reality, it may be possible to collect more than this.</p>
+<p><strong>Outcome measures:</strong></p>
+<ol type="1">
+<li>Requestor satisfaction with the data delivered<br>
+</li>
+<li>Requestor satisfaction with the Data Clinic process</li>
+</ol>
+<p><strong>Process measures:</strong></p>
+<ol start="3" type="1">
+<li>Time taken to deliver the data<br>
+</li>
+<li>Complexity of the data delivered (e.g.&nbsp;in terms of size of data provided, variety of data, detail of data)<br>
+</li>
+<li>Qualitative feedback on the Data Clinic experience</li>
+</ol>
+<p><strong>Balancing measures:</strong></p>
+<ol start="6" type="1">
+<li>Feedback from the Data Clinic team on their experience</li>
+</ol>
+<p>We chose Requestor satisfaction with the data delivered and the Data Clinic process as our main outcome metrics. We chose this as we felt that this captured the benefit of the data requesting process more holistically and was adaptable to the different types of projects served.</p>
+<p>We reasoned that measures such as “Time taken to deliver data” or “Complexity of data delivered” were better suited as Process measures as they are mediators - but not guarantees - of overall satisfaction. In general, one would expect satisfaction to go up as data is delivered faster and with more detail. However, if data is delivered fast at the expense of quality or is not sensitive to the Requestors needs, then satisfaction may not high.</p>
+<p>We also collected qualitative feedback from the Requestors and the Data Clinic team on the Data Clinic experience. This allowed us to identify particular areas of success/areas to be improved from both the Requestor and Data Clinic team viewpoints.</p>
+</section>
+<section id="current-structure-of-the-data-clinic" class="level1">
+<h1>(Current) Structure of the Data Clinic</h1>
+<p>Below is a brief, introductory overview of the current structure of the Data Clinic. As we run this as a Quality Improvement initiative, we are continually updating our structure/processes in response to feedback.</p>
+<section id="data-clinic-core-team" class="level3">
+<h3 class="anchored" data-anchor-id="data-clinic-core-team">Data Clinic core team</h3>
+<p>Data Fellow: critical care practitioner (e.g.&nbsp;Doctor, nurse) who has knowledge of the day-to-day working of the Critical Care unit.<br>
+- So far this has been an SHO-level doctor with some data science acumen who has a 1/3rd to 2/3rd split job role between Data Clinic and clinical work in ICU. However this could reasonably done by any medical professional with time/interest.</p>
+<p>Data Analyst: a data scientist (or similar) who has experince and knowledge of the EHRS system and how to extract data from it. Clinical knowledge is not necessary as that should be provided by the Data Fellow.</p>
+<p>Project supervisor: a senior departmental figure (e.g.&nbsp;consultant) who is able to provide guidance/direction to the project, but is perhaps not involved in the day t day running. Benefits from some knowledge of data/Audit/QI.</p>
+</section>
+<section id="how-are-requests-for-data-recieved" class="level3">
+<h3 class="anchored" data-anchor-id="how-are-requests-for-data-recieved">How are requests for data recieved?</h3>
+<p>How requests for data are received will depend what works best for your local situation.</p>
+<p>We currently accept requests using a dedicated Data Clinic email address which Requestors can send requests to. This email address is also used to communicate with Requestors throughout the project. We have found this to be a useful single point of contact for Requestors.</p>
+</section>
+<section id="process-once-a-request-is-recieved" class="level3">
+<h3 class="anchored" data-anchor-id="process-once-a-request-is-recieved">Process once a request is recieved</h3>
+<p>Once a request has been received, it shall be screened by a member of the Data Clinic team. It will then be allocated to follow one of two pathways:</p>
+<ol type="1">
+<li>The request can be served by an existing report or we have a data extraction script already prepared that serves the purpose
+<ul>
+<li>Example 1: A Requestor wants a list of all patients discharged from ICU in last month. This can be be served by an existing discharge from ICU report on EPIC.<br>
+</li>
+<li>Example 2: A Requestor is performing the second cycle of a QIP and would like to re-collect data to assess the impact of their change. If the Data Clinic performed the 1st cycle data extraction, we may be able to reuse the existing data extraction script (with updated dates) to re-collect the data they need post-intervention.</li>
+</ul></li>
+</ol>
+<p>In this case, the data request can often be quickly and easily served by the Data analyst without the need for a meeting.</p>
+<ol start="2" type="1">
+<li>The request cannot be served by an existing report/data extraction script
+<ul>
+<li>Example 1: A Requestor is conducting a new QIP and would like data on blood gas results performed throughout a patient’s ICU stay. This is not covered by existing reports (e.g.&nbsp;ICNARC report) and as it is a new project, we do not have an existing script to perform the data extraction.</li>
+</ul></li>
+</ol>
+<p>In this case, it will be necessary for the Requestor to meet with the Data Clinic team to discuss their project and its data requirements.</p>
+<p>If a request is allocated to pathway “2”, then a meeting is arranged between the Requestor and the Data Clinic team.</p>
+<p>At this meeting, we discuss:<br>
+- The project aims<br>
+- The data requirements including inclusion/exclusion criteria for patients<br>
+- How the data will help answer the project aims<br>
+- What data is actually available on EHRS and how this may affect the project aims/scope<br>
+- What format the Requestor requires the data to be in (e.g.&nbsp;do they need an excel spreadsheet with raw data, or do they need the data processed into summary tables/graphs/etc)</p>
+<p>Following this meeting, the Data Clinic team will prepare the data extraction (or a limited subset of the full extraction).</p>
+<p>Once this is done, the Data Clinic team meet again with the Requestor to show them the data extraction.<br>
+- If the Requestor is happy with this data, the Data Clinic team then proceed to a full data extraction and deliver it to the Requestor.<br>
+- If the Requestor are not satisfied, the extraction is revised according to the feedback received. Further meetings are then arranged with the Requestor after each round of extraction, until the data provided is adequate.</p>
+<p>(see the below flowchart for a graphical representation of this process)</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<div>
+<pre class="mermaid mermaid-js">flowchart TD
+A(Data request received) --&gt; B(Screened by Data Clinic team)
+B --&gt; C(Meeting with Data Clinic team)
+B --&gt; K(Can be served by existing report)
+C --&gt; D[1st extraction of data]
+D --&gt; F{2nd meeting between requestor &amp; Data Clinic team}
+F --&gt; G[Happy with data]
+F --&gt; H[Revisions needed]
+G --&gt; I(Full extraction &amp; data delivered)
+H --&gt; J(Further revision to extraction)
+J --&gt; F
+K --&gt; L(Data delivered)
+
+linkStyle default stroke: black;
+</pre>
+</div>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="measurement-techniques" class="level1">
+<h1>Measurement techniques</h1>
+<p>To collect the data on the Outcome/Process/Balancing measures above, we used the following techniques:</p>
+<p><strong>1) Feedback surveys sent to Requestors</strong></p>
+<blockquote class="blockquote">
+<p>2 surveys were used:<br>
+1. “Immediate” feedback survey. This was sent to Requestors immediately after the request had been served. This focused on their experience of coming through the Data Clinic - and if they were satisfied with the process.<br>
+2. “Delayed” feedback survey. This was sent to Requestors weeks-to-months later, after the Requestors have had time to use the data for their project. This focused on their satisfaction with the data delivered. By this point they will have had the opportunity to use the data for the purposes of their project, so can make a judgement on its true usefulness.<br>
+These feedback surveys also contain questions on other metrics our team are interested in (e.g.&nbsp;what barriers to using data did the Data Clinic help overcome)</p>
+</blockquote>
+<p><strong>2) After-Action Review meetings between Data Clinic team members</strong></p>
+<blockquote class="blockquote">
+<p>These meetings are performed approximately every 3 months. We sit together and review the completed projects during that time.<br>
+We start by reviewing the quantitative metrics for the projects (e.g.&nbsp;how long did it take).<br>
+We then collect the thoughts of the Data Clinic team members on the project and how it went. We use an formal After-Action Review template to structure this discussion and identify areas for improvement.<br>
+As well as identifing areas that went well, these meetings provide a forum for Data Clinic team members to raise any issues they have identified (i.e.&nbsp;Balancing measures).</p>
+</blockquote>
+<p>Templates for the feedback surveys and the After-Action Review meetings can be accessed by emailing one of the UCLH Data Clinic team members (see below).</p>
+</section>
+<section id="words-of-wisdom-lessons-learnt" class="level1">
+<h1>Words of wisdom &amp; lessons learnt</h1>
+<p>Since its inception, the Data Clinic has been a process of constant learning and development. We have shared below some of the lessons we have learnt, which may be relevant to your implementation.</p>
+<p><strong>1. Help with project methodology</strong></p>
+<p>The process of coming through Data Clinic often reveals that projects are not are thoroughly considered as they first appear (and this applies for all grades/seniority of Requestors!) or that the realities of the data available leads to significant reformulation of the project aims/methodology.</p>
+<p>One of the strengths of the Data Clinic has been the opportunity for the Requestor to meet face-to-face with the Data Clinic team to discuss their project before starting the data extraction. This meeting often reveals issues with the project’s inclusion criteria or methodology - something the Data Fellow is often able to spot using their clinical experience. Often these issues can be resolved in this first meeting which makes the subsequent data extraction more straightforward for the data analyst.</p>
+<p>However, there are occasions where it is obvious the project needs further consideration before progressing. It has therefore been enormous helpful for us to partner with Audit/QI/Methodology leads and experts within our department. We can now “refer” projects to these individuals if they need extra methodology support. Once they have been through this process, they come back to us with much clearer aims and considered data requests.</p>
+<p><strong>2. Types of requests accepted</strong></p>
+<p>We initially limited the scope of the Data Clinic to just serving requests for Audit or QI projects.</p>
+<p>This proved useful for limiting our workload while we developed our service. However, it quickly became apparent that many requests for projects that had clear potential benefits for the department did not fall into the category of Audit/QI.</p>
+<p>As a result, we expended the scope of the projects we serve to:<br>
+- Audits<br>
+- QI<br>
+- Service evaluations<br>
+- Data for business cases<br>
+- Research feasibility projects<br>
+- Help with simple data analysis for existing datasets<br>
+- Others (at the discretion of whether the Data Clinic team feels it is reasonable)</p>
+<p>This has increased the numbers of projects we serve and has certainly increased the usefulness of the Data Clinic to the department.</p>
+<p>However, it does have the downside of increasing workload, so perhaps caution is warranted when first starting.</p>
+<p><strong>3. Inbalances between the requested data and the data that is useful</strong></p>
+<p>One of the strengths of electronic health records is the ability to easily collect large volumes of data. However, we have found this can present unexpected challenges for clinical staff completing projects.</p>
+<p>Requestors can often ask for more data than they need or can handle. This can be requesting superfluous variables which are not relevant to the project’s aims or analyses. Alternatively, the volume of data produced can be overwhelming for Requestors who are used to smaller, manually collected datasets - especially for those with limited data science skills.</p>
+<p>It is therefore important to establish early on what variables are truly important for the project and to try to limit the extraction to these. It is usually straightforward to add variables to existing requests if it later becomes apparent that extra data is needed. This ensures that the datasets produced are relevant to their purpose - limiting information overload for the Requestors and misuse of the valuable data analyst’s time in extracting unnecessary data.</p>
+</section>
+<section id="contact-details-for-the-uclh-data-clinic" class="level1">
+<h1>Contact details for the UCLH Data Clinic</h1>
+<p>If you have questions on the above, or would like to discuss further, please email one of the individuals below (Dr Campbell will be the 1st point of call for most items).</p>
+<p><strong>Dr Ruaraidh Campbell</strong>: Lead Data Fellow for Data Clinic (ruaraidh.campbell@nhs.net)<br>
+<strong>Humayra Chowdhury</strong>: BI analyst (humayra.chowdhury@nhs.net)<br>
+<strong>Dr Tim Bonnici</strong>: Data Lead for Critical Care (t.bonnici@nhs.net)</p>
+</section>
+<section id="acknowledgements" class="level1">
+<h1>Acknowledgements</h1>
+<p>The Data Clinic has only been possible due to the contribution of numerous indivduals in addition to those listed above. We would like to acknowledge the time and effort that have put into this project.</p>
+<p><strong>Data Fellows (Past and Present)</strong>: Dr Conor Foley [Lead Fellow for Data Clinic 2021/2022], Dr Dan Stein, Dr Hrisheekesh Vaidya, Dr Sarah Vaughan<br>
+<strong>Business Intelligence Partners</strong> (Past and Present): Tracey Crissell, David Egan</p>
 
 
 </section>
@@ -255,9 +449,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -322,6 +530,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -364,7 +658,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-      <div class="nav-footer-center">Copyright 2022 © Steve Harris</div>
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">Copyright 2022 © Steve Harris</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
   </div>
 </footer>
 
