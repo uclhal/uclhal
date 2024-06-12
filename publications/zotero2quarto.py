@@ -31,7 +31,7 @@ import yaml
 from typing import List, Dict
 
 # User the Zotero Better CSL YAML format
-PUBLICATIONS_YAML_INPUT = "uclhal_publications_zotero_better_csl.yaml"
+PUBLICATIONS_YAML_INPUT = "pubs.yaml" # "uclhal_publications_zotero_better_csl.yaml"
 PUBLICATIONS_YAML_OUTPUT = "uclhal_quarto_listing.yaml"
 
 
