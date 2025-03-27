@@ -26,4 +26,5 @@ about:
 
 
 ## Biography
-Ahmed Al-Hindawi is an NHS Critical Care Doctor and NIHR Academic Clinical Fellow at the UCL Bloomsbury Institute of Intensive Care. He is interested in novel physiological measurement utilising the latest in AI, machine learning, and domain specialisation in critical care. His Ph.D. at Imperial College London focused on the development and validation of a novel state-of-the-art AI-based eye tracker. This facilitated the exploration of eye-movements for the diagnosis of delirium in critical care.
+Ahmed Al-Hindawi is an NHS Critical Care Doctor and NIHR Academic Clinical Lecturer at the UCL Bloomsbury Institute of Intensive Care. He is interested in novel physiological measurement utilising the latest in AI, machine learning, and domain specialisation in critical care. His Ph.D. at Imperial College London focused on the development and validation of a novel state-of-the-art AI-based eye tracker. This facilitated the exploration of eye-movements for the diagnosis of delirium in critical care.
+His current project involves the non-invasive acquisition of Ocular Microtremor for the objective assessment of sedation in critical care where he's the PI on OCTAVE, and holds a patent for the method.
