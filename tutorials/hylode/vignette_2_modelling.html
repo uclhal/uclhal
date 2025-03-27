@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.361">
+<meta name="generator" content="quarto-1.6.42">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>UCL Health Algorithms Laboratory - Modelling</title>
+<title>Modelling – UCL Health Algorithms Laboratory</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,7 +22,7 @@ ul.task-list li input[type="checkbox"] {
 }
 /* CSS for syntax highlighting */
 pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span { line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -33,7 +33,7 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -70,17 +70,22 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-9d178a5eac308aad55ecfb780ea8e08f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "textbox",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -89,6 +94,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -104,64 +110,64 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">UCL Health Algorithms Laboratory</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html" rel="" target="">
- <span class="menu-text">Home</span></a>
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../news.html" rel="" target="">
- <span class="menu-text">News</span></a>
+    <a class="nav-link" href="../../news.html"> 
+<span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../people.html" rel="" target="">
- <span class="menu-text">People</span></a>
+    <a class="nav-link" href="../../people.html"> 
+<span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../publications.html" rel="" target="">
- <span class="menu-text">Publications</span></a>
+    <a class="nav-link" href="../../publications.html"> 
+<span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../resources.html" rel="" target="">
- <span class="menu-text">Resources</span></a>
+    <a class="nav-link" href="../../resources.html"> 
+<span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../../tutorials.html" rel="" target="" aria-current="page">
- <span class="menu-text">Tutorials</span></a>
+    <a class="nav-link active" href="../../tutorials.html" aria-current="page"> 
+<span class="menu-text">Tutorials</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools ms-auto">
-</div>
           </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../tutorials/hylode/hylode.html">HYLODE</a></li><li class="breadcrumb-item"><a href="../../tutorials/hylode/vignette_2_modelling.html">Modelling</a></li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../tutorials/hylode/hylode.html">HYLODE</a></li><li class="breadcrumb-item"><a href="../../tutorials/hylode/vignette_2_modelling.html">Modelling</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
     </div>
   </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
@@ -172,9 +178,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
  <span class="menu-text">Onboarding</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -213,9 +219,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
  <span class="menu-text">HYLODE</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -278,9 +284,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
  <span class="menu-text">Data Clinic</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -296,7 +302,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -315,12 +321,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#further-evaluation" id="toc-further-evaluation" class="nav-link" data-scroll-target="#further-evaluation">Further evaluation</a></li>
   </ul></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.dev/uclhal/uclhal/blob/main/tutorials/hylode/vignette_2_modelling.ipynb" class="toc-action">Edit this page</a></p><p><a href="https://github.com/uclhal/uclhal/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.dev/uclhal/uclhal/blob/main/tutorials/hylode/vignette_2_modelling.ipynb" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/uclhal/uclhal/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../tutorials/hylode/hylode.html">HYLODE</a></li><li class="breadcrumb-item"><a href="../../tutorials/hylode/vignette_2_modelling.html">Modelling</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Modelling</h1>
 </div>
@@ -335,7 +341,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </div>
   
 
+
 </header>
+
 
 <p>In this notebook, we look at how the various different pieces of the Hylode architecture come together to ease the ML4H model development/deployment process.</p>
 <p>In <code>vignette_1_training_set</code>, we looked at how HyCastle and the lens abstraction make for consistent training pathways between model development and deployment.</p>
@@ -346,7 +354,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="imports" class="level1">
 <h1>Imports</h1>
 <p>We start with a long list of imports…</p>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:16:27.480223Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:16:27.480077Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:16:33.556720Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:16:33.556546Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:16:27.480158Z&quot;}" data-tags="[]">
+<div id="3acf5511" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:16:27.480223Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:16:27.480077Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:16:33.556720Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:16:33.556546Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:16:27.480158Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> typing <span class="im">import</span> List</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> tempfile</span>
@@ -379,7 +387,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>matplotlib inline</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:16:33.557025Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:16:33.556927Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:16:46.811634Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:16:46.811461Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:16:33.556969Z&quot;}" data-tags="[]">
+<div id="9c229073" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:16:33.557025Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:16:33.556927Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:16:46.811634Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:16:46.811461Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:16:33.556969Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> hylib.dt <span class="im">import</span> LONDON_TZ</span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> hycastle.lens.base <span class="im">import</span> BaseLens</span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> hycastle.lens.transformers <span class="im">import</span> DateTimeExploder, timedelta_as_hours</span>
@@ -388,7 +396,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> hycastle.icu_store.retro <span class="im">import</span> retro_dataset</span>
 <span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> hymind.lib.models.icu_aggregate <span class="im">import</span> AggregateDemandModel</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:16:46.812001Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:16:46.811889Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:16:46.813518Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:16:46.813358Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:16:46.811942Z&quot;}" data-tags="[]">
+<div id="36d168a5" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:16:46.812001Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:16:46.811889Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:16:46.813518Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:16:46.813358Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:16:46.811942Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># initialise MLFlow</span></span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>mlflow_var <span class="op">=</span> os.getenv(<span class="st">'HYMIND_REPO_TRACKING_URI'</span>)</span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>mlflow.set_tracking_uri(mlflow_var)   </span>
@@ -402,22 +410,22 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>To recap, we start here with the <code>retro_dataset</code> function from HyCastle.</p>
 <p>We pass the argument ‘T03’ to restrict the patients we look at to the T03 ICU at UCLH. Because of the way Hylode has been configured for the ICU, this then gives one set of features (a row) per hour for every patient in our retrospective dataset.</p>
 <p>Let’s have a look:</p>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:16:46.813812Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:16:46.813673Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:17:39.337752Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:17:39.337484Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:16:46.813722Z&quot;}" data-tags="[]">
+<div id="1daa487e" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:16:46.813812Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:16:46.813673Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:17:39.337752Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:17:39.337484Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:16:46.813722Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> retro_dataset(<span class="st">'T03'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:17:39.338136Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:17:39.338010Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:17:39.342341Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:17:39.342220Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:17:39.338068Z&quot;}" data-tags="[]">
+<div id="85d5d56d" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:17:39.338136Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:17:39.338010Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:17:39.342341Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:17:39.342220Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:17:39.338068Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>df.shape</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:17:39.342620Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:17:39.342514Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:17:39.422944Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:17:39.422825Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:17:39.342560Z&quot;}" data-tags="[]">
+<div id="c8456d79" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:17:39.342620Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:17:39.342514Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:17:39.422944Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:17:39.422825Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:17:39.342560Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>df.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Let’s check to see the date range that <code>retro_dataset</code> covers. (n.b.&nbsp;<code>horizon_dt</code> is the datetime for the particular hourly snapshot of a patient’s features)</p>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:17:39.423213Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:17:39.423106Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:17:39.426848Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:17:39.426719Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:17:39.423150Z&quot;}" data-tags="[]">
+<div id="d40aae74" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:17:39.423213Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:17:39.423106Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:17:39.426848Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:17:39.426719Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:17:39.423150Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>df.horizon_dt.<span class="bu">min</span>(), df.horizon_dt.<span class="bu">max</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Okay. So we see that the retrospective data currently in Hylode runs from c.&nbsp;April ’21. For the sake of this demo, let’s take April, May &amp; June as our training data. And then July for validation.</p>
 <p>We define some corresponding datetimes…</p>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:17:39.427098Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:17:39.427003Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:17:39.430410Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:17:39.430287Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:17:39.427042Z&quot;}" data-tags="[]">
+<div id="59995941" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:17:39.427098Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:17:39.427003Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:17:39.430410Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:17:39.430287Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:17:39.427042Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>start_train_dt <span class="op">=</span> datetime.datetime(<span class="dv">2021</span>,<span class="dv">4</span>,<span class="dv">3</span>,<span class="dv">2</span>,<span class="dv">0</span>,<span class="dv">0</span>).astimezone(LONDON_TZ)</span>
 <span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>end_train_dt <span class="op">=</span> datetime.datetime(<span class="dv">2021</span>,<span class="dv">6</span>,<span class="dv">30</span>,<span class="dv">23</span>,<span class="dv">0</span>,<span class="dv">0</span>).astimezone(LONDON_TZ)</span>
 <span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -425,16 +433,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>end_valid_dt <span class="op">=</span> datetime.datetime(<span class="dv">2021</span>,<span class="dv">7</span>,<span class="dv">31</span>,<span class="dv">23</span>,<span class="dv">0</span>,<span class="dv">0</span>).astimezone(LONDON_TZ)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Using these date ranges, we take slices of the <code>retro_dataset</code> corresponding to our training and validation windows.</p>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:17:39.430651Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:17:39.430564Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:17:39.494207Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:17:39.494020Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:17:39.430595Z&quot;}" data-tags="[]">
+<div id="07bd7631" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:17:39.430651Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:17:39.430564Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:17:39.494207Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:17:39.494020Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:17:39.430595Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>train_df <span class="op">=</span> df[(start_train_dt <span class="op">&lt;</span> df[<span class="st">'horizon_dt'</span>]) <span class="op">&amp;</span> (df[<span class="st">'horizon_dt'</span>] <span class="op">&lt;</span> end_train_dt)]</span>
 <span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>valid_df <span class="op">=</span> df[(start_valid_dt <span class="op">&lt;</span> df[<span class="st">'horizon_dt'</span>]) <span class="op">&amp;</span> (df[<span class="st">'horizon_dt'</span>] <span class="op">&lt;</span> end_valid_dt)]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:17:39.494506Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:17:39.494395Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:17:39.560488Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:17:39.560350Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:17:39.494444Z&quot;}" data-tags="[]">
+<div id="284cf893" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:17:39.494506Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:17:39.494395Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:17:39.560488Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:17:39.560350Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:17:39.494444Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>train_df.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>This is a start, as we now have the appropriate time restrictions for a basic experimental setup – although you will notice that our <code>train_df</code> still has the full set of output features from HyCastle. As per our demonstration of the <code>lens</code> in the previous notebook, we want to restrict the set of features we see and pre-process them appropriately.</p>
 <p>We start by defining a lens as below… (If this still looks a bit daunting, the appendix in the previous notebook on inspecting the different components of the lens might come in useful.)</p>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:17:39.561135Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:17:39.560705Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:17:39.564663Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:17:39.564526Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:17:39.560740Z&quot;}" data-tags="[]">
+<div id="cc356c17" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:17:39.561135Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:17:39.560705Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:17:39.564663Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:17:39.564526Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:17:39.560740Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> DemoLens(BaseLens):</span>
 <span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>    numeric_output <span class="op">=</span> <span class="va">True</span></span>
 <span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>    index_col <span class="op">=</span> <span class="st">"episode_slice_id"</span></span>
@@ -510,7 +518,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb12-73"><a href="#cb12-73" aria-hidden="true" tabindex="-1"></a>        )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>So what we want to do is apply this lens to <code>train_df</code> and <code>valid_df</code> to give us our feature sets.</p>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:17:39.564954Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:17:39.564847Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:17:40.923368Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:17:40.923205Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:17:39.564883Z&quot;}" data-tags="[]">
+<div id="06f1c79d" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:17:39.564954Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:17:39.564847Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:17:40.923368Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:17:40.923205Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:17:39.564883Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># we start be instantiating the lens</span></span>
 <span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>lens <span class="op">=</span> DemoLens()</span>
 <span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -522,15 +530,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a>X_valid <span class="op">=</span> lens.transform(valid_df)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>The <code>ICU Demand</code> pipeline also usefully includes our predictive label of whether or not the patient was discharged within 48 hours of the <code>horizon_df</code>. We use this to define our targets:</p>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:17:40.923674Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:17:40.923579Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:17:40.926116Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:17:40.925996Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:17:40.923617Z&quot;}" data-tags="[]">
+<div id="c14df8b0" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:17:40.923674Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:17:40.923579Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:17:40.926116Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:17:40.925996Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:17:40.923617Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>y_train <span class="op">=</span> train_df[<span class="st">'discharged_in_48hr'</span>].astype(<span class="bu">int</span>)</span>
 <span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>y_valid <span class="op">=</span> valid_df[<span class="st">'discharged_in_48hr'</span>].astype(<span class="bu">int</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:17:40.926492Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:17:40.926350Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:17:40.932174Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:17:40.932057Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:17:40.926416Z&quot;}" data-tags="[]">
+<div id="560513a9" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:17:40.926492Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:17:40.926350Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:17:40.932174Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:17:40.932057Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:17:40.926416Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb15"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>X_train.shape, y_train.shape, X_valid.shape, y_valid.shape</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>To check that the lens has made our features and labels look the way our SKLearn model wants them to look, let’s pass them through a dummy Random Forest run:</p>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:17:40.932468Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:17:40.932367Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:17:42.227607Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:17:42.227481Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:17:40.932412Z&quot;}" data-tags="[]">
+<div id="b51e6bad" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:17:40.932468Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:17:40.932367Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:17:42.227607Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:17:42.227481Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:17:40.932412Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb16"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>m <span class="op">=</span> RandomForestClassifier(n_jobs<span class="op">=-</span><span class="dv">1</span>)</span>
 <span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>time m.fit(X_train.values, y_train.values.ravel())</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
@@ -548,7 +556,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 ~ all metrics (accuracy etc.) logged from each training run on MLFlow
 ~ the actual model file for each training run stored in MLFlow (from where it's easy for the HySys team to check it out).</code></pre>
 <p>As a first step let’s create a new experiment. We use the pipe-separated <code>(Owner|Type|Name|Date)</code> naming convention to keep each other’s work from getting mixed up:</p>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:17:42.227863Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:17:42.227760Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:17:42.423571Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:17:42.423436Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:17:42.227805Z&quot;}" data-tags="[]">
+<div id="fcad11a9" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:17:42.227863Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:17:42.227760Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:17:42.423571Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:17:42.423436Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:17:42.227805Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb18"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Owner|Type|Name|Date e.g. 'TK|models|vignette|2021-11-22'</span></span>
 <span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a><span class="co"># n.b. if experiment name already exists, this cell with throw an error</span></span>
 <span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
@@ -564,7 +572,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>With this done, you should see a new experiment exists on the bottom left hand side of the MLFlow web user interface (which we refer to as the HyMind Repo). As of the time of writing, the HyMind Repo can be accessed <a href="http://uclvlddpragae08:5008/">here</a></p>
 <p>Now. What we want to do as we move along the modelling pathway is to log the salient bits of information in MLFlow as we go. To make this easier to do, we start by defining a few convenience functions to log strings, dicts and lenses.</p>
 <p>n.b.&nbsp;these all rely on <code>mlflow.log_artifact()</code> which takes a file from our local directory and adds it to the HyMind Repo. (Alongside our import statements above, we let MLFlow where our Repo is using the <code>HYMIND_REPO_TRACKING_URI</code> environment variable.)</p>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:17:42.424342Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:17:42.423738Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:17:42.427072Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:17:42.426948Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:17:42.423779Z&quot;}" data-tags="[]">
+<div id="eb36eb4e" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:17:42.424342Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:17:42.423738Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:17:42.427072Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:17:42.426948Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:17:42.423779Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb19"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>tmp_path <span class="op">=</span> Path(<span class="st">'tmp'</span>)</span>
 <span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>tmp_path.mkdir(parents<span class="op">=</span><span class="va">True</span>, exist_ok<span class="op">=</span><span class="va">True</span>)</span>
 <span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -586,7 +594,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb19-19"><a href="#cb19-19" aria-hidden="true" tabindex="-1"></a>    mlflow.log_artifact(full_path, <span class="st">'lens'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>First off, to get a hang of this, let’s run a test of sending some data to MLFlow. Let’s try storing the start and end time for our trainging and validation runs…</p>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:17:42.427327Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:17:42.427230Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:17:42.432363Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:17:42.432219Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:17:42.427272Z&quot;}" data-tags="[]">
+<div id="2e2247d4" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:17:42.427327Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:17:42.427230Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:17:42.432363Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:17:42.432219Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:17:42.427272Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb20"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>tag_dict <span class="op">=</span> {</span>
 <span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>    <span class="st">'start_train_dt'</span>: start_train_dt,</span>
 <span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">'end_train_dt'</span>: end_train_dt,    </span>
@@ -594,7 +602,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">'end_valid_dt'</span>: end_valid_dt</span>
 <span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:17:42.432644Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:17:42.432538Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:17:43.462420Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:17:43.460140Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:17:42.432585Z&quot;}" data-tags="[]">
+<div id="1124553e" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:17:42.432644Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:17:42.432538Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:17:43.462420Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:17:43.460140Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:17:42.432585Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb21"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> mlflow.start_run():</span>
 <span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>    mlflow_log_tag_dict(tag_dict, <span class="st">'tag_dict.yaml'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
@@ -604,7 +612,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="a-fuller-example" class="level2">
 <h2 class="anchored" data-anchor-id="a-fuller-example">A fuller example</h2>
 <p>With slightly better sense of how MLFlow works, we now turn to a fuller exemplar workflow. The example we look at here is running a simple parameter grid search for a Random Forest model of ICU discharge at 48 hours.</p>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:17:43.996267Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:17:43.996111Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:17:43.997838Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:17:43.997692Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:17:43.996206Z&quot;}" data-tags="[]">
+<div id="2e1706ea" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:17:43.996267Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:17:43.996111Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:17:43.997838Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:17:43.997692Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:17:43.996206Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb22"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="co"># the two most influential parameters </span></span>
 <span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a><span class="co"># cf. https://scikit-learn.org/stable/modules/ensemble.html#parameters</span></span>
 <span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>grid <span class="op">=</span> {</span>
@@ -612,7 +620,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">'max_features'</span>:[<span class="va">None</span>, <span class="st">"sqrt"</span>, <span class="st">"log2"</span>]</span>
 <span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:17:45.400830Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:17:45.400667Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:19:08.936713Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:19:08.936394Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:17:45.400758Z&quot;}" data-tags="[]">
+<div id="321cf025" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:17:45.400830Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:17:45.400667Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:19:08.936713Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:19:08.936394Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:17:45.400758Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb23"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="co"># as the outcome of each training run (even with the same parameters) is non-deterministic,</span></span>
 <span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a><span class="co"># we run two training runs per parameter combination.</span></span>
 <span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>runs_per_param_set <span class="op">=</span> <span class="dv">2</span></span>
@@ -652,12 +660,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>After this cells runs (which takes a minute or two), if you now return to the MLFlow UI, you will see that the experiment you created is now populated with a whole list of runs, one for each parameter set above. Clicking down into the run you will see all the attributes above have been stored (the tag dictionary, the parameters, the metrics, the model etc.)</p>
 <p>As a next step, we might want to pick out the model parameters that seem to have performed best - so we can then use these for further evaluation.</p>
 <p>These runs can also be straightforwardly access from a notebook using <code>mlflow.search_runs()</code>…</p>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:19:08.937132Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:19:08.937013Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:19:09.209790Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:19:09.208450Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:19:08.937067Z&quot;}" data-tags="[]">
+<div id="afbf63c6" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:19:08.937132Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:19:08.937013Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:19:09.209790Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:19:09.208450Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:19:08.937067Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb24"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>runs <span class="op">=</span> mlflow.search_runs()</span>
 <span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>runs.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>From which starting point, it’s simple to mark out the parameter set with the best mean validation accuracy, as follows:</p>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:19:09.212860Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:19:09.211680Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:19:09.319620Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:19:09.318340Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:19:09.21226Z&quot;}" data-tags="[]">
+<div id="3bf55acf" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:19:09.212860Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:19:09.211680Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:19:09.319620Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:19:09.318340Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:19:09.21226Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb25"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>params <span class="op">=</span> [col <span class="cf">for</span> col <span class="kw">in</span> runs <span class="cf">if</span> col.startswith(<span class="st">'params'</span>)]</span>
 <span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>best_params <span class="op">=</span> runs.groupby(params)[<span class="st">'metrics.valid_accuracy'</span>].mean().idxmax()</span>
 <span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>best_row <span class="op">=</span> runs.set_index(keys<span class="op">=</span>params).loc[best_params]</span>
@@ -666,7 +674,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a>best_run_id</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>And then we can tag this as the best run from our training loop - and also log the lens we used to train it:</p>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:19:09.322310Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:19:09.321300Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:19:16.538908Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:19:16.538665Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:19:09.32175Z&quot;}" data-tags="[]">
+<div id="a74f949f" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:19:09.322310Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:19:09.321300Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:19:16.538908Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:19:16.538665Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:19:09.32175Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb26"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> mlflow.start_run(run_id<span class="op">=</span>best_run_id):</span>
 <span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>    <span class="co"># tag the run as best_row</span></span>
 <span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a>    mlflow.set_tag(<span class="st">'best_run'</span>, <span class="dv">1</span>)   </span>
@@ -675,12 +683,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb26-6"><a href="#cb26-6" aria-hidden="true" tabindex="-1"></a>    mlflow_log_lens(lens)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>In the same breath, MLFlow gives us the option to register our model, which makes it easy to access and work with going forward - so let’s do that too:</p>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:19:16.539253Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:19:16.539121Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:19:16.540215Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:19:16.540071Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:19:16.539189Z&quot;}" data-tags="[]">
+<div id="fda074e5" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:19:16.539253Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:19:16.539121Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:19:16.540215Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:19:16.540071Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:19:16.539189Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb27"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="co"># =&gt; add a unique model name below &lt;=</span></span>
 <span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a><span class="co"># e.g. tk-random_forest-demo</span></span>
 <span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a>model_name <span class="op">=</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:19:16.540478Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:19:16.540366Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:19:16.675968Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:19:16.675825Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:19:16.540409Z&quot;}" data-tags="[]">
+<div id="7d8ee1b0" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:19:16.540478Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:19:16.540366Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:19:16.675968Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:19:16.675825Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:19:16.540409Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb28"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="co"># n.b. each time you run this cell with the same model_name, the model version will increase by one</span></span>
 <span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a>registered_model <span class="op">=</span> mlflow.register_model(<span class="ss">f'runs:/</span><span class="sc">{</span>best_run_id<span class="sc">}</span><span class="ss">/model'</span>, model_name)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
@@ -693,24 +701,24 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <pre><code>~ checking out the model for forward pass prediction
 ~ checking it out for further evaluation</code></pre>
 <p>But let’s start simple by retrieving the model. First, a couple of simple methods that allow us to pull out info about the model we have just saved:</p>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:19:16.676333Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:19:16.676208Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:19:16.688324Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:19:16.688182Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:19:16.676275Z&quot;}" data-tags="[]">
+<div id="37e3ed87" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:19:16.676333Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:19:16.676208Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:19:16.688324Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:19:16.688182Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:19:16.676275Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb30"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="co"># first off, we can surface basic info about the model using our model_name and version.</span></span>
 <span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a>model_info <span class="op">=</span> client.get_model_version(model_name, registered_model.version)</span>
 <span id="cb30-4"><a href="#cb30-4" aria-hidden="true" tabindex="-1"></a>model_info</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:19:16.688592Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:19:16.688487Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:19:16.706533Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:19:16.706408Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:19:16.688536Z&quot;}" data-tags="[]">
+<div id="c12bcba2" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:19:16.688592Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:19:16.688487Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:19:16.706533Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:19:16.706408Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:19:16.688536Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb31"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="co"># we can then go deeper and inspect the run itself</span></span>
 <span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>run_info <span class="op">=</span> client.get_run(model_info.run_id)</span>
 <span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a>run_info</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Happy that the information above looks about right, we can now use the <code>model_name</code> and <code>version</code> to load our model:</p>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:19:16.706822Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:19:16.706706Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:19:16.976217Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:19:16.976086Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:19:16.706755Z&quot;}" data-tags="[]">
+<div id="ec5241d0" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:19:16.706822Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:19:16.706706Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:19:16.976217Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:19:16.976086Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:19:16.706755Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb32"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a>model <span class="op">=</span> mlflow.sklearn.load_model(<span class="ss">f'models:/</span><span class="sc">{</span>model_name<span class="sc">}</span><span class="ss">/</span><span class="sc">{</span>registered_model<span class="sc">.</span>version<span class="sc">}</span><span class="ss">'</span>)</span>
 <span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a>model</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Moreover, using <code>model_info.run_id</code>, we can also reload the lens we used to train the model:</p>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:19:16.976498Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:19:16.976390Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:19:23.576210Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:19:23.576062Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:19:16.976440Z&quot;}" data-tags="[]">
+<div id="7626fbbc" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:19:16.976498Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:19:16.976390Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:19:23.576210Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:19:23.576062Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:19:16.976440Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb33"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> tempfile.TemporaryDirectory() <span class="im">as</span> tmp:</span>
 <span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a>    tmp_dir <span class="op">=</span> Path(tmp)</span>
 <span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a>    </span>
@@ -725,21 +733,21 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="forward-pass-prediction" class="level2">
 <h2 class="anchored" data-anchor-id="forward-pass-prediction">Forward pass prediction</h2>
 <p>With the model and the lens loaded, the <code>live_dataset</code> from HyCastle makes it extremely straightforward to run the forward pass. (n.b.&nbsp;reusing the identical components to in our retrospective training)</p>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:19:23.576512Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:19:23.576399Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:19:23.629969Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:19:23.629842Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:19:23.576447Z&quot;}" data-tags="[]">
+<div id="fc8a7daf" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:19:23.576512Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:19:23.576399Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:19:23.629969Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:19:23.629842Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:19:23.576447Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb34"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>live_df <span class="op">=</span> live_dataset(<span class="st">'T03'</span>)</span>
 <span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a>live_df.shape</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:19:23.630229Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:19:23.630131Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:19:23.643723Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:19:23.643581Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:19:23.630174Z&quot;}" data-tags="[]">
+<div id="bc488fb3" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:19:23.630229Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:19:23.630131Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:19:23.643723Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:19:23.643581Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:19:23.630174Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb35"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a><span class="co"># and inspecting the dataframe, note the most recent admission_dt</span></span>
 <span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a>live_df.loc[:, [<span class="st">'episode_slice_id'</span>, <span class="st">'admission_dt'</span>, <span class="st">'bed_code'</span>, <span class="st">'avg_heart_rate_1_24h'</span>]].sort_values(<span class="st">'admission_dt'</span>, ascending<span class="op">=</span><span class="va">False</span>).head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Now let’s try to run some patient-level predictions based on our saved model:</p>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:19:23.644016Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:19:23.643910Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:19:23.683345Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:19:23.683204Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:19:23.643956Z&quot;}" data-tags="[]">
+<div id="f3f121cd" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:19:23.644016Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:19:23.643910Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:19:23.683345Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:19:23.683204Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:19:23.643956Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb36"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="co"># first we transform the live_df with our loaded_lens</span></span>
 <span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a>X_df <span class="op">=</span> loaded_lens.transform(live_df)</span>
 <span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a>X_df.columns</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:19:23.683642Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:19:23.683531Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:19:23.718921Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:19:23.718792Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:19:23.683580Z&quot;}" data-tags="[]">
+<div id="6b774d7b" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:19:23.683642Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:19:23.683531Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:19:23.718921Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:19:23.718792Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:19:23.683580Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb37"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="co"># making the predictions</span></span>
 <span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a>predictions <span class="op">=</span> model.predict_proba(X_df.values)</span>
 <span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -748,10 +756,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb37-6"><a href="#cb37-6" aria-hidden="true" tabindex="-1"></a>live_df.loc[:, [<span class="st">'episode_slice_id'</span>, <span class="st">'prediction'</span>]].head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>We can even then get a sense of how this segues into the aggregate prediction problem, using the <code>AggregateDemandModel</code> class:</p>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-11-22T08:01:17.522270Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-11-22T08:01:17.522133Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-11-22T08:01:17.529894Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-11-22T08:01:17.529716Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-11-22T08:01:17.522211Z&quot;}">
+<div id="f5a67d8f" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-11-22T08:01:17.522270Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-11-22T08:01:17.522133Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-11-22T08:01:17.529894Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-11-22T08:01:17.529716Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-11-22T08:01:17.522211Z&quot;}">
 <div class="sourceCode cell-code" id="cb38"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a>AggregateDemandModel??</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:19:23.719208Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:19:23.719097Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:19:24.638101Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:19:24.637964Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:19:23.719149Z&quot;}" data-tags="[]">
+<div id="4168ed3c" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:19:23.719208Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:19:23.719097Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:19:24.638101Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:19:24.637964Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:19:23.719149Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb39"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a>agg_demand <span class="op">=</span> AggregateDemandModel()</span>
 <span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a>agg_predictions <span class="op">=</span> agg_demand.predict(context<span class="op">=</span><span class="st">""</span>, </span>
 <span id="cb39-3"><a href="#cb39-3" aria-hidden="true" tabindex="-1"></a>                                     model_input<span class="op">=</span>live_df.loc[:, [<span class="st">'prediction'</span>]].rename(mapper<span class="op">=</span>{<span class="st">'prediction'</span>:<span class="st">'prediction_as_real'</span>},axis<span class="op">=</span><span class="dv">1</span>))</span>
@@ -762,7 +770,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h2 class="anchored" data-anchor-id="further-evaluation">Further evaluation</h2>
 <p>Another use case would be that having done our initial training, we still have plenty of work to do evaluating it’s performance. We give a very simple outline here of what that might look like.</p>
 <p>We start by putting our two loaded components from MLFlow: <code>loaded_tag_dict</code> and <code>loaded_lens</code> together to rebuild our validation set.</p>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:19:24.638382Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:19:24.638281Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:19:25.448535Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:19:25.448403Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:19:24.638326Z&quot;}" data-tags="[]">
+<div id="01cb205b" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:19:24.638382Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:19:24.638281Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:19:25.448535Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:19:25.448403Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:19:24.638326Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb40"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> tempfile.TemporaryDirectory() <span class="im">as</span> tmp:</span>
 <span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a>    tmp_dir <span class="op">=</span> Path(tmp)</span>
 <span id="cb40-3"><a href="#cb40-3" aria-hidden="true" tabindex="-1"></a>    </span>
@@ -774,20 +782,20 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb40-9"><a href="#cb40-9" aria-hidden="true" tabindex="-1"></a>        </span>
 <span id="cb40-10"><a href="#cb40-10" aria-hidden="true" tabindex="-1"></a>loaded_tag_dict</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:19:25.448860Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:19:25.448726Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:19:25.480668Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:19:25.480483Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:19:25.448800Z&quot;}" data-tags="[]">
+<div id="d49824aa" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:19:25.448860Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:19:25.448726Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:19:25.480668Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:19:25.480483Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:19:25.448800Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb41"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a>loaded_valid_df <span class="op">=</span> df[(loaded_tag_dict[<span class="st">'start_valid_dt'</span>] <span class="op">&lt;</span> df[<span class="st">'horizon_dt'</span>]) <span class="op">&amp;</span></span>
 <span id="cb41-2"><a href="#cb41-2" aria-hidden="true" tabindex="-1"></a>                 (df[<span class="st">'horizon_dt'</span>] <span class="op">&lt;</span> loaded_tag_dict[<span class="st">'end_valid_dt'</span>])]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Recreating our dataset as follows:</p>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:19:25.480961Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:19:25.480863Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:19:25.661239Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:19:25.661070Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:19:25.480905Z&quot;}" data-tags="[]">
+<div id="eb966d9f" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:19:25.480961Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:19:25.480863Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:19:25.661239Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:19:25.661070Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:19:25.480905Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb42"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a>X_valid <span class="op">=</span> loaded_lens.transform(loaded_valid_df)</span>
 <span id="cb42-2"><a href="#cb42-2" aria-hidden="true" tabindex="-1"></a>y_valid <span class="op">=</span> loaded_valid_df[<span class="st">'discharged_in_48hr'</span>].astype(<span class="bu">int</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:19:25.661511Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:19:25.661416Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:19:25.663509Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:19:25.663397Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:19:25.661456Z&quot;}" data-tags="[]">
+<div id="9ab0bb5e" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:19:25.661511Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:19:25.661416Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:19:25.663509Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:19:25.663397Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:19:25.661456Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb43"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a><span class="co"># then we have already loaded in our model in the previous section</span></span>
 <span id="cb43-2"><a href="#cb43-2" aria-hidden="true" tabindex="-1"></a>model</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:19:25.663785Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:19:25.663679Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:19:26.413611Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:19:26.413454Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:19:25.663712Z&quot;}" data-tags="[]">
+<div id="d7604972" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-12-01T17:19:25.663785Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-12-01T17:19:25.663679Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-12-01T17:19:26.413611Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-12-01T17:19:26.413454Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-12-01T17:19:25.663712Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb44"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> mlflow.start_run(run_id<span class="op">=</span>best_run_id):</span>
 <span id="cb44-2"><a href="#cb44-2" aria-hidden="true" tabindex="-1"></a>    </span>
 <span id="cb44-3"><a href="#cb44-3" aria-hidden="true" tabindex="-1"></a>    mlflow_log_tag_dict(tag_dict, <span class="st">'tag_dict.yaml'</span>)</span>
@@ -863,18 +871,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -906,11 +903,48 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
-  function tippyHover(el, contentFn) {
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/uclhal\.org");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -920,8 +954,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -933,7 +976,129 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -977,6 +1142,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -1002,6 +1168,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -1067,12 +1259,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">
       &nbsp;
     </div>   
-    <div class="nav-footer-center">Copyright 2022 © Steve Harris</div>
+    <div class="nav-footer-center">
+<p>Copyright 2022 © Steve Harris</p>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.dev/uclhal/uclhal/blob/main/tutorials/hylode/vignette_2_modelling.ipynb" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/uclhal/uclhal/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
   </div>
 </footer>
+
 
 
 

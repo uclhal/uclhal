@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.361">
+<meta name="generator" content="quarto-1.6.42">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>UCL Health Algorithms Laboratory - HyMind Lab Example</title>
+<title>HyMind Lab Example – UCL Health Algorithms Laboratory</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,7 +22,7 @@ ul.task-list li input[type="checkbox"] {
 }
 /* CSS for syntax highlighting */
 pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span { line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -33,7 +33,7 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -70,17 +70,22 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-9d178a5eac308aad55ecfb780ea8e08f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "textbox",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -89,6 +94,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -104,64 +110,64 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">UCL Health Algorithms Laboratory</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html" rel="" target="">
- <span class="menu-text">Home</span></a>
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../news.html" rel="" target="">
- <span class="menu-text">News</span></a>
+    <a class="nav-link" href="../../news.html"> 
+<span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../people.html" rel="" target="">
- <span class="menu-text">People</span></a>
+    <a class="nav-link" href="../../people.html"> 
+<span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../publications.html" rel="" target="">
- <span class="menu-text">Publications</span></a>
+    <a class="nav-link" href="../../publications.html"> 
+<span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../resources.html" rel="" target="">
- <span class="menu-text">Resources</span></a>
+    <a class="nav-link" href="../../resources.html"> 
+<span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../../tutorials.html" rel="" target="" aria-current="page">
- <span class="menu-text">Tutorials</span></a>
+    <a class="nav-link active" href="../../tutorials.html" aria-current="page"> 
+<span class="menu-text">Tutorials</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools ms-auto">
-</div>
           </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../tutorials/hylode/hylode.html">HYLODE</a></li><li class="breadcrumb-item"><a href="../../tutorials/hylode/HyMind-Lab-example.html">HyMind Lab Example</a></li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../tutorials/hylode/hylode.html">HYLODE</a></li><li class="breadcrumb-item"><a href="../../tutorials/hylode/HyMind-Lab-example.html">HyMind Lab Example</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
     </div>
   </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
@@ -172,9 +178,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
  <span class="menu-text">Onboarding</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -213,9 +219,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
  <span class="menu-text">HYLODE</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -278,9 +284,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
  <span class="menu-text">Data Clinic</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -296,7 +302,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -358,12 +364,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </ul></li>
   </ul></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.dev/uclhal/uclhal/blob/main/tutorials/hylode/HyMind-Lab-example.ipynb" class="toc-action">Edit this page</a></p><p><a href="https://github.com/uclhal/uclhal/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.dev/uclhal/uclhal/blob/main/tutorials/hylode/HyMind-Lab-example.ipynb" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/uclhal/uclhal/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../tutorials/hylode/hylode.html">HYLODE</a></li><li class="breadcrumb-item"><a href="../../tutorials/hylode/HyMind-Lab-example.html">HyMind Lab Example</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">HyMind Lab Example</h1>
 </div>
@@ -378,7 +384,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </div>
   
 
+
 </header>
+
 
 <p><img src="https://upload.wikimedia.org/wikipedia/commons/1/17/Warning.svg" width="20"> <strong><em>Please make a copy of this notebook and do not edit in place</em></strong></p>
 <p>See the <a href="https://github.com/HYLODE/HyLevel/blob/main/system-design/HYLODE.png?raw=True">system diagram</a> for an overview of the HYLODE system components referenced in this notebook.<br>
@@ -387,12 +395,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h2 class="anchored" data-anchor-id="packages">Packages</h2>
 <section id="available" class="level3">
 <h3 class="anchored" data-anchor-id="available">Available</h3>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:39:49.154831Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:39:49.154694Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:39:49.314379Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:39:49.314242Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:39:49.154769Z&quot;}" data-tags="[]">
+<div id="34e9cb3d-f6f6-4afa-803c-33b8946efee0" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:39:49.154831Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:39:49.154694Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:39:49.314379Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:39:49.314242Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:39:49.154769Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pkg_resources</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>installed_packages <span class="op">=</span> pkg_resources.working_set</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>installed_packages_list <span class="op">=</span> <span class="bu">sorted</span>([<span class="ss">f'</span><span class="sc">{</span>i<span class="sc">.</span>key<span class="sc">}</span><span class="ss">==</span><span class="sc">{</span>i<span class="sc">.</span>version<span class="sc">}</span><span class="ss">'</span> <span class="cf">for</span> i <span class="kw">in</span> installed_packages])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:39:49.335892Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:39:49.335757Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:39:49.336535Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:39:49.336426Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:39:49.335828Z&quot;}" data-tags="[]">
+<div id="9c5d0e96-a10b-458a-8672-962dbfaa9e9b" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:39:49.335892Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:39:49.335757Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:39:49.336535Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:39:49.336426Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:39:49.335828Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Uncomment to list installed packages</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co"># installed_packages_list</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
@@ -400,10 +408,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="need-more" class="level3">
 <h3 class="anchored" data-anchor-id="need-more">Need more?</h3>
 <p>For a quick installation, uncomment &amp; run the command below (replace <code>ujson</code> with the package you want)</p>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:39:49.936194Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:39:49.936038Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:39:49.937377Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:39:49.937256Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:39:49.936131Z&quot;}" data-tags="[]">
+<div id="ce3bacda-1a2d-448b-b748-6efe170bf84e" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:39:49.936194Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:39:49.936038Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:39:49.937377Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:39:49.937256Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:39:49.936131Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># !pip install ujson</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:39:50.137912Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:39:50.137781Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:39:50.138682Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:39:50.138573Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:39:50.137854Z&quot;}" data-tags="[]">
+<div id="d9b52e70-1c64-4809-bc8d-5cb05f26c245" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:39:50.137912Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:39:50.137781Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:39:50.138682Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:39:50.138573Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:39:50.137854Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># import ujson</span></span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="co"># ujson.__version__</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
@@ -412,7 +420,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="some-imports" class="level3">
 <h3 class="anchored" data-anchor-id="some-imports">Some imports</h3>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:39:51.152170Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:39:51.150520Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:39:51.814354Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:39:51.814126Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:39:51.15133Z&quot;}" data-tags="[]">
+<div id="dbbaf5b4-aed2-47f5-b79d-368172a4af55" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:39:51.152170Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:39:51.150520Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:39:51.814354Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:39:51.814126Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:39:51.15133Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> datetime <span class="im">import</span> datetime, timedelta</span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os</span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pathlib <span class="im">import</span> Path</span>
@@ -430,7 +438,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="constants" class="level3">
 <h3 class="anchored" data-anchor-id="constants">Constants</h3>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:39:51.814747Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:39:51.814609Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:39:51.816055Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:39:51.815890Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:39:51.814663Z&quot;}" data-tags="[]">
+<div id="c37f0978-d242-4801-9afa-d20dde2ff778" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:39:51.814747Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:39:51.814609Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:39:51.816055Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:39:51.815890Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:39:51.814663Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>ward <span class="op">=</span> <span class="st">'T03'</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <hr>
@@ -450,10 +458,10 @@ Do this here in Jupyter and not a local copy of the repo.</p>
 <p>The first line should be your UDS <strong>username</strong> and the second line should be your UDS <strong>password</strong>.</p>
 <p><code>secret</code> has been added to <code>.gitignore</code> and will be excluded from the repository.</p>
 <p>Read your username &amp; password into the environment:</p>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:39:53.271859Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:39:53.271730Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:39:53.273501Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:39:53.273380Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:39:53.271799Z&quot;}" data-tags="[]">
+<div id="9ab4b4a5-b026-4f31-a04b-4f30fb7e2341" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:39:53.271859Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:39:53.271730Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:39:53.273501Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:39:53.273380Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:39:53.271799Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>os.environ[<span class="st">'EMAP_DB_USER'</span>], os.environ[<span class="st">'EMAP_DB_PASSWORD'</span>] <span class="op">=</span> Path(<span class="st">'secret'</span>).read_text().strip().split(<span class="st">'</span><span class="ch">\n</span><span class="st">'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:39:53.471571Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:39:53.471424Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:39:53.473077Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:39:53.472952Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:39:53.471509Z&quot;}" data-tags="[]">
+<div id="c20de051-6a5c-425f-b3b7-3182afa528a4" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:39:53.471571Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:39:53.471424Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:39:53.473077Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:39:53.472952Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:39:53.471509Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>uds_host <span class="op">=</span> os.getenv(<span class="st">'EMAP_DB_HOST'</span>)</span>
 <span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>uds_name <span class="op">=</span> os.getenv(<span class="st">'EMAP_DB_NAME'</span>)</span>
 <span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>uds_port <span class="op">=</span> os.getenv(<span class="st">'EMAP_DB_PORT'</span>)</span>
@@ -461,7 +469,7 @@ Do this here in Jupyter and not a local copy of the repo.</p>
 <span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>uds_passwd <span class="op">=</span> os.getenv(<span class="st">'EMAP_DB_PASSWORD'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Create a SQLAlchemy Engine for accessing the UDS:</p>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:39:53.938851Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:39:53.938721Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:39:53.969370Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:39:53.969232Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:39:53.938792Z&quot;}" data-tags="[]">
+<div id="e70de312-914d-46ca-9563-bd5bd394171b" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:39:53.938851Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:39:53.938721Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:39:53.969370Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:39:53.969232Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:39:53.938792Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>emapdb_engine <span class="op">=</span> create_engine(<span class="ss">f'postgresql://</span><span class="sc">{</span>uds_user<span class="sc">}</span><span class="ss">:</span><span class="sc">{</span>uds_passwd<span class="sc">}</span><span class="ss">@</span><span class="sc">{</span>uds_host<span class="sc">}</span><span class="ss">:</span><span class="sc">{</span>uds_port<span class="sc">}</span><span class="ss">/</span><span class="sc">{</span>uds_name<span class="sc">}</span><span class="ss">'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
@@ -475,14 +483,14 @@ You don’t need individual credentials, everthing is baked into the environment
 <p>There are several schemas, roughly one for each subsystem (see link to system diagram above).</p>
 <p>Storing data in and retrieving data from the <code>hylode</code> database happens through the APIs provided by the <code>hyflow</code>, <code>hygear</code> &amp; <code>hycastle</code> modules.<br>
 Direct interaction with the database is not an expected part of the HyMind workflow and presented here for interest only.</p>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:39:55.405390Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:39:55.404000Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:39:55.418940Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:39:55.417810Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:39:55.40480Z&quot;}" data-tags="[]">
+<div id="76a15136-07db-419e-9f9b-601d6a5550b4" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:39:55.405390Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:39:55.404000Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:39:55.418940Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:39:55.417810Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:39:55.40480Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>db_host <span class="op">=</span> os.getenv(<span class="st">'HYLODE_DB_HOST'</span>)</span>
 <span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>db_name <span class="op">=</span> os.getenv(<span class="st">'HYLODE_DB_NAME'</span>)</span>
 <span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>db_user <span class="op">=</span> os.getenv(<span class="st">'HYLODE_DB_USER'</span>)</span>
 <span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>db_passwd <span class="op">=</span> os.getenv(<span class="st">'HYLODE_DB_PASSWORD'</span>)</span>
 <span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>db_port <span class="op">=</span> os.getenv(<span class="st">'HYLODE_DB_PORT'</span>)                                                                                                       </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:39:55.198013Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:39:55.197884Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:39:55.199584Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:39:55.199468Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:39:55.197955Z&quot;}" data-tags="[]">
+<div id="aa8cd908-3318-441f-859a-d2d3c5e22e34" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:39:55.198013Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:39:55.197884Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:39:55.199584Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:39:55.199468Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:39:55.197955Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>hydb_engine <span class="op">=</span> create_engine(<span class="ss">f'postgresql://</span><span class="sc">{</span>db_user<span class="sc">}</span><span class="ss">:</span><span class="sc">{</span>db_passwd<span class="sc">}</span><span class="ss">@</span><span class="sc">{</span>db_host<span class="sc">}</span><span class="ss">:</span><span class="sc">{</span>db_port<span class="sc">}</span><span class="ss">/</span><span class="sc">{</span>db_name<span class="sc">}</span><span class="ss">'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <section id="hydef" class="level3">
@@ -490,7 +498,7 @@ Direct interaction with the database is not an expected part of the HyMind workf
 <p><em>The <code>hydef</code> schema in the <code>hylode</code> database contains static reference data</em></p>
 <section id="locations" class="level4">
 <h4 class="anchored" data-anchor-id="locations">Locations</h4>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:39:56.290534Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:39:56.290409Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:39:56.306884Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:39:56.306748Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:39:56.290477Z&quot;}" data-tags="[]">
+<div id="e5e9c03d-58b3-40c5-b2dc-0d43da81c5ee" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:39:56.290534Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:39:56.290409Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:39:56.306884Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:39:56.306748Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:39:56.290477Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>beds_df <span class="op">=</span> pd.read_sql(</span>
 <span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>    <span class="st">"""</span></span>
 <span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a><span class="st">    select </span></span>
@@ -511,17 +519,17 @@ Direct interaction with the database is not an expected part of the HyMind workf
 <span id="cb12-18"><a href="#cb12-18" aria-hidden="true" tabindex="-1"></a>    hydb_engine</span>
 <span id="cb12-19"><a href="#cb12-19" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:39:56.592779Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:39:56.592648Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:39:56.613428Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:39:56.613161Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:39:56.592720Z&quot;}" data-tags="[]">
+<div id="e150464c-c4a4-4403-aa0e-c1010f249e8d" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:39:56.592779Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:39:56.592648Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:39:56.613428Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:39:56.613161Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:39:56.592720Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>beds_df</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="icu-observation-types-catalogue" class="level4">
 <h4 class="anchored" data-anchor-id="icu-observation-types-catalogue">ICU Observation Types Catalogue</h4>
 <p>A growing list of observation types that we are interested in for the ICU pipeline</p>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:39:57.197452Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:39:57.197304Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:39:57.202750Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:39:57.202616Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:39:57.197384Z&quot;}" data-tags="[]">
+<div id="728156f7-f43e-4972-8b9c-f4a716740b72" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:39:57.197452Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:39:57.197304Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:39:57.202750Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:39:57.202616Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:39:57.197384Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>icu_obs_types <span class="op">=</span> pd.read_sql(<span class="st">'select * from hydef.icu_observation_types'</span>, hydb_engine)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:39:57.403395Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:39:57.403269Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:39:57.412351Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:39:57.412246Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:39:57.403336Z&quot;}" data-tags="[]">
+<div id="c9e43fea-e459-4c2c-a007-90c0ab064f0a" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:39:57.403395Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:39:57.403269Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:39:57.412351Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:39:57.412246Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:39:57.403336Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb15"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>icu_obs_types</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <hr>
@@ -535,29 +543,29 @@ Direct interaction with the database is not an expected part of the HyMind workf
 <p>HyCastle provides a high level interface to getting clean, transformed features &amp; labels from the pipeline.</p>
 <p>To dig deeper, the <code>hyflow</code> &amp; <code>hygear</code> packages are also available for use within the HyMind Lab.<br>
 Additionally, all the tables in the <code>hydef</code>, <code>hyflow</code> &amp; <code>hygear</code> schemas in the <code>hylode</code> database can be accessed directly using the database connection defined above, just like the <code>star</code> schema on the <code>uds</code> 🙂.</p>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:39:58.313534Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:39:58.313402Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:39:58.634753Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:39:58.634625Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:39:58.313475Z&quot;}" data-tags="[]">
+<div id="04893a24-fb18-4d3e-86a6-42b637b59759" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:39:58.313534Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:39:58.313402Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:39:58.634753Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:39:58.634625Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:39:58.313475Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb16"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> hycastle.icu_store <span class="im">import</span> SITREP_FEATURES</span>
 <span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> hycastle.icu_store.retro <span class="im">import</span> retro_dataset</span>
 <span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> hycastle.icu_store.live <span class="im">import</span> live_dataset, emap_snapshot <span class="co"># &lt;-- contains PII</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <section id="retrospective-data" class="level2">
 <h2 class="anchored" data-anchor-id="retrospective-data">Retrospective Data</h2>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:39:59.914754Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:39:59.914615Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:39:59.987846Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:39:59.987672Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:39:59.914695Z&quot;}" data-tags="[]">
+<div id="c34b72ba-f93e-452d-bc2a-6ca2499f644f" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:39:59.914754Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:39:59.914615Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:39:59.987846Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:39:59.987672Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:39:59.914695Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb17"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>training_df <span class="op">=</span> retro_dataset(ward)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:21:26.885088Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:21:26.884959Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:21:26.886838Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:21:26.886731Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:21:26.885030Z&quot;}" data-tags="[]">
+<div id="6d8e01df-423d-43ac-b7cc-6aa67efa5602" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:21:26.885088Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:21:26.884959Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:21:26.886838Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:21:26.886731Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:21:26.885030Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb18"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>training_df.shape</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:21:27.346380Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:21:27.346243Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:21:27.368332Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:21:27.368214Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:21:27.346321Z&quot;}" data-tags="[]">
+<div id="5592d087-ff76-4c9d-a97a-4ee60438aab1" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:21:27.346380Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:21:27.346243Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:21:27.368332Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:21:27.368214Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:21:27.346321Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb19"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>training_df.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:21:28.867200Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:21:28.865890Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:21:28.887740Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:21:28.886680Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:21:28.86660Z&quot;}" data-tags="[]">
+<div id="cb4df157-bc2d-48b7-b075-e171e4152abc" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:21:28.867200Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:21:28.865890Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:21:28.887740Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:21:28.886680Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:21:28.86660Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb20"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>training_df.columns</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:21:29.497600Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:21:29.496370Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:21:29.524210Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:21:29.523190Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:21:29.49702Z&quot;}" data-tags="[]">
+<div id="d9459d55-84a2-433b-bd53-ba3709f07458" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:21:29.497600Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:21:29.496370Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:21:29.524210Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:21:29.523190Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:21:29.49702Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb21"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>training_df.episode_slice_id.duplicated().<span class="bu">any</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:21:29.307953Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:21:29.307827Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:21:29.318342Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:21:29.318227Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:21:29.307893Z&quot;}" data-tags="[]">
+<div id="48eabd4a-7cf4-4f5f-99d3-dbeb8e754cde" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:21:29.307953Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:21:29.307827Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:21:29.318342Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:21:29.318227Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:21:29.307893Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb22"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>training_df.isnull().<span class="bu">any</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
@@ -566,35 +574,35 @@ Additionally, all the tables in the <code>hydef</code>, <code>hyflow</code> &amp
 <p><strong>These functions return personally identifiable information</strong></p>
 <section id="hylode-live-episode-slices" class="level3">
 <h3 class="anchored" data-anchor-id="hylode-live-episode-slices">HyLode Live Episode Slices</h3>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:40:49.801314Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:40:49.801095Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:40:49.824578Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:40:49.824439Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:40:49.801190Z&quot;}" data-tags="[]">
+<div id="b97e8ab5-3ff5-4580-bdb6-5e9c3011ad36" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:40:49.801314Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:40:49.801095Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:40:49.824578Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:40:49.824439Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:40:49.801190Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb23"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>prediction_df <span class="op">=</span> live_dataset(ward)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:40:50.641499Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:40:50.641341Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:40:50.643541Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:40:50.643379Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:40:50.641419Z&quot;}" data-tags="[]">
+<div id="45732201-e6c1-4966-aa7f-55cdb2993f39" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:40:50.641499Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:40:50.641341Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:40:50.643541Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:40:50.643379Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:40:50.641419Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb24"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>prediction_df.shape</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:40:51.353408Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:40:51.353246Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:40:51.384844Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:40:51.384742Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:40:51.353340Z&quot;}" data-tags="[]">
+<div id="532a11e5-513c-4474-9f1b-447ec1e6d2a8" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:40:51.353408Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:40:51.353246Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:40:51.384844Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:40:51.384742Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:40:51.353340Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb25"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>prediction_df</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="emap-live-census-snapshot" class="level3">
 <h3 class="anchored" data-anchor-id="emap-live-census-snapshot">EMAP Live Census Snapshot</h3>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:40:56.843239Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:40:56.843096Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:40:56.921009Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:40:56.920856Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:40:56.843168Z&quot;}" data-tags="[]">
+<div id="9ab0b350-0adc-44b0-96af-5f0c358a2ad6" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:40:56.843239Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:40:56.843096Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:40:56.921009Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:40:56.920856Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:40:56.843168Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb26"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>emap_df <span class="op">=</span> emap_snapshot(ward)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:40:57.539177Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:40:57.539040Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:40:57.552058Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:40:57.551946Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:40:57.539117Z&quot;}" data-tags="[]">
+<div id="c4316555-892d-432a-9cdc-f3890ad38f16" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:40:57.539177Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:40:57.539040Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:40:57.552058Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:40:57.551946Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:40:57.539117Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb27"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>emap_df.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="filter" class="level3">
 <h3 class="anchored" data-anchor-id="filter">Filter</h3>
 <p>Limit episode slices used for prediction to admissions that are in the EMAP census</p>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:00.467046Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:00.466919Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:00.470196Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:00.470090Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:00.466987Z&quot;}" data-tags="[]">
+<div id="3c567a20-9440-49fb-b14d-1bfd57ca585a" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:00.467046Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:00.466919Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:00.470196Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:00.470090Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:00.466987Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb28"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a>prediction_df.csn.isin(emap_df.csn)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:00.652823Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:00.652646Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:00.656163Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:00.656013Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:00.652743Z&quot;}" data-tags="[]">
+<div id="6badda46-f8df-46f7-a4f9-5b6edcf69820" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:00.652823Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:00.652646Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:00.656163Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:00.656013Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:00.652743Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb29"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>prediction_df <span class="op">=</span> prediction_df[prediction_df.csn.isin(emap_df.csn)]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:01.263744Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:01.263613Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:01.291273Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:01.291158Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:01.263685Z&quot;}" data-tags="[]">
+<div id="36b455e7-c74e-482f-ae5c-4006f3f0f8d7" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:01.263744Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:01.263613Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:01.291273Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:01.291158Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:01.263685Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb30"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>prediction_df</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <hr>
@@ -607,7 +615,7 @@ Additionally, all the tables in the <code>hydef</code>, <code>hyflow</code> &amp
 <p>The idea is for HyMind Lab users to operate at the level of <strong>HyCastle</strong> and not to have to worry about the raw data ingress during the modelling process.<br>
 Access to source data is still required for exploration and feature engineer which can be done through the <code>hyflow</code> package which is available for use from within the HyMind Lab.<br>
 Additionally, all the tables in the <code>hyflow</code> schema in the <code>hylode</code> database can be accessed directly.</p>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:06.983640Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:06.982360Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:06.113700Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:06.113583Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:06.98306Z&quot;}" data-tags="[]">
+<div id="06e0a970-c0ba-429c-9a26-1055671745fc" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:06.983640Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:06.982360Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:06.113700Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:06.113583Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:06.98306Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb31"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> hyflow.fetch.hydef <span class="im">import</span> beds_from_hydef, icu_observation_types_from_hydef</span>
 <span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> hyflow.fetch.icu_episode_slices <span class="im">import</span> icu_episode_slices_from_emap, icu_episode_slices_from_hyflow</span>
 <span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> hyflow.fetch.icu_patients <span class="im">import</span> icu_patients_from_emap</span>
@@ -617,85 +625,85 @@ Additionally, all the tables in the <code>hyflow</code> schema in the <code>hylo
 <h2 class="anchored" data-anchor-id="minimal-example-using-the-hyflow-package">Minimal example using the HyFlow package</h2>
 <section id="fetch-icu-episode-slices-from-emap" class="level4">
 <h4 class="anchored" data-anchor-id="fetch-icu-episode-slices-from-emap">Fetch ICU Episode Slices from EMAP</h4>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:08.614590Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:08.614461Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:08.615736Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:08.615625Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:08.614531Z&quot;}" data-tags="[]">
+<div id="663d783d-4130-4caa-8d90-75d8e7b77e23" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:08.614590Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:08.614461Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:08.615736Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:08.615625Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:08.614531Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb32"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="co"># the point-in-time we are interested in:  7am on 17/07/2021 BST</span></span>
 <span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a>horizon_dt <span class="op">=</span> datetime(<span class="dv">2021</span>, <span class="dv">7</span>, <span class="dv">17</span>, <span class="dv">7</span>, <span class="dv">0</span>, <span class="dv">0</span>).astimezone(LONDON_TZ)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:09.319340Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:09.319106Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:09.334582Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:09.334447Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:09.319196Z&quot;}" data-tags="[]">
+<div id="7a5519e1-ea67-4634-a20d-d3595807faa7" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:09.319340Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:09.319106Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:09.334582Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:09.334447Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:09.319196Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb33"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>beds_df <span class="op">=</span> beds_from_hydef(ward)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:10.229980Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:10.228790Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:10.124747Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:10.124598Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:10.22940Z&quot;}" data-tags="[]">
+<div id="20ab8b50-b06f-4e04-a92b-5c7e43f38709" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:10.229980Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:10.228790Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:10.124747Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:10.124598Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:10.22940Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb34"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>episode_slices_df <span class="op">=</span> icu_episode_slices_from_emap(ward, horizon_dt, <span class="bu">list</span>(beds_df.hl7_location))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>The HyFlow method adds the <code>episode_key</code> as that is a HYLODE concept and <em>not</em> available in EMAP.</p>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:10.928589Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:10.928437Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:10.942138Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:10.942013Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:10.928519Z&quot;}" data-tags="[]">
+<div id="3aa1bef4-2a54-4eb3-a8be-dc7dd7fd5a6e" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:10.928589Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:10.928437Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:10.942138Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:10.942013Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:10.928519Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb35"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>episode_slices_df</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:11.400732Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:11.400565Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:11.406383Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:11.406257Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:11.400666Z&quot;}" data-tags="[]">
+<div id="e4a0b215-9e39-445b-88a2-6f160d403fe7" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:11.400732Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:11.400565Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:11.406383Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:11.406257Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:11.400666Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb36"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Attach HyDef bed_id to episode slice &amp; drop HL7 location string</span></span>
 <span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a>episode_slices_df <span class="op">=</span> episode_slices_df.join(</span>
 <span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a>    beds_df.loc[:, [<span class="st">'bed_id'</span>, <span class="st">'hl7_location'</span>]].set_index(<span class="st">'hl7_location'</span>),</span>
 <span id="cb36-4"><a href="#cb36-4" aria-hidden="true" tabindex="-1"></a>    on<span class="op">=</span><span class="st">'hl7_location'</span></span>
 <span id="cb36-5"><a href="#cb36-5" aria-hidden="true" tabindex="-1"></a>).drop(columns<span class="op">=</span>[<span class="st">'hl7_location'</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:11.842530Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:11.842391Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:11.855274Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:11.855120Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:11.842469Z&quot;}" data-tags="[]">
+<div id="c1f1edad-5719-4a30-b7ce-de6bfb04b9f6" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:11.842530Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:11.842391Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:11.855274Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:11.855120Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:11.842469Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb37"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a>episode_slices_df</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="fetch-matching-patients-from-emap-for-episode-slices-that-are-in-in-hyflow" class="level4">
 <h4 class="anchored" data-anchor-id="fetch-matching-patients-from-emap-for-episode-slices-that-are-in-in-hyflow">Fetch matching Patients from EMAP for Episode Slices that are in in HyFlow</h4>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:12.639701Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:12.639570Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:12.640795Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:12.640685Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:12.639639Z&quot;}" data-tags="[]">
+<div id="eb10c301-19e7-4c1d-8478-47295b96a944" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:12.639701Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:12.639570Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:12.640795Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:12.640685Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:12.639639Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb38"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a><span class="co"># the point-in-time we are interested in:  8pm on 17/07/2021 BST</span></span>
 <span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a>horizon_dt <span class="op">=</span> datetime(<span class="dv">2021</span>, <span class="dv">7</span>, <span class="dv">17</span>, <span class="dv">20</span>, <span class="dv">0</span>, <span class="dv">0</span>).astimezone(LONDON_TZ)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:12.790316Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:12.790170Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:12.809872Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:12.809747Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:12.790256Z&quot;}" data-tags="[]">
+<div id="db348fed-6b60-4258-bf43-ce0343656b67" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:12.790316Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:12.790170Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:12.809872Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:12.809747Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:12.790256Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb39"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a><span class="co"># get our saved Episode Slices</span></span>
 <span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a>episode_slices_df <span class="op">=</span> icu_episode_slices_from_hyflow(ward, horizon_dt)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:13.226131Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:13.226001Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:13.232254Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:13.232124Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:13.226073Z&quot;}" data-tags="[]">
+<div id="6d217bc3-103f-4fc4-8b71-494932cdb828" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:13.226131Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:13.226001Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:13.232254Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:13.232124Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:13.226073Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb40"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a>episode_slices_df.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:13.541197Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:13.541068Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:13.560329Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:13.560184Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:13.541137Z&quot;}" data-tags="[]">
+<div id="1efc86dd-ae85-4c8c-bfc4-392606ea01ce" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:13.541197Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:13.541068Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:13.560329Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:13.560184Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:13.541137Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb41"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a>patients_df <span class="op">=</span> icu_patients_from_emap(ward, horizon_dt, <span class="bu">list</span>(episode_slices_df.csn))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:13.745285Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:13.745138Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:13.751018Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:13.750914Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:13.745224Z&quot;}" data-tags="[]">
+<div id="47776bb9-7b1a-49f3-9621-360356175616" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:13.745285Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:13.745138Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:13.751018Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:13.750914Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:13.745224Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb42"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a>patients_df</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:13.931264Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:13.931121Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:13.936402Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:13.936294Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:13.931188Z&quot;}" data-tags="[]">
+<div id="6174815e-f630-4b2f-80b8-2c082a04aeb1" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:13.931264Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:13.931121Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:13.936402Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:13.936294Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:13.931188Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb43"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Attach HyFlow episode_slice_id to patient</span></span>
 <span id="cb43-2"><a href="#cb43-2" aria-hidden="true" tabindex="-1"></a>patients_df <span class="op">=</span> patients_df.join(</span>
 <span id="cb43-3"><a href="#cb43-3" aria-hidden="true" tabindex="-1"></a>    episode_slices_df.loc[:, [<span class="st">'episode_slice_id'</span>, <span class="st">'csn'</span>]].set_index(<span class="st">'csn'</span>),</span>
 <span id="cb43-4"><a href="#cb43-4" aria-hidden="true" tabindex="-1"></a>    on<span class="op">=</span><span class="st">'csn'</span></span>
 <span id="cb43-5"><a href="#cb43-5" aria-hidden="true" tabindex="-1"></a>).drop(columns<span class="op">=</span>[<span class="st">'csn'</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:14.287502Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:14.287367Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:14.294678Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:14.294526Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:14.287443Z&quot;}" data-tags="[]">
+<div id="4e0ca877-3b1c-48a2-8510-37d2f2c5b29a" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:14.287502Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:14.287367Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:14.294678Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:14.294526Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:14.287443Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb44"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a>patients_df</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="fetch-matching-observations-of-interest-in-emap-for-episode-slices-that-are-in-hyflow" class="level4">
 <h4 class="anchored" data-anchor-id="fetch-matching-observations-of-interest-in-emap-for-episode-slices-that-are-in-hyflow">Fetch matching Observations of interest in EMAP for Episode Slices that are in HyFlow</h4>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:15.254625Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:15.254489Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:15.255745Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:15.255638Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:15.254564Z&quot;}" data-tags="[]">
+<div id="f2fc943b-a904-4d27-85ea-965f85bd5247" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:15.254625Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:15.254489Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:15.255745Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:15.255638Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:15.254564Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb45"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a>lookback_hrs <span class="op">=</span> <span class="dv">24</span> <span class="co"># size of the trailing window we are interested in</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:15.657596Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:15.657393Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:15.658961Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:15.658827Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:15.657474Z&quot;}" data-tags="[]">
+<div id="066912f7-0beb-46da-b887-3da06f1112c3" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:15.657596Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:15.657393Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:15.658961Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:15.658827Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:15.657474Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb46"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb46-1"><a href="#cb46-1" aria-hidden="true" tabindex="-1"></a><span class="co"># the point-in-time we are interested in:  10am on 17/07/2021 BST</span></span>
 <span id="cb46-2"><a href="#cb46-2" aria-hidden="true" tabindex="-1"></a>horizon_dt <span class="op">=</span> datetime(<span class="dv">2021</span>, <span class="dv">7</span>, <span class="dv">17</span>, <span class="dv">10</span>, <span class="dv">0</span>, <span class="dv">0</span>).astimezone(LONDON_TZ)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:16.124375Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:16.124239Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:16.142575Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:16.142454Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:16.124309Z&quot;}" data-tags="[]">
+<div id="0c451ece-01ed-4075-9471-d111a5f5179e" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:16.124375Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:16.124239Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:16.142575Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:16.142454Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:16.124309Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb47"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb47-1"><a href="#cb47-1" aria-hidden="true" tabindex="-1"></a><span class="co"># get our saved Episode Slices</span></span>
 <span id="cb47-2"><a href="#cb47-2" aria-hidden="true" tabindex="-1"></a>episode_slices_df <span class="op">=</span> icu_episode_slices_from_hyflow(ward, horizon_dt)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:16.316317Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:16.316171Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:16.322583Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:16.322476Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:16.316252Z&quot;}" data-tags="[]">
+<div id="92171e55-85f1-4b1b-9464-3b001835f713" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:16.316317Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:16.316171Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:16.322583Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:16.322476Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:16.316252Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb48"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb48-1"><a href="#cb48-1" aria-hidden="true" tabindex="-1"></a>episode_slices_df.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:16.491051Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:16.490922Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:16.497445Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:16.497279Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:16.490988Z&quot;}" data-tags="[]">
+<div id="19241f39-e710-4c6f-a28a-1e1246b01e8c" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:16.491051Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:16.490922Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:16.497445Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:16.497279Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:16.490988Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb49"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb49-1"><a href="#cb49-1" aria-hidden="true" tabindex="-1"></a><span class="co"># get our reference list of observation types we care about</span></span>
 <span id="cb49-2"><a href="#cb49-2" aria-hidden="true" tabindex="-1"></a>obs_types_df <span class="op">=</span> icu_observation_types_from_hydef()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:16.692406Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:16.692192Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:16.702532Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:16.702379Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:16.692319Z&quot;}" data-tags="[]">
+<div id="c1e1d987-d419-43d7-98e2-ba4d30de87bb" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:16.692406Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:16.692192Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:16.702532Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:16.702379Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:16.692319Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb50"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb50-1"><a href="#cb50-1" aria-hidden="true" tabindex="-1"></a>obs_types_df.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:17.741070Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:17.739780Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:17.947620Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:17.946420Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:17.74048Z&quot;}" data-tags="[]">
+<div id="06521b52-44dd-40e2-8b5f-960a56f09ac3" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:17.741070Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:17.739780Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:17.947620Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:17.946420Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:17.74048Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb51"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a>obs_df <span class="op">=</span> icu_observations_from_emap(</span>
 <span id="cb51-2"><a href="#cb51-2" aria-hidden="true" tabindex="-1"></a>    ward,</span>
 <span id="cb51-3"><a href="#cb51-3" aria-hidden="true" tabindex="-1"></a>    horizon_dt,</span>
@@ -704,24 +712,24 @@ Additionally, all the tables in the <code>hyflow</code> schema in the <code>hylo
 <span id="cb51-6"><a href="#cb51-6" aria-hidden="true" tabindex="-1"></a>    lookback_hrs</span>
 <span id="cb51-7"><a href="#cb51-7" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:17.449788Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:17.449659Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:17.455385Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:17.455281Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:17.449728Z&quot;}" data-tags="[]">
+<div id="1700168f-aeee-463a-a734-35c92395fe33" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:17.449788Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:17.449659Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:17.455385Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:17.455281Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:17.449728Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb52"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb52-1"><a href="#cb52-1" aria-hidden="true" tabindex="-1"></a>obs_df</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:17.871681Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:17.871549Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:17.876000Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:17.875881Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:17.871621Z&quot;}" data-tags="[]">
+<div id="7cf36a8f-5bcc-430b-b132-eadff96635fc" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:17.871681Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:17.871549Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:17.876000Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:17.875881Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:17.871621Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb53"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb53-1"><a href="#cb53-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Attach HyDef observation type id to observation</span></span>
 <span id="cb53-2"><a href="#cb53-2" aria-hidden="true" tabindex="-1"></a>obs_df <span class="op">=</span> obs_df.join(</span>
 <span id="cb53-3"><a href="#cb53-3" aria-hidden="true" tabindex="-1"></a>    obs_types_df.loc[:, [<span class="st">'obs_type_id'</span>, <span class="st">'source_id'</span>]].set_index(<span class="st">'source_id'</span>),</span>
 <span id="cb53-4"><a href="#cb53-4" aria-hidden="true" tabindex="-1"></a>    on<span class="op">=</span><span class="st">'source_id'</span></span>
 <span id="cb53-5"><a href="#cb53-5" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:18.716750Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:18.715470Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:18.767860Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:18.766690Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:18.71617Z&quot;}" data-tags="[]">
+<div id="49d1b9b5-79b7-4ae5-b117-138f1fae8f22" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:18.716750Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:18.715470Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:18.767860Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:18.766690Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:18.71617Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb54"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb54-1"><a href="#cb54-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Attach HyFlow episode_slice_id to observation</span></span>
 <span id="cb54-2"><a href="#cb54-2" aria-hidden="true" tabindex="-1"></a>obs_df <span class="op">=</span> obs_df.join(</span>
 <span id="cb54-3"><a href="#cb54-3" aria-hidden="true" tabindex="-1"></a>    episode_slices_df.loc[:, [<span class="st">'episode_slice_id'</span>, <span class="st">'csn'</span>]].set_index(<span class="st">'csn'</span>),</span>
 <span id="cb54-4"><a href="#cb54-4" aria-hidden="true" tabindex="-1"></a>    on<span class="op">=</span><span class="st">'csn'</span></span>
 <span id="cb54-5"><a href="#cb54-5" aria-hidden="true" tabindex="-1"></a>).drop(columns<span class="op">=</span>[<span class="st">'csn'</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:18.278619Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:18.278488Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:18.284606Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:18.284496Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:18.278558Z&quot;}" data-tags="[]">
+<div id="d5589221-de3b-48af-949b-b99fc0cb4a14" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:18.278619Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:18.278488Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:18.284606Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:18.284496Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:18.278558Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb55"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb55-1"><a href="#cb55-1" aria-hidden="true" tabindex="-1"></a>obs_df</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
@@ -742,7 +750,7 @@ That means the raw <code>span</code> column in the <code>hyflow.icu_episode_slic
 Converting to a timedelta is done in the packages but you’ll have to do that yourself if you access the raw tables.</p>
 <section id="icu-episode-slices-with-bed-id" class="level3">
 <h3 class="anchored" data-anchor-id="icu-episode-slices-with-bed-id">ICU Episode Slices with Bed Id</h3>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:20.691348Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:20.691220Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:20.767270Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:20.767125Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:20.691289Z&quot;}" data-tags="[]">
+<div id="aaaa1f0b-e192-4561-9a69-8242c2257630" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:20.691348Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:20.691220Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:20.767270Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:20.767125Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:20.691289Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb56"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb56-1"><a href="#cb56-1" aria-hidden="true" tabindex="-1"></a>sql_episode_slices_df <span class="op">=</span> pd.read_sql(</span>
 <span id="cb56-2"><a href="#cb56-2" aria-hidden="true" tabindex="-1"></a>    <span class="st">'''</span></span>
 <span id="cb56-3"><a href="#cb56-3" aria-hidden="true" tabindex="-1"></a><span class="st">        select </span></span>
@@ -764,13 +772,13 @@ Converting to a timedelta is done in the packages but you’ll have to do that y
 <span id="cb56-19"><a href="#cb56-19" aria-hidden="true" tabindex="-1"></a>    params<span class="op">=</span>{<span class="st">'horizon_dt'</span>: horizon_dt, <span class="st">'ward'</span>: <span class="st">'T03'</span>}</span>
 <span id="cb56-20"><a href="#cb56-20" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:21.482397Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:21.482268Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:21.497388Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:21.497280Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:21.482338Z&quot;}" data-tags="[]">
+<div id="740881e3-dd8f-4699-88b5-ea2f6088d143" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:21.482397Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:21.482268Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:21.497388Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:21.497280Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:21.482338Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb57"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb57-1"><a href="#cb57-1" aria-hidden="true" tabindex="-1"></a>sql_episode_slices_df</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="icu-patients" class="level3">
 <h3 class="anchored" data-anchor-id="icu-patients">ICU Patients</h3>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:22.844599Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:22.844473Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:22.883884Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:22.883754Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:22.844541Z&quot;}" data-tags="[]">
+<div id="7ec9f9ea-237d-4581-b2a0-8aa55a9270fc" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:22.844599Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:22.844473Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:22.883884Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:22.883754Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:22.844541Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb58"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb58-1"><a href="#cb58-1" aria-hidden="true" tabindex="-1"></a>sql_patients_df <span class="op">=</span> pd.read_sql(<span class="st">'''</span></span>
 <span id="cb58-2"><a href="#cb58-2" aria-hidden="true" tabindex="-1"></a><span class="st">    select </span></span>
 <span id="cb58-3"><a href="#cb58-3" aria-hidden="true" tabindex="-1"></a><span class="st">        id AS patient_log_id</span></span>
@@ -788,16 +796,16 @@ Converting to a timedelta is done in the packages but you’ll have to do that y
 <span id="cb58-15"><a href="#cb58-15" aria-hidden="true" tabindex="-1"></a>    hydb_engine</span>
 <span id="cb58-16"><a href="#cb58-16" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:23.524950Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:23.523730Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:23.672110Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:23.671020Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:23.52438Z&quot;}" data-tags="[]">
+<div id="df17dcf4-3530-44cb-8d44-b3205c49b4f4" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:23.524950Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:23.523730Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:23.672110Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:23.671020Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:23.52438Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb59"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb59-1"><a href="#cb59-1" aria-hidden="true" tabindex="-1"></a>sql_patients_df</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="icu-observations" class="level3">
 <h3 class="anchored" data-anchor-id="icu-observations">ICU Observations</h3>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:38.543096Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:38.542954Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:39.183530Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:39.183385Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:38.543027Z&quot;}" data-tags="[]">
+<div id="bafd69d9-7a58-4e13-9ccd-37289291b018" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:38.543096Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:38.542954Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:39.183530Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:39.183385Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:38.543027Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb60"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb60-1"><a href="#cb60-1" aria-hidden="true" tabindex="-1"></a>sql_obs_df <span class="op">=</span> pd.read_sql(<span class="st">'select * from hyflow.icu_observations_log order by episode_slice_id, horizon_dt limit 1000'</span>, hydb_engine)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:39.183799Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:39.183703Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:39.197744Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:39.197645Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:39.183741Z&quot;}" data-tags="[]">
+<div id="2eaa03aa-9926-48e9-b5ad-be53fdf062de" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:39.183799Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:39.183703Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:39.197744Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:39.197645Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:39.183741Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb61"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb61-1"><a href="#cb61-1" aria-hidden="true" tabindex="-1"></a>sql_obs_df</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <hr>
@@ -812,7 +820,7 @@ Once the transformation has been refined, it is added to the <code>hygear</code>
 <p>The <code>hygear</code> package itself is available for use from within the HyMind Lab.</p>
 <p>Similarly, all the tables in the <code>hygear</code> schema in the <code>hylode</code> database can be accessed directly.<br>
 Like the <code>hyflow</code> tables shown above, these are also in the <em>immutable log</em> style.</p>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:39.844952Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:39.844825Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:39.859860Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:39.859743Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:39.844894Z&quot;}" data-tags="[]">
+<div id="8e1795b3-d980-4aab-bb0a-5aaf57a06a30" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:41:39.844952Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:41:39.844825Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:41:39.859860Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:41:39.859743Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:41:39.844894Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb62"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb62-1"><a href="#cb62-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> hygear.load.hydef <span class="im">import</span> icu_observation_types_from_hydef</span>
 <span id="cb62-2"><a href="#cb62-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> hygear.load.hyflow <span class="im">import</span> icu_episode_slices_from_hyflow, icu_patients_from_hyflow, icu_observations_from_hyflow</span>
 <span id="cb62-3"><a href="#cb62-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> hygear.load.hygear <span class="im">import</span> icu_features_from_hygear</span>
@@ -838,25 +846,25 @@ Like the <code>hyflow</code> tables shown above, these are also in the <em>immut
 </div>
 <section id="single-horizon-example" class="level2">
 <h2 class="anchored" data-anchor-id="single-horizon-example">Single Horizon Example</h2>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:12.880071Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:12.879943Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:12.881195Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:12.881087Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:12.880013Z&quot;}" data-tags="[]">
+<div id="8c075b9c-ecd6-42bb-8d7d-9eba4c483769" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:12.880071Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:12.879943Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:12.881195Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:12.881087Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:12.880013Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb63"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb63-1"><a href="#cb63-1" aria-hidden="true" tabindex="-1"></a><span class="co"># the point-in-time we are interested in:  10pm on 31/08/2021 BST</span></span>
 <span id="cb63-2"><a href="#cb63-2" aria-hidden="true" tabindex="-1"></a>horizon_dt <span class="op">=</span> datetime(<span class="dv">2021</span>, <span class="dv">8</span>, <span class="dv">31</span>, <span class="dv">22</span>, <span class="dv">0</span>, <span class="dv">0</span>).astimezone(LONDON_TZ)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <section id="fetch-icu-episode-slices-active-at-a-specific-point-in-time" class="level3">
 <h3 class="anchored" data-anchor-id="fetch-icu-episode-slices-active-at-a-specific-point-in-time">Fetch ICU Episode Slices active at a specific point-in-time</h3>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:13.740651Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:13.740529Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:13.775237Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:13.775091Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:13.740593Z&quot;}" data-tags="[]">
+<div id="91f0bc30-c4b1-464c-9cab-6e86c7acc79c" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:13.740651Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:13.740529Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:13.775237Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:13.775091Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:13.740593Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb64"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb64-1"><a href="#cb64-1" aria-hidden="true" tabindex="-1"></a>episode_slices_df <span class="op">=</span> icu_episode_slices_from_hyflow(</span>
 <span id="cb64-2"><a href="#cb64-2" aria-hidden="true" tabindex="-1"></a>    ward,</span>
 <span id="cb64-3"><a href="#cb64-3" aria-hidden="true" tabindex="-1"></a>    horizon_dt</span>
 <span id="cb64-4"><a href="#cb64-4" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:14.452940Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:14.452802Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:14.468605Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:14.468494Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:14.452874Z&quot;}" data-tags="[]">
+<div id="4b4fb2d9-2903-4b7a-8d8d-65270d50b795" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:14.452940Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:14.452802Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:14.468605Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:14.468494Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:14.452874Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb65"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb65-1"><a href="#cb65-1" aria-hidden="true" tabindex="-1"></a>episode_slices_df</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="fetch-matching-patients-for-icu-episode-slices-active-at-a-specific-point-in-time" class="level3">
 <h3 class="anchored" data-anchor-id="fetch-matching-patients-for-icu-episode-slices-active-at-a-specific-point-in-time">Fetch matching Patients for ICU Episode Slices active at a specific point-in-time</h3>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:15.596595Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:15.596468Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:15.609716Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:15.609604Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:15.596536Z&quot;}" data-tags="[]">
+<div id="5ec1b734-6214-4456-9012-7b0840a1796f" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:15.596595Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:15.596468Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:15.609716Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:15.609604Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:15.596536Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb66"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb66-1"><a href="#cb66-1" aria-hidden="true" tabindex="-1"></a><span class="co"># fetch matching patients</span></span>
 <span id="cb66-2"><a href="#cb66-2" aria-hidden="true" tabindex="-1"></a>patients_df <span class="op">=</span> icu_patients_from_hyflow(</span>
 <span id="cb66-3"><a href="#cb66-3" aria-hidden="true" tabindex="-1"></a>    ward,</span>
@@ -864,28 +872,28 @@ Like the <code>hyflow</code> tables shown above, these are also in the <em>immut
 <span id="cb66-5"><a href="#cb66-5" aria-hidden="true" tabindex="-1"></a>    <span class="bu">list</span>(episode_slices_df.episode_slice_id)</span>
 <span id="cb66-6"><a href="#cb66-6" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:16.215125Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:16.214942Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:16.232069Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:16.231915Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:16.215039Z&quot;}" data-tags="[]">
+<div id="6ce308b4-f9ed-482e-a097-a042a86211e7" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:16.215125Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:16.214942Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:16.232069Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:16.231915Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:16.215039Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb67"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb67-1"><a href="#cb67-1" aria-hidden="true" tabindex="-1"></a>patients_df.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:16.652586Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:16.652469Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:16.658161Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:16.658050Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:16.652530Z&quot;}" data-tags="[]">
+<div id="791aa578-7e0f-4baf-9623-bd1efbeaa335" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:16.652586Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:16.652469Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:16.658161Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:16.658050Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:16.652530Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb68"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb68-1"><a href="#cb68-1" aria-hidden="true" tabindex="-1"></a><span class="co"># join episode slices with patients</span></span>
 <span id="cb68-2"><a href="#cb68-2" aria-hidden="true" tabindex="-1"></a>combined_df <span class="op">=</span> episode_slices_df.join(</span>
 <span id="cb68-3"><a href="#cb68-3" aria-hidden="true" tabindex="-1"></a>        patients_df.loc[:, [<span class="st">'episode_slice_id'</span>, <span class="st">'mrn'</span>, <span class="st">'dob'</span>, <span class="st">'sex'</span>, <span class="st">'ethnicity'</span>]].set_index(<span class="st">'episode_slice_id'</span>),</span>
 <span id="cb68-4"><a href="#cb68-4" aria-hidden="true" tabindex="-1"></a>        on<span class="op">=</span><span class="st">'episode_slice_id'</span></span>
 <span id="cb68-5"><a href="#cb68-5" aria-hidden="true" tabindex="-1"></a>    ).drop([<span class="st">'log_dt'</span>, <span class="st">'horizon_dt'</span>], axis<span class="op">=</span><span class="dv">1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:17.503415Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:17.503289Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:17.513630Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:17.513537Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:17.503357Z&quot;}" data-tags="[]">
+<div id="c12eb745-5260-42a5-a2c6-a2b0ffdd62a0" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:17.503415Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:17.503289Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:17.513630Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:17.513537Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:17.503357Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb69"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb69-1"><a href="#cb69-1" aria-hidden="true" tabindex="-1"></a>combined_df.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="fetch-matching-observations-for-icu-episode-slices-active-at-a-specific-point-in-time" class="level3">
 <h3 class="anchored" data-anchor-id="fetch-matching-observations-for-icu-episode-slices-active-at-a-specific-point-in-time">Fetch matching Observations for ICU Episode Slices active at a specific point-in-time</h3>
 <p><em>this is in long format, multiple rows per</em> <code>episode_slice_id</code></p>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:18.816696Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:18.816558Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:18.817751Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:18.817625Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:18.816634Z&quot;}" data-tags="[]">
+<div id="1dc685b2-0c60-4ee0-8536-c0500b853d99" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:18.816696Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:18.816558Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:18.817751Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:18.817625Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:18.816634Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb70"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb70-1"><a href="#cb70-1" aria-hidden="true" tabindex="-1"></a><span class="co"># number of trailing hours we are interested in</span></span>
 <span id="cb70-2"><a href="#cb70-2" aria-hidden="true" tabindex="-1"></a>lookback_hrs <span class="op">=</span> <span class="dv">24</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:19.313531Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:19.313402Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:19.426869Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:19.426731Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:19.313472Z&quot;}" data-tags="[]">
+<div id="d41a7577-81f9-47d5-9787-e79b1e6ec90a" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:19.313531Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:19.313402Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:19.426869Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:19.426731Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:19.313472Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb71"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb71-1"><a href="#cb71-1" aria-hidden="true" tabindex="-1"></a><span class="co"># fetch matching observations</span></span>
 <span id="cb71-2"><a href="#cb71-2" aria-hidden="true" tabindex="-1"></a>obs_df <span class="op">=</span> icu_observations_from_hyflow(</span>
 <span id="cb71-3"><a href="#cb71-3" aria-hidden="true" tabindex="-1"></a>    ward,</span>
@@ -894,37 +902,37 @@ Like the <code>hyflow</code> tables shown above, these are also in the <em>immut
 <span id="cb71-6"><a href="#cb71-6" aria-hidden="true" tabindex="-1"></a>    lookback_hrs</span>
 <span id="cb71-7"><a href="#cb71-7" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:19.873690Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:19.873564Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:19.884130Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:19.884024Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:19.873633Z&quot;}" data-tags="[]">
+<div id="ab3b67c1-4213-4823-80e4-0cd21d154c4f" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:19.873690Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:19.873564Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:19.884130Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:19.884024Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:19.873633Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb72"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb72-1"><a href="#cb72-1" aria-hidden="true" tabindex="-1"></a>obs_df.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:20.263875Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:20.263748Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:20.269401Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:20.269288Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:20.263817Z&quot;}" data-tags="[]">
+<div id="425a66fb-f588-4d73-ac82-ca48f71c4fa7" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:20.263875Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:20.263748Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:20.269401Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:20.269288Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:20.263817Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb73"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb73-1"><a href="#cb73-1" aria-hidden="true" tabindex="-1"></a><span class="co"># fetch the observation types reference catalogue</span></span>
 <span id="cb73-2"><a href="#cb73-2" aria-hidden="true" tabindex="-1"></a>obs_types_df <span class="op">=</span> icu_observation_types_from_hydef()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:20.821995Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:20.821865Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:20.825538Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:20.825421Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:20.821937Z&quot;}" data-tags="[]">
+<div id="4292ee2f-6012-4cd5-ba12-47a739d9a40a" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:20.821995Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:20.821865Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:20.825538Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:20.825421Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:20.821937Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb74"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb74-1"><a href="#cb74-1" aria-hidden="true" tabindex="-1"></a><span class="co"># join observations with metadata</span></span>
 <span id="cb74-2"><a href="#cb74-2" aria-hidden="true" tabindex="-1"></a>obs_df <span class="op">=</span> obs_df.join(</span>
 <span id="cb74-3"><a href="#cb74-3" aria-hidden="true" tabindex="-1"></a>    obs_types_df.set_index(<span class="st">'obs_type_id'</span>),</span>
 <span id="cb74-4"><a href="#cb74-4" aria-hidden="true" tabindex="-1"></a>    on<span class="op">=</span><span class="st">'obs_type_id'</span></span>
 <span id="cb74-5"><a href="#cb74-5" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:21.246772Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:21.246654Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:21.259859Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:21.259748Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:21.246715Z&quot;}" data-tags="[]">
+<div id="77495e37-a9ec-4936-a980-11503b0d0f53" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:21.246772Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:21.246654Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:21.259859Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:21.259748Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:21.246715Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb75"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb75-1"><a href="#cb75-1" aria-hidden="true" tabindex="-1"></a>obs_df.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:21.626800Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:21.626673Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:21.632375Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:21.632252Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:21.626743Z&quot;}" data-tags="[]">
+<div id="d889e3ee-7cbf-4efb-9a10-098d723e2da4" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:21.626800Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:21.626673Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:21.632375Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:21.632252Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:21.626743Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb76"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb76-1"><a href="#cb76-1" aria-hidden="true" tabindex="-1"></a><span class="co"># join observations with episode slices to get episode key</span></span>
 <span id="cb76-2"><a href="#cb76-2" aria-hidden="true" tabindex="-1"></a>eps_obs_df <span class="op">=</span> obs_df.join(</span>
 <span id="cb76-3"><a href="#cb76-3" aria-hidden="true" tabindex="-1"></a>    episode_slices_df.loc[:, [<span class="st">'episode_slice_id'</span>, <span class="st">'episode_key'</span>, <span class="st">'admission_dt'</span>, <span class="st">'discharge_dt'</span>]].set_index(<span class="st">'episode_slice_id'</span>),</span>
 <span id="cb76-4"><a href="#cb76-4" aria-hidden="true" tabindex="-1"></a>    on<span class="op">=</span><span class="st">'episode_slice_id'</span></span>
 <span id="cb76-5"><a href="#cb76-5" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:22.133937Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:22.133812Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:22.138982Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:22.138878Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:22.133879Z&quot;}" data-tags="[]">
+<div id="b6bf25df-07cf-47b7-b793-5f809c5ab9f2" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:22.133937Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:22.133812Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:22.138982Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:22.138878Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:22.133879Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb77"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb77-1"><a href="#cb77-1" aria-hidden="true" tabindex="-1"></a>eps_obs_df.groupby(<span class="st">'episode_key'</span>)[<span class="st">'obs_id'</span>].count().rename(<span class="st">'n_observations'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="fetch-generated-icu-patient-state-features-for-icu-episode-slices-active-at-a-specific-point-in-time" class="level3">
 <h3 class="anchored" data-anchor-id="fetch-generated-icu-patient-state-features-for-icu-episode-slices-active-at-a-specific-point-in-time">Fetch generated ICU Patient State Features for ICU Episode Slices active at a specific point-in-time</h3>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:23.336658Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:23.336530Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:23.348568Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:23.348443Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:23.336600Z&quot;}" data-tags="[]">
+<div id="add32dd1-b818-4de4-a27c-5bcaec4a14dc" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:23.336658Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:23.336530Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:23.348568Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:23.348443Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:23.336600Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb78"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb78-1"><a href="#cb78-1" aria-hidden="true" tabindex="-1"></a>patient_state_df <span class="op">=</span> icu_features_from_hygear(</span>
 <span id="cb78-2"><a href="#cb78-2" aria-hidden="true" tabindex="-1"></a>    <span class="st">'patient_state'</span>,</span>
 <span id="cb78-3"><a href="#cb78-3" aria-hidden="true" tabindex="-1"></a>    ward,</span>
@@ -932,23 +940,23 @@ Like the <code>hyflow</code> tables shown above, these are also in the <em>immut
 <span id="cb78-5"><a href="#cb78-5" aria-hidden="true" tabindex="-1"></a>    <span class="bu">list</span>(episode_slices_df.episode_slice_id)</span>
 <span id="cb78-6"><a href="#cb78-6" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:23.935956Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:23.935826Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:23.947854Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:23.947733Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:23.935894Z&quot;}" data-tags="[]">
+<div id="ad02dcee-c88d-4d10-9dc7-c35ac4790c8e" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:23.935956Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:23.935826Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:23.947854Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:23.947733Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:23.935894Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb79"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb79-1"><a href="#cb79-1" aria-hidden="true" tabindex="-1"></a>patient_state_df</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:24.388149Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:24.388030Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:24.393309Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:24.393165Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:24.388092Z&quot;}" data-tags="[]">
+<div id="96637970-3361-4fee-98f3-6a52452660b5" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:24.388149Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:24.388030Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:24.393309Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:24.393165Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:24.388092Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb80"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb80-1"><a href="#cb80-1" aria-hidden="true" tabindex="-1"></a><span class="co"># join with patient state</span></span>
 <span id="cb80-2"><a href="#cb80-2" aria-hidden="true" tabindex="-1"></a>combined_df <span class="op">=</span> combined_df.join(</span>
 <span id="cb80-3"><a href="#cb80-3" aria-hidden="true" tabindex="-1"></a>        patient_state_df.loc[:, [<span class="st">'episode_slice_id'</span>, <span class="st">'is_proned_1_4h'</span>, <span class="st">'discharge_ready_1_4h'</span>, <span class="st">'is_agitated_1_8h'</span>]].set_index(<span class="st">'episode_slice_id'</span>),</span>
 <span id="cb80-4"><a href="#cb80-4" aria-hidden="true" tabindex="-1"></a>        on<span class="op">=</span><span class="st">'episode_slice_id'</span></span>
 <span id="cb80-5"><a href="#cb80-5" aria-hidden="true" tabindex="-1"></a>    )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:24.986526Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:24.986390Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:24.999043Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:24.998936Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:24.986466Z&quot;}" data-tags="[]">
+<div id="e1d2abc5-6602-4413-9430-e7ffb34c46e2" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:24.986526Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:24.986390Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:24.999043Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:24.998936Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:24.986466Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb81"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb81-1"><a href="#cb81-1" aria-hidden="true" tabindex="-1"></a>combined_df.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="fetch-generated-icu-therapeutics-features-for-icu-episode-slices-active-at-a-specific-point-in-time" class="level3">
 <h3 class="anchored" data-anchor-id="fetch-generated-icu-therapeutics-features-for-icu-episode-slices-active-at-a-specific-point-in-time">Fetch generated ICU Therapeutics Features for ICU Episode Slices active at a specific point-in-time</h3>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:26.142312Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:26.142144Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:26.172638Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:26.172503Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:26.142236Z&quot;}" data-tags="[]">
+<div id="4554ab19-59c1-4f36-a3d5-406ccc9478cd" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:26.142312Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:26.142144Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:26.172638Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:26.172503Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:26.142236Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb82"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb82-1"><a href="#cb82-1" aria-hidden="true" tabindex="-1"></a>therapeutics_df <span class="op">=</span> icu_features_from_hygear(</span>
 <span id="cb82-2"><a href="#cb82-2" aria-hidden="true" tabindex="-1"></a>    <span class="st">'therapeutics'</span>,</span>
 <span id="cb82-3"><a href="#cb82-3" aria-hidden="true" tabindex="-1"></a>    ward,</span>
@@ -956,23 +964,23 @@ Like the <code>hyflow</code> tables shown above, these are also in the <em>immut
 <span id="cb82-5"><a href="#cb82-5" aria-hidden="true" tabindex="-1"></a>    <span class="bu">list</span>(episode_slices_df.episode_slice_id)</span>
 <span id="cb82-6"><a href="#cb82-6" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:26.730489Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:26.730360Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:26.741398Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:26.741290Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:26.730429Z&quot;}" data-tags="[]">
+<div id="0c883ebd-0187-4845-a104-f046dd34c196" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:26.730489Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:26.730360Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:26.741398Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:26.741290Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:26.730429Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb83"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb83-1"><a href="#cb83-1" aria-hidden="true" tabindex="-1"></a>therapeutics_df</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:27.218378Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:27.218252Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:27.222691Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:27.222573Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:27.218315Z&quot;}" data-tags="[]">
+<div id="2e3ff577-6257-4f5c-8bcd-7dfaa57f85a6" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:27.218378Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:27.218252Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:27.222691Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:27.222573Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:27.218315Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb84"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb84-1"><a href="#cb84-1" aria-hidden="true" tabindex="-1"></a><span class="co"># join with therapeutics</span></span>
 <span id="cb84-2"><a href="#cb84-2" aria-hidden="true" tabindex="-1"></a>combined_df <span class="op">=</span> combined_df.join(</span>
 <span id="cb84-3"><a href="#cb84-3" aria-hidden="true" tabindex="-1"></a>        therapeutics_df.loc[:, [<span class="st">'episode_slice_id'</span>, <span class="st">'n_inotropes_1_4h'</span>, <span class="st">'had_nitric_1_8h'</span>, <span class="st">'had_rrt_1_4h'</span>]].set_index(<span class="st">'episode_slice_id'</span>),</span>
 <span id="cb84-4"><a href="#cb84-4" aria-hidden="true" tabindex="-1"></a>        on<span class="op">=</span><span class="st">'episode_slice_id'</span></span>
 <span id="cb84-5"><a href="#cb84-5" aria-hidden="true" tabindex="-1"></a>    )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:27.835276Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:27.835130Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:27.848748Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:27.848642Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:27.835215Z&quot;}" data-tags="[]">
+<div id="cdc33031-d80b-4b8c-854d-134d2266b16e" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:27.835276Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:27.835130Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:27.848748Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:27.848642Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:27.835215Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb85"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb85-1"><a href="#cb85-1" aria-hidden="true" tabindex="-1"></a>combined_df.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="fetch-generated-icu-ventilation-features-for-icu-episode-slices-active-at-a-specific-point-in-time" class="level3">
 <h3 class="anchored" data-anchor-id="fetch-generated-icu-ventilation-features-for-icu-episode-slices-active-at-a-specific-point-in-time">Fetch generated ICU Ventilation Features for ICU Episode Slices active at a specific point-in-time</h3>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:28.568232Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:28.568072Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:28.579484Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:28.579375Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:28.568144Z&quot;}" data-tags="[]">
+<div id="24f11968-1cb3-4157-ad2c-f50a40823ec9" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:28.568232Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:28.568072Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:28.579484Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:28.579375Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:28.568144Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb86"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb86-1"><a href="#cb86-1" aria-hidden="true" tabindex="-1"></a>ventilation_df <span class="op">=</span> icu_features_from_hygear(</span>
 <span id="cb86-2"><a href="#cb86-2" aria-hidden="true" tabindex="-1"></a>    <span class="st">'ventilation'</span>,</span>
 <span id="cb86-3"><a href="#cb86-3" aria-hidden="true" tabindex="-1"></a>    ward,</span>
@@ -980,23 +988,23 @@ Like the <code>hyflow</code> tables shown above, these are also in the <em>immut
 <span id="cb86-5"><a href="#cb86-5" aria-hidden="true" tabindex="-1"></a>    <span class="bu">list</span>(episode_slices_df.episode_slice_id)</span>
 <span id="cb86-6"><a href="#cb86-6" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:29.122252Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:29.122102Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:29.134546Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:29.134440Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:29.122170Z&quot;}" data-tags="[]">
+<div id="fedd42c8-7e27-4b24-a9cf-dc28f1cb9d14" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:29.122252Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:29.122102Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:29.134546Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:29.134440Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:29.122170Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb87"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb87-1"><a href="#cb87-1" aria-hidden="true" tabindex="-1"></a>ventilation_df</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:29.321899Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:29.321769Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:29.326414Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:29.326301Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:29.321839Z&quot;}" data-tags="[]">
+<div id="dddd2ecb-347a-4765-b62b-e4d42df84ae8" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:29.321899Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:29.321769Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:29.326414Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:29.326301Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:29.321839Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb88"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb88-1"><a href="#cb88-1" aria-hidden="true" tabindex="-1"></a><span class="co"># join with ventilation</span></span>
 <span id="cb88-2"><a href="#cb88-2" aria-hidden="true" tabindex="-1"></a>combined_df <span class="op">=</span> combined_df.join(</span>
 <span id="cb88-3"><a href="#cb88-3" aria-hidden="true" tabindex="-1"></a>        ventilation_df.loc[:, [<span class="st">'episode_slice_id'</span>, <span class="st">'had_trache_1_12h'</span>, <span class="st">'vent_type_1_4h'</span>]].set_index(<span class="st">'episode_slice_id'</span>),</span>
 <span id="cb88-4"><a href="#cb88-4" aria-hidden="true" tabindex="-1"></a>        on<span class="op">=</span><span class="st">'episode_slice_id'</span></span>
 <span id="cb88-5"><a href="#cb88-5" aria-hidden="true" tabindex="-1"></a>    )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:29.761286Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:29.761122Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:29.777058Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:29.776932Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:29.761215Z&quot;}" data-tags="[]">
+<div id="a38110cc-6597-44b5-af2e-eacab1b3909c" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:29.761286Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:29.761122Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:29.777058Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:29.776932Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:29.761215Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb89"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb89-1"><a href="#cb89-1" aria-hidden="true" tabindex="-1"></a>combined_df.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="fetch-generated-icu-vitals-features-for-icu-episode-slices-active-at-a-specific-point-in-time" class="level3">
 <h3 class="anchored" data-anchor-id="fetch-generated-icu-vitals-features-for-icu-episode-slices-active-at-a-specific-point-in-time">Fetch generated ICU Vitals Features for ICU Episode Slices active at a specific point-in-time</h3>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:30.622027Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:30.621898Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:30.632961Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:30.632848Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:30.621968Z&quot;}" data-tags="[]">
+<div id="7df6d624-3a36-40e3-bd1f-ef98374ceeeb" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:30.622027Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:30.621898Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:30.632961Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:30.632848Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:30.621968Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb90"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb90-1"><a href="#cb90-1" aria-hidden="true" tabindex="-1"></a>vitals_df <span class="op">=</span> icu_features_from_hygear(</span>
 <span id="cb90-2"><a href="#cb90-2" aria-hidden="true" tabindex="-1"></a>    <span class="st">'vitals'</span>,</span>
 <span id="cb90-3"><a href="#cb90-3" aria-hidden="true" tabindex="-1"></a>    ward,</span>
@@ -1004,23 +1012,23 @@ Like the <code>hyflow</code> tables shown above, these are also in the <em>immut
 <span id="cb90-5"><a href="#cb90-5" aria-hidden="true" tabindex="-1"></a>    <span class="bu">list</span>(episode_slices_df.episode_slice_id)</span>
 <span id="cb90-6"><a href="#cb90-6" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:31.308510Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:31.307210Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:31.432450Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:31.431340Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:31.30793Z&quot;}" data-tags="[]">
+<div id="75ebf5a8-6065-4dee-a7ed-456005ae48b6" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:31.308510Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:31.307210Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:31.432450Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:31.431340Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:31.30793Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb91"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb91-1"><a href="#cb91-1" aria-hidden="true" tabindex="-1"></a>vitals_df</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:31.437890Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:31.437761Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:31.441851Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:31.441734Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:31.437831Z&quot;}" data-tags="[]">
+<div id="29d4720f-2d9a-484c-95b4-54ab2d8000d3" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:31.437890Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:31.437761Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:31.441851Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:31.441734Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:31.437831Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb92"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb92-1"><a href="#cb92-1" aria-hidden="true" tabindex="-1"></a><span class="co"># join with vitals</span></span>
 <span id="cb92-2"><a href="#cb92-2" aria-hidden="true" tabindex="-1"></a>combined_df <span class="op">=</span> combined_df.join(</span>
 <span id="cb92-3"><a href="#cb92-3" aria-hidden="true" tabindex="-1"></a>        vitals_df.loc[:, [<span class="st">'episode_slice_id'</span>, <span class="st">'avg_heart_rate_1_24h'</span>, <span class="st">'max_temp_1_12h'</span>, <span class="st">'avg_resp_rate_1_24h'</span>]].set_index(<span class="st">'episode_slice_id'</span>),</span>
 <span id="cb92-4"><a href="#cb92-4" aria-hidden="true" tabindex="-1"></a>        on<span class="op">=</span><span class="st">'episode_slice_id'</span></span>
 <span id="cb92-5"><a href="#cb92-5" aria-hidden="true" tabindex="-1"></a>    )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:31.999875Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:31.999745Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:32.184730Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:32.183670Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:31.999816Z&quot;}" data-tags="[]">
+<div id="460fdbea-a8f7-4f67-98ea-556ebedab224" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:31.999875Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:31.999745Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:32.184730Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:32.183670Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:31.999816Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb93"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb93-1"><a href="#cb93-1" aria-hidden="true" tabindex="-1"></a>combined_df.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="fetch-generated-icu-work-intensity-metric-features-for-icu-episode-slices-active-at-a-specific-point-in-time" class="level3">
 <h3 class="anchored" data-anchor-id="fetch-generated-icu-work-intensity-metric-features-for-icu-episode-slices-active-at-a-specific-point-in-time">Fetch generated ICU Work Intensity Metric Features for ICU Episode Slices active at a specific point-in-time</h3>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:32.895477Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:32.895349Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:32.906445Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:32.906328Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:32.895419Z&quot;}" data-tags="[]">
+<div id="102dcec3-fea3-4d12-a152-f0123a37e7d1" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:32.895477Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:32.895349Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:32.906445Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:32.906328Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:32.895419Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb94"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb94-1"><a href="#cb94-1" aria-hidden="true" tabindex="-1"></a>wim_df <span class="op">=</span> icu_features_from_hygear(</span>
 <span id="cb94-2"><a href="#cb94-2" aria-hidden="true" tabindex="-1"></a>    <span class="st">'work_intensity'</span>,</span>
 <span id="cb94-3"><a href="#cb94-3" aria-hidden="true" tabindex="-1"></a>    ward,</span>
@@ -1028,23 +1036,23 @@ Like the <code>hyflow</code> tables shown above, these are also in the <em>immut
 <span id="cb94-5"><a href="#cb94-5" aria-hidden="true" tabindex="-1"></a>    <span class="bu">list</span>(episode_slices_df.episode_slice_id)</span>
 <span id="cb94-6"><a href="#cb94-6" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:33.668284Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:33.668130Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:33.678113Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:33.677999Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:33.668222Z&quot;}" data-tags="[]">
+<div id="5eccdde1-c5ed-43c9-b3bd-7e20a65253d9" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:33.668284Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:33.668130Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:33.678113Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:33.677999Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:33.668222Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb95"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb95-1"><a href="#cb95-1" aria-hidden="true" tabindex="-1"></a>wim_df</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:34.120189Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:34.120054Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:34.124379Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:34.124259Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:34.120130Z&quot;}" data-tags="[]">
+<div id="7bc8ce7e-0d6d-43da-9653-ff137ebae1b8" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:34.120189Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:34.120054Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:34.124379Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:34.124259Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:34.120130Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb96"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb96-1"><a href="#cb96-1" aria-hidden="true" tabindex="-1"></a><span class="co"># join with work intensity</span></span>
 <span id="cb96-2"><a href="#cb96-2" aria-hidden="true" tabindex="-1"></a>combined_df <span class="op">=</span> combined_df.join(</span>
 <span id="cb96-3"><a href="#cb96-3" aria-hidden="true" tabindex="-1"></a>        wim_df.loc[:, [<span class="st">'episode_slice_id'</span>, <span class="st">'wim_1'</span>]].set_index(<span class="st">'episode_slice_id'</span>),</span>
 <span id="cb96-4"><a href="#cb96-4" aria-hidden="true" tabindex="-1"></a>        on<span class="op">=</span><span class="st">'episode_slice_id'</span></span>
 <span id="cb96-5"><a href="#cb96-5" aria-hidden="true" tabindex="-1"></a>    )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:34.747758Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:34.747620Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:34.766027Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:34.765918Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:34.747700Z&quot;}" data-tags="[]">
+<div id="ba6bcd45-4a0b-4060-ac04-e240e672f47d" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:34.747758Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:34.747620Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:34.766027Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:34.765918Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:34.747700Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb97"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb97-1"><a href="#cb97-1" aria-hidden="true" tabindex="-1"></a>combined_df.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="fetch-generated-icu-temporal-features-for-icu-episode-slices-active-at-a-specific-point-in-time" class="level3">
 <h3 class="anchored" data-anchor-id="fetch-generated-icu-temporal-features-for-icu-episode-slices-active-at-a-specific-point-in-time">Fetch generated ICU Temporal Features for ICU Episode Slices active at a specific point-in-time</h3>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:35.309117Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:35.308969Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:35.323310Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:35.323143Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:35.309049Z&quot;}" data-tags="[]">
+<div id="ab5a6bf5-3ad9-4f2c-b264-2c9a6b1a6a5d" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:35.309117Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:35.308969Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:35.323310Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:35.323143Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:35.309049Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb98"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb98-1"><a href="#cb98-1" aria-hidden="true" tabindex="-1"></a>temporal_df <span class="op">=</span> icu_features_from_hygear(</span>
 <span id="cb98-2"><a href="#cb98-2" aria-hidden="true" tabindex="-1"></a>    <span class="st">'temporal'</span>,</span>
 <span id="cb98-3"><a href="#cb98-3" aria-hidden="true" tabindex="-1"></a>    ward,</span>
@@ -1052,26 +1060,26 @@ Like the <code>hyflow</code> tables shown above, these are also in the <em>immut
 <span id="cb98-5"><a href="#cb98-5" aria-hidden="true" tabindex="-1"></a>    <span class="bu">list</span>(episode_slices_df.episode_slice_id)</span>
 <span id="cb98-6"><a href="#cb98-6" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:35.785481Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:35.785308Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:35.808555Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:35.808451Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:35.785398Z&quot;}" data-tags="[]">
+<div id="b714eaa7-97eb-4e8c-9b90-38c3a6600380" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:35.785481Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:35.785308Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:35.808555Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:35.808451Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:35.785398Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb99"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb99-1"><a href="#cb99-1" aria-hidden="true" tabindex="-1"></a>temporal_df</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:36.133580Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:36.131630Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:36.197340Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:36.195690Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:36.13274Z&quot;}" data-tags="[]">
+<div id="dabbd706-499b-44d8-9058-2ae8985a9369" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:36.133580Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:36.131630Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:36.197340Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:36.195690Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:36.13274Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb100"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb100-1"><a href="#cb100-1" aria-hidden="true" tabindex="-1"></a><span class="co"># join with temporal</span></span>
 <span id="cb100-2"><a href="#cb100-2" aria-hidden="true" tabindex="-1"></a>combined_df <span class="op">=</span> combined_df.join(</span>
 <span id="cb100-3"><a href="#cb100-3" aria-hidden="true" tabindex="-1"></a>        temporal_df.loc[:, [<span class="st">'episode_slice_id'</span>, <span class="st">'elapsed_los_td'</span>, <span class="st">'total_los_td'</span>, <span class="st">'remaining_los_td'</span>,]].set_index(<span class="st">'episode_slice_id'</span>),</span>
 <span id="cb100-4"><a href="#cb100-4" aria-hidden="true" tabindex="-1"></a>        on<span class="op">=</span><span class="st">'episode_slice_id'</span></span>
 <span id="cb100-5"><a href="#cb100-5" aria-hidden="true" tabindex="-1"></a>    )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:36.616792Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:36.616659Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:36.638693Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:36.638593Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:36.616729Z&quot;}" data-tags="[]">
+<div id="efa85a60-4378-4b1b-ab23-532bdaec4356" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:36.616792Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:36.616659Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:36.638693Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:36.638593Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:36.616729Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb101"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb101-1"><a href="#cb101-1" aria-hidden="true" tabindex="-1"></a>combined_df.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="combined" class="level3">
 <h3 class="anchored" data-anchor-id="combined">Combined</h3>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:37.620060Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:37.619916Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:37.621893Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:37.621774Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:37.619999Z&quot;}" data-tags="[]">
+<div id="a687d071-d5ca-4047-82d1-f176790d28ee" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:37.620060Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:37.619916Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:37.621893Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:37.621774Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:37.619999Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb102"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb102-1"><a href="#cb102-1" aria-hidden="true" tabindex="-1"></a>combined_df.shape</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:38.233183Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:38.233047Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:38.253045Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:38.252933Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:38.233123Z&quot;}" data-tags="[]">
+<div id="8ef840de-ce50-4f7c-a1a1-2cf5894edfe7" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:38.233183Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:38.233047Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:38.253045Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:38.252933Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:38.233123Z&quot;}" data-tags="[]">
 <div class="sourceCode cell-code" id="cb103"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb103-1"><a href="#cb103-1" aria-hidden="true" tabindex="-1"></a>combined_df.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <hr>
@@ -1117,18 +1125,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -1160,11 +1157,48 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
-  function tippyHover(el, contentFn) {
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/uclhal\.org");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -1174,8 +1208,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -1187,7 +1230,129 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -1231,6 +1396,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -1256,6 +1422,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -1321,12 +1513,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">
       &nbsp;
     </div>   
-    <div class="nav-footer-center">Copyright 2022 © Steve Harris</div>
+    <div class="nav-footer-center">
+<p>Copyright 2022 © Steve Harris</p>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.dev/uclhal/uclhal/blob/main/tutorials/hylode/HyMind-Lab-example.ipynb" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/uclhal/uclhal/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
   </div>
 </footer>
+
 
 
 

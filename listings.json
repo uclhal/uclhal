@@ -1,7 +1,14 @@
 [
   {
-    "listing": "/publications.html",
-    "items": []
+    "listing": "/resources/homegrown.html",
+    "items": [
+      "/resources/homegrown/data-clinic-for-general.html",
+      "/resources/homegrown/msc_health_data_science.html",
+      "/resources/homegrown/phd_cdt_ai.html",
+      "/resources/homegrown/CCHIC.html",
+      "/resources/homegrown/cleanehr.html",
+      "/resources/homegrown/inspectehr.html"
+    ]
   },
   {
     "listing": "/people.html",
@@ -24,24 +31,17 @@
     ]
   },
   {
-    "listing": "/resources/awesome.html",
-    "items": []
-  },
-  {
-    "listing": "/resources/homegrown.html",
-    "items": [
-      "/resources/homegrown/data-clinic-for-general.html",
-      "/resources/homegrown/msc_health_data_science.html",
-      "/resources/homegrown/phd_cdt_ai.html",
-      "/resources/homegrown/CCHIC.html",
-      "/resources/homegrown/cleanehr.html",
-      "/resources/homegrown/inspectehr.html"
-    ]
-  },
-  {
     "listing": "/news.html",
     "items": [
       "/news/hdruk-award-2021/index.html"
     ]
+  },
+  {
+    "listing": "/resources/awesome.html",
+    "items": []
+  },
+  {
+    "listing": "/publications.html",
+    "items": []
   }
 ]
