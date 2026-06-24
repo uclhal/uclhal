@@ -24,6 +24,10 @@
     "items": []
   },
   {
+    "listing": "/resources/awesome.html",
+    "items": []
+  },
+  {
     "listing": "/resources/homegrown.html",
     "items": [
       "/resources/homegrown/data-clinic-for-general.html",
@@ -35,12 +39,9 @@
     ]
   },
   {
-    "listing": "/resources/awesome.html",
-    "items": []
-  },
-  {
     "listing": "/news.html",
     "items": [
+      "/news/radix-sde-2025/index.html",
       "/news/hdruk-award-2021/index.html"
     ]
   }
