@@ -1,16 +1,5 @@
 [
   {
-    "listing": "/resources/homegrown.html",
-    "items": [
-      "/resources/homegrown/data-clinic-for-general.html",
-      "/resources/homegrown/msc_health_data_science.html",
-      "/resources/homegrown/phd_cdt_ai.html",
-      "/resources/homegrown/CCHIC.html",
-      "/resources/homegrown/cleanehr.html",
-      "/resources/homegrown/inspectehr.html"
-    ]
-  },
-  {
     "listing": "/people.html",
     "items": [
       "/people/academic/harris_steve.html",
@@ -31,9 +20,18 @@
     ]
   },
   {
-    "listing": "/news.html",
+    "listing": "/publications.html",
+    "items": []
+  },
+  {
+    "listing": "/resources/homegrown.html",
     "items": [
-      "/news/hdruk-award-2021/index.html"
+      "/resources/homegrown/data-clinic-for-general.html",
+      "/resources/homegrown/msc_health_data_science.html",
+      "/resources/homegrown/phd_cdt_ai.html",
+      "/resources/homegrown/CCHIC.html",
+      "/resources/homegrown/cleanehr.html",
+      "/resources/homegrown/inspectehr.html"
     ]
   },
   {
@@ -41,7 +39,11 @@
     "items": []
   },
   {
-    "listing": "/publications.html",
-    "items": []
+    "listing": "/news.html",
+    "items": [
+      "/news/ucl-festival-digital-2025/index.html",
+      "/news/radix-sde-2025/index.html",
+      "/news/hdruk-award-2021/index.html"
+    ]
   }
 ]

@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.42">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>HyCastle Lens Example – UCL Health Algorithms Laboratory</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -21,8 +24,9 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: middle;
 }
 /* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
 pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -33,7 +37,7 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -65,15 +69,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
 <link href="../../img/noun-patient-3907718.png" rel="icon" type="image/png">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-9d178a5eac308aad55ecfb780ea8e08f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-cf657ca587c39243e29dbb8a477f3213.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -106,7 +111,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-sidebar docked nav-fixed">
+<body class="nav-sidebar docked nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -361,8 +366,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 (<em>You will need to be signed into GitHub to view</em>)</p>
 <section id="some-imports" class="level3">
 <h3 class="anchored" data-anchor-id="some-imports">Some imports</h3>
-<div id="dbbaf5b4-aed2-47f5-b79d-368172a4af55" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:49.313800Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:49.299000Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:50.336088Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:50.335939Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:49.3064Z&quot;}" data-tags="[]">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> datetime <span class="im">import</span> datetime, timedelta</span>
+<div id="dbbaf5b4-aed2-47f5-b79d-368172a4af55" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:49.313800Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:49.299000Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:50.336088Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:50.335939Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:49.3064Z&quot;}}" data-tags="[]">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> datetime <span class="im">import</span> datetime, timedelta</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pathlib <span class="im">import</span> Path</span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pprint <span class="im">import</span> pprint</span>
@@ -375,13 +380,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sqlalchemy <span class="im">import</span> create_engine</span>
 <span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> hylib.dt <span class="im">import</span> LONDON_TZ, convert_dt_columns_to_london_tz</span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> hycastle.lens.icu <span class="im">import</span> ICUSitRepUiLens, ICUSitRepLoSLens</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> hycastle.lens.icu <span class="im">import</span> ICUSitRepUiLens, ICUSitRepLoSLens</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </section>
 <section id="constants" class="level3">
 <h3 class="anchored" data-anchor-id="constants">Constants</h3>
-<div id="9fde6849-a5e2-4778-8018-002241ef8b41" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:51.414685Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:51.414545Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:51.415887Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:51.415770Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:51.414623Z&quot;}" data-tags="[]">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>ward <span class="op">=</span> <span class="st">'T03'</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div id="9fde6849-a5e2-4778-8018-002241ef8b41" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:51.414685Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:51.414545Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:51.415887Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:51.415770Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:51.414623Z&quot;}}" data-tags="[]">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>ward <span class="op">=</span> <span class="st">'T03'</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <hr>
 </section>
@@ -396,8 +401,8 @@ Do this here in Jupyter and not a local copy of the repo.</p>
 <p>The first line should be your UDS <strong>username</strong> and the second line should be your UDS <strong>password</strong>.</p>
 <p><code>secret</code> has been added to <code>.gitignore</code> and will be excluded from the repository.</p>
 <p>Read your username &amp; password into the environment:</p>
-<div id="9ab4b4a5-b026-4f31-a04b-4f30fb7e2341" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:53.629287Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:53.629138Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:53.631173Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:53.631055Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:53.629224Z&quot;}" data-tags="[]">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>os.environ[<span class="st">'EMAP_DB_USER'</span>], os.environ[<span class="st">'EMAP_DB_PASSWORD'</span>] <span class="op">=</span> Path(<span class="st">'secret'</span>).read_text().strip().split(<span class="st">'</span><span class="ch">\n</span><span class="st">'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div id="9ab4b4a5-b026-4f31-a04b-4f30fb7e2341" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:53.629287Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:53.629138Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:53.631173Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:53.631055Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:53.629224Z&quot;}}" data-tags="[]">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>os.environ[<span class="st">'EMAP_DB_USER'</span>], os.environ[<span class="st">'EMAP_DB_PASSWORD'</span>] <span class="op">=</span> Path(<span class="st">'secret'</span>).read_text().strip().split(<span class="st">'</span><span class="ch">\n</span><span class="st">'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <hr>
 </section>
@@ -406,32 +411,32 @@ Do this here in Jupyter and not a local copy of the repo.</p>
 <h1>HyCastle</h1>
 <p><em>The HyCastle component is responsible for serving features for both training and prediction.</em></p>
 <p>HyCastle provides a high level interface to getting clean, transformed features &amp; labels from the pipeline.</p>
-<div id="04893a24-fb18-4d3e-86a6-42b637b59759" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:55.345084Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:55.344954Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:55.643524Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:55.643411Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:55.345025Z&quot;}" data-tags="[]">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> hycastle.icu_store.retro <span class="im">import</span> retro_dataset</span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> hycastle.icu_store.live <span class="im">import</span> live_dataset <span class="co"># &lt;-- includes PII</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div id="04893a24-fb18-4d3e-86a6-42b637b59759" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:55.345084Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:55.344954Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:55.643524Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:55.643411Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:55.345025Z&quot;}}" data-tags="[]">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> hycastle.icu_store.retro <span class="im">import</span> retro_dataset</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> hycastle.icu_store.live <span class="im">import</span> live_dataset <span class="co"># &lt;-- includes PII</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <section id="retrospective-training-data" class="level2">
 <h2 class="anchored" data-anchor-id="retrospective-training-data">Retrospective Training Data</h2>
-<div id="c34b72ba-f93e-452d-bc2a-6ca2499f644f" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:56.851783Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:56.851656Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:56.938494Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:56.938309Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:56.851725Z&quot;}" data-tags="[]">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>train_df <span class="op">=</span> retro_dataset(ward)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div id="c34b72ba-f93e-452d-bc2a-6ca2499f644f" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:42:56.851783Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:42:56.851656Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:42:56.938494Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:42:56.938309Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:42:56.851725Z&quot;}}" data-tags="[]">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>train_df <span class="op">=</span> retro_dataset(ward)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
-<div id="6d8e01df-423d-43ac-b7cc-6aa67efa5602" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:17:42.534160Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:17:42.532940Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:17:42.602770Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:17:42.601580Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:17:42.53359Z&quot;}" data-tags="[]">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>train_df.shape</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div id="6d8e01df-423d-43ac-b7cc-6aa67efa5602" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:17:42.534160Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:17:42.532940Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:17:42.602770Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:17:42.601580Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:17:42.53359Z&quot;}}" data-tags="[]">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>train_df.shape</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
-<div id="5592d087-ff76-4c9d-a97a-4ee60438aab1" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:17:42.520591Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:17:42.520463Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:17:42.545158Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:17:42.545057Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:17:42.520533Z&quot;}" data-tags="[]">
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>train_df.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div id="5592d087-ff76-4c9d-a97a-4ee60438aab1" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:17:42.520591Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:17:42.520463Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:17:42.545158Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:17:42.545057Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:17:42.520533Z&quot;}}" data-tags="[]">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>train_df.head()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </section>
 <section id="live-data-for-prediction" class="level2">
 <h2 class="anchored" data-anchor-id="live-data-for-prediction">Live Data for Prediction</h2>
-<div id="b97e8ab5-3ff5-4580-bdb6-5e9c3011ad36" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:17:43.560338Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:17:43.560176Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:17:43.669380Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:17:43.669234Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:17:43.560273Z&quot;}" data-tags="[]">
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>predict_df <span class="op">=</span> live_dataset(ward)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div id="b97e8ab5-3ff5-4580-bdb6-5e9c3011ad36" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:17:43.560338Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:17:43.560176Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:17:43.669380Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:17:43.669234Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:17:43.560273Z&quot;}}" data-tags="[]">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>predict_df <span class="op">=</span> live_dataset(ward)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
-<div id="45732201-e6c1-4966-aa7f-55cdb2993f39" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:17:43.997338Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:17:43.997210Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:17:43.999090Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:17:43.998979Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:17:43.997278Z&quot;}" data-tags="[]">
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>predict_df.shape</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div id="45732201-e6c1-4966-aa7f-55cdb2993f39" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:17:43.997338Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:17:43.997210Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:17:43.999090Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:17:43.998979Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:17:43.997278Z&quot;}}" data-tags="[]">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>predict_df.shape</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
-<div id="532a11e5-513c-4474-9f1b-447ec1e6d2a8" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:17:44.398929Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:17:44.398751Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:17:44.429630Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:17:44.429483Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:17:44.398849Z&quot;}" data-tags="[]">
-<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>predict_df.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div id="532a11e5-513c-4474-9f1b-447ec1e6d2a8" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:17:44.398929Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:17:44.398751Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:17:44.429630Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:17:44.429483Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:17:44.398849Z&quot;}}" data-tags="[]">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>predict_df.head()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <hr>
 </section>
@@ -441,62 +446,62 @@ Do this here in Jupyter and not a local copy of the repo.</p>
 <p>A Lens represents a subset of features from a pipeline as well as the pre-processing steps needed for each feature.</p>
 <section id="example-los-model-lens" class="level2">
 <h2 class="anchored" data-anchor-id="example-los-model-lens">Example LoS Model Lens</h2>
-<div id="bc880278-90d6-491b-8aea-ba6260406c79" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:43:10.331663Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:43:10.331526Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:43:10.332800Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:43:10.332674Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:43:10.331600Z&quot;}" data-tags="[]">
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>lens <span class="op">=</span> ICUSitRepLoSLens()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div id="bc880278-90d6-491b-8aea-ba6260406c79" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:43:10.331663Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:43:10.331526Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:43:10.332800Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:43:10.332674Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:43:10.331600Z&quot;}}" data-tags="[]">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>lens <span class="op">=</span> ICUSitRepLoSLens()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <section id="fit-on-training-data" class="level4">
 <h4 class="anchored" data-anchor-id="fit-on-training-data">Fit on Training Data</h4>
 <p>Focus the Lens on the training dataset</p>
-<div id="a59df64a-8c65-4554-94ed-74fa59c25ee7" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:17:47.585562Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:17:47.585385Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:17:48.175190Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:17:48.173780Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:17:47.585479Z&quot;}" data-tags="[]">
-<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>processed_train_df <span class="op">=</span> lens.fit_transform(train_df)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div id="a59df64a-8c65-4554-94ed-74fa59c25ee7" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:17:47.585562Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:17:47.585385Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:17:48.175190Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:17:48.173780Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:17:47.585479Z&quot;}}" data-tags="[]">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>processed_train_df <span class="op">=</span> lens.fit_transform(train_df)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
-<div id="880006bf-b9f6-45d8-a83e-acf9ff98e448" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:17:48.607688Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:17:48.607547Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:17:48.609464Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:17:48.609357Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:17:48.607629Z&quot;}" data-tags="[]">
-<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>processed_train_df.shape</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div id="880006bf-b9f6-45d8-a83e-acf9ff98e448" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:17:48.607688Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:17:48.607547Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:17:48.609464Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:17:48.609357Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:17:48.607629Z&quot;}}" data-tags="[]">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>processed_train_df.shape</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
-<div id="6b0de707-1b5a-44e7-b593-62edeae7bfe9" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:17:49.493800Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:17:49.492590Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:17:49.710600Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:17:49.709590Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:17:49.49323Z&quot;}" data-tags="[]">
-<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>processed_train_df.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div id="6b0de707-1b5a-44e7-b593-62edeae7bfe9" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:17:49.493800Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:17:49.492590Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:17:49.710600Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:17:49.709590Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:17:49.49323Z&quot;}}" data-tags="[]">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>processed_train_df.head()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
-<div id="719ddca6-38db-4ebf-9dc3-87474298d723" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:17:50.808860Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:17:50.807600Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:17:50.843540Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:17:50.842540Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:17:50.80829Z&quot;}" data-tags="[]">
-<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>processed_train_df.dtypes</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div id="719ddca6-38db-4ebf-9dc3-87474298d723" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:17:50.808860Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:17:50.807600Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:17:50.843540Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:17:50.842540Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:17:50.80829Z&quot;}}" data-tags="[]">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb15"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>processed_train_df.dtypes</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
-<div id="d9b5d123-bee4-4e79-b390-5f55d6b1545e" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:17:50.737533Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:17:50.737406Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:17:50.741787Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:17:50.741675Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:17:50.737475Z&quot;}" data-tags="[]">
-<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>processed_train_df.isnull().<span class="bu">any</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div id="d9b5d123-bee4-4e79-b390-5f55d6b1545e" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:17:50.737533Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:17:50.737406Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:17:50.741787Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:17:50.741675Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:17:50.737475Z&quot;}}" data-tags="[]">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb16"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>processed_train_df.isnull().<span class="bu">any</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </section>
 <section id="transform-prediction-data" class="level4">
 <h4 class="anchored" data-anchor-id="transform-prediction-data">Transform Prediction Data</h4>
 <p>Use the Lens that was fitted on the training dataset to transform the prediction dataset</p>
-<div id="b6e5a07c-9b3a-4e1e-a62a-77d1042ec548" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:17:51.913843Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:17:51.913709Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:17:51.935037Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:17:51.934937Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:17:51.913785Z&quot;}" data-tags="[]">
-<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>predict_df.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div id="b6e5a07c-9b3a-4e1e-a62a-77d1042ec548" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:17:51.913843Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:17:51.913709Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:17:51.935037Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:17:51.934937Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:17:51.913785Z&quot;}}" data-tags="[]">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb17"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>predict_df.head()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
-<div id="e7e57482-4649-499b-a6c4-ed53a7b3f892" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:17:52.479241Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:17:52.479083Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:17:52.529663Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:17:52.529519Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:17:52.479170Z&quot;}" data-tags="[]">
-<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>processed_predict_df <span class="op">=</span> lens.transform(predict_df)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div id="e7e57482-4649-499b-a6c4-ed53a7b3f892" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:17:52.479241Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:17:52.479083Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:17:52.529663Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:17:52.529519Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:17:52.479170Z&quot;}}" data-tags="[]">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb18"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>processed_predict_df <span class="op">=</span> lens.transform(predict_df)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
-<div id="90fe88bc-a75f-4fe8-9384-83f4ac0a4f18" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:17:53.857530Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:17:53.856170Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:17:53.108569Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:17:53.108460Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:17:53.85693Z&quot;}" data-tags="[]">
-<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>processed_predict_df.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div id="90fe88bc-a75f-4fe8-9384-83f4ac0a4f18" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:17:53.857530Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:17:53.856170Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:17:53.108569Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:17:53.108460Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:17:53.85693Z&quot;}}" data-tags="[]">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb19"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>processed_predict_df.head()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
-<div id="703f0d13-643c-4251-bd27-2442fe571e3e" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:17:53.699548Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:17:53.699420Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:17:53.702930Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:17:53.702830Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:17:53.699490Z&quot;}" data-tags="[]">
-<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>processed_predict_df.dtypes</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div id="703f0d13-643c-4251-bd27-2442fe571e3e" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:17:53.699548Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:17:53.699420Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:17:53.702930Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:17:53.702830Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:17:53.699490Z&quot;}}" data-tags="[]">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb20"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>processed_predict_df.dtypes</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
-<div id="08646582-fe16-4852-b3c3-658058adcd69" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:17:54.570090Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:17:54.569954Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:17:54.574541Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:17:54.574435Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:17:54.570028Z&quot;}" data-tags="[]">
-<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>processed_predict_df.isnull().<span class="bu">any</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div id="08646582-fe16-4852-b3c3-658058adcd69" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:17:54.570090Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:17:54.569954Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:17:54.574541Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:17:54.574435Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:17:54.570028Z&quot;}}" data-tags="[]">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb21"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>processed_predict_df.isnull().<span class="bu">any</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>Live prediction dataset doesn’t have <code>discharge_dt</code>s so <code>total_los_td</code> &amp; <code>remaining_los_td</code> are unavailable</p>
 </section>
 </section>
 <section id="sitrep-ui-lens" class="level2">
 <h2 class="anchored" data-anchor-id="sitrep-ui-lens">SitRep UI Lens</h2>
-<div id="c553d2ec-b764-4fe3-aa18-1d8c3e866629" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:17:56.140042Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:17:56.139911Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:17:56.141886Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:17:56.141730Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:17:56.139982Z&quot;}" data-tags="[]">
-<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>lens <span class="op">=</span> ICUSitRepUiLens()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div id="c553d2ec-b764-4fe3-aa18-1d8c3e866629" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:17:56.140042Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:17:56.139911Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:17:56.141886Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:17:56.141730Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:17:56.139982Z&quot;}}" data-tags="[]">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb22"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>lens <span class="op">=</span> ICUSitRepUiLens()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
-<div id="201c91c9-4f69-49cd-9269-6f010e8fab92" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:17:56.858254Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:17:56.858045Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:17:56.867853Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:17:56.867727Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:17:56.858179Z&quot;}" data-tags="[]">
-<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>output_df <span class="op">=</span> lens.fit_transform(predict_df)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div id="201c91c9-4f69-49cd-9269-6f010e8fab92" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:17:56.858254Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:17:56.858045Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:17:56.867853Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:17:56.867727Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:17:56.858179Z&quot;}}" data-tags="[]">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb23"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>output_df <span class="op">=</span> lens.fit_transform(predict_df)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
-<div id="a69d2f41-e978-4989-8482-2a1eb99f65b5" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:17:57.321331Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:17:57.321208Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:17:57.340883Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:17:57.340779Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:17:57.321273Z&quot;}" data-tags="[]">
-<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>output_df.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div id="a69d2f41-e978-4989-8482-2a1eb99f65b5" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:17:57.321331Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:17:57.321208Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:17:57.340883Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:17:57.340779Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:17:57.321273Z&quot;}}" data-tags="[]">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb24"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>output_df.head()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
-<div id="c95938e7-3760-464f-9066-2730fe110c44" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:17:57.888676Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:17:57.888538Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:17:57.892103Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:17:57.891993Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:17:57.888611Z&quot;}" data-tags="[]">
-<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>output_df.dtypes</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div id="c95938e7-3760-464f-9066-2730fe110c44" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:17:57.888676Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:17:57.888538Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:17:57.892103Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:17:57.891993Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:17:57.888611Z&quot;}}" data-tags="[]">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb25"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>output_df.dtypes</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <hr>
 </section>
@@ -504,8 +509,8 @@ Do this here in Jupyter and not a local copy of the repo.</p>
 <h2 class="anchored" data-anchor-id="crafting-a-new-lens">Crafting a new Lens</h2>
 <section id="required-imports" class="level3">
 <h3 class="anchored" data-anchor-id="required-imports">Required imports</h3>
-<div id="2ff7e77f-5720-42cf-b9b0-4c088639d8b5" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:43:20.713590Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:43:20.713454Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:43:20.715317Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:43:20.715191Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:43:20.713523Z&quot;}" data-tags="[]">
-<div class="sourceCode cell-code" id="cb26"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> typing <span class="im">import</span> <span class="op">*</span></span>
+<div id="2ff7e77f-5720-42cf-b9b0-4c088639d8b5" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:43:20.713590Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:43:20.713454Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:43:20.715317Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:43:20.715191Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:43:20.713523Z&quot;}}" data-tags="[]">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb26"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> typing <span class="im">import</span> <span class="op">*</span></span>
 <span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
 <span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
 <span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.compose <span class="im">import</span> make_column_selector</span>
@@ -516,20 +521,20 @@ Do this here in Jupyter and not a local copy of the repo.</p>
 <span id="cb26-9"><a href="#cb26-9" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb26-10"><a href="#cb26-10" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> hycastle.icu_store <span class="im">import</span> SITREP_FEATURES</span>
 <span id="cb26-11"><a href="#cb26-11" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> hycastle.lens.base <span class="im">import</span> BaseLens</span>
-<span id="cb26-12"><a href="#cb26-12" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> hycastle.lens.icu <span class="im">import</span> <span class="op">*</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb26-12"><a href="#cb26-12" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> hycastle.lens.icu <span class="im">import</span> <span class="op">*</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </section>
 <section id="available-features" class="level3">
 <h3 class="anchored" data-anchor-id="available-features">Available features</h3>
 <p>The following features are available in the ICU SitRep Pipeline</p>
-<div id="c238375e-e084-447d-bcff-24044b726653" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:43:22.117847Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:43:22.117721Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:43:22.124972Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:43:22.124807Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:43:22.117790Z&quot;}" data-tags="[]">
-<div class="sourceCode cell-code" id="cb27"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>SITREP_FEATURES</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div id="c238375e-e084-447d-bcff-24044b726653" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2021-09-18T18:43:22.117847Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-18T18:43:22.117721Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-18T18:43:22.124972Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-18T18:43:22.124807Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-18T18:43:22.117790Z&quot;}}" data-tags="[]">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb27"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>SITREP_FEATURES</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </section>
 <section id="definintion" class="level3">
 <h3 class="anchored" data-anchor-id="definintion">Definintion</h3>
-<div id="3580a849-6962-44a7-adb7-2e725731c581" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:18:04.191757Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:18:04.191632Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:18:04.196028Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:18:04.195914Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:18:04.191700Z&quot;}" data-tags="[]">
-<div class="sourceCode cell-code" id="cb28"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> CustomICUSitRepLens(BaseLens):</span>
+<div id="3580a849-6962-44a7-adb7-2e725731c581" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:18:04.191757Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:18:04.191632Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:18:04.196028Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:18:04.195914Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:18:04.191700Z&quot;}}" data-tags="[]">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb28"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> CustomICUSitRepLens(BaseLens):</span>
 <span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""</span></span>
 <span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a><span class="co">    Lens to focus ICU SitRep data </span></span>
 <span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a><span class="co">    """</span></span>
@@ -646,24 +651,24 @@ Do this here in Jupyter and not a local copy of the repo.</p>
 <span id="cb28-115"><a href="#cb28-115" aria-hidden="true" tabindex="-1"></a>                [<span class="st">'horizon_dt'</span>]</span>
 <span id="cb28-116"><a href="#cb28-116" aria-hidden="true" tabindex="-1"></a>            ),</span>
 <span id="cb28-117"><a href="#cb28-117" aria-hidden="true" tabindex="-1"></a>        ]</span>
-<span id="cb28-118"><a href="#cb28-118" aria-hidden="true" tabindex="-1"></a>    )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb28-118"><a href="#cb28-118" aria-hidden="true" tabindex="-1"></a>    )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <section id="application" class="level4">
 <h4 class="anchored" data-anchor-id="application">Application</h4>
-<div id="7385ebf0-9fa2-4bb1-acad-e872c28917c7" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:18:05.295435Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:18:05.295304Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:18:05.296605Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:18:05.296478Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:18:05.295376Z&quot;}" data-tags="[]">
-<div class="sourceCode cell-code" id="cb29"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>lens <span class="op">=</span> CustomICUSitRepLens()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div id="7385ebf0-9fa2-4bb1-acad-e872c28917c7" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:18:05.295435Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:18:05.295304Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:18:05.296605Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:18:05.296478Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:18:05.295376Z&quot;}}" data-tags="[]">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb29"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>lens <span class="op">=</span> CustomICUSitRepLens()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
-<div id="3e85017d-a353-401e-ac3f-8121781c5609" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:18:05.948726Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:18:05.948602Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:18:06.130501Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:18:06.130348Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:18:05.948670Z&quot;}" data-tags="[]">
-<div class="sourceCode cell-code" id="cb30"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>tdf <span class="op">=</span> lens.fit_transform(train_df)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div id="3e85017d-a353-401e-ac3f-8121781c5609" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:18:05.948726Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:18:05.948602Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:18:06.130501Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:18:06.130348Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:18:05.948670Z&quot;}}" data-tags="[]">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb30"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>tdf <span class="op">=</span> lens.fit_transform(train_df)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
-<div id="08f9ddba-17d2-4b99-9ff8-07648cf5a236" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:18:06.130775Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:18:06.130676Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:18:06.160913Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:18:06.160803Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:18:06.130716Z&quot;}" data-tags="[]">
-<div class="sourceCode cell-code" id="cb31"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>tdf</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div id="08f9ddba-17d2-4b99-9ff8-07648cf5a236" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:18:06.130775Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:18:06.130676Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:18:06.160913Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:18:06.160803Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:18:06.130716Z&quot;}}" data-tags="[]">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb31"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>tdf</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
-<div id="1806dc6b-b61f-4284-863e-8b693651bd66" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:18:06.161169Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:18:06.161079Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:18:06.201972Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:18:06.201827Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:18:06.161116Z&quot;}" data-tags="[]">
-<div class="sourceCode cell-code" id="cb32"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a>pdf <span class="op">=</span> lens.transform(predict_df)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div id="1806dc6b-b61f-4284-863e-8b693651bd66" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:18:06.161169Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:18:06.161079Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:18:06.201972Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:18:06.201827Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:18:06.161116Z&quot;}}" data-tags="[]">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb32"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a>pdf <span class="op">=</span> lens.transform(predict_df)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
-<div id="7876d3d4-df98-463d-ba84-f71866f442e8" class="cell" data-execution="{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:18:06.411365Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:18:06.411236Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:18:06.464535Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:18:06.464427Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:18:06.411306Z&quot;}" data-tags="[]">
-<div class="sourceCode cell-code" id="cb33"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>pdf</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div id="7876d3d4-df98-463d-ba84-f71866f442e8" class="cell" data-quarto-private-1="{&quot;key&quot;:&quot;execution&quot;,&quot;value&quot;:{&quot;iopub.execute_input&quot;:&quot;2021-09-11T09:18:06.411365Z&quot;,&quot;iopub.status.busy&quot;:&quot;2021-09-11T09:18:06.411236Z&quot;,&quot;iopub.status.idle&quot;:&quot;2021-09-11T09:18:06.464535Z&quot;,&quot;shell.execute_reply&quot;:&quot;2021-09-11T09:18:06.464427Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2021-09-11T09:18:06.411306Z&quot;}}" data-tags="[]">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb33"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>pdf</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 
 
@@ -674,236 +679,243 @@ Do this here in Jupyter and not a local copy of the repo.</p>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
-window.document.addEventListener("DOMContentLoaded", function (event) {
-  const toggleBodyColorMode = (bsSheetEl) => {
-    const mode = bsSheetEl.getAttribute("data-mode");
-    const bodyEl = window.document.querySelector("body");
-    if (mode === "dark") {
-      bodyEl.classList.add("quarto-dark");
-      bodyEl.classList.remove("quarto-light");
-    } else {
-      bodyEl.classList.add("quarto-light");
-      bodyEl.classList.remove("quarto-dark");
-    }
-  }
-  const toggleBodyColorPrimary = () => {
-    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
-    if (bsSheetEl) {
-      toggleBodyColorMode(bsSheetEl);
-    }
-  }
-  toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
-  const isCodeAnnotation = (el) => {
-    for (const clz of el.classList) {
-      if (clz.startsWith('code-annotation-')) {                     
-        return true;
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
       }
+      return false;
     }
-    return false;
-  }
-  const onCopySuccess = function(e) {
-    // button target
-    const button = e.trigger;
-    // don't keep focus
-    button.blur();
-    // flash "checked"
-    button.classList.add('code-copy-button-checked');
-    var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
-    let tooltip;
-    if (window.bootstrap) {
-      button.setAttribute("data-bs-toggle", "tooltip");
-      button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
-      tooltip = new bootstrap.Tooltip(button, 
-        { trigger: "manual", 
-          customClass: "code-copy-button-tooltip",
-          offset: [0, -8]});
-      tooltip.show();    
-    }
-    setTimeout(function() {
-      if (tooltip) {
-        tooltip.hide();
-        button.removeAttribute("data-bs-title");
-        button.removeAttribute("data-bs-toggle");
-        button.removeAttribute("data-bs-placement");
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
       }
-      button.setAttribute("title", currentTitle);
-      button.classList.remove('code-copy-button-checked');
-    }, 1000);
-    // clear code selection
-    e.clearSelection();
-  }
-  const getTextToCopy = function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
       for (const childEl of codeEl.children) {
         if (isCodeAnnotation(childEl)) {
           childEl.remove();
         }
       }
       return codeEl.innerText;
-  }
-  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-    text: getTextToCopy
-  });
-  clipboard.on('success', onCopySuccess);
-  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-      text: getTextToCopy,
-      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
     });
-    clipboardModal.on('success', onCopySuccess);
-  }
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-    var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/uclhal\.org");
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
     }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-        // undo the damage that might have been done by quarto-nav.js in the case of
-        // links that we want to consider external
-        if (link.dataset.originalHref !== undefined) {
-          link.href = link.dataset.originalHref;
-        }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/uclhal\.org");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
-    }
-  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
-    const config = {
-      allowHTML: true,
-      maxWidth: 500,
-      delay: 100,
-      arrow: false,
-      appendTo: function(el) {
-          return el.parentElement;
-      },
-      interactive: true,
-      interactiveBorder: 10,
-      theme: 'quarto',
-      placement: 'bottom-start',
-    };
-    if (contentFn) {
-      config.content = contentFn;
-    }
-    if (onTriggerFn) {
-      config.onTrigger = onTriggerFn;
-    }
-    if (onUntriggerFn) {
-      config.onUntrigger = onUntriggerFn;
-    }
-    window.tippy(el, config); 
-  }
-  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
-  for (var i=0; i<noterefs.length; i++) {
-    const ref = noterefs[i];
-    tippyHover(ref, function() {
-      // use id or data attribute instead here
-      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
-      try { href = new URL(href).hash; } catch {}
-      const id = href.replace(/^#\/?/, "");
-      const note = window.document.getElementById(id);
-      if (note) {
-        return note.innerHTML;
-      } else {
-        return "";
-      }
-    });
-  }
-  const xrefs = window.document.querySelectorAll('a.quarto-xref');
-  const processXRef = (id, note) => {
-    // Strip column container classes
-    const stripColumnClz = (el) => {
-      el.classList.remove("page-full", "page-columns");
-      if (el.children) {
-        for (const child of el.children) {
-          stripColumnClz(child);
-        }
-      }
-    }
-    stripColumnClz(note)
-    if (id === null || id.startsWith('sec-')) {
-      // Special case sections, only their first couple elements
-      const container = document.createElement("div");
-      if (note.children && note.children.length > 2) {
-        container.appendChild(note.children[0].cloneNode(true));
-        for (let i = 1; i < note.children.length; i++) {
-          const child = note.children[i];
-          if (child.tagName === "P" && child.innerText === "") {
-            continue;
-          } else {
-            container.appendChild(child.cloneNode(true));
-            break;
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
           }
         }
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(container);
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
         }
-        return container.innerHTML
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
       } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
         if (window.Quarto?.typesetMath) {
           window.Quarto.typesetMath(note);
         }
-        return note.innerHTML;
-      }
-    } else {
-      // Remove any anchor links if they are present
-      const anchorLink = note.querySelector('a.anchorjs-link');
-      if (anchorLink) {
-        anchorLink.remove();
-      }
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(note);
-      }
-      if (note.classList.contains("callout")) {
-        return note.outerHTML;
-      } else {
-        return note.innerHTML;
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
       }
     }
-  }
-  for (var i=0; i<xrefs.length; i++) {
-    const xref = xrefs[i];
-    tippyHover(xref, undefined, function(instance) {
-      instance.disable();
-      let url = xref.getAttribute('href');
-      let hash = undefined; 
-      if (url.startsWith('#')) {
-        hash = url;
-      } else {
-        try { hash = new URL(url).hash; } catch {}
-      }
-      if (hash) {
-        const id = hash.replace(/^#\/?/, "");
-        const note = window.document.getElementById(id);
-        if (note !== null) {
-          try {
-            const html = processXRef(id, note.cloneNode(true));
-            instance.setContent(html);
-          } finally {
-            instance.enable();
-            instance.show();
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
           }
         } else {
-          // See if we can fetch this
-          fetch(url.split('#')[0])
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
           .then(res => res.text())
           .then(html => {
             const parser = new DOMParser();
             const htmlDoc = parser.parseFromString(html, "text/html");
-            const note = htmlDoc.getElementById(id);
+            const note = htmlDoc.querySelector('main.content');
             if (note !== null) {
-              const html = processXRef(id, note);
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
               instance.setContent(html);
             } 
           }).finally(() => {
@@ -911,185 +923,161 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             instance.show();
           });
         }
-      } else {
-        // See if we can fetch a full url (with no hash to target)
-        // This is a special case and we should probably do some content thinning / targeting
-        fetch(url)
-        .then(res => res.text())
-        .then(html => {
-          const parser = new DOMParser();
-          const htmlDoc = parser.parseFromString(html, "text/html");
-          const note = htmlDoc.querySelector('main.content');
-          if (note !== null) {
-            // This should only happen for chapter cross references
-            // (since there is no id in the URL)
-            // remove the first header
-            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
-              note.children[0].remove();
-            }
-            const html = processXRef(null, note);
-            instance.setContent(html);
-          } 
-        }).finally(() => {
-          instance.enable();
-          instance.show();
-        });
-      }
-    }, function(instance) {
-    });
-  }
-      let selectedAnnoteEl;
-      const selectorForAnnotation = ( cell, annotation) => {
-        let cellAttr = 'data-code-cell="' + cell + '"';
-        let lineAttr = 'data-code-annotation="' +  annotation + '"';
-        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
-        return selector;
-      }
-      const selectCodeLines = (annoteEl) => {
-        const doc = window.document;
-        const targetCell = annoteEl.getAttribute("data-target-cell");
-        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
-        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
-        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
-        const lineIds = lines.map((line) => {
-          return targetCell + "-" + line;
-        })
-        let top = null;
-        let height = null;
-        let parent = null;
-        if (lineIds.length > 0) {
-            //compute the position of the single el (top and bottom and make a div)
-            const el = window.document.getElementById(lineIds[0]);
-            top = el.offsetTop;
-            height = el.offsetHeight;
-            parent = el.parentElement.parentElement;
-          if (lineIds.length > 1) {
-            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-            height = bottom - top;
-          }
-          if (top !== null && height !== null && parent !== null) {
-            // cook up a div (if necessary) and position it 
-            let div = window.document.getElementById("code-annotation-line-highlight");
-            if (div === null) {
-              div = window.document.createElement("div");
-              div.setAttribute("id", "code-annotation-line-highlight");
-              div.style.position = 'absolute';
-              parent.appendChild(div);
-            }
-            div.style.top = top - 2 + "px";
-            div.style.height = height + 4 + "px";
-            div.style.left = 0;
-            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-            if (gutterDiv === null) {
-              gutterDiv = window.document.createElement("div");
-              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-              gutterDiv.style.position = 'absolute';
-              const codeCell = window.document.getElementById(targetCell);
-              const gutter = codeCell.querySelector('.code-annotation-gutter');
-              gutter.appendChild(gutterDiv);
-            }
-            gutterDiv.style.top = top - 2 + "px";
-            gutterDiv.style.height = height + 4 + "px";
-          }
-          selectedAnnoteEl = annoteEl;
-        }
-      };
-      const unselectCodeLines = () => {
-        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
-        elementsIds.forEach((elId) => {
-          const div = window.document.getElementById(elId);
-          if (div) {
-            div.remove();
-          }
-        });
-        selectedAnnoteEl = undefined;
-      };
-        // Handle positioning of the toggle
-    window.addEventListener(
-      "resize",
-      throttle(() => {
-        elRect = undefined;
-        if (selectedAnnoteEl) {
-          selectCodeLines(selectedAnnoteEl);
-        }
-      }, 10)
-    );
-    function throttle(fn, ms) {
-    let throttle = false;
-    let timer;
-      return (...args) => {
-        if(!throttle) { // first call gets through
-            fn.apply(this, args);
-            throttle = true;
-        } else { // all the others get throttled
-            if(timer) clearTimeout(timer); // cancel #2
-            timer = setTimeout(() => {
-              fn.apply(this, args);
-              timer = throttle = false;
-            }, ms);
-        }
-      };
-    }
-      // Attach click handler to the DT
-      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
-      for (const annoteDlNode of annoteDls) {
-        annoteDlNode.addEventListener('click', (event) => {
-          const clickedEl = event.target;
-          if (clickedEl !== selectedAnnoteEl) {
-            unselectCodeLines();
-            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
-            if (activeEl) {
-              activeEl.classList.remove('code-annotation-active');
-            }
-            selectCodeLines(clickedEl);
-            clickedEl.classList.add('code-annotation-active');
-          } else {
-            // Unselect the line
-            unselectCodeLines();
-            clickedEl.classList.remove('code-annotation-active');
-          }
-        });
-      }
-  const findCites = (el) => {
-    const parentEl = el.parentElement;
-    if (parentEl) {
-      const cites = parentEl.dataset.cites;
-      if (cites) {
-        return {
-          el,
-          cites: cites.split(' ')
-        };
-      } else {
-        return findCites(el.parentElement)
-      }
-    } else {
-      return undefined;
-    }
-  };
-  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-  for (var i=0; i<bibliorefs.length; i++) {
-    const ref = bibliorefs[i];
-    const citeInfo = findCites(ref);
-    if (citeInfo) {
-      tippyHover(citeInfo.el, function() {
-        var popup = window.document.createElement('div');
-        citeInfo.cites.forEach(function(cite) {
-          var citeDiv = window.document.createElement('div');
-          citeDiv.classList.add('hanging-indent');
-          citeDiv.classList.add('csl-entry');
-          var biblioDiv = window.document.getElementById('ref-' + cite);
-          if (biblioDiv) {
-            citeDiv.innerHTML = biblioDiv.innerHTML;
-          }
-          popup.appendChild(citeDiv);
-        });
-        return popup.innerHTML;
+      }, function(instance) {
       });
     }
-  }
-});
-</script>
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
