@@ -1,0 +1,20 @@
+---
+title: "HAL at the UCL Festival of Digital Research, Innovation and Scholarship"
+description: "Dr Steve Harris presented a keynote on SAFEHR at UCL's Festival of Digital Research on July 15 2025, demonstrating how NHS-embedded infrastructure is enabling real-world clinical AI deployment at UCLH."
+author: "Sharifah Omar"
+date: "2026-06-24"
+draft: false
+categories:
+  - news
+  - safehr
+  - emap
+  - conference
+---
+
+Dr Steve Harris, who leads the UCL Health Algorithms Laboratory, presented at UCL's Festival of Digital Research, Innovation and Scholarship on July 15 2025, delivering a keynote on SAFEHR (Secure and Anonymised Framework for Electronic Health Records), a NIHR UCLH BRC-funded collaboration between UCLH and UCL's Advanced Research Computing Centre.
+
+The talk described how SAFEHR transforms researcher access to multimodal healthcare data through three integrated pipelines: OMOP-ES for structured EHR data, PIXL for anonymising medical imaging including MRI, CT, and X-rays, and CogStack for processing unstructured clinical text.
+
+The infrastructure has already supported several high-impact research projects, including analysis of over 70,000 chest X-rays paired with EHR data to train models for detecting misplaced nasogastric tubes, research using 14,000 prostate MRIs with clinical outcomes, and studies leveraging 50,000 MRIs to inform personalised treatment for multiple sclerosis.
+
+The Festival brings together UCL's digital research community across computing, health informatics, and data science. The HAL team's participation reflects a broader effort to connect NHS-embedded infrastructure with the wider academic community and demonstrate that real-world clinical AI deployment is both possible and already underway at UCLH.

@@ -1,0 +1,23 @@
+---
+title: "RADIX: Real-time Antimicrobial Digital Intervention Exchange"
+description: "RADIX was selected in late 2025 as one of four NHS-led Driver Projects for the new London Secure Data Environment, co-led by Dr Steve Harris and a multidisciplinary team of researchers."
+author: "Sharifah Omar"
+date: "2026-06-24"
+draft: false
+categories:
+  - news
+  - radix
+  - onelondon
+  - sde
+  - antimicrobial
+---
+
+RADIX (Real-time Antimicrobial Digital Intervention Exchange) was selected in late 2025 as one of four NHS-led Driver Projects for the new London Secure Data Environment (SDE), co-led by Dr Steve Harris (UCL, Institute of Health Informatics) alongside Professor Laura Shallcross, Dr Emily Baldwin, Professor Gwen Knight, Dr Akish Luintel, and Dr Sarah Keating.
+
+Dr Steve Harris leads the UCL Health Algorithms Laboratory, whose work on clinical data infrastructure and bedside AI deployment underpins the RADIX programme. The project draws directly on the lab's experience building EMAP and FlowEHR at UCLH, and on SAFEHR, the secure analytics environment that the lab uses to turn routine NHS data into research-ready assets.
+
+Antimicrobial resistance (AMR) is one of the defining public health challenges of our time. A major contributor is the fragmentation of patient records across care settings, making targeted prescribing difficult and leaving vulnerable patients, including those living with cancer or in care homes, at heightened risk of bug-drug mismatches.
+
+RADIX will use the OneLondon SDE to link antimicrobial prescribing and microbiology testing data across primary and acute care, and develop machine learning tools including point-of-care bug-drug mismatch prediction and a patient-level stewardship dashboard, with a focus on people living with cancer and those in care homes.
+
+RADIX is part of a wider OneLondon effort to demonstrate how London-wide linked data can deliver direct health improvement for Londoners ahead of the SDE's full launch in 2026.
