@@ -22,7 +22,7 @@ toc: false
 ::: {.callout-tip}
 ### Get in touch
 
-We do not have allocated funding for new positions at the moment, but we are always happy to hear from people interested in our work. If you would like to collaborate or find out more, please [get in touch](mailto:s.harris@ucl.ac.uk).
+We do not have allocated funding for new positions at the moment, but we are always happy to hear from people interested in our work. If you would like to collaborate or find out more, please [get in touch](mailto:steve.harris@ucl.ac.uk).
 :::
 
 ### Students
