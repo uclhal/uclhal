@@ -1,0 +1,27 @@
+# https://github.com/pandoc/pandoc-action-example
+
+name: zotero2yaml
+
+# Controls when the workflow will run
+on:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  convert_via_pandoc:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+      # Ideally would use docker://pandoc/core:XX, however Alpine lacks bash and Ubuntu lacks wget/curl!
+      # TODO: custom dockerfile
+      - run: sudo apt install wget
+      # 'Subscribe' to Atom feed from Zotero web library, then modify url format=bibtex
+      - run: wget "https://api.zotero.org/groups/4859963/items/top?direction=asc&format=bibtex" -O publications/pubs.bib
+      # In lieu of suitable container installing pandoc at time of workflow
+      - run: wget https://github.com/jgm/pandoc/releases/download/2.14.2/pandoc-2.14.2-1-amd64.deb -O pandoc.deb
+      - run: sudo dpkg -i pandoc.deb
+      - run: pandoc publications/pubs.bib -s -f biblatex -t markdown > publications/pubs.yaml
+      # https://github.com/stefanzweifel/git-auto-commit-action
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          file_pattern: 'publications/*.bib publications/*.yaml'
